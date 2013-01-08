@@ -2,6 +2,7 @@
  * Karma test runner configuration
  * Configures testing framework and browser settings
  */
+// Configure test framework and coverage reporting
 // Initialize karma configuration with default settings
 // Configure browser environment for unit tests
 // Karma configuration file, see link for more information
