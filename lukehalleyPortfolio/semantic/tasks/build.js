@@ -5,6 +5,7 @@
 /*******************************
           Build Task
 *******************************/
+// Main build orchestrator for semantic UI distribution
 // Output compiled CSS and JS to dist directory
 
 /**
