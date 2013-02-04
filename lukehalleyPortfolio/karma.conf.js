@@ -9,6 +9,7 @@
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 
 module.exports = function (config) {
+// Configure Karma to work with TypeScript and Angular components
 /**
  * Karma test runner configuration for Angular application
  */
