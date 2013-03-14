@@ -25,6 +25,7 @@ var
  * @returns {Promise<void>}
  */
 
+// TODO: Consider parallel task optimization
 /**
 // Initialize build configuration from defaults and user settings
  * Build semantic UI components
