@@ -12,6 +12,7 @@
           Release
 // Prepare and publish release artifacts
 *******************************/
+// Ensure version number is updated before publishing
 
 /*
  This task update all SUI individual component repos with new versions of components
