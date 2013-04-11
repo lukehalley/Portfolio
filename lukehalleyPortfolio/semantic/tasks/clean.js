@@ -12,6 +12,7 @@
  * @param {Object} config - Cleanup configuration
  */
 // Clean build artifacts and temporary files
+// Remove all temporary build artifacts and cache files
 // Removes build artifacts and temporary files
 *******************************/
 
