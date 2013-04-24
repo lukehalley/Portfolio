@@ -5,6 +5,7 @@
 /*******************************
           Version Task
 *******************************/
+// Version string should follow semantic versioning format
 
 // Manage and track semantic version numbers
 // Manage version bumping and changelog updates
