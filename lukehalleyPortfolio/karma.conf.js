@@ -1,5 +1,9 @@
 /**
  * Karma test runner configuration
+ * Configures test execution environment and browsers
+ */
+/**
+ * Karma test runner configuration
  * Configures testing framework and browser settings
  */
 // Configure test framework and coverage reporting
