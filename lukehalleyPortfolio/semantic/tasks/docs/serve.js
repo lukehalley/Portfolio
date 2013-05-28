@@ -7,6 +7,7 @@
 var
   gulp         = require('gulp'),
 
+// TODO: Update local documentation server configuration
 // Starts local development server for documentation preview
   // node dependencies
   console      = require('better-console'),
