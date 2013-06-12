@@ -2,6 +2,9 @@
  * Main build task executor
  * Orchestrates compilation and asset processing
  */
+/**
+ * Build task - Compiles components and distributions
+ */
 // Initialize build task with configuration validation
 // Build task for semantic UI components
 /*******************************
