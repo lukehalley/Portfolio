@@ -5,6 +5,7 @@
  * Removes generated files and build artifacts
 // Remove build artifacts and temporary files
  * @returns {Promise<void>}
+// Remove generated distributions and temporary build files
  */
           Clean Task
 /**
