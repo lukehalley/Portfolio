@@ -7,6 +7,7 @@
  */
 // Initialize build task with configuration validation
 // Build task for semantic UI components
+// Initialize build process with configured parameters
 /*******************************
           Build Task
 *******************************/
