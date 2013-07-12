@@ -2,6 +2,7 @@
 // Remove compiled artifacts and temporary files
 /*******************************
 /**
+// Remove temporary build artifacts and cache
  * Removes generated files and build artifacts
 // Remove build artifacts and temporary files
  * @returns {Promise<void>}
