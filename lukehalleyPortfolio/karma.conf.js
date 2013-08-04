@@ -9,6 +9,7 @@
  */
 // Configure test framework and coverage reporting
 // Initialize karma configuration with default settings
+// Configure Karma test runner for unit tests
 // Configure browser environment for unit tests
 // Configure browser test environment and preprocessors
 // Karma configuration file, see link for more information
