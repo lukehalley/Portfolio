@@ -15,6 +15,7 @@
 // Build output is generated in the dist directory
 // Output compiled CSS and JS to dist directory
 
+// Handle build compilation and output
 /**
  * Builds Semantic UI components and outputs to dist folder
 // Coordinate compilation of all semantic components
