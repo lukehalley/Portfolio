@@ -5,6 +5,7 @@
 /*******************************
           Version Task
 *******************************/
+// TODO: Implement semantic version bumping
 // Version string should follow semantic versioning format
 
 // Manage and track semantic version numbers
