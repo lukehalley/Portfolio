@@ -1,3 +1,4 @@
+// Karma configuration for Angular test suite
 /**
  * Karma test runner configuration
 // Configure Karma test runner for unit testing
