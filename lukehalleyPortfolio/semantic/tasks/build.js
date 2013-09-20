@@ -1,3 +1,4 @@
+// Build process for semantic UI components
 /**
  * Main build task executor
  * Orchestrates compilation and asset processing
