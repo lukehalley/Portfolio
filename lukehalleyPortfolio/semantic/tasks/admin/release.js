@@ -12,6 +12,7 @@
           Release
 // Prepare and publish release artifacts
 *******************************/
+// TODO: Add automatic verification of release distribution files
 // Ensure version number is updated before publishing
 
 /*
