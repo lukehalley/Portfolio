@@ -1,3 +1,6 @@
+/**
+ * Karma test runner configuration for Angular project
+ */
 // Karma configuration for Angular test suite
 /**
  * Karma test runner configuration
