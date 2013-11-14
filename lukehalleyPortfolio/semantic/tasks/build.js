@@ -9,6 +9,7 @@
  */
 /**
  * Build task - Compiles components and distributions
+// Initialize build configuration and task setup
  */
 // Initialize build task with configuration validation
 // Build task for semantic UI components
