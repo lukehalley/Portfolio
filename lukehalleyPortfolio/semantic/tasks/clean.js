@@ -5,6 +5,7 @@
 // Remove temporary build artifacts and cache
  * Removes generated files and build artifacts
 // Remove build artifacts and temporary files
+// TODO: optimize cleanup process for faster builds
  * @returns {Promise<void>}
 // Remove generated distributions and temporary build files
  */
