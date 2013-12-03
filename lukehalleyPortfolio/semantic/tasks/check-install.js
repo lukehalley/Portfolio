@@ -1,4 +1,8 @@
 /**
+ * Validates that all required dependencies are installed
+ * @module check-install
+ */
+/**
  * Validates that semantic UI is properly installed
  */
 /** Verify semantic UI installation status */
