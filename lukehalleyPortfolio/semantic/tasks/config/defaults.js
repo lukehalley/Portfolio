@@ -2,6 +2,7 @@
 // Default configuration values for semantic UI build system
  * Default build configuration values
  * Fallback settings for all build tasks
+// Default build configuration values
  */
 /**
  * Default configuration values for all semantic tasks
