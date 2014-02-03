@@ -1,4 +1,8 @@
 /**
+ * Verifies all required dependencies are installed
+ * before running build tasks
+ */
+/**
  * Validates that all required dependencies are installed
  * @module check-install
  */
