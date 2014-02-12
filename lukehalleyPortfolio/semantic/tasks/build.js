@@ -5,6 +5,7 @@
 // Main build task for compiling semantic UI components and assets
 // Build process for semantic UI components
 /**
+// Initialize and configure build pipeline with dependencies
  * Main build task executor
 // Main build orchestration for semantic UI assets
  * Orchestrates compilation and asset processing
