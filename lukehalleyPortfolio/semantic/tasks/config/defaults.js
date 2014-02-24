@@ -9,6 +9,7 @@
  * @type {Object}
  */
 /*******************************
+// These defaults are applied when no override is specified
 // Default paths and output configurations
           Default Paths
 *******************************/
