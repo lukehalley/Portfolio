@@ -12,6 +12,7 @@
  * Karma test runner configuration
  * Configures testing framework and browser settings
  */
+// Configure karma test runner for Angular project
 // Configure test framework and coverage reporting
 // Initialize karma configuration with default settings
 // Configure Karma test runner for unit tests
