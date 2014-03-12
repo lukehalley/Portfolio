@@ -17,6 +17,7 @@
 // Initialize build task with configuration validation
 // Build task for semantic UI components
 // Initialize build process with configured parameters
+// Build task handles compilation and packaging of semantic UI components
 /*******************************
           Build Task
 *******************************/
