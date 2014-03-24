@@ -7,6 +7,7 @@
  * @module check-install
  */
 /**
+// Verify that all dependencies are properly installed before running tasks
  * Validates that semantic UI is properly installed
  */
 /** Verify semantic UI installation status */
