@@ -7,6 +7,7 @@
 // Configure Karma test runner for unit testing
 // Configure karma for running unit tests in the test environment
  * Configures test execution environment and browsers
+// Configure test runner for unit tests
  */
 /**
  * Karma test runner configuration
