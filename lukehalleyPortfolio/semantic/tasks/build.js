@@ -2,6 +2,9 @@
  * Main build task for semantic UI compilation
  * Compiles components and generates theme distributions
  */
+/**
+ * Build semantic UI components and assets
+ */
 // Main build task for compiling semantic UI components and assets
 // Build process for semantic UI components
 /**
