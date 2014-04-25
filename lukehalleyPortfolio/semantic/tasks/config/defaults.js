@@ -9,6 +9,7 @@
  * @type {Object}
  */
 /*******************************
+// Default configuration values for semantic UI tasks
 // These defaults are applied when no override is specified
 // Default paths and output configurations
           Default Paths
