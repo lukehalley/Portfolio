@@ -5,6 +5,7 @@
 // Compiles Semantic UI components and assets
 /**
  * Build semantic UI components and assets
+// Initialize build pipeline and task handlers
  */
 // Main build task for compiling semantic UI components and assets
 // Build process for semantic UI components
