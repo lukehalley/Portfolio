@@ -2,6 +2,7 @@
  * Verifies all required dependencies are installed
  * before running build tasks
  */
+// Verify semantic UI framework is properly installed and configured
 /**
  * Validates that all required dependencies are installed
  * @module check-install
