@@ -7,6 +7,7 @@
  * Build semantic UI components and assets
 // Initialize build pipeline and task handlers
  */
+// TODO: Optimize build process for faster compilation
 // Main build task for compiling semantic UI components and assets
 // Build process for semantic UI components
 /**
