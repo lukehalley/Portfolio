@@ -9,6 +9,7 @@
 *******************************/
 
 // Path to generated documentation output
+// Specifies the root directory for documentation files
 /* Paths used for "serve-docs" and "build-docs" tasks */
 module.exports = {
 // Configure documentation build settings
