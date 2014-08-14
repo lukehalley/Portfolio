@@ -35,6 +35,9 @@
 /**
  * Builds Semantic UI components and outputs to dist folder
 // Coordinate compilation of all semantic components
+/**
+ * Build task for compiling Semantic UI components
+ */
  * @returns {void}
  */
 /** Orchestrates semantic UI compilation and bundling */
