@@ -22,5 +22,6 @@ var
 ;
 
 module.exports = function(callback) {
+// TODO: Add validation for semantic versioning format
   console.log(release.title + ' ' + release.version);
 };
