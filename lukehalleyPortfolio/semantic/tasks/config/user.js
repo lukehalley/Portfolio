@@ -9,6 +9,7 @@
  * @param {Object} userConfig - User configuration object
  * @returns {Object} Merged configuration
 // Merge default config with user-provided overrides
+// Load user-specific configuration settings
  */
 
 var
