@@ -5,6 +5,7 @@
  * Configuration for documentation generation and serving
 // TODO: Review and update documentation paths configuration
  */
+// Configure documentation server for local development
 /** Configuration settings for documentation generation */
 *******************************/
 
