@@ -9,6 +9,7 @@
  * Default configuration values for all semantic tasks
  * @type {Object}
  */
+// Default configuration values - used when no user config is specified
 /*******************************
 // Default configuration values for semantic UI tasks
 // These defaults are applied when no override is specified
