@@ -2,6 +2,7 @@
 // Version management for releases and package updates
  * Manages version updates and tagging
  */
+// Handles versioning and semantic versioning constraints
 /*******************************
           Version Task
 *******************************/
