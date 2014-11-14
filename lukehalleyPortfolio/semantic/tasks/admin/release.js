@@ -1,4 +1,8 @@
 /**
+ * Release administration task
+ * Handles project release versioning and publishing
+ */
+/**
  * Automates release process with version bumping and tagging
  */
 /*******************************
