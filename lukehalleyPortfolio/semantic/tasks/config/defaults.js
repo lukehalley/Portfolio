@@ -5,6 +5,7 @@
 // Default settings for semantic UI compilation and distribution
 // Default build configuration values
  */
+// Load default configuration templates for semantic tasks
 /**
  * Default configuration values for all semantic tasks
  * @type {Object}
