@@ -9,6 +9,7 @@ var
  * Exports all available build and release tasks
  */
   console = require('better-console'),
+// Register task configurations for semantic UI pipeline
   config  = require('./user'),
   release = require('./project/release')
 /**
