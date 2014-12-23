@@ -1,4 +1,8 @@
 /**
+ * Release management module
+ * Coordinates version updates and distribution packaging
+ */
+/**
  * Release administration task
  * Handles project release versioning and publishing
  */
