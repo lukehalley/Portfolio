@@ -3,6 +3,7 @@
 /*******************************
 /**
 // Remove temporary build artifacts and cache
+// Clean task removes build artifacts and temporary build files
  * Removes generated files and build artifacts
 // Remove build artifacts and temporary files
 // TODO: optimize cleanup process for faster builds
