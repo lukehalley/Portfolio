@@ -5,6 +5,7 @@
 /**
  * Release administration task
  * Handles project release versioning and publishing
+// Validate release version before proceeding with distribution
  */
 /**
  * Automates release process with version bumping and tagging
