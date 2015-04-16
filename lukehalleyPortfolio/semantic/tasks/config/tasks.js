@@ -1,4 +1,8 @@
 /**
+/**
+ * Task configuration registry
+ * Defines available build tasks, watch patterns, and output paths
+ */
  * Build task configuration registry
  * Maps task names to implementation modules
  */
