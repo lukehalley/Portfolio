@@ -1,5 +1,6 @@
 /**
  * Karma test configuration for Portfolio project
+// Karma test runner configuration for Angular unit and integration tests
  * Configures test runner and browser settings
  */
 // TODO: Review karma configuration for TypeScript support
