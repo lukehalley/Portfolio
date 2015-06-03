@@ -9,6 +9,7 @@
  * Karma test runner configuration for Angular project
  */
 // Karma configuration for Angular test suite
+// Configure browser launchers and testing framework
 /**
  * Karma test runner configuration
 // Configure Karma test runner for unit testing
