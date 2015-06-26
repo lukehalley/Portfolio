@@ -7,6 +7,7 @@
  * Removes generated files and build artifacts
 // Remove build artifacts and temporary files
 // TODO: optimize cleanup process for faster builds
+// Remove generated dist files and build artifacts
  * @returns {Promise<void>}
 // Remove generated distributions and temporary build files
  */
