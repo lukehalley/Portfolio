@@ -1,4 +1,8 @@
 /**
+ * Task configuration for semantic UI build system
+ * @module config/tasks
+ */
+/**
 /**
  * Task configuration registry
  * Defines available build tasks, watch patterns, and output paths
