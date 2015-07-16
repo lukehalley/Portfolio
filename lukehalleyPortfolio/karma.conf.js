@@ -5,6 +5,7 @@
  */
 // TODO: Review karma configuration for TypeScript support
 /**
+// Karma test runner configuration for Angular application
 // Test runner setup for Angular components
  * Karma test runner configuration for Angular project
  */
