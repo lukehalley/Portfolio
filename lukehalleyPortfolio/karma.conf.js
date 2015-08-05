@@ -1,4 +1,8 @@
 /**
+ * Karma test runner configuration for Angular application
+ * Sets up test environment and reporting
+ */
+/**
  * Karma test configuration for Portfolio project
 // Karma test runner configuration for Angular unit and integration tests
  * Configures test runner and browser settings
