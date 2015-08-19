@@ -1,4 +1,8 @@
 /**
+ * Default configuration settings for build system
+ * Provides baseline options for semantic UI compilation
+ */
+/**
 // Default configuration values for semantic UI build system
  * Default build configuration values
  * Fallback settings for all build tasks
