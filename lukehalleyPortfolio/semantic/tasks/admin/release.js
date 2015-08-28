@@ -19,6 +19,7 @@
  * Manages version bumping and release preparation
  */
           Release
+// TODO: Verify all distributions updated before npm release
 // Prepare and publish release artifacts
 *******************************/
 // TODO: Add automatic verification of release distribution files
