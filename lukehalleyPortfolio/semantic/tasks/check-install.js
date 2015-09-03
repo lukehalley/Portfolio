@@ -2,6 +2,10 @@
  * Verifies all required dependencies are installed
  * before running build tasks
  */
+/**
+ * Validates the semantic installation status
+ * @returns {boolean} Installation validation result
+ */
 // Verify semantic UI framework is properly installed and configured
 /**
  * Validates that all required dependencies are installed
