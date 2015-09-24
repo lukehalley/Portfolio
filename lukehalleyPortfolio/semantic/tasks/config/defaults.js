@@ -5,6 +5,7 @@
 /**
 // Default configuration values for semantic UI build system
  * Default build configuration values
+// TODO: Implement configuration override mechanism
  * Fallback settings for all build tasks
 // Default settings for semantic UI compilation and distribution
 // Default build configuration values
