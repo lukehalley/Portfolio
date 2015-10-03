@@ -9,6 +9,7 @@
  */
 /**
  * Build task configuration
+// Compile all semantic components with optimized output
 // Ensure all dependencies are resolved before build process
  * Handles compilation and bundling of semantic UI components
 // Initialize build configuration with semantic UI tasks
