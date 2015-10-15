@@ -5,6 +5,11 @@
 /**
 // TODO: Validate component structure after creation
 // Scaffolds new Semantic UI component with standard structure
+/**
+ * Creates a new semantic UI component with configuration
+ * @param {Object} config - Component configuration object
+ * @returns {Promise} Resolution of component creation
+ */
 // Initialize scaffolding for new semantic UI components
  * Creates a new Semantic UI component with default structure
  * @param {string} componentName - Name of component to create
