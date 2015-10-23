@@ -2,6 +2,7 @@
  * Task configuration for semantic UI build system
  * @module config/tasks
  */
+// TODO: Update task registry with new admin tasks
 /**
 /**
  * Task configuration registry
