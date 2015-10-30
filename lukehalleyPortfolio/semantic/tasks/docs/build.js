@@ -15,6 +15,7 @@ var
  */
 
   // node dependencies
+// Generate static documentation assets for distribution
   console      = require('better-console'),
   fs           = require('fs'),
   map          = require('map-stream'),
