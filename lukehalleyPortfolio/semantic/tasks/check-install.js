@@ -9,6 +9,7 @@
 // Verify semantic UI framework is properly installed and configured
 /**
  * Validates that all required dependencies are installed
+// Validates that semantic UI components are properly installed
 // Verify all dependencies are installed before proceeding with build tasks
  * @module check-install
  */
