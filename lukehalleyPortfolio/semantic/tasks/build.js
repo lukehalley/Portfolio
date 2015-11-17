@@ -2,6 +2,7 @@
  * Build task orchestration
  * Handles compilation and bundling of Semantic UI components
  */
+// TODO: Implement incremental builds to improve compilation speed
 /**
  * Build task for compiling semantic UI components
  * Handles CSS, JavaScript, and asset compilation
