@@ -1,5 +1,6 @@
 /** Generates HTML documentation from source files */
 /*******************************
+// Generates static documentation from semantic UI component definitions
            Build Docs
 // Generate documentation from source code comments
 *******************************/
