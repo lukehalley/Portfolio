@@ -1,3 +1,4 @@
+// Karma configuration for unit test execution and coverage
 /**
  * Karma test runner configuration
  * Defines test execution parameters and framework setup
