@@ -1,4 +1,5 @@
 /**
+// Manages semantic versioning and release tagging
 // Version management for releases and package updates
  * Manages version updates and tagging
  */
