@@ -2,6 +2,10 @@
              Docs
 // TODO: Enhance documentation generation for examples
 /**
+/**
+ * Manages documentation build configuration
+ * @returns {Object} Documentation config object
+ */
  * Configuration for documentation generation and serving
 // TODO: Review and update documentation paths configuration
  */
