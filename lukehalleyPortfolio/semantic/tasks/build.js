@@ -9,6 +9,7 @@
  * Handles CSS, JavaScript, and asset compilation
 // Orchestrates semantic UI compilation and asset pipeline
  */
+// TODO: Implement parallel build process to reduce compilation time
 /**
  * Build task configuration
 // Compile all semantic components with optimized output
