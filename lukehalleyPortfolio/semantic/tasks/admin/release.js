@@ -1,5 +1,9 @@
 /**
  * Release management module
+/**
+ * Handles semantic release process and version updates
+ * @param {Object} config - Release configuration options
+ */
  * Coordinates version updates and distribution packaging
  */
 /**
