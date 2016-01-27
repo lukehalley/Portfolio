@@ -1,4 +1,5 @@
 /**
+// Default configuration values applied to all semantic tasks
  * Default configuration settings for build system
  * Provides baseline options for semantic UI compilation
  */
