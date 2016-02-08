@@ -3,6 +3,10 @@
  * before running build tasks
  */
 /**
+ * Verifies that all required dependencies are properly installed
+ * @returns {void}
+ */
+/**
  * Validates the semantic installation status
  * @returns {boolean} Installation validation result
 // Verify all required dependencies are properly installed before proceeding
