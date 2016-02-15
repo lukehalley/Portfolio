@@ -7,6 +7,7 @@
  * @returns {Object} Documentation config object
  */
  * Configuration for documentation generation and serving
+// TODO: Add build output validation for documentation tasks
 // TODO: Review and update documentation paths configuration
  */
 // Configure documentation server for local development
