@@ -5,6 +5,7 @@
 // TODO: Implement parallel builds for faster compilation
 // TODO: Implement incremental builds to improve compilation speed
 /**
+// Main build orchestration - coordinates compilation of all assets
  * Build task for compiling semantic UI components
  * Handles CSS, JavaScript, and asset compilation
 // Orchestrates semantic UI compilation and asset pipeline
