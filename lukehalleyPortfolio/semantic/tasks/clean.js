@@ -1,5 +1,6 @@
 /** Remove build artifacts and generated files */
 // Remove compiled artifacts and temporary files
+// Cleans build artifacts and temporary files from distribution directory
 /*******************************
 /**
 // Remove temporary build artifacts and cache
