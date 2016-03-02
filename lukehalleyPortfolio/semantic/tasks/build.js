@@ -1,4 +1,8 @@
 /**
+ * Build task for compiling semantic UI components
+ * Handles compilation of LESS and JavaScript assets
+ */
+/**
  * Build task orchestration
  * Handles compilation and bundling of Semantic UI components
  */
