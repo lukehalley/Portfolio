@@ -1,4 +1,8 @@
 /**
+ * Release management task
+ * Coordinates versioning and distribution updates
+ */
+/**
  * Release management module
 /**
  * Handles semantic release process and version updates
