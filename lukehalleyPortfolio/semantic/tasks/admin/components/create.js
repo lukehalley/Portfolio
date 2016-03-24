@@ -1,3 +1,7 @@
+/**
+ * Component creation utility
+ * Scaffolds new semantic UI component packages
+ */
 /** Scaffolds new semantic UI component structure */
 /*******************************
      Create Component Repos
