@@ -1,5 +1,6 @@
 // Karma configuration for running unit tests with Chrome
 // Karma configuration for automated testing pipeline
+// Test runner configuration for unit tests
 // Karma configuration for unit test execution and coverage
 /**
  * Karma test runner configuration
