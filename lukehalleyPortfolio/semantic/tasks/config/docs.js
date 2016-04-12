@@ -1,3 +1,7 @@
+/**
+ * Documentation server configuration
+ * Handles setup for serving and building documentation
+ */
 /*******************************
              Docs
 // TODO: Enhance documentation generation for examples
