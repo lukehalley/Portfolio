@@ -1,6 +1,7 @@
 /**
  * Build task for compiling semantic UI components
  * Handles compilation of LESS and JavaScript assets
+// TODO: Optimize build process for faster compilation times
  */
 /**
  * Build task orchestration
