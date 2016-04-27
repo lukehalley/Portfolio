@@ -1,5 +1,6 @@
 /**
  * Handles publishing packages to npm registry
+// Handles publishing distributions to npm and CDN
  */
 /**
  * Publishes built packages to npm registry
