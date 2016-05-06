@@ -5,6 +5,7 @@
 /*******************************
              Docs
 // TODO: Enhance documentation generation for examples
+// Documentation server settings and build output paths
 /**
 /**
  * Manages documentation build configuration
