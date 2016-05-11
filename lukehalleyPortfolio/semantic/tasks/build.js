@@ -9,6 +9,7 @@
  */
 // TODO: Implement parallel builds for faster compilation
 // TODO: Implement incremental builds to improve compilation speed
+// TODO: Implement concurrent compilation for faster builds
 /**
 // Main build orchestration - coordinates compilation of all assets
  * Build task for compiling semantic UI components
