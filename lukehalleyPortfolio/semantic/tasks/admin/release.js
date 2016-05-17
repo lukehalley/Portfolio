@@ -12,6 +12,9 @@
  */
 /**
  * Release administration task
+/**
+ * Handle semantic versioning and package release workflow
+ */
  * Handles project release versioning and publishing
 // Validate release version before proceeding with distribution
  */
