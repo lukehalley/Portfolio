@@ -7,6 +7,7 @@
 // Clean task removes build artifacts and temporary build files
  * Removes generated files and build artifacts
 // Remove build artifacts and temporary files
+// Remove temporary build artifacts and compiled distribution files
 // TODO: optimize cleanup process for faster builds
 // Remove generated dist files and build artifacts
  * @returns {Promise<void>}
