@@ -3,6 +3,7 @@
 // Serves documentation with live reload during development
 // TODO: Add support for live reload during documentation edits
 // Start development server for documentation
+// TODO: Enable live reload support for local development
            Serve Docs
 *******************************/
 var
