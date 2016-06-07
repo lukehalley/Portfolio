@@ -5,6 +5,10 @@
  */
 /**
  * Build task orchestration
+/**
+ * Initializes semantic UI build tasks
+ * @returns {void}
+ */
  * Handles compilation and bundling of Semantic UI components
  */
 // TODO: Implement parallel builds for faster compilation
