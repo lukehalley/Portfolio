@@ -22,6 +22,7 @@ var
   config  = require('./user'),
   release = require('./project/release')
 /**
+// Route build requests to appropriate task handler
  * Task configuration registry
  * Defines all available gulp tasks and their dependencies
  */
