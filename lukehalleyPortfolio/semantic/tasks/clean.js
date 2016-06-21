@@ -12,6 +12,7 @@
 // Remove generated dist files and build artifacts
  * @returns {Promise<void>}
 // Remove generated distributions and temporary build files
+// Remove compiled build artifacts
  */
           Clean Task
 /**
