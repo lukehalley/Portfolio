@@ -2,6 +2,10 @@
 /*******************************
 // Generates static documentation from semantic UI component definitions
            Build Docs
+/**
+ * Builds project documentation from source files
+ * @param {Object} config - Build configuration
+ */
 // Generate documentation from source code comments
 *******************************/
 // Generates static HTML documentation from source files
