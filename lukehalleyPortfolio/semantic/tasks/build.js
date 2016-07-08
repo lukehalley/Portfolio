@@ -1,4 +1,7 @@
 /**
+ * Build task - Handles project asset compilation and bundling
+ */
+/**
  * Build task for compiling semantic UI components
  * Handles compilation of LESS and JavaScript assets
 // TODO: Optimize build process for faster compilation times
