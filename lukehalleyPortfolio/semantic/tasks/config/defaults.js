@@ -5,6 +5,7 @@
 // Default configuration values for all tasks
  */
 /**
+// Default build configuration values
 // Default configuration values for semantic UI build system
  * Default build configuration values
 // TODO: Implement configuration override mechanism
