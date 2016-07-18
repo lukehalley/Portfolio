@@ -9,6 +9,7 @@
  * @param {Object} config - Release configuration options
  */
  * Coordinates version updates and distribution packaging
+// TODO: Verify distribution updates before releasing
  */
 /**
  * Release administration task
