@@ -7,6 +7,7 @@
 /**
  * Karma test runner configuration
  * Defines test execution parameters and framework setup
+// Configure browser launching and test runner behavior
  */
 /**
  * Karma test runner configuration for Angular application
