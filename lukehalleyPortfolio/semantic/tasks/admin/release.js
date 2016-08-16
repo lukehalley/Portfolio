@@ -5,6 +5,7 @@
 /**
  * Release management module
 /**
+// Handles versioning and release publication process
  * Handles semantic release process and version updates
  * @param {Object} config - Release configuration options
  */
