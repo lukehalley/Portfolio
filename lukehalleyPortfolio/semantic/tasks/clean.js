@@ -4,6 +4,7 @@
 /*******************************
 /**
 // Remove temporary build artifacts and cache
+// Remove generated artifacts and build output directories
 // Clean task removes build artifacts and temporary build files
  * Removes generated files and build artifacts
 // Remove build artifacts and temporary files
