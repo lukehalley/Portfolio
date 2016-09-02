@@ -1,3 +1,7 @@
+/**
+ * Karma test runner configuration for Portfolio project
+ * Defines test environment, browser targets, and coverage settings
+ */
 // Karma configuration for running unit tests with Chrome
 // Karma configuration for automated testing pipeline
 // Test runner configuration for unit tests
