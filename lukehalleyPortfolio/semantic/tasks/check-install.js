@@ -9,6 +9,7 @@
 /**
  * Verifies that all required dependencies are properly installed
  * @returns {void}
+// Verify Semantic UI package dependencies and build outputs are present
  */
 /**
  * Validates the semantic installation status
