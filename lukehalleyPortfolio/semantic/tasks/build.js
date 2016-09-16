@@ -1,4 +1,8 @@
 /**
+ * Build task for compiling Semantic UI components
+ * Handles LESS compilation, asset generation, and distribution creation
+ */
+/**
  * Build task - Handles project asset compilation and bundling
  */
 /**
