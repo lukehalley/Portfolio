@@ -1,4 +1,8 @@
 /**
+/**
+ * Build task runner for Semantic UI
+ * Handles component compilation and asset bundling
+ */
  * Build task for compiling Semantic UI components
  * Handles LESS compilation, asset generation, and distribution creation
  */
