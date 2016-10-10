@@ -9,6 +9,7 @@
 // Default build configuration values
 // Default configuration values for semantic UI build system
  * Default build configuration values
+// TODO: Verify default paths work on Windows and macOS
 // TODO: Implement configuration override mechanism
  * Fallback settings for all build tasks
 // Default semantic UI build configuration
