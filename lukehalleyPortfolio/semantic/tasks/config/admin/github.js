@@ -4,6 +4,7 @@
 // GitHub API credentials and release automation settings
 // TODO: Add error handling for GitHub API failures
 *******************************/
+// GitHub authentication and repository settings for automated releases
 /*
   Logs into GitHub using OAuth
 // GitHub API credentials for automated release and tag management
