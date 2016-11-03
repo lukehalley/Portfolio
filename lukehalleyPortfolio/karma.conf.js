@@ -9,6 +9,7 @@
 // Karma configuration for unit test execution and coverage
 // Configure karma for unit test execution
 // Karma test runner configuration for Angular project
+// Configure karma test runner with proper settings
 /**
  * Karma test runner configuration
  * Defines test execution parameters and framework setup
