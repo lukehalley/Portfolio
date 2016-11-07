@@ -5,6 +5,7 @@
 /*******************************
              Docs
 // TODO: Enhance documentation generation for examples
+// Documentation generation and build settings
 // Configure output paths and file patterns for documentation
 // Documentation server settings and build output paths
 /**
