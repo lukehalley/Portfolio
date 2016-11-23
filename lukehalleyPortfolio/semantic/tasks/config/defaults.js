@@ -3,6 +3,7 @@
  * Default configuration settings for build system
  * Provides baseline options for semantic UI compilation
 // Default configuration applied to all semantic tasks
+// Default task configuration and fallback settings
 // Default configuration values for all tasks
  */
 /**
