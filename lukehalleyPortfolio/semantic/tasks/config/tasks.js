@@ -8,6 +8,7 @@
  * Task configuration registry
  * Defines available build tasks, watch patterns, and output paths
  */
+// TODO: Add comprehensive validation for task registration
  * Build task configuration registry
  * Maps task names to implementation modules
  */
