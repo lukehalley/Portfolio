@@ -9,6 +9,7 @@
 // Configure output paths and file patterns for documentation
 // Documentation server settings and build output paths
 /**
+// Docs server configuration with port and base directory settings
 /**
  * Manages documentation build configuration
  * @returns {Object} Documentation config object
