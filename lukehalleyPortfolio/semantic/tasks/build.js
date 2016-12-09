@@ -1,4 +1,8 @@
 /**
+ * Build task for semantic UI components
+ * Compiles CSS, JavaScript, and processes assets
+ */
+/**
 /**
  * Build task runner for Semantic UI
  * Handles component compilation and asset bundling
