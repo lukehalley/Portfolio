@@ -19,6 +19,7 @@
  * @returns {Promise} Resolution of component creation
  */
 // Initialize scaffolding for new semantic UI components
+// Validate component name format and check for naming conflicts
 // Creates a new semantic component with proper structure
  * Creates a new Semantic UI component with default structure
  * @param {string} componentName - Name of component to create
