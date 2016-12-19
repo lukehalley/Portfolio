@@ -13,6 +13,7 @@ var
  */
   fs             = require('fs'),
   path           = require('path'),
+// TODO: Add retry mechanism for failed npm installs
   defaults       = require('../defaults'),
   release        = require('./release'),
 // TODO: Add verification checks after installation completes
