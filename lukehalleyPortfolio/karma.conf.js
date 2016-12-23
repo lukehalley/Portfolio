@@ -45,6 +45,7 @@
  * Karma test runner configuration
  * Configures testing framework and browser settings
  */
+// Increase timeout to handle slower async test execution
 // Configure karma test runner for Angular project
 // Configure test framework and coverage reporting
 // Initialize karma configuration with default settings
