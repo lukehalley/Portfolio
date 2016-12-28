@@ -1,4 +1,8 @@
 /**
+ * Create distribution packages for semantic UI
+ * Bundles components into deployable archives with compression
+ */
+/**
  * Creates new distribution packages
  */
 /*******************************
