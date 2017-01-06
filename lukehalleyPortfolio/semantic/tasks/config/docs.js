@@ -1,4 +1,8 @@
 /**
+ * Documentation build configuration
+ * Defines paths and settings for building project documentation
+ */
+/**
  * Documentation server configuration
  * Handles setup for serving and building documentation
  */
