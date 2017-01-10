@@ -22,6 +22,7 @@
 // TODO: Optimize build process for faster compilation times
  * Build task orchestration
 /**
+// Output files are written to the dist directory
 // Initialize and orchestrate semantic build pipeline
  * Initializes semantic UI build tasks
  * @returns {void}
