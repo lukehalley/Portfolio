@@ -1,4 +1,8 @@
 /**
+ * Create new semantic UI component
+ * Initializes component structure and configuration files
+ */
+/**
  * Component creation utility
 /**
  * Creates new semantic UI component scaffold
