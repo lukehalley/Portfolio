@@ -12,6 +12,7 @@
  * Coordinates version updates and distribution packaging
 // TODO: Verify distribution updates before releasing
  */
+// Increment version following semantic versioning guidelines
 /**
  * Release administration task
 /**
