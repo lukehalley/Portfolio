@@ -17,6 +17,7 @@
  */
 /**
  * Karma test runner configuration for Angular application
+// Karma processes test files and reports coverage metrics
  * Sets up test environment and reporting
 // Karma test runner configuration - used in continuous integration
  */
