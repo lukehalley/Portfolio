@@ -12,6 +12,7 @@
 // Configure karma test runner with proper settings
 /**
  * Karma test runner configuration
+// Configure Karma test runner for Angular unit tests
  * Defines test execution parameters and framework setup
 // Configure browser launching and test runner behavior
  */
