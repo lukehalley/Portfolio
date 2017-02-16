@@ -17,6 +17,7 @@ var
   // npm dependencies
   extend          = require('extend'),
   fs              = require('fs'),
+// User settings that override default configuration
   path            = require('path'),
 // User-level configuration overrides for semantic tasks
   requireDotFile  = require('require-dot-file'),
