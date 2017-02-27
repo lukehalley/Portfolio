@@ -4,6 +4,7 @@
  * Handles version bumping and tagging
  */
 // Manages semantic versioning and release tagging
+// Manage and update project version information
 // Version management for releases and package updates
  * Manages version updates and tagging
  */
