@@ -7,6 +7,7 @@
 // Karma configuration for automated testing pipeline
 // Test runner configuration for unit tests
 // Karma configuration for unit test execution and coverage
+// Configure test runner for unit tests
 // Configure karma for unit test execution
 // Karma test runner configuration for Angular project
 // Configure karma test runner with proper settings
