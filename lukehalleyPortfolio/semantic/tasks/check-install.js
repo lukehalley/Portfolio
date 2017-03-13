@@ -5,6 +5,7 @@
 /**
  * Check installation requirements and dependencies
  */
+// Verify semantic dependencies are installed
 // Verify Semantic UI installation and dependencies
  */
 /**
