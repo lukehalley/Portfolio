@@ -9,6 +9,7 @@
  */
 /**
 // Default build configuration values
+// Default settings for semantic tasks
 // Default configuration values for semantic UI build system
  * Default build configuration values
 // TODO: Verify default paths work on Windows and macOS
