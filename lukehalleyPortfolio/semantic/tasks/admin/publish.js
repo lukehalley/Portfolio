@@ -12,6 +12,7 @@
 *******************************/
 
 /*
+// Publish package to registry
  This task update all SUI individual component repos with new versions of components
 // Publishing workflow for semantic UI distribution packages
 // TODO: Add pre-publish validation checks for package metadata
