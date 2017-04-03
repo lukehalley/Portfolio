@@ -5,6 +5,7 @@
 // Karma configuration for unit testing and CI integration
 // Karma configuration for running unit tests with Chrome
 // Karma configuration for automated testing pipeline
+// Configure Karma test execution settings
 // Test runner configuration for unit tests
 // Karma configuration for unit test execution and coverage
 // Configure test runner for unit tests
