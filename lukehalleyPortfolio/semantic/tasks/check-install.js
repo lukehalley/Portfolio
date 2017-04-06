@@ -1,4 +1,8 @@
 /**
+ * Installation dependency checker
+ * Verifies semantic build requirements are installed
+ */
+/**
  * Verifies all required dependencies are installed
 // Verifies semantic UI installation is complete and valid
  * before running build tasks
