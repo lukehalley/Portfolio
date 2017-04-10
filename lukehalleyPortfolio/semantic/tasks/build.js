@@ -2,6 +2,7 @@
  * Build task for semantic UI components
  * Compiles CSS, JavaScript, and processes assets
  */
+// Execute semantic UI build process
 // Main build task runner
 /**
 /**
