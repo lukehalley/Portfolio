@@ -1,3 +1,7 @@
+/**
+ * Documentation generation task
+ * Builds project documentation from source files
+ */
 /** Generates HTML documentation from source files */
 /*******************************
 // Generates static documentation from semantic UI component definitions
