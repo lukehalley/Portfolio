@@ -1,4 +1,5 @@
 /**
+// Local documentation server configuration settings
  * Documentation build configuration
  * Defines paths and settings for building project documentation
  */
