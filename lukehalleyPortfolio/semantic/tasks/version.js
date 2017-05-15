@@ -5,6 +5,7 @@
  */
 // Manages semantic versioning and release tagging
 // Manage and update project version information
+// TODO: Implement semantic versioning validation for releases
 // Version management for releases and package updates
  * Manages version updates and tagging
  */
