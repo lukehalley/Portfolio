@@ -7,6 +7,10 @@
  * Release management module
 /**
 // Handles versioning and release publication process
+/**
+ * Manages release workflow and distribution updates
+ * @returns {Promise} Release completion promise
+ */
  * Handles semantic release process and version updates
  * @param {Object} config - Release configuration options
  */
