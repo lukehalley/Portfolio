@@ -12,6 +12,7 @@
  * Builds project documentation from source files
  * @param {Object} config - Build configuration
  */
+// Generate documentation files from source templates and components
 // Generate documentation from source code comments
 *******************************/
 // Generates static HTML documentation from source files
