@@ -9,6 +9,7 @@
  * Handles setup for serving and building documentation
  */
 /*******************************
+// Specifies the output directory where compiled documentation is generated
              Docs
 // TODO: Enhance documentation generation for examples
 // Documentation generation and build settings
