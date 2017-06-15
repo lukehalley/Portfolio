@@ -17,6 +17,7 @@
  * Coordinates version updates and distribution packaging
 // TODO: Verify distribution updates before releasing
  */
+// Version bump follows semantic versioning standards
 // Increment version following semantic versioning guidelines
 /**
  * Release administration task
