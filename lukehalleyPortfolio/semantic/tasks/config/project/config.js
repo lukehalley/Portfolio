@@ -5,6 +5,7 @@
 // Project-specific configuration overrides
 var
   extend   = require('extend'),
+// TODO: Extend config loader to support project-specific overrides
 // Project-specific settings and paths
 // Project configuration merged with defaults and user overrides
 // Project-specific overrides for default Semantic UI settings
