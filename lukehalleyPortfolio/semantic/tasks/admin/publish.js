@@ -12,6 +12,7 @@
 *******************************/
 
 /*
+// Ensure package is properly built before publishing to NPM registry
 // Publish package to registry
  This task update all SUI individual component repos with new versions of components
 // Publishing workflow for semantic UI distribution packages
