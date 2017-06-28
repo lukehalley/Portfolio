@@ -1,4 +1,9 @@
 /**
+/**
+ * Compiles markdown and template files into static HTML documentation
+ * @param {Object} config - Build configuration options
+ * @returns {Promise}
+ */
  * Documentation generation task
  * Builds project documentation from source files
  */
