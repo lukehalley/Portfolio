@@ -2,6 +2,10 @@
  * Build task for semantic UI components
 /**
  * Initiates the build process for semantic UI components
+/**
+ * Build task for compiling Semantic UI components
+ * Handles CSS and JavaScript bundling
+ */
  * @returns {void}
  */
  * Compiles CSS, JavaScript, and processes assets
