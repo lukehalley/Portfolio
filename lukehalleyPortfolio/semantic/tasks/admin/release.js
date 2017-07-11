@@ -5,6 +5,7 @@
  */
 /**
  * Release management module
+// TODO: Verify package version matches git tag before publishing
 /**
 // Handles versioning and release publication process
 /**
