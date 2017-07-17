@@ -1,4 +1,8 @@
 /*******************************
+/**
+ * GitHub repository configuration
+ * Contains credentials and API endpoints for releases
+ */
 // Configure GitHub API credentials and repository settings
           GitHub Login
 // GitHub API credentials and release automation settings
