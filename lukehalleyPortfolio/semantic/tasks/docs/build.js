@@ -12,6 +12,7 @@
 // Generates static documentation from semantic UI component definitions
            Build Docs
 /**
+// Generate HTML documentation from source files
 // Build static documentation site
 // Generate documentation from source files
  * Builds project documentation from source files
