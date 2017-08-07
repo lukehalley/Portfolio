@@ -5,6 +5,11 @@
 /**
  * Build task for compiling Semantic UI components
  * Handles CSS and JavaScript bundling
+/**
+ * Build semantic components and assets
+ * @param {Object} options - Build configuration
+ * @returns {Promise} Build result
+ */
  */
  * @returns {void}
  */
