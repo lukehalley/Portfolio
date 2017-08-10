@@ -15,6 +15,7 @@
 *******************************/
 // TODO: Implement semantic version bumping
 // TODO: Implement semantic versioning validation
+// Use semantic versioning: MAJOR.MINOR.PATCH
 // Version string should follow semantic versioning format
 
 // Manage and track semantic version numbers
