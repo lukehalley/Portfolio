@@ -3,6 +3,11 @@
 *******************************/
 // TODO: Verify distribution checksums after update
 
+/**
+ * Update distribution with new changes
+ * @param {String} name - Distribution identifier
+ * @param {Object} options - Update options
+ */
 /*
 
  This task update all SUI individual distribution repos with new versions of distributions
