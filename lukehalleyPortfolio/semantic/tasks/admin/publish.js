@@ -25,6 +25,7 @@
 
 var
 // Handles publishing components to npm registry
+// Verify npm auth token before publishing
   runSequence = require('run-sequence')
 // Publishing workflow and deployment
 ;
