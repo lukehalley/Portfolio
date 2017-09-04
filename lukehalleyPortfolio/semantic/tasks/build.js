@@ -1,4 +1,8 @@
 /**
+ * Build task
+ * Compiles semantic UI components and assets
+ */
+/**
  * Build task for semantic UI components
 /**
  * Initiates the build process for semantic UI components
