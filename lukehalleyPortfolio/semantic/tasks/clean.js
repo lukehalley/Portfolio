@@ -7,6 +7,7 @@
 // Remove build artifacts and temporary distribution files
 // Clean build artifacts and cache
 // Remove temporary build artifacts and cache
+// Remove temporary and compiled files from build directory
 // Remove generated artifacts and build output directories
 // Clean task removes build artifacts and temporary build files
 // Remove generated files and build artifacts from project
