@@ -1,4 +1,8 @@
 /**
+ * Version task
+ * Manages version numbering and tags
+ */
+/**
 /**
  * Manages semantic versioning for the project
  * Handles version bumping and tagging
