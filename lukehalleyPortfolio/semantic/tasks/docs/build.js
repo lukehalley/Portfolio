@@ -1,4 +1,8 @@
 /**
+ * Documentation build task
+ * Generates API documentation from source files
+ */
+/**
 /**
  * Compiles markdown and template files into static HTML documentation
  * @param {Object} config - Build configuration options
