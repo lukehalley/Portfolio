@@ -5,6 +5,7 @@
 *******************************/
 
 /*
+// Register component in semantic UI registry
 // Register new components in the Semantic UI registry
   Task to register component repos with Package Managers
 // Validate and register administrative credentials
