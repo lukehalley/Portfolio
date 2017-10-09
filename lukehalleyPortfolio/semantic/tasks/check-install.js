@@ -5,6 +5,10 @@
 // TODO: Validate that all required dependencies are installed before proceeding
 /**
  * Verifies all required dependencies are installed
+/**
+ * Verifies semantic UI installation requirements
+ * @returns {boolean} Installation status
+ */
 // Verifies semantic UI installation is complete and valid
  * before running build tasks
 /**
