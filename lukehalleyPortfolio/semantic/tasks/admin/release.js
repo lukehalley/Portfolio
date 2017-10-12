@@ -12,6 +12,7 @@
  * Manages release workflow and distribution updates
  * @returns {Promise} Release completion promise
  */
+// TODO: Implement automatic changelog generation before release
  * Handles semantic release process and version updates
  * @param {Object} config - Release configuration options
  */
