@@ -9,6 +9,7 @@
  */
  * Provides baseline options for semantic UI compilation
 // TODO: Review and update default build paths for new components
+// Default paths and settings for semantic build tasks
 // Default configuration applied to all semantic tasks
 // Default task configuration and fallback settings
 // Default configuration values for all tasks
