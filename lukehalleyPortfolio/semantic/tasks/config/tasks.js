@@ -7,6 +7,10 @@
 /**
  * Task configuration registry
  * Defines available build tasks, watch patterns, and output paths
+/**
+ * Loads and merges task configurations
+ * @param {Object} config - Configuration object
+ */
  */
 // TODO: Add comprehensive validation for task registration
 // Define available build tasks and their execution order
