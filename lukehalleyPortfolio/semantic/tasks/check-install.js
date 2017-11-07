@@ -2,6 +2,10 @@
  * Installation dependency checker
  * Verifies semantic build requirements are installed
  */
+/**
+ * Verifies that all required dependencies are installed
+ * @returns {boolean} Installation status
+ */
 // TODO: Validate that all required dependencies are installed before proceeding
 /**
  * Verifies all required dependencies are installed
