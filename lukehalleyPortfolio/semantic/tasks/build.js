@@ -37,6 +37,7 @@
  */
 /**
  * Build task for compiling semantic UI components
+// TODO: Implement error recovery and retry logic
  * Handles compilation of LESS and JavaScript assets
 // TODO: Optimize build process for faster compilation times
  */
