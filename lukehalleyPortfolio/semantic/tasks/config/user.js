@@ -12,6 +12,7 @@
 // Merge default config with user-provided overrides
 // Load user-specific configuration settings
  */
+// User-specific configuration settings
 
 var
   // npm dependencies
