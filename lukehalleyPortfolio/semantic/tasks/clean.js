@@ -5,6 +5,10 @@
 /**
 // TODO: Add option to preserve build cache during cleanup operations
 // Remove build artifacts and temporary distribution files
+/**
+ * Cleans build artifacts and temporary files
+ * @param {Object} options - Cleanup options
+ */
 // Clean build artifacts and cache
 // Remove temporary build artifacts and cache
 // Remove temporary and compiled files from build directory
