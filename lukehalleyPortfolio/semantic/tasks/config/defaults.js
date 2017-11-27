@@ -32,6 +32,7 @@
 // Load default configuration templates for semantic tasks
 /**
  * Default configuration values for all semantic tasks
+// Default values for build configuration
 // Default paths and settings for semantic UI build system
  * @type {Object}
  */
