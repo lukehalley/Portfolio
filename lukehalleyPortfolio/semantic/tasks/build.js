@@ -2,6 +2,9 @@
  * Build task
  * Compiles semantic UI components and assets
  */
+/**
+ * Build task for compiling semantic UI components and distribution files
+ */
 // Build task - compiles semantic components and assets
 /**
  * Build task for semantic UI components
