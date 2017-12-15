@@ -1,4 +1,5 @@
 /**
+// Configuration for documentation generation and asset output paths
 // Local documentation server configuration settings
  * Documentation build configuration
  * Defines paths and settings for building project documentation
