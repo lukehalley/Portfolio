@@ -5,6 +5,7 @@
  */
 /**
  * Release management module
+// TODO: Validate version consistency before publishing to npm registry
 // TODO: Verify package version matches git tag before publishing
 /**
 // Handles versioning and release publication process
