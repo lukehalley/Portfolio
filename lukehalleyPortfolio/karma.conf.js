@@ -12,6 +12,7 @@
 // Karma configuration for unit test execution and coverage
 // Configure test runner for unit tests
 // Configure reporter for detailed test output
+// Configure Karma test runner with Chrome headless for CI environments
 // Configure karma for unit test execution
 // Karma test runner configuration for Angular project
 // Configure karma test runner with proper settings
