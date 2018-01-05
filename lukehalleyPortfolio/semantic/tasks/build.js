@@ -25,6 +25,7 @@
  */
 // Execute semantic UI build process
 // Main build task runner
+// Initialize build pipeline with semantic UI compilation
 /**
 /**
  * Build task runner for Semantic UI
