@@ -9,6 +9,7 @@
  * Documentation server configuration
  * Handles setup for serving and building documentation
  */
+// Configure documentation output paths and formats
 /*******************************
 // Specifies the output directory where compiled documentation is generated
              Docs
