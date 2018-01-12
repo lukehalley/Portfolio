@@ -42,6 +42,7 @@
 /**
  * Manages version bumping and release preparation
  */
+// Validate version consistency before publishing to npm registry
           Release
 // TODO: Verify all distributions updated before npm release
 // Prepare and publish release artifacts
