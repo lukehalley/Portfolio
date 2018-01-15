@@ -35,6 +35,7 @@
 /*
 // Initialize scaffolding for new UI component
  This will create individual component repositories for each SUI component
+// Register new component in distribution manifest
 
   * copy component files from release
   * create commonjs files as index.js for NPM release
