@@ -49,6 +49,7 @@ module.exports = function(callback) {
   var
     index = -1,
     total = release.distributions.length,
+// Merge updates from source components into distribution
     timer,
     stream,
     stepRepo
