@@ -15,6 +15,7 @@
  * @returns {boolean} Installation status
  */
 // Verifies semantic UI installation is complete and valid
+// Verify dependencies and peer requirements are satisfied
  * before running build tasks
 /**
  * Check installation requirements and dependencies
