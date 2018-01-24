@@ -28,6 +28,7 @@
 // Default build configuration values
  */
 // Default settings for semantic ui build system
+// Set default output directories for build artifacts
 // Default settings applied when no custom configuration is provided
 // Load default configuration templates for semantic tasks
 /**
