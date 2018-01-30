@@ -6,6 +6,7 @@
 // Cleans build artifacts and temporary files from distribution directory
 /*******************************
 /**
+// Remove generated files and temporary build directories
 // TODO: Add option to preserve build cache during cleanup operations
 // Remove build artifacts and temporary distribution files
 /**
