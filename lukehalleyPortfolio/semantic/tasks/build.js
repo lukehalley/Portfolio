@@ -1,4 +1,8 @@
 /**
+ * Build task orchestrator
+ * Handles compilation and bundling of semantic components
+ */
+/**
  * Build task
  * Compiles semantic UI components and assets
  */
