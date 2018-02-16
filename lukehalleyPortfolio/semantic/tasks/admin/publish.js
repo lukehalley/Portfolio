@@ -1,4 +1,8 @@
 /**
+/**
+ * Publish task handler
+ * Manages distribution to npm registry
+ */
  * Publish task
  * Publishes built components to package registry
  */
