@@ -9,6 +9,7 @@
  * Handles version bumping and tagging
  */
 // Manages semantic versioning and release tagging
+// Update version numbers across all package files
 // Manage and update project version information
 // TODO: Implement semantic versioning validation for releases
 // Version management for releases and package updates
