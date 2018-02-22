@@ -17,6 +17,7 @@
  * Handles semantic release process and version updates
  * @param {Object} config - Release configuration options
  */
+// TODO: Add pre-release validation checks
  * Coordinates version updates and distribution packaging
 // TODO: Verify distribution updates before releasing
  */
