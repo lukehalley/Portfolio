@@ -3,6 +3,7 @@
 /**
  * Clean task for removing build artifacts and temporary files from distribution directories
  */
+// Remove build artifacts and temporary files
 // Cleans build artifacts and temporary files from distribution directory
 /*******************************
 /**
