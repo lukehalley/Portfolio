@@ -9,6 +9,7 @@
 // Configure Karma test execution settings
 // Configure test runner settings for unit tests
 // Test runner configuration for unit tests
+// Configure test runner settings for CI environment
 // Configure browser options for continuous integration
 // Karma configuration for unit test execution and coverage
 // Configure test runner for unit tests
