@@ -5,6 +5,7 @@
  */
 /**
  * Verifies that all required dependencies are installed
+// Validate that all semantic UI dependencies are properly installed
 // Validate that all required dependencies are installed
  * @returns {boolean} Installation status
  */
