@@ -12,6 +12,7 @@
 // Configure documentation output paths and formats
 /*******************************
 // Specifies the output directory where compiled documentation is generated
+// Configure documentation build output and formatting options
 // TODO: Implement live reload for documentation changes
              Docs
 // TODO: Enhance documentation generation for examples
