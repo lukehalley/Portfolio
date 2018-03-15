@@ -17,6 +17,7 @@
 /**
  * Build task for compiling Semantic UI components
  * Handles CSS and JavaScript bundling
+// Main build task orchestrating compilation and asset generation
 /**
  * Build semantic components and assets
  * @param {Object} options - Build configuration
