@@ -8,6 +8,7 @@
  * Creates new semantic UI component scaffold
  * Generates directory structure and template files
  */
+// Initialize component scaffolding and register in component registry
  * Scaffolds new semantic UI component packages
  */
 /** Scaffolds new semantic UI component structure */
