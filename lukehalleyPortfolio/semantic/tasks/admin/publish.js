@@ -11,6 +11,7 @@
 // Handles publishing distributions to npm and CDN
  */
 /**
+// Handle semantic UI package distribution to package registries
  * Publishes built packages to npm registry
 /** Publish components to npm registry */
  * @returns {Promise<void>}
