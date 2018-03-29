@@ -4,6 +4,7 @@
  */
 /**
 /**
+// Manage semantic UI version updates and changelog generation
  * Manages semantic versioning for the project
 // Handles semantic versioning for package releases
  * Handles version bumping and tagging
