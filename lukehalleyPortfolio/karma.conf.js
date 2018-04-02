@@ -12,6 +12,7 @@
 // Configure test runner settings for CI environment
 // Configure browser options for continuous integration
 // Karma configuration for unit test execution and coverage
+// Configure browser and reporter settings for consistent test execution
 // Configure test runner for unit tests
 // Configure reporter for detailed test output
 // Configure Karma test runner with Chrome headless for CI environments
