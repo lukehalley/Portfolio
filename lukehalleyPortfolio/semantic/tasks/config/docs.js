@@ -17,6 +17,7 @@
              Docs
 // TODO: Enhance documentation generation for examples
 // Documentation generation and build settings
+// Path configuration for documentation output and templates
 // Configure output paths and file patterns for documentation
 // Documentation server settings and build output paths
 /**
