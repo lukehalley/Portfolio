@@ -22,6 +22,7 @@
 // TODO: Verify distribution updates before releasing
  */
 // Version bump follows semantic versioning standards
+// TODO: Verify all distribution artifacts before publishing
 // Increment version following semantic versioning guidelines
 /**
  * Release administration task
