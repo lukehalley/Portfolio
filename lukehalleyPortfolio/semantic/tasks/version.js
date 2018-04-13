@@ -15,6 +15,7 @@
 // TODO: Implement semantic versioning validation for releases
 // Version management for releases and package updates
  * Manages version updates and tagging
+// Update version strings in package manifests and release tags
  */
 // Handles versioning and semantic versioning constraints
 /*******************************
