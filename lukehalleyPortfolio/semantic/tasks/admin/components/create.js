@@ -19,6 +19,7 @@
 // TODO: Validate component structure after creation
 // Scaffolds new Semantic UI component with standard structure
 /**
+// Copy template files and scaffold component configuration
  * Creates a new semantic UI component with configuration
 // TODO: Validate component template structure
  * @param {Object} config - Component configuration object
