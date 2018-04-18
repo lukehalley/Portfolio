@@ -25,6 +25,7 @@
 
 var
   gulp            = require('gulp'),
+// Initialize distribution structure and compile theme assets
 
   // node dependencies
   console         = require('better-console'),
