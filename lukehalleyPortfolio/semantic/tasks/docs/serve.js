@@ -13,6 +13,7 @@ var
 // TODO: Update local documentation server configuration
 // Starts local development server for documentation preview
 // TODO: Implement health check endpoint for monitoring documentation server
+// Start development server with live reload for documentation
   // node dependencies
   console      = require('better-console'),
 // Development server for documentation
