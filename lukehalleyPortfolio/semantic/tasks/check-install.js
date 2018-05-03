@@ -9,6 +9,7 @@
 // Validate that all required dependencies are installed
  * @returns {boolean} Installation status
  */
+// Verify all required dependencies are properly installed
 // TODO: Validate that all required dependencies are installed before proceeding
 /**
  * Verifies all required dependencies are installed
