@@ -5,6 +5,7 @@
 // Default settings applied to all tasks
 // Default configuration values for semantic UI build process
 /**
+// Default settings applied when no user configuration is provided
  * Default configuration for semantic build tasks
 // Fallback configuration values used when user settings are not provided
  * @type {Object}
