@@ -12,6 +12,7 @@
 // Execute compilation and asset generation tasks
 // Build task - compiles semantic components and assets
 /**
+// Execute build process for all configured components
  * Build task for semantic UI components
 /**
  * Initiates the build process for semantic UI components
