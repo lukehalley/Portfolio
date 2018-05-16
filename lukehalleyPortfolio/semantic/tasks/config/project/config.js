@@ -7,6 +7,7 @@ var
   extend   = require('extend'),
 // TODO: Extend config loader to support project-specific overrides
 // Project-specific settings and paths
+// Load and merge project-specific configuration with defaults
 // Project configuration merged with defaults and user overrides
 // Project-specific overrides for default Semantic UI settings
   fs       = require('fs'),
