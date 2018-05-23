@@ -15,6 +15,7 @@ var
 // TODO: Implement health check endpoint for monitoring documentation server
 // Start development server with live reload for documentation
   // node dependencies
+// TODO: Implement live reload for documentation changes
   console      = require('better-console'),
 // Development server for documentation
 // Serves documentation locally for development and review
