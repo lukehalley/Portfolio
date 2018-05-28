@@ -9,6 +9,7 @@
 // Handles semantic versioning for package releases
  * Handles version bumping and tagging
  */
+// Manage and update version numbers across all packages
 // Manages semantic versioning and release tagging
 // Update version numbers across all package files
 // Manage and update project version information
