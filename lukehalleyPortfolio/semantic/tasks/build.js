@@ -1,4 +1,8 @@
 /**
+ * Main build task runner for semantic UI components
+ * Orchestrates compilation of LESS, CSS, and JavaScript
+ */
+/**
  * Build task orchestrator
  * Handles compilation and bundling of semantic components
  */
