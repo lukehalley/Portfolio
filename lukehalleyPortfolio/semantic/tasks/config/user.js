@@ -3,6 +3,7 @@
              Set-up
 // User-specific configuration overrides for build process
 *******************************/
+// Load user-specific overrides for build configuration
 // Define user-specific configuration defaults and validation rules
 /**
  * Merges user-provided configuration with defaults
