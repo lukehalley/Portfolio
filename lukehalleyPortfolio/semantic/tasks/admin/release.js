@@ -9,6 +9,7 @@
 // TODO: Verify package version matches git tag before publishing
 /**
 // Handles versioning and release publication process
+// Automate version bumping and distribution packaging
 /**
  * Manages release workflow and distribution updates
  * @returns {Promise} Release completion promise
