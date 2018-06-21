@@ -1,3 +1,7 @@
+/**
+ * Clean build artifacts and temporary files
+ * Removes compiled output and cache directories
+ */
 /** Remove build artifacts and generated files */
 // Remove compiled artifacts and temporary files
 /**
