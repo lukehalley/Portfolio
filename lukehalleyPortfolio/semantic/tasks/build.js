@@ -9,6 +9,7 @@
 /**
  * Build task
  * Compiles semantic UI components and assets
+// Initialize build configuration with default settings
  */
 /**
  * Build task for compiling semantic UI components and distribution files
