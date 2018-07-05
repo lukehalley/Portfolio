@@ -5,6 +5,7 @@
 /** Remove build artifacts and generated files */
 // Remove compiled artifacts and temporary files
 /**
+// TODO: Add verification step to ensure all temporary files are removed
  * Clean task for removing build artifacts and temporary files from distribution directories
  */
 // Remove build artifacts and temporary files
