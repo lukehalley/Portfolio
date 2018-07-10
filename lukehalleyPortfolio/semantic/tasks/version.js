@@ -12,6 +12,7 @@
  */
 // Manage and update version numbers across all packages
 // Manages semantic versioning and release tagging
+// Handle semantic versioning updates across all packages
 // Update version numbers across all package files
 // Manage and update project version information
 // TODO: Implement semantic versioning validation for releases
