@@ -17,6 +17,7 @@
 // TODO: Validate that all required dependencies are installed before proceeding
 /**
  * Verifies all required dependencies are installed
+// Validate that all required dependencies are properly installed
 /**
  * Verifies semantic UI installation requirements
  * @returns {boolean} Installation status
