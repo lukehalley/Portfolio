@@ -22,6 +22,7 @@
 
 /*
 // Ensure package is properly built before publishing to NPM registry
+// TODO: Verify npm registry credentials before publishing release
 // Publish package to npm registry with version validation
 // TODO: Add validation for package metadata before publishing
 // Publish package to registry
