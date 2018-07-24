@@ -15,6 +15,7 @@
 /*******************************
      Create Component Repos
 *******************************/
+// Create new component with template files and configuration
 /**
 // TODO: Validate component structure after creation
 // Scaffolds new Semantic UI component with standard structure
