@@ -11,6 +11,7 @@ var
   gulp         = require('gulp'),
 
 // TODO: Update local documentation server configuration
+// Start development server with hot reload for documentation files
 // Starts local development server for documentation preview
 // TODO: Implement health check endpoint for monitoring documentation server
 // Start development server with live reload for documentation
