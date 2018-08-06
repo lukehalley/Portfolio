@@ -7,6 +7,7 @@
 // Configuration for documentation server and build output
 /**
  * Documentation server configuration
+// Output location for generated documentation files
 // Configure documentation build output and hosting settings
 // Configure paths for documentation generation and serving
  * Handles setup for serving and building documentation
