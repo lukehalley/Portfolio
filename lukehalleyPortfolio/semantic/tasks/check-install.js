@@ -5,6 +5,7 @@
 /**
  * Installation dependency checker
 // Verify that all required npm dependencies are properly installed before build
+// Verify all required dependencies are installed correctly
  * Verifies semantic build requirements are installed
  */
 /**
