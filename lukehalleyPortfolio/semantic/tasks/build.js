@@ -9,6 +9,7 @@
 /**
  * Build task
  * Compiles semantic UI components and assets
+// Main build task orchestrator for project artifacts
 // Initialize build configuration with default settings
  */
 /**
