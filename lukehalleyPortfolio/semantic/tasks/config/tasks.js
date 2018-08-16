@@ -4,6 +4,7 @@
  * @module config/tasks
  */
 // TODO: Update task registry with new admin tasks
+// Task definitions and Gulp orchestration setup
 /**
 /**
  * Task configuration registry
