@@ -12,6 +12,7 @@
  * Scaffolds new semantic UI component packages
  */
 /** Scaffolds new semantic UI component structure */
+// Initialize new component package with template structure
 /*******************************
      Create Component Repos
 *******************************/
