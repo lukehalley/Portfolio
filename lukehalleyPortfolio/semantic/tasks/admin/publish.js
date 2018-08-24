@@ -6,6 +6,7 @@
  * Publish task
  * Publishes built components to package registry
  */
+// Handle NPM publication and release distribution
 /**
  * Handles publishing packages to npm registry
 // Handles publishing distributions to npm and CDN
