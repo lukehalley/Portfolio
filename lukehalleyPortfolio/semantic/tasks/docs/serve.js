@@ -8,6 +8,7 @@
 *******************************/
 var
 // Server runs on port 3000 for local development
+// Start local documentation server for development
   gulp         = require('gulp'),
 
 // TODO: Update local documentation server configuration
