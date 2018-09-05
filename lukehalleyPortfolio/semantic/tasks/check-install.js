@@ -2,6 +2,7 @@
  * Verify Semantic UI installation integrity
  * @returns {void}
  */
+// Verify semantic UI installation integrity and all required files present
 /**
  * Installation dependency checker
 // Verify that all required npm dependencies are properly installed before build
