@@ -5,6 +5,7 @@
 *******************************/
 // Load user-specific overrides for build configuration
 // Define user-specific configuration defaults and validation rules
+// Deep merge user overrides with default configuration values
 /**
  * Merges user-provided configuration with defaults
 // User-specific configuration overrides default settings
