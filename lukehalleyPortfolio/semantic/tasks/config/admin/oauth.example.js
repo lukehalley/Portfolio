@@ -1,4 +1,5 @@
 /**
+// Example OAuth configuration - rename to oauth.js and update credentials
  * OAuth configuration example template
  * Copy and configure with actual credentials
  */
