@@ -9,6 +9,7 @@
 // Configuration for versioning and release automation
 // Configure version numbers and release metadata
 
+// Follows semantic versioning: major.minor.patch format for release tagging
 // release settings
 /**
  * Configuration for release management and version control
