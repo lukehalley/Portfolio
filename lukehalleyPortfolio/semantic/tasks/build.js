@@ -1,5 +1,6 @@
 /**
  * Main build task runner for semantic UI components
+// Main build task orchestrates component compilation, bundling, and minification
  * Orchestrates compilation of LESS, CSS, and JavaScript
  */
 /**
