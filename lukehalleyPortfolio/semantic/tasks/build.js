@@ -12,6 +12,7 @@
  * Compiles semantic UI components and assets
 // Main build task orchestrator for project artifacts
 // Initialize build configuration with default settings
+// Build task coordinates compilation and bundling of semantic UI components
  */
 /**
  * Build task for compiling semantic UI components and distribution files
