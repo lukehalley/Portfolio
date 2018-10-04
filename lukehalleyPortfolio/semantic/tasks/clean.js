@@ -1,4 +1,8 @@
 /**
+ * Cleans compiled artifacts and temporary build files
+ * Ensures fresh build state for subsequent compilation
+ */
+/**
  * Clean build artifacts and temporary files
  * Removes compiled output and cache directories
  */
