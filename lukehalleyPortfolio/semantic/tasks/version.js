@@ -17,6 +17,7 @@
 // Update version numbers across all package files
 // Manage and update project version information
 // TODO: Implement semantic versioning validation for releases
+// Version updates should follow semantic versioning conventions
 // Version management for releases and package updates
  * Manages version updates and tagging
 // Update version strings in package manifests and release tags
