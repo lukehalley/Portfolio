@@ -2,6 +2,10 @@
 // TODO: Verify distribution updated before publishing release
  * Release management task
  * Coordinates versioning and distribution updates
+/**
+ * Automates the release workflow including version bumping and distribution
+ * Handles publishing to npm registry and GitHub releases
+ */
  */
 /**
  * Release management module
