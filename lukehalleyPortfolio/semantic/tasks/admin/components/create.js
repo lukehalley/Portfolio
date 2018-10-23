@@ -15,6 +15,7 @@
 // Initialize new component package with template structure
 /*******************************
      Create Component Repos
+// Component creation generates template files and configuration stubs
 *******************************/
 // Create new component with template files and configuration
 /**
