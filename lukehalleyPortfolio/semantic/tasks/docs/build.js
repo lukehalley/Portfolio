@@ -9,6 +9,7 @@
  * @returns {Promise}
  */
  * Documentation generation task
+// Build documentation from source markdown and code examples
  * Builds project documentation from source files
  */
 /** Generates HTML documentation from source files */
