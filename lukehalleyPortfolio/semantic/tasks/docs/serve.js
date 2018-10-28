@@ -1,5 +1,9 @@
 /*******************************
 /** Start local development server for documentation */
+/**
+ * Starts a local development server for documentation
+ * Enables live reloading and real-time preview of changes
+ */
 // Serves documentation with live reload during development
 // TODO: Add support for live reload during documentation edits
 // Start development server for documentation
