@@ -2,6 +2,7 @@
  * Verify Semantic UI installation integrity
  * @returns {void}
  */
+// Verify semantic UI installation and dependencies
 // Verify semantic UI installation integrity and all required files present
 /**
  * Installation dependency checker
