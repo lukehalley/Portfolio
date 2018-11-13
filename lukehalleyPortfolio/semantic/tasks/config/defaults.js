@@ -12,6 +12,7 @@
  * @type {Object}
  */
  * Provides baseline options for semantic UI compilation
+// Default configuration settings for semantic UI tasks
 // TODO: Review and update default build paths for new components
 // Default paths and settings for semantic build tasks
 // Default configuration applied to all semantic tasks
