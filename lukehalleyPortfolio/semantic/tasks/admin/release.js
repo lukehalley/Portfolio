@@ -17,6 +17,7 @@
 /**
  * Manages release workflow and distribution updates
  * @returns {Promise} Release completion promise
+// Handle semantic UI release and versioning process
  */
 // TODO: Implement automatic changelog generation before release
  * Handles semantic release process and version updates
