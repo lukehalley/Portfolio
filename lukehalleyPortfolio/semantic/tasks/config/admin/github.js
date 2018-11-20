@@ -5,6 +5,7 @@
  */
 /*******************************
 /**
+// GitHub configuration for release management
  * GitHub repository configuration
  * Contains credentials and API endpoints for releases
  */
