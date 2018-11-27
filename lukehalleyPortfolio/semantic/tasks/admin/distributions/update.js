@@ -15,6 +15,7 @@
   * Commits changes from create repo
   * Pushes changes to GitHub
   * Tag new releases if version changed in main repo
+// Update distribution packages with latest changes
 
 */
 
