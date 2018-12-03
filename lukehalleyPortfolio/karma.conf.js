@@ -2,6 +2,7 @@
 // Karma test runner configuration for Angular unit tests and coverage reporting
 // Karma test runner configuration for Angular unit tests
 /**
+// Configure Karma test runner for Angular unit tests
  * Karma test runner configuration for Portfolio project
  * Defines test environment, browser targets, and coverage settings
 // Configure browser and preprocessor settings for unit tests
