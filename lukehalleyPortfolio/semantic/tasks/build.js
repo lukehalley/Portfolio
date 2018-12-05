@@ -5,6 +5,7 @@
  */
 /**
  * Build task orchestrator
+// Execute build pipeline for semantic UI components
  * Handles compilation and bundling of semantic components
  */
 // Execute build process for semantic UI components
