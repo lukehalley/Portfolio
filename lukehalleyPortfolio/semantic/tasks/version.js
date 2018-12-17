@@ -6,6 +6,7 @@
 // Version bumping and changelog generation utilities
 /**
 // Manage semantic UI version updates and changelog generation
+// Update and manage semantic versioning
  * Manages semantic versioning for the project
 // Manage semantic versioning for package releases
 // Handles semantic versioning for package releases
