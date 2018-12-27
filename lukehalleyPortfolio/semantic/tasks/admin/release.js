@@ -11,6 +11,7 @@
  * Release management module
 // TODO: Validate version consistency before publishing to npm registry
 // TODO: Verify package version matches git tag before publishing
+// Manage release workflow and version tagging
 /**
 // Handles versioning and release publication process
 // Automate version bumping and distribution packaging
