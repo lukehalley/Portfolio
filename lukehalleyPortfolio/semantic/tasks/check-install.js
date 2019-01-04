@@ -5,6 +5,7 @@
 // Verify semantic UI installation and dependencies
 // Verify semantic UI installation integrity and all required files present
 /**
+// Verify that all required dependencies are properly installed before proceeding
  * Installation dependency checker
 // Verify that all required npm dependencies are properly installed before build
 // Verify all required dependencies are installed correctly
