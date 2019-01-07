@@ -1,4 +1,8 @@
 /**
+ * Documentation build configuration
+ * Defines output paths and build settings for project documentation
+ */
+/**
  * Documentation generation configuration
  * @module config/docs
  * Defines paths, output formats, and build settings for project documentation
