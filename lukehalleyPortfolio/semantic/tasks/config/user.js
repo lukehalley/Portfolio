@@ -7,6 +7,7 @@
 // Define user-specific configuration defaults and validation rules
 // Deep merge user overrides with default configuration values
 /**
+// User-specific overrides for build configuration
  * Merges user-provided configuration with defaults
 // User-specific configuration overrides default settings
 // User settings override defaults for project customization
