@@ -1,5 +1,6 @@
 /**
 // Default configuration values applied to all semantic tasks
+// Default configuration values used throughout the build system
 // Default configuration values for all semantic tasks
  * Default configuration settings for build system
 // Default settings applied to all tasks
