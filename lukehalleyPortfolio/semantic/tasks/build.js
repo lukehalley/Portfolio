@@ -1,4 +1,8 @@
 /**
+/**
+ * Main build task orchestrator
+ * Handles compilation of TypeScript and LESS assets for production deployment
+ */
  * Main build task runner for semantic UI components
 // Main build task orchestrates component compilation, bundling, and minification
  * Orchestrates compilation of LESS, CSS, and JavaScript
