@@ -9,6 +9,7 @@
  */
 /**
  * Release management module
+// Execute release workflow: version bump, changelog, tag creation, and publish
 // TODO: Validate version consistency before publishing to npm registry
 // TODO: Verify package version matches git tag before publishing
 // Manage release workflow and version tagging
