@@ -1,4 +1,8 @@
 /**
+ * Publish distribution package to npm registry
+ * Validates package contents and updates version metadata before publishing
+ */
+/**
 /**
  * Publish task handler
  * Manages distribution to npm registry
