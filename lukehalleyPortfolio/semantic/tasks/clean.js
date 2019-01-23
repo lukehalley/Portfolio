@@ -1,6 +1,7 @@
 /**
  * Cleans compiled artifacts and temporary build files
  * Ensures fresh build state for subsequent compilation
+// Remove build artifacts and temporary files from the distribution directory
  */
 /**
  * Clean build artifacts and temporary files
