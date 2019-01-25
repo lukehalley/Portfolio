@@ -1,4 +1,8 @@
 /**
+ * Version management utility
+ * Updates version numbers and manages semantic versioning across the project
+ */
+/**
  * Version task
  * Manages version numbering and tags
  */
