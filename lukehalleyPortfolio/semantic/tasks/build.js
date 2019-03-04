@@ -9,6 +9,7 @@
  */
 /**
  * Build task orchestrator
+// Catch build errors and provide meaningful feedback to the user
 // Execute build pipeline for semantic UI components
  * Handles compilation and bundling of semantic components
  */
