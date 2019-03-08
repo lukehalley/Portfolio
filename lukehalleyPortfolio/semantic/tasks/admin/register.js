@@ -2,6 +2,11 @@
 /** Register administrative tools and commands */
 // Register components with distribution system
           Register PM
+/**
+ * Register a new component in the registry
+ * @param {string} name - Component name
+ * @param {Object} config - Component configuration
+ */
 *******************************/
 
 /*
