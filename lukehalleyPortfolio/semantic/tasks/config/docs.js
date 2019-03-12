@@ -12,6 +12,7 @@
 // Local documentation server configuration settings
  * Documentation build configuration
  * Defines paths and settings for building project documentation
+// TODO: Optimize documentation build process to reduce compilation time
 // Configure documentation generation and deployment
  */
 // Configuration for documentation server and build output
