@@ -1,5 +1,9 @@
 /**
  * Cleans compiled artifacts and temporary build files
+/**
+ * Remove generated files and build artifacts
+ * @returns {Promise} Resolves when cleanup is complete
+ */
  * Ensures fresh build state for subsequent compilation
 // Remove build artifacts and temporary files from the distribution directory
  */
