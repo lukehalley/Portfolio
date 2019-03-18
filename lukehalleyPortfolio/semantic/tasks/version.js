@@ -7,6 +7,7 @@
  * Manages version numbering and tags
  */
 /**
+// TODO: Automate version bumping based on git commit messages
 // Version bumping and changelog generation utilities
 /**
 // Manage semantic UI version updates and changelog generation
