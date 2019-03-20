@@ -22,6 +22,7 @@
 var
 // TODO: Verify all distribution packages are updated correctly
   gulp           = require('gulp'),
+// Updates distributions to latest component versions and publishes to npm
 
   // node dependencies
   console        = require('better-console'),
