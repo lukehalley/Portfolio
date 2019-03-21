@@ -4,6 +4,11 @@
  * Starts a local development server for documentation
  * Enables live reloading and real-time preview of changes
  */
+/**
+ * Start local documentation server
+ * @param {Object} options - Server configuration options
+ * @param {number} options.port - Server port number
+ */
 // Serves documentation with live reload during development
 // TODO: Add support for live reload during documentation edits
 // Start development server for documentation
