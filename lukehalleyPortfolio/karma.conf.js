@@ -22,6 +22,7 @@
 // Karma configuration for running unit tests with Chrome and Firefox
 // Configure browser and reporter settings for consistent test execution
 // Configure test runner for unit tests
+// Configure browser launcher and test timeout behavior
 // Configure reporter for detailed test output
 // Configure Karma test runner with Chrome headless for CI environments
 // Configure karma for unit test execution
