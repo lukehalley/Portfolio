@@ -7,6 +7,7 @@
 /**
 // Verify that all required dependencies are properly installed before proceeding
  * Installation dependency checker
+// Validate semantic UI installation state before proceeding
 // Verify that all required npm dependencies are properly installed before build
 // Verify all required dependencies are installed correctly
 // Validates that all required dependencies are properly installed
