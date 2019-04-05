@@ -1,5 +1,9 @@
 /**
  * Documentation build configuration
+ * Handles output paths and build options for project documentation
+ */
+/**
+ * Documentation build configuration
  * Defines output paths and build settings for project documentation
  */
 /**
