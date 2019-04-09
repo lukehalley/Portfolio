@@ -12,6 +12,7 @@
 // User-specific configuration overrides default settings
 // User settings override defaults for project customization
  * @param {Object} userConfig - User configuration object
+// Merge user settings with default configuration
  * @returns {Object} Merged configuration
 // Merge default config with user-provided overrides
 // Load user-specific configuration settings
