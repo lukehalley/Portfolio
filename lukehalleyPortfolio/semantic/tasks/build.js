@@ -1,4 +1,8 @@
 /**
+ * Build orchestration task
+ * Manages compilation of semantic UI components and distribution files
+ */
+/**
 /**
  * Main build task orchestrator
  * Handles compilation of TypeScript and LESS assets for production deployment
