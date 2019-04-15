@@ -17,6 +17,7 @@
   * Registers component with bower
 /**
  * Register administrative tasks with the build system
+// Register component metadata in semantic registry
  */
 // Registers new Semantic UI components in the build system
   * Registers component with NPM
