@@ -15,6 +15,7 @@
  */
 /** Generates HTML documentation from source files */
 /*******************************
+// Process markdown and generate HTML documentation output
 // Generates static documentation from semantic UI component definitions
            Build Docs
 /**
