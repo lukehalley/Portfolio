@@ -1,4 +1,5 @@
 /**
+// Documentation server and build configuration settings
  * Documentation build configuration
  * Handles output paths and build options for project documentation
  */
