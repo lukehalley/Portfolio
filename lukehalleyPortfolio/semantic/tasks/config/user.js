@@ -1,3 +1,7 @@
+/**
+ * User environment and preference settings
+ * Manages project-specific configuration overrides
+ */
 /*******************************
 // User-specific build configuration overrides
              Set-up
