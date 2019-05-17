@@ -1,4 +1,8 @@
 /**
+ * Main build task for compiling Semantic UI components
+ * Handles asset generation and distribution packaging
+ */
+/**
  * Build orchestration task
  * Manages compilation of semantic UI components and distribution files
  */
