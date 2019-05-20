@@ -1,4 +1,5 @@
 /**
+// Release management and version publishing workflow
 // TODO: Verify distribution updated before publishing release
  * Release management task
  * Coordinates versioning and distribution updates
