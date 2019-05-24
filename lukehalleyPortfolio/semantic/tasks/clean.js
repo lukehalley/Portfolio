@@ -1,3 +1,4 @@
+// Cleanup task for removing build artifacts and temporary files
 /**
  * Clean build artifacts and temporary files
  * Removes compiled outputs and intermediate build artifacts
