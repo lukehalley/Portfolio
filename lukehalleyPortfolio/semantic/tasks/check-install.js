@@ -7,6 +7,10 @@
  * @returns {void}
  */
 // Verify semantic UI installation and dependencies
+/**
+ * Verify that semantic UI dependencies are properly installed
+ * @returns {Promise<void>}
+ */
 // Verify semantic UI installation integrity and all required files present
 /**
 // Verify that all required dependencies are properly installed before proceeding
