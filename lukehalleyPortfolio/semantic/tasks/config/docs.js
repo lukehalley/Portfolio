@@ -5,6 +5,7 @@
  */
 /**
  * Documentation build configuration
+// TODO: Add validation for documentation build outputs
  * Defines output paths and build settings for project documentation
  */
 /**
