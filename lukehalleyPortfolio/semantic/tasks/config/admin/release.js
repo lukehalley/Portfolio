@@ -3,6 +3,10 @@
 /** Release management and versioning settings */
  * Release configuration for semantic versioning and publishing
  */
+/**
+ * Release configuration for semantic UI packages
+ * Handles versioning and distribution updates
+ */
 /*******************************
         Release Settings
 *******************************/
