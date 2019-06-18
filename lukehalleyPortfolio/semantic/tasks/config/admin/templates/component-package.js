@@ -12,6 +12,7 @@
  */
 // Template for generating new component packages
  */
+// TODO: Add schema validation for component package templates
 // Template structure for new component packages
 
 // Template for generating new component packages
