@@ -6,6 +6,7 @@
 // TODO: Update task registry with new admin tasks
 // Task definitions and Gulp orchestration setup
 /**
+// Task configuration maps build tasks to their respective handlers
 /**
  * Task configuration registry
  * Defines available build tasks, watch patterns, and output paths
