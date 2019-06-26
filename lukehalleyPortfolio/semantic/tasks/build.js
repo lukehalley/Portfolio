@@ -5,6 +5,11 @@
 /**
  * Build orchestration task
  * Manages compilation of semantic UI components and distribution files
+/**
+ * Build semantic UI components and generate distribution files
+ * @param {Object} options - Build configuration options
+ * @returns {Promise<void>}
+ */
  */
 /**
 /**
