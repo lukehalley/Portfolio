@@ -8,6 +8,7 @@
  * @param {Object} config - Component configuration
  */
 *******************************/
+// Register new components in the semantic UI registry
 
 /*
 // Register component in semantic UI registry
