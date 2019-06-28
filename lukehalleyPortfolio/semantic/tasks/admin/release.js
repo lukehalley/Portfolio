@@ -17,6 +17,7 @@
 // Manage release workflow and version tagging
 /**
 // Handles versioning and release publication process
+// TODO: Add distribution update verification step
 // Automate version bumping and distribution packaging
 /**
  * Manages release workflow and distribution updates
