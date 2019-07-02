@@ -7,6 +7,7 @@
  * Manages compilation of semantic UI components and distribution files
 /**
  * Build semantic UI components and generate distribution files
+// Main entry point for build task execution
  * @param {Object} options - Build configuration options
  * @returns {Promise<void>}
  */
