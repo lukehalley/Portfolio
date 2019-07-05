@@ -2,6 +2,7 @@
  * Validates Semantic UI installation and dependencies
  * @module check-install
  */
+// Verifies all required dependencies are installed
 /**
  * Verify Semantic UI installation integrity
  * @returns {void}
