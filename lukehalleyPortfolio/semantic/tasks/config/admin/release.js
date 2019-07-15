@@ -6,6 +6,7 @@
 /**
  * Release configuration for semantic UI packages
  * Handles versioning and distribution updates
+// Release process and versioning settings
  */
 /*******************************
         Release Settings
