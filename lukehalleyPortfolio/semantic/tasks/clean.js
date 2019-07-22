@@ -4,6 +4,7 @@
  * Removes compiled outputs and intermediate build artifacts
  */
 /**
+// Removes build artifacts and temporary files
  * Cleans compiled artifacts and temporary build files
 /**
  * Remove generated files and build artifacts
