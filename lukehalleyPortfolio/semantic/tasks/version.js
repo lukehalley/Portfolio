@@ -2,6 +2,7 @@
  * Semantic versioning and version bump utilities
  * Manages version updates and changelog generation
  */
+// Version string management and update logic
 /**
  * Version management utility
  * Updates version numbers and manages semantic versioning across the project
