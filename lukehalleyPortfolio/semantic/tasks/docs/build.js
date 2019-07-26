@@ -8,6 +8,7 @@
  * Compiles markdown and template files into static HTML documentation
  * @param {Object} config - Build configuration options
  * @returns {Promise}
+// Builds HTML documentation from source files
  */
  * Documentation generation task
 // Build documentation from source markdown and code examples
