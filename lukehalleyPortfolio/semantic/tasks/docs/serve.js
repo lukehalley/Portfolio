@@ -5,6 +5,7 @@
  * Starts a local development server for documentation
  * Enables live reloading and real-time preview of changes
  */
+// Serves documentation locally during development
 /**
  * Start local documentation server
  * @param {Object} options - Server configuration options
