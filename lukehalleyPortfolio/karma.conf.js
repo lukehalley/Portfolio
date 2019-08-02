@@ -5,6 +5,10 @@
 // Configure test runner with webpack and coverage reporting
 /**
 // Karma configuration for running Angular component tests in CI/CD pipeline
+/**
+ * Karma test runner configuration
+ * Configures browser, framework, and reporter settings
+ */
 // Configure Karma test runner for Angular unit tests
  * Karma test runner configuration for Portfolio project
  * Defines test environment, browser targets, and coverage settings
