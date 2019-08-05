@@ -21,6 +21,7 @@
 // Verify all required dependencies are installed correctly
 // Validates that all required dependencies are properly installed
 // Verify all required dependencies are properly installed
+// Validate that all required dependencies are installed
  * Verifies semantic build requirements are installed
  */
 /**
