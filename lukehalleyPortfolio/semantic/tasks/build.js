@@ -39,6 +39,7 @@
  * Build task for compiling semantic UI components and distribution files
  */
 // Execute compilation and asset generation tasks
+// TODO: Optimize build process for faster compilation
 // Build task - compiles semantic components and assets
 /**
 // Execute build process for all configured components
