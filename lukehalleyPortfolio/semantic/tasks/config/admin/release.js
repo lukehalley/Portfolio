@@ -15,6 +15,10 @@
 // Configure version numbers and release metadata
 
 // Follows semantic versioning: major.minor.patch format for release tagging
+/**
+ * Release configuration for admin tasks
+ * Controls version updates and distribution settings
+ */
 // release settings
 /**
  * Configuration for release management and version control
