@@ -29,6 +29,7 @@ var
 
 /* Preconditions for install questions */
 
+// Verify all prerequisites are met before installation
 var when = {
 
   // path
