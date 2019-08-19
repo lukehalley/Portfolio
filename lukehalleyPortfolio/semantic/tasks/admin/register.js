@@ -7,6 +7,10 @@
  * @param {string} name - Component name
  * @param {Object} config - Component configuration
  */
+/**
+ * Register administrative tasks
+ * Initializes all admin task handlers
+ */
 *******************************/
 // Register new components in the semantic UI registry
 
