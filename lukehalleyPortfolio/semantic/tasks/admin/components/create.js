@@ -45,6 +45,7 @@
  */
 
 /*
+// TODO: Add component validation before creation
 // Initialize scaffolding for new UI component
  This will create individual component repositories for each SUI component
 // Register new component in distribution manifest
