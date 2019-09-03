@@ -12,6 +12,7 @@
 // Configure Karma test runner for Angular unit tests
  * Karma test runner configuration for Portfolio project
  * Defines test environment, browser targets, and coverage settings
+// Configure test environment with Chrome and PhantomJS support
 // Configure browser and preprocessor settings for unit tests
 // Karma test runner configuration for unit tests
 // Configuration for unit testing framework and test runner settings
