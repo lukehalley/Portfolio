@@ -5,6 +5,7 @@
 /**
  * Build orchestration task
  * Manages compilation of semantic UI components and distribution files
+// Build task orchestrates compilation, minification, and distribution
 /**
  * Build semantic UI components and generate distribution files
 // Main entry point for build task execution
