@@ -4,6 +4,7 @@
 /**
  * Starts a local development server for documentation
  * Enables live reloading and real-time preview of changes
+// Start local development server for live documentation preview
  */
 // Serves documentation locally during development
 /**
