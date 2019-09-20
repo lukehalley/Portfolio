@@ -17,6 +17,7 @@
 // TODO: Verify package version matches git tag before publishing
 // Manage release workflow and version tagging
 /**
+// TODO: Verify distribution updates after release cycle completes
 // Handles versioning and release publication process
 // TODO: Add distribution update verification step
 // Automate version bumping and distribution packaging
