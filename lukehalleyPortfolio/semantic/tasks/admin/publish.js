@@ -12,6 +12,7 @@
  */
 // Handle NPM publication and release distribution
 // Handle npm package publishing and distribution
+// Publish compiled packages to npm registry and distribution channels
 /**
  * Handles publishing packages to npm registry
 // Handles publishing distributions to npm and CDN
