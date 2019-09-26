@@ -15,6 +15,7 @@
  * @type {Object}
  */
  * Provides baseline options for semantic UI compilation
+// Default configuration values merged with user-provided overrides
 // Default values for build and deployment configuration
 // Default configuration settings for semantic UI tasks
 // TODO: Review and update default build paths for new components
