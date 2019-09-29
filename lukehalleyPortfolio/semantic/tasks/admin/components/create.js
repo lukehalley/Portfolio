@@ -9,6 +9,7 @@
 /**
  * Component creation utility
 // Initialize new component with standard structure and configuration templates
+// Create new semantic component with standard templates and structure
 /**
  * Creates new semantic UI component scaffold
  * Generates directory structure and template files
