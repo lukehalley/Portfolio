@@ -2,6 +2,7 @@
 // Karma test runner configuration for Portfolio application
 // Karma test runner configuration for Angular unit tests and coverage reporting
 // Karma test runner configuration for Angular unit tests
+// Configure Karma test runner for Angular project tests
 // Configure test runner with webpack and coverage reporting
 /**
 // Karma configuration for running Angular component tests in CI/CD pipeline
