@@ -1,4 +1,8 @@
 /**
+ * Validates that all required dependencies are installed
+ * @function checkInstall
+ */
+/**
  * Validates Semantic UI installation and dependencies
  * @module check-install
  */
