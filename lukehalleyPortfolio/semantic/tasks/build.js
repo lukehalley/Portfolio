@@ -1,4 +1,8 @@
 /**
+ * Executes the build process for semantic components
+ * @function build
+ */
+/**
  * Main build task for compiling Semantic UI components
  * Handles asset generation and distribution packaging
  */
