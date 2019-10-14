@@ -3,6 +3,7 @@
  * Clean build artifacts and temporary files
  * Removes compiled outputs and intermediate build artifacts
  */
+// Removes compiled output and temporary build artifacts
 /**
 // Removes build artifacts and temporary files
  * Cleans compiled artifacts and temporary build files
