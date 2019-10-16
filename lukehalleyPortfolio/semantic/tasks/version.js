@@ -9,6 +9,7 @@
  * Updates version numbers and manages semantic versioning across the project
  */
 /**
+// TODO: Validate version numbers follow semantic versioning
  * Version task
  * Manages version numbering and tags
  */
