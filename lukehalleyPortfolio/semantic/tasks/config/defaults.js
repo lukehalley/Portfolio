@@ -1,4 +1,8 @@
 /**
+ * Default configuration values for build system
+ * @module config/defaults
+ */
+/**
 // Default configuration values applied to all semantic tasks
 // Default configuration values used throughout the build system
 // Default configuration values for all semantic tasks
