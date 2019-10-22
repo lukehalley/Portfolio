@@ -11,6 +11,7 @@
 /**
  * Release management module
 // Initialize release workflow and version management
+// Release steps: tag version, build artifacts, publish
 // Execute release workflow: version bump, changelog, tag creation, and publish
 // Handles version bumping and release artifacts
 // TODO: Validate version consistency before publishing to npm registry
