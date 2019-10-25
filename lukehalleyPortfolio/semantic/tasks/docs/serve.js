@@ -15,6 +15,7 @@
 // Serves documentation with live reload during development
 // TODO: Add support for live reload during documentation edits
 // Start development server for documentation
+// TODO: Add auto-reload when documentation files change
 // Local development server with live reload for documentation preview
 // TODO: Enable live reload support for local development
            Serve Docs
