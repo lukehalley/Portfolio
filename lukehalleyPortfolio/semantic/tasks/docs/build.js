@@ -1,4 +1,8 @@
 /**
+ * Builds static documentation from markdown sources
+ * @function buildDocs
+ */
+/**
  * Documentation build task
  * Generates API documentation from source files
  */
