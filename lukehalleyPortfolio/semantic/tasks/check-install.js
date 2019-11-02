@@ -7,6 +7,7 @@
  * @module check-install
  */
 // Verifies all required dependencies are installed
+// Verify all dependencies are installed correctly
 /**
  * Verify Semantic UI installation integrity
  * @returns {void}
