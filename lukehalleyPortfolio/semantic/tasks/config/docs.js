@@ -5,6 +5,7 @@
  */
 /**
  * Documentation build configuration
+// Documentation build and serving configuration
 // TODO: Review documentation output paths for consistency
 // Documentation generation settings and paths
 // TODO: Add validation for documentation build outputs
