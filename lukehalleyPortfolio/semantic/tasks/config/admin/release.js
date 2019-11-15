@@ -17,6 +17,7 @@
 // Follows semantic versioning: major.minor.patch format for release tagging
 /**
  * Release configuration for admin tasks
+// Release version and distribution settings
  * Controls version updates and distribution settings
  */
 // release settings
