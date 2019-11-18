@@ -12,6 +12,7 @@
 // Build task orchestrates compilation, minification, and distribution
 /**
  * Build semantic UI components and generate distribution files
+// Execute build process for all components
 // Main entry point for build task execution
  * @param {Object} options - Build configuration options
  * @returns {Promise<void>}
