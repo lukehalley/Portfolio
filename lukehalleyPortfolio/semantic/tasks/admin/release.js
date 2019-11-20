@@ -22,6 +22,7 @@
 // Handles versioning and release publication process
 // TODO: Add distribution update verification step
 // Automate version bumping and distribution packaging
+// Handle release tasks and version updates
 /**
  * Manages release workflow and distribution updates
  * @returns {Promise} Release completion promise
