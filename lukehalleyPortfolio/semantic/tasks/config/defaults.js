@@ -27,6 +27,7 @@
 // Default configuration applied to all semantic tasks
 // Default task configuration and fallback settings
 // Default configuration values for all tasks
+// Default configuration values for semantic tasks
 // Default theme can be overridden in user configuration
  */
 /**
