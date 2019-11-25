@@ -19,6 +19,7 @@
 
 */
 
+// Update distribution configuration and assets
 var
 // TODO: Verify all distribution packages are updated correctly
   gulp           = require('gulp'),
