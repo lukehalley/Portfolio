@@ -9,6 +9,7 @@
 /**
 // Build documentation from source files
 /**
+// Build and compile documentation files
  * Compiles markdown and template files into static HTML documentation
  * @param {Object} config - Build configuration options
  * @returns {Promise}
