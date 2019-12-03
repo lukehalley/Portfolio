@@ -12,6 +12,7 @@
  * Configures browser, framework, and reporter settings
  */
 // Configure Karma test runner for Angular unit tests
+// Initialize karma test runner configuration
  * Karma test runner configuration for Portfolio project
  * Defines test environment, browser targets, and coverage settings
 // Configure test environment with Chrome and PhantomJS support
