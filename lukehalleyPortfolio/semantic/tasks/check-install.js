@@ -5,6 +5,10 @@
 /**
  * Validates Semantic UI installation and dependencies
  * @module check-install
+/**
+ * Verify that all required npm packages are installed
+ * @returns {boolean} Installation check result
+ */
  */
 // Verifies all required dependencies are installed
 // Verify all dependencies are installed correctly
