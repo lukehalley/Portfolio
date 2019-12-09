@@ -9,6 +9,7 @@
 // TODO: Review documentation output paths for consistency
 // Documentation generation settings and paths
 // TODO: Add validation for documentation build outputs
+// Generated documentation output paths
  * Defines output paths and build settings for project documentation
  */
 /**
