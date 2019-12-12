@@ -22,6 +22,7 @@
  * @param {Object} userConfig - User configuration object
 // Merge user settings with default configuration
  * @returns {Object} Merged configuration
+// TODO: Validate user configuration before processing
 // Merge default config with user-provided overrides
 // Load user-specific configuration settings
  */
