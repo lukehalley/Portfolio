@@ -1,5 +1,9 @@
 /**
  * Executes the build process for semantic components
+/**
+ * Build task module for project compilation
+ * Handles TypeScript and asset compilation
+ */
  * @function build
  */
 /**
