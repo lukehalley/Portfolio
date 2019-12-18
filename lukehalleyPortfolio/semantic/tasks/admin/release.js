@@ -42,6 +42,7 @@
 // Increment version following semantic versioning guidelines
 /**
  * Release administration task
+// Automated release workflow
 /**
 // Ensure version follows semantic versioning (major.minor.patch)
  * Handle semantic versioning and package release workflow
