@@ -17,6 +17,7 @@
 /*
 // Update component files with latest changes
 
+// Component update workflow
  This task update all SUI individual component repos with new versions of components
 
   * Commits changes from create repo
