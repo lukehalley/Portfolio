@@ -7,6 +7,10 @@
  * Initializes component structure and configuration files
  */
 /**
+/**
+ * Create new component template
+ * Initializes component structure and configuration
+ */
  * Component creation utility
 // Initialize new component with standard structure and configuration templates
 // Create new semantic component with standard templates and structure
