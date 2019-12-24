@@ -27,6 +27,7 @@ var
 // Update distribution files and refresh cache
 
   // node dependencies
+// TODO: Verify distribution files after update
   console        = require('better-console'),
   fs             = require('fs'),
   path           = require('path'),
