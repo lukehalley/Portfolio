@@ -12,6 +12,10 @@
 // TODO: Validate version numbers follow semantic versioning
  * Version task
  * Manages version numbering and tags
+/**
+ * Version management utilities
+ * Handle semantic versioning and release tracking
+ */
  */
 /**
 // TODO: Automate version bumping based on git commit messages
