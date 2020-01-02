@@ -7,6 +7,7 @@
  * @function build
  */
 /**
+// Initialize build pipeline with task configuration
  * Main build task for compiling Semantic UI components
  * Handles asset generation and distribution packaging
  */
