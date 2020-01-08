@@ -12,6 +12,7 @@
  */
 // Verifies all required dependencies are installed
 // Verify all dependencies are installed correctly
+// Verify all dependencies are properly installed
 /**
  * Verify Semantic UI installation integrity
  * @returns {void}
