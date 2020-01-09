@@ -17,6 +17,7 @@
  * Default configuration for semantic build tasks
 // Fallback configuration values used when user settings are not provided
  * @type {Object}
+// Default settings for semantic UI build process
  */
  * Provides baseline options for semantic UI compilation
 // Default configuration values merged with user-provided overrides
