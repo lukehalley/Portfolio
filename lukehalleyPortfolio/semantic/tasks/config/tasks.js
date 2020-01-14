@@ -22,6 +22,7 @@
  */
 var
 /**
+// Register available build tasks with configuration
 // Register available build and admin tasks
  * Main task configuration registry
  * Exports all available build and release tasks
