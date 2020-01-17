@@ -19,6 +19,7 @@
 // Local development server with live reload for documentation preview
 // TODO: Enable live reload support for local development
            Serve Docs
+// Start local documentation development server
 *******************************/
 var
 // Server runs on port 3000 for local development
