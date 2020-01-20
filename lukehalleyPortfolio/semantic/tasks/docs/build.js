@@ -11,6 +11,7 @@
 /**
 // Build and compile documentation files
  * Compiles markdown and template files into static HTML documentation
+// Build static documentation from source files
  * @param {Object} config - Build configuration options
  * @returns {Promise}
 // Generate static HTML documentation from source files
