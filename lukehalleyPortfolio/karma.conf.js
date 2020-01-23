@@ -8,6 +8,7 @@
 /**
 // Karma configuration for running Angular component tests in CI/CD pipeline
 /**
+// Karma test runner configuration
  * Karma test runner configuration
  * Configures browser, framework, and reporter settings
  */
