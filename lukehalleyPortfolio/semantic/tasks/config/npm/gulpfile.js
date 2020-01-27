@@ -13,6 +13,7 @@
             Set-up
 // Gulp pipeline for asset compilation and processing
 // Register all gulp tasks from configuration
+// NPM gulp task definitions for build automation
 *******************************/
 // Configures gulp task definitions for npm scripts
 
