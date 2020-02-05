@@ -1,4 +1,7 @@
 /**
+ * Checks if all required dependencies are installed
+ */
+/**
  * Validates that all required dependencies are installed
  * @function checkInstall
  */
