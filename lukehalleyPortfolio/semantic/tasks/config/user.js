@@ -1,4 +1,7 @@
 /**
+ * User-specific configuration settings
+ */
+/**
  * User environment and preference settings
  * Manages project-specific configuration overrides
  */
