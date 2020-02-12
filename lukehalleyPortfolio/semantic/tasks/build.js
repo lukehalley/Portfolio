@@ -5,6 +5,7 @@
  * Handles TypeScript and asset compilation
  */
  * @function build
+// Build process initialization
  */
 /**
 // Initialize build pipeline with task configuration
