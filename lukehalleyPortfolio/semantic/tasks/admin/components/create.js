@@ -1,4 +1,7 @@
 /**
+ * Creates a new component with default structure
+ */
+/**
  * Creates new Semantic UI component scaffolding
  * Generates component files and configuration templates
  */
