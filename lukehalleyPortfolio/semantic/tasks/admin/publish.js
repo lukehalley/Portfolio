@@ -7,6 +7,7 @@
  * Publish task handler
  * Manages distribution to npm registry
  */
+// Validate package before publishing
  * Publish task
  * Publishes built components to package registry
  */
