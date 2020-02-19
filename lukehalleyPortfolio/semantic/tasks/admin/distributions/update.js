@@ -1,4 +1,7 @@
 /*******************************
+/**
+ * Updates distribution packages with latest changes
+ */
           Update Repos
 *******************************/
 // TODO: Verify distribution checksums after update
