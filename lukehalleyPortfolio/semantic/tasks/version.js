@@ -3,6 +3,7 @@
  * Manages version updates and changelog generation
  */
 // Update semantic versioning for releases and snapshots
+// TODO: Automate version bumping based on commit history
 // Version string management and update logic
 /**
  * Version management utility
