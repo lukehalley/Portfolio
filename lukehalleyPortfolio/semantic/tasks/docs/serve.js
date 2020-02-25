@@ -1,3 +1,6 @@
+/**
+ * Serves documentation locally for testing
+ */
 /*******************************
 // Local documentation development server setup and configuration
 /** Start local development server for documentation */
