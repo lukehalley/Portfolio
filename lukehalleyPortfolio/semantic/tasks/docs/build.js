@@ -1,4 +1,5 @@
 /**
+// Build static documentation files
  * Builds static documentation from markdown sources
  * @function buildDocs
  */
