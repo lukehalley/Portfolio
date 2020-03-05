@@ -12,6 +12,7 @@
  * Main build task for compiling Semantic UI components
  * Handles asset generation and distribution packaging
  */
+// Initialize build configuration and register task handlers
 /**
  * Build orchestration task
  * Manages compilation of semantic UI components and distribution files
