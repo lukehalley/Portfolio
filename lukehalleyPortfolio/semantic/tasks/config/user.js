@@ -1,4 +1,8 @@
 /**
+ * User-specific configuration module
+ * Loads and validates user settings from config files
+ */
+/**
  * User-specific configuration settings
  */
 /**
