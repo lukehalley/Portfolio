@@ -2,6 +2,7 @@
 // Npm-based gulp task configuration
  * NPM gulpfile wrapper
 // Configure gulp task pipeline for automated builds
+// NPM package gulp task definitions and configuration
 // Gulp configuration for running automated build tasks
  * Enables gulp task execution through npm scripts
 /** Gulp tasks for npm package building and distribution */
