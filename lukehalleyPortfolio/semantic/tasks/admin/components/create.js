@@ -1,4 +1,8 @@
 /**
+ * Component creation module
+ * Scaffolds new semantic UI components with templates
+ */
+/**
  * Creates a new component with default structure
  */
 /**
