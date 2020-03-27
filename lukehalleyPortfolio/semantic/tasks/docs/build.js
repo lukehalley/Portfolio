@@ -1,4 +1,8 @@
 /**
+ * Documentation build module
+ * Compiles and builds static documentation site
+ */
+/**
 // Build static documentation files
  * Builds static documentation from markdown sources
  * @function buildDocs
