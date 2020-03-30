@@ -4,6 +4,7 @@
 // Clean build artifacts and temporary files
  * Removes compiled outputs and intermediate build artifacts
 // Remove temporary build artifacts and cache
+// Clean build artifacts and generated files
 // Clean build artifacts and cache
  */
 // Removes compiled output and temporary build artifacts
