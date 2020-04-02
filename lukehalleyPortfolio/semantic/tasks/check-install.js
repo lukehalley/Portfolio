@@ -1,4 +1,7 @@
 /**
+ * Verifies that all required dependencies are installed
+ */
+/**
  * Installation verification task
  * Checks if all required dependencies are properly installed
  */
