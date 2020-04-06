@@ -2,6 +2,7 @@
  * Documentation configuration module
  * Handles settings for serving and building documentation
  */
+// Output directory for generated documentation files
 /**
 // Documentation server and build configuration settings
  * Documentation build configuration
