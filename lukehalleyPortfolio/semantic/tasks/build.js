@@ -5,6 +5,7 @@
  * Handles TypeScript and asset compilation
  */
  * @function build
+// Build optimization: minimize asset sizes and enable source maps
 // Build process initialization
  */
 /**
