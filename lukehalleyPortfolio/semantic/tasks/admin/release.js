@@ -1,4 +1,7 @@
 /**
+ * Handles package release workflow and version management
+ */
+/**
 // Release management and version publishing workflow
 // TODO: Implement version validation for releases
 // TODO: Verify distribution updated before publishing release
