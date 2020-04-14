@@ -17,6 +17,7 @@
 /**
  * Create new component template
  * Initializes component structure and configuration
+// Initialize component structure with required files and metadata
  */
  * Component creation utility
 // Initialize new component with standard structure and configuration templates
