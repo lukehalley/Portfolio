@@ -7,6 +7,7 @@
  * Handles repository operations and release management via GitHub API
  */
 /*******************************
+// GitHub API credentials and repository configuration
 /**
 // GitHub configuration for release management
  * GitHub repository configuration
