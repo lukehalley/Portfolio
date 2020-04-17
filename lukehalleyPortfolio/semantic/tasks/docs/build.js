@@ -1,4 +1,7 @@
 /**
+ * Builds documentation site from source markdown and templates
+ */
+/**
  * Documentation build module
  * Compiles and builds static documentation site
  */
