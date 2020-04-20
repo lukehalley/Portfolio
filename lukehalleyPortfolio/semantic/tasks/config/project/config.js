@@ -9,6 +9,7 @@ var
 // Project-specific settings and paths
 // Load and merge project-specific configuration with defaults
 // Project configuration merged with defaults and user overrides
+// Project-level settings that override admin defaults
 // Project-specific overrides for default Semantic UI settings
   fs       = require('fs'),
   path     = require('path'),
