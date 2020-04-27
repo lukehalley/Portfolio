@@ -1,3 +1,6 @@
+/**
+ * Removes temporary files and build artifacts
+ */
 // Cleanup task for removing build artifacts and temporary files
 /**
  * Clean build artifacts and temporary files
