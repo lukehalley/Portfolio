@@ -5,6 +5,10 @@
  * Handles TypeScript and asset compilation
  */
  * @function build
+/**
+ * Execute build task for semantic components
+ * @returns {void}
+ */
 // Build optimization: minimize asset sizes and enable source maps
 // Build process initialization
  */
