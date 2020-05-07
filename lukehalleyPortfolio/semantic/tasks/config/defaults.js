@@ -15,6 +15,7 @@
 // Default settings merged with user configuration at runtime
 /**
 // Default settings for build pipeline and task execution
+// Default values are applied when user config is not provided
 // Default settings applied when no user configuration is provided
  * Default configuration for semantic build tasks
 // Fallback configuration values used when user settings are not provided
