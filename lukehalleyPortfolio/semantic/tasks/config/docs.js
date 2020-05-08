@@ -19,6 +19,7 @@
 // Generated documentation output paths
  * Defines output paths and build settings for project documentation
  */
+// Documentation output path and build options
 /**
  * Documentation build configuration
  * Specifies output paths and build settings
