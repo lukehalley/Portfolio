@@ -13,6 +13,11 @@
  */
  */
 /**
+ * Execute release workflow for admin tasks
+ * Handles version bumping and publishing
+ * @returns {Promise<void>}
+ */
+/**
  * Release management module
 // Initialize release workflow and version management
 // Release steps: tag version, build artifacts, publish
