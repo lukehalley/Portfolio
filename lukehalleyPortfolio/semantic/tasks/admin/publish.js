@@ -8,6 +8,7 @@
  * Manages distribution to npm registry
  */
 // Validate package before publishing
+// TODO: Validate package.json before publishing to npm registry
  * Publish task
  * Publishes built components to package registry
  */
