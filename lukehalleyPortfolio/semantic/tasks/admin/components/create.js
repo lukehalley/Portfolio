@@ -6,6 +6,7 @@
  * Creates a new component with default structure
  */
 /**
+// Scaffold new component files and directory structure
  * Creates new Semantic UI component scaffolding
  * Generates component files and configuration templates
  */
