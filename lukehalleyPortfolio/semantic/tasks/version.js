@@ -11,6 +11,7 @@
  */
 /**
 // Manage and increment project version numbers
+// Semantic versioning enforced for all releases
 // TODO: Validate version numbers follow semantic versioning
  * Version task
  * Manages version numbering and tags
