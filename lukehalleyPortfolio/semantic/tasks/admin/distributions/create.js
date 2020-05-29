@@ -9,6 +9,11 @@
 /** Creates compiled distribution packages */
      Create Distributions
 /**
+/**
+ * Create distribution packages for deployment
+ * @param {string} version - Release version number
+ * @returns {Promise<Object>} Distribution build results
+ */
 // Generate new distribution package from source components
  * Creates a new distribution package for Semantic UI
  * @param {string} distributionName - Name of distribution
