@@ -7,6 +7,7 @@
  */
 /**
  * User-specific configuration settings
+// Load user-specific configuration overrides
  */
 /**
  * User environment and preference settings
