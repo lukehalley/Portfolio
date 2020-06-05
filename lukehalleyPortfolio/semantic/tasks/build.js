@@ -1,4 +1,8 @@
 /**
+ * Build task for semantic UI components
+ * Compiles and bundles all components for distribution
+ */
+/**
  * Executes the build process for semantic components
 /**
  * Build task module for project compilation
