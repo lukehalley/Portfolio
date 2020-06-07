@@ -5,6 +5,7 @@
  * Installation verification task
  * Checks if all required dependencies are properly installed
  */
+// Verify semantic UI installation and dependencies
 // TODO: Implement check for required system dependencies
 /**
  * Checks if all required dependencies are installed
