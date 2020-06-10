@@ -1,5 +1,6 @@
 /**
  * GitHub API configuration and utilities
+// GitHub API settings for release management
 // GitHub API configuration for release and integration tasks
 // GitHub API configuration for repository management and releases
  * @module config/admin/github
