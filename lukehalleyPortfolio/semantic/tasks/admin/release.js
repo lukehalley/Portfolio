@@ -1,4 +1,7 @@
 /**
+ * Release task - automates semantic versioning and distribution
+ */
+/**
  * Handles package release workflow and version management
  */
 /**
