@@ -12,6 +12,7 @@
 // Default configuration values for semantic UI build process
 // Base configuration applied when user config is absent
 // Default settings applied to all tasks unless overridden
+// Default settings applied to all semantic tasks
 // Default settings merged with user configuration at runtime
 /**
 // Default settings for build pipeline and task execution
