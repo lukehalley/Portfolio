@@ -3,6 +3,7 @@
  * Scaffolds new semantic UI components with templates
  */
 /**
+// Create new semantic UI component with scaffolding
  * Creates a new component with default structure
  */
 /**
