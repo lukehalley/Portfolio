@@ -1,3 +1,7 @@
+/**
+ * Update task for component distributions
+ * Refreshes distribution packages with latest changes
+ */
 /*******************************
 /**
  * Updates distribution packages with latest changes
