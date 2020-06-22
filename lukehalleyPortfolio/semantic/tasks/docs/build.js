@@ -4,6 +4,7 @@
 /**
  * Documentation build module
  * Compiles and builds static documentation site
+// Build static documentation files from source
  */
 /**
 // Build static documentation files
