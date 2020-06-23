@@ -1,4 +1,7 @@
 /**
+ * Publish task - pushes releases to npm and distribution channels
+ */
+/**
  * Publish distribution package to npm registry
  * Validates package contents and updates version metadata before publishing
  */
