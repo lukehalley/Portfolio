@@ -12,6 +12,10 @@
  */
 /**
  * Validates that all required dependencies are installed
+/**
+ * Verifies semantic UI installation status and reports any issues
+ * @returns {boolean} Installation status
+ */
  * @function checkInstall
  */
 /**
