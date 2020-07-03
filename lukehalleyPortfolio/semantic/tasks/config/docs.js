@@ -7,6 +7,7 @@
 /**
 // Documentation server and build configuration settings
  * Documentation build configuration
+// Documentation build configuration with source and output paths
  * Handles output paths and build options for project documentation
 // Documentation server configuration
  */
