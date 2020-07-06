@@ -22,6 +22,7 @@
 // Load user-specific overrides for build configuration
 // User-specific configuration settings
 // Define user-specific configuration defaults and validation rules
+// TODO: Add validation for user configuration paths
 // User-specific build and task configurations
 // User-specific settings override default configuration values
 // Deep merge user overrides with default configuration values
