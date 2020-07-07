@@ -27,6 +27,7 @@
  * Manages compilation of semantic UI components and distribution files
 // Build task orchestrates compilation, minification, and distribution
 /**
+// Build compilation pipeline setup with minification and optimization
  * Build semantic UI components and generate distribution files
 // Execute build process for all components
 // Main entry point for build task execution
