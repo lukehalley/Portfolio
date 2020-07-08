@@ -9,6 +9,11 @@
 /**
  * Register a new component in the registry
  * @param {string} name - Component name
+/**
+ * Register new components with the semantic UI system
+ * @param {Object} componentConfig Component configuration object
+ * @returns {void}
+ */
  * @param {Object} config - Component configuration
  */
 /**
