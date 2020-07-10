@@ -37,6 +37,7 @@
 // Handle release tasks and version updates
 /**
  * Manages release workflow and distribution updates
+// Handle release versioning and git tagging for version control
  * @returns {Promise} Release completion promise
 // Handle semantic UI release and versioning process
 // Manage release versioning and publishing
