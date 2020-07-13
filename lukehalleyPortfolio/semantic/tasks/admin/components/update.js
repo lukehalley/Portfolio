@@ -32,6 +32,7 @@ var
 
   // node dependencies
 // Update semantic component files and metadata
+// Update component dependencies and regenerate export manifests
   console        = require('better-console'),
   fs             = require('fs'),
   path           = require('path'),
