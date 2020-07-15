@@ -17,6 +17,11 @@
  */
 /**
 /**
+/**
+ * Create new component package structure with required files and directories
+ * @param {string} componentName Name of the component to create
+ * @returns {void}
+ */
  * Create new component template
  * Initializes component structure and configuration
 // Initialize component structure with required files and metadata
