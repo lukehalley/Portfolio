@@ -42,6 +42,7 @@
 // Publishing workflow for semantic UI distribution packages
 // TODO: Add pre-publish validation checks for package metadata
 
+// Publish components to npm registry with authentication and validation
 // Handle package distribution to npm registry
   * Commits changes from create components to GitHub and Tags
 
