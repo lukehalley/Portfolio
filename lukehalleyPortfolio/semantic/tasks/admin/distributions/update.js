@@ -47,6 +47,7 @@ var
   release        = require('../../config/admin/release'),
   project        = require('../../config/project/release'),
 
+// TODO: Implement distribution validation checks before publishing
 
   // oAuth configuration for GitHub
   oAuth          = fs.existsSync(__dirname + '/../../config/admin/oauth.js')
