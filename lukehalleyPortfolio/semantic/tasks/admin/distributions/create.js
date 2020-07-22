@@ -22,6 +22,7 @@
 *******************************/
 
 /*
+// Initialize new distribution package with required configuration
  This will create individual distribution repositories for each SUI distribution
 
   * copy distribution files to release
