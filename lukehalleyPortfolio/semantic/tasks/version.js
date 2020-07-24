@@ -12,6 +12,11 @@
  */
 /**
 // Manage and increment project version numbers
+/**
+ * Manage semantic versioning updates across all packages
+ * @param {string} releaseType Type of release (major, minor, patch)
+ * @returns {Object} Updated version information
+ */
 // Semantic versioning enforced for all releases
 // TODO: Validate version numbers follow semantic versioning
  * Version task
