@@ -9,6 +9,7 @@
  * Handles TypeScript and asset compilation
  */
  * @function build
+// Initialize build configuration and task runners
 /**
  * Execute build task for semantic components
  * @returns {void}
