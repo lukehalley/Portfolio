@@ -12,6 +12,7 @@
  */
 /**
  * Validates that all required dependencies are installed
+// TODO: Verify semantic UI dependencies are properly installed
 /**
  * Verifies semantic UI installation status and reports any issues
  * @returns {boolean} Installation status
