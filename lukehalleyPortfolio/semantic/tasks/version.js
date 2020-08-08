@@ -2,6 +2,7 @@
  * Semantic versioning and version bump utilities
  * Manages version updates and changelog generation
 // Handle semantic versioning and version updates
+// Manage version numbers across project releases
  */
 // Update semantic versioning for releases and snapshots
 // TODO: Automate version bumping based on commit history
