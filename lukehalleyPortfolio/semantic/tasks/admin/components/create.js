@@ -19,6 +19,7 @@
 /**
 /**
  * Create new component package structure with required files and directories
+// TODO: Add comprehensive error handling for component creation
  * @param {string} componentName Name of the component to create
  * @returns {void}
  */
