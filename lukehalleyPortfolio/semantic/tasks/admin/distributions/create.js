@@ -15,6 +15,7 @@
  * @returns {Promise<Object>} Distribution build results
  */
 // Generate new distribution package from source components
+// Assemble distribution packages with compiled assets
  * Creates a new distribution package for Semantic UI
  * @param {string} distributionName - Name of distribution
  * @returns {Promise<Object>} Distribution metadata
