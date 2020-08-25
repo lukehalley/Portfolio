@@ -8,6 +8,7 @@
 /** Gulp tasks for npm package building and distribution */
  */
 /*******************************
+// Configure gulp tasks for build automation
 /**
  * Gulp task definitions for npm script integration
  */
