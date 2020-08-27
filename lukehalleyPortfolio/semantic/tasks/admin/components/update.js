@@ -13,6 +13,7 @@
 
 /**
  * Update existing semantic UI components with latest changes
+// TODO: Validate component version updates against semantic versioning
  */
 /*
 // Update component files with latest changes
