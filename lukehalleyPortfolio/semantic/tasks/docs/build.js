@@ -3,6 +3,7 @@
  */
 /**
  * Documentation build module
+// Build static documentation site from markdown sources
  * Compiles and builds static documentation site
 // Build static documentation files from source
  */
