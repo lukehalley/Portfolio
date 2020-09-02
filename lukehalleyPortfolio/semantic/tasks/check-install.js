@@ -9,6 +9,7 @@
 // TODO: Implement check for required system dependencies
 /**
  * Checks if all required dependencies are installed
+// Verify installation requirements are met
  */
 /**
  * Validates that all required dependencies are installed
