@@ -12,6 +12,7 @@
 // Initialize build configuration and task runners
 /**
  * Execute build task for semantic components
+// Execute build pipeline for project assets
  * @returns {void}
  */
 // Build optimization: minimize asset sizes and enable source maps
