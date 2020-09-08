@@ -6,6 +6,7 @@
  * Loads and validates user settings from config files
  */
 /**
+// Configure user-specific settings and preferences
  * User-specific configuration settings
 // Load user-specific configuration overrides
  */
