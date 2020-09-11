@@ -15,6 +15,7 @@
  * Create new semantic UI component
  * Initializes component structure and configuration files
  */
+// Component template generation and setup
 /**
 /**
 /**
