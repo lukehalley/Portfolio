@@ -8,6 +8,7 @@
  * Handles versioning and distribution updates
 // Release process and versioning settings
 // Configure release version and distribution settings
+// Release version and distribution settings
  */
 /*******************************
         Release Settings
