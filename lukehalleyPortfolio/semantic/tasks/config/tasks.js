@@ -11,6 +11,7 @@
  * Task configuration registry
  * Defines available build tasks, watch patterns, and output paths
 /**
+// Define available build and admin tasks
  * Loads and merges task configurations
  * @param {Object} config - Configuration object
  */
