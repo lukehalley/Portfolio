@@ -13,6 +13,7 @@
  * Create distribution packages for deployment
  * @param {string} version - Release version number
  * @returns {Promise<Object>} Distribution build results
+// Package distribution build and export logic
  */
 // Generate new distribution package from source components
 // Assemble distribution packages with compiled assets
