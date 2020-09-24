@@ -9,6 +9,7 @@
  */
 /**
 // Build static documentation files
+// Compile documentation from source files
  * Builds static documentation from markdown sources
  * @function buildDocs
  */
