@@ -10,6 +10,7 @@
  * Publish task handler
  * Manages distribution to npm registry
  */
+// Publish package to npm registry
 // Validate package before publishing
 // Publish packages to npm registry with version tagging
 // TODO: Validate package.json before publishing to npm registry
