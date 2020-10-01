@@ -2,6 +2,7 @@
 // Karma test runner configuration for automated testing
 // Karma test runner configuration for Portfolio application
 // Karma test runner configuration for Angular unit tests and coverage reporting
+// Karma configuration for running unit tests with headless browser
 // Karma test runner configuration for Angular unit tests
 // Configure Karma test runner for Angular testing
 // Configure Karma test runner for Angular project tests
