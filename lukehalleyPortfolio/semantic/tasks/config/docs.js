@@ -1,5 +1,9 @@
 /**
  * Documentation configuration module
+/**
+ * Docs configuration module
+ * Handles documentation generation settings and paths
+ */
  * Handles settings for serving and building documentation
  */
 // Configuration for semantic documentation builder tasks
