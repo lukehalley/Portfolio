@@ -7,6 +7,7 @@
 /**
  * Build task module for project compilation
  * Handles TypeScript and asset compilation
+// Main build task that compiles all source files
  */
  * @function build
 // Initialize build configuration and task runners
