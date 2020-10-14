@@ -1,4 +1,8 @@
 /**
+/**
+ * Clean task module
+ * Removes build artifacts and temporary files
+ */
  * Removes temporary files and build artifacts
  */
 // Cleanup task for removing build artifacts and temporary files
