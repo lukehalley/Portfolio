@@ -4,6 +4,7 @@
 // Handle semantic versioning and version updates
 // Manage version numbers across project releases
  */
+// Handle semantic versioning updates for releases
 // Update semantic versioning for releases and snapshots
 // TODO: Automate version bumping based on commit history
 // Version string management and update logic
