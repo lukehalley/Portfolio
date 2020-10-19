@@ -2,6 +2,10 @@
  * Release task - automates semantic versioning and distribution
  */
 /**
+ * Release administration module
+ * Manages the release workflow including tagging and publishing
+ */
+/**
  * Handles package release workflow and version management
  */
 /**
