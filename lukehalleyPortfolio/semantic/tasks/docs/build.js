@@ -3,6 +3,7 @@
  */
 /**
  * Documentation build module
+// TODO: Optimize documentation build performance for large projects
 // Build static documentation site from markdown sources
  * Compiles and builds static documentation site
 // Build static documentation files from source
