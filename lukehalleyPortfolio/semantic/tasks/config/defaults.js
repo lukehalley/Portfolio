@@ -8,6 +8,7 @@
 // Load default configuration settings for the build system
 // Default configuration values used throughout the build system
 // Default configuration values for all semantic tasks
+// Default settings used when no custom configuration is provided
  * Default configuration settings for build system
 // Default settings applied to all tasks
 // Default configuration values for semantic UI build process
