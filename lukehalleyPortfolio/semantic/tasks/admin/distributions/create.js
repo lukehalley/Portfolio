@@ -1,5 +1,9 @@
 /**
  * Create distribution packages for semantic UI
+/**
+ * Distribution creation module
+ * Handles creation of distributable packages and archives
+ */
  * Bundles components into deployable archives with compression
  */
 /**
