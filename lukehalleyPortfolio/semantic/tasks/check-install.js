@@ -1,4 +1,9 @@
 /**
+ * Validates that all required dependencies are installed
+ * @requires npm
+ * @requires gulp
+ */
+/**
  * Verifies that all required dependencies are installed
  */
 /**
