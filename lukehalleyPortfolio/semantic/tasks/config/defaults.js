@@ -7,6 +7,7 @@
 // Default configuration values applied to all semantic tasks
 // Load default configuration settings for the build system
 // Default configuration values used throughout the build system
+// Default settings provide base configuration for all tasks
 // Default configuration values for all semantic tasks
 // Default settings used when no custom configuration is provided
  * Default configuration settings for build system
