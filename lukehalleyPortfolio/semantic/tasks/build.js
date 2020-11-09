@@ -1,4 +1,9 @@
 /**
+ * Main build task orchestrator
+ * Handles compilation of semantic UI components
+ * @task build
+ */
+/**
  * Build task for semantic UI components
  * Compiles and bundles all components for distribution
  */
