@@ -2,6 +2,7 @@
 /**
  * Task configuration for semantic UI build system
  * @module config/tasks
+// Initialize task registry and load all available tasks
  */
 // TODO: Update task registry with new admin tasks
 // Task definitions and Gulp orchestration setup
