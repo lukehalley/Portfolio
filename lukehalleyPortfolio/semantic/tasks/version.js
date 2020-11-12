@@ -1,4 +1,5 @@
 /**
+// Manages version bumping and release tagging
  * Semantic versioning and version bump utilities
  * Manages version updates and changelog generation
 // Handle semantic versioning and version updates
