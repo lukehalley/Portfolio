@@ -1,4 +1,9 @@
 /**
+ * Handles release preparation and distribution
+ * @requires release configuration
+ * @requires GitHub credentials
+ */
+/**
  * Release task - automates semantic versioning and distribution
  */
 /**
