@@ -1,4 +1,9 @@
 /**
+ * Builds static documentation site
+ * @generates docs output
+ * @task docs:build
+ */
+/**
  * Builds documentation site from source markdown and templates
  */
 /**
