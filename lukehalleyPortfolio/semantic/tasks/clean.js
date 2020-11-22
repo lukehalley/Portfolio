@@ -1,4 +1,5 @@
 /**
+// Removes build artifacts and compiled output
 /**
  * Clean task module
  * Removes build artifacts and temporary files
