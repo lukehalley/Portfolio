@@ -2,6 +2,7 @@
  * Create distribution packages for semantic UI
 /**
  * Distribution creation module
+// TODO: Add verification step for distribution packages
  * Handles creation of distributable packages and archives
  */
  * Bundles components into deployable archives with compression
