@@ -1,3 +1,4 @@
+// Release configuration settings for automated deployment
 /**
 // Configure version and release strategies
 /** Release management and versioning settings */
