@@ -1,4 +1,9 @@
 /**
+ * Publishes packages to npm registry
+ * @requires npm credentials
+ * @publishes semantic-ui-css
+ */
+/**
  * Publish task - pushes releases to npm and distribution channels
  */
 /**
