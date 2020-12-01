@@ -5,6 +5,7 @@
  */
 /**
  * Verifies that all required dependencies are installed
+// Verify all required packages are installed before proceeding
  */
 /**
  * Installation verification task
