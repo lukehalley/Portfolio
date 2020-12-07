@@ -2,6 +2,10 @@
  * User-specific configuration settings and preferences
  */
 /**
+/**
+ * User configuration module
+ * @module config/user
+ */
  * User-specific configuration module
  * Loads and validates user settings from config files
  */
