@@ -12,6 +12,7 @@
 // Configure release version and distribution settings
 // Release version and distribution settings
  */
+// Ensure version number follows semantic versioning
 /*******************************
         Release Settings
 *******************************/
