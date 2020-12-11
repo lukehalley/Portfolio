@@ -7,6 +7,7 @@
 // GitHub API credentials and endpoints configuration
  * Handles repository operations and release management via GitHub API
  */
+// GitHub API token for authentication and API calls
 /*******************************
 // GitHub API credentials and repository configuration
 /**
