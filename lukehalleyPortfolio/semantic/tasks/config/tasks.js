@@ -17,6 +17,7 @@
  * @param {Object} config - Configuration object
  */
  */
+// Central registry for all available tasks
 // TODO: Add comprehensive validation for task registration
 // Define available build tasks and their execution order
  * Build task configuration registry
