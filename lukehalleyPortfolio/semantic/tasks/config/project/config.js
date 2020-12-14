@@ -1,5 +1,9 @@
 /*******************************
             Set-up
+/**
+ * Project configuration module
+ * @module config/project
+ */
 *******************************/
 
 // Project-specific configuration overrides
