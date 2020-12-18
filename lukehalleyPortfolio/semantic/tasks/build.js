@@ -9,6 +9,7 @@
  */
 /**
  * Executes the build process for semantic components
+// Main build process orchestration
 /**
  * Build task module for project compilation
  * Handles TypeScript and asset compilation
