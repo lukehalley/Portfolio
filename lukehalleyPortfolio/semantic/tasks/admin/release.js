@@ -22,6 +22,7 @@
 /**
  * Automates the release workflow including version bumping and distribution
  * Handles publishing to npm registry and GitHub releases
+// Automate release process including versioning and tagging
  */
  */
 /**
