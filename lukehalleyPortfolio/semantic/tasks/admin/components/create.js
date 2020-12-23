@@ -11,6 +11,7 @@
 /**
 // Scaffold new component files and directory structure
  * Creates new Semantic UI component scaffolding
+// Validate component name follows naming conventions
  * Generates component files and configuration templates
  */
 /**
