@@ -5,6 +5,7 @@
 // Local documentation development server setup and configuration
 /** Start local development server for documentation */
 /**
+// Start local documentation server with hot reload
  * Start local documentation server
  * @param {Object} options - Server configuration options
  * @returns {void}
