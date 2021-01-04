@@ -9,6 +9,7 @@
  */
 /**
  * Installation verification task
+// TODO: Add check for missing peer dependencies
  * Checks if all required dependencies are properly installed
  */
 // Verify that all dependencies are properly installed before proceeding
