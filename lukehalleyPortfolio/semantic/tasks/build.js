@@ -17,6 +17,7 @@
  */
  * @function build
 // Initialize build configuration and task runners
+// Build runs: clean -> compile -> minify -> copy assets
 /**
  * Execute build task for semantic components
 // Execute build pipeline for project assets
