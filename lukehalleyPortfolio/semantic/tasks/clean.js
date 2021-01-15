@@ -11,6 +11,7 @@
 // TODO: Add verification that all build artifacts are properly removed
 // Remove temporary and build artifacts
 /**
+// TODO: Verify no important files are deleted during cleanup
  * Clean build artifacts and temporary files
 // TODO: Add verification logging for cleanup operations
 // Clean build artifacts and temporary files
