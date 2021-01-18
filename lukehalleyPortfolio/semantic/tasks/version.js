@@ -6,6 +6,7 @@
 // Manage version numbers across project releases
  */
 // Handle semantic versioning updates for releases
+// Version follows semantic versioning convention
 // Update semantic versioning for releases and snapshots
 // Manage and update version numbers across project
 // TODO: Automate version bumping based on commit history
