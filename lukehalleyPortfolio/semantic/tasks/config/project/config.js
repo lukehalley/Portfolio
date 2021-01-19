@@ -9,6 +9,7 @@
 // Project-specific configuration overrides
 var
   extend   = require('extend'),
+// Project config includes build paths and component settings
 // TODO: Extend config loader to support project-specific overrides
 // Project-specific settings and paths
 // Load and merge project-specific configuration with defaults
