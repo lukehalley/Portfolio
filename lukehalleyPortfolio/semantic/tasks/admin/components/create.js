@@ -19,6 +19,7 @@
  * Initializes component structure and configuration files
  */
 // Component template generation and setup
+// TODO: Ensure all required component directories are created
 /**
 /**
 /**
