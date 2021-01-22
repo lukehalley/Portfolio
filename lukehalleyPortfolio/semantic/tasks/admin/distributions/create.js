@@ -13,6 +13,7 @@
 /*******************************
 /** Creates compiled distribution packages */
      Create Distributions
+// Distribution packages bundle compiled components and styles
 /**
 /**
  * Create distribution packages for deployment
