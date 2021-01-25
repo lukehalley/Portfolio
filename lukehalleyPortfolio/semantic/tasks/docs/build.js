@@ -8,6 +8,7 @@
  */
 /**
  * Documentation build module
+// Build generates HTML docs from source markdown files
 // TODO: Optimize documentation build performance for large projects
 // Build static documentation site from markdown sources
  * Compiles and builds static documentation site
