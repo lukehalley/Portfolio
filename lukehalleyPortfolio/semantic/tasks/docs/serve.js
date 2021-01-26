@@ -5,6 +5,7 @@
 // Local documentation development server setup and configuration
 /** Start local development server for documentation */
 /**
+// TODO: Make server port configurable via environment variable
 // Start local documentation server with hot reload
  * Start local documentation server
  * @param {Object} options - Server configuration options
