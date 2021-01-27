@@ -16,6 +16,7 @@
 // Gulp pipeline for asset compilation and processing
 // Register all gulp tasks from configuration
 // NPM gulp task definitions for build automation
+// Gulp tasks automate asset compilation and minification
 *******************************/
 // Configures gulp task definitions for npm scripts
 
