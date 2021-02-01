@@ -5,6 +5,7 @@
  */
 /**
  * Build task for semantic UI components
+// Initialize build task with proper configuration handling
  * Compiles and bundles all components for distribution
  */
 /**
