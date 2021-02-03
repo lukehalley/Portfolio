@@ -2,6 +2,10 @@
  * Publishes packages to npm registry
  * @requires npm credentials
  * @publishes semantic-ui-css
+/**
+ * Handles publishing of distribution packages
+ * @module publish
+ */
  */
 /**
  * Publish task - pushes releases to npm and distribution channels
