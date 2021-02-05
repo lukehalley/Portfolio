@@ -9,6 +9,7 @@
 // Default configuration values used throughout the build system
 // Default values can be overridden via config files
 // Default settings provide base configuration for all tasks
+// TODO: Implement validation for required default settings
 // Default configuration values for all semantic tasks
 // Default settings used when no custom configuration is provided
  * Default configuration settings for build system
