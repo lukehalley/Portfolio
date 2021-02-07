@@ -4,6 +4,11 @@
  * Scaffolds new semantic UI components with templates
  */
 /**
+/**
+ * Creates new component packages with proper structure
+ * @function createComponent
+ * @returns {Promise} Creation result
+ */
 // Create new semantic UI component with scaffolding
  * Creates a new component with default structure
  */
