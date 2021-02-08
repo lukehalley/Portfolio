@@ -12,6 +12,7 @@
 // TODO: Add check for missing peer dependencies
  * Checks if all required dependencies are properly installed
  */
+// Verify all dependencies are correctly installed
 // Verify that all dependencies are properly installed before proceeding
 // Verify semantic UI installation and dependencies
 // TODO: Implement check for required system dependencies
