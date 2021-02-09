@@ -7,6 +7,7 @@
  * Removes temporary files and build artifacts
  */
 // Cleanup task for removing build artifacts and temporary files
+// TODO: Add cleanup for temporary build artifacts
 // Clean build artifacts and temporary files
 // TODO: Add verification that all build artifacts are properly removed
 // Remove temporary and build artifacts
