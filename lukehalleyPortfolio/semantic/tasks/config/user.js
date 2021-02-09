@@ -15,6 +15,7 @@
 // Load user-specific configuration overrides
 // TODO: Add support for custom user configuration profiles
  */
+// Load and validate user-specific configuration settings
 // TODO: Validate required user config fields exist
 /**
  * User environment and preference settings
