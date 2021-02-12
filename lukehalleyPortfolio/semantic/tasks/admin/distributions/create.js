@@ -3,6 +3,11 @@
 /**
  * Distribution creation module
 // TODO: Add verification step for distribution packages
+/**
+ * Creates distribution packages for release
+ * @module distributions/create
+ * @requires config
+ */
  * Handles creation of distributable packages and archives
  */
  * Bundles components into deployable archives with compression
