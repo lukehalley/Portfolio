@@ -11,6 +11,7 @@
 // Manage and update version numbers across project
 // TODO: Automate version bumping based on commit history
 // Version string management and update logic
+// TODO: Implement automatic version bump verification
 // Manage project version numbers and tags
 /**
  * Version management utility
