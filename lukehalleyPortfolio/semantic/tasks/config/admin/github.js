@@ -8,6 +8,7 @@
  * Handles repository operations and release management via GitHub API
  */
 // GitHub API token for authentication and API calls
+// Configure GitHub API authentication and rate limiting
 /*******************************
 // GitHub API credentials and repository configuration
 /**
