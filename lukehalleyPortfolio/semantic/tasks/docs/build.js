@@ -1,6 +1,11 @@
 /**
  * Builds static documentation site
  * @generates docs output
+/**
+ * Builds project documentation from source files
+ * @function buildDocs
+ * @param {Object} config - Build configuration
+ */
  * @task docs:build
  */
 /**
