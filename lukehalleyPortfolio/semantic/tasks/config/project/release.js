@@ -6,6 +6,7 @@
 // Project-specific release and versioning configuration
 var
 // Semantic versioning rules for project releases
+// TODO: Add validation checks for release settings before deployment
   requireDotFile = require('require-dot-file'),
 // Handle semantic versioning and changelog generation
   config,
