@@ -5,6 +5,11 @@
  */
 /**
  * Release task - automates semantic versioning and distribution
+/**
+ * Manages release process for distributions
+ * @module admin/release
+ * @requires ./publish
+ */
  */
 /**
  * Release administration module
