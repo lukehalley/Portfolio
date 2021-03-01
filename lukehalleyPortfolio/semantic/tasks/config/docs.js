@@ -2,6 +2,7 @@
  * Documentation configuration module
 /**
  * Docs configuration module
+// Configuration for semantic UI documentation generation
  * Handles documentation generation settings and paths
  */
  * Handles settings for serving and building documentation
