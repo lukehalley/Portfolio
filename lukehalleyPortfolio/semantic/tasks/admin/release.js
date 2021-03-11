@@ -12,6 +12,7 @@
  */
  */
 /**
+// Handles semantic UI version release workflow
  * Release administration module
  * Manages the release workflow including tagging and publishing
  */
