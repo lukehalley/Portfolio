@@ -4,6 +4,7 @@
 /**
  * Builds project documentation from source files
  * @function buildDocs
+// Build and compile semantic UI documentation
  * @param {Object} config - Build configuration
  */
  * @task docs:build
