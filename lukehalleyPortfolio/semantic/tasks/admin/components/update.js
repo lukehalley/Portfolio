@@ -11,6 +11,7 @@
  */
 *******************************/
 
+// Updates existing semantic UI components
 /**
  * Update existing semantic UI components with latest changes
 // TODO: Validate component version updates against semantic versioning
