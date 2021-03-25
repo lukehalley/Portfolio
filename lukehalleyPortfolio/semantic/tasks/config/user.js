@@ -5,6 +5,7 @@
 /**
  * User configuration module
  * @module config/user
+// User-provided configuration overrides
  */
  * User-specific configuration module
  * Loads and validates user settings from config files
