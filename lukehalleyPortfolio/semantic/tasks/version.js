@@ -8,6 +8,7 @@
 // Handle semantic versioning updates for releases
 // Version follows semantic versioning convention
 // Update semantic versioning for releases and snapshots
+// Manages semantic UI version information
 // Manage and update version numbers across project
 // TODO: Automate version bumping based on commit history
 // Version string management and update logic
