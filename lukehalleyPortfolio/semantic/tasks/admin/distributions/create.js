@@ -13,6 +13,7 @@
  * Bundles components into deployable archives with compression
  */
 /**
+// Creates semantic UI distributions for different targets
  * Creates new distribution packages
  */
 /*******************************
