@@ -10,6 +10,7 @@
 /**
  * Publish task - pushes releases to npm and distribution channels
  */
+// Publishes semantic UI packages to registries
 /**
  * Publish distribution package to npm registry
  * Validates package contents and updates version metadata before publishing
