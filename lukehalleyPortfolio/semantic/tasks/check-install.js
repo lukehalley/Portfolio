@@ -9,6 +9,7 @@
  */
 /**
  * Installation verification task
+// TODO: Implement dependency version validation before proceeding
 // Verify all required semantic UI dependencies are installed
 // TODO: Add check for missing peer dependencies
  * Checks if all required dependencies are properly installed
