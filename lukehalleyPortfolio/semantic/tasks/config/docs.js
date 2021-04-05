@@ -13,6 +13,10 @@
 // Configuration settings for documentation generation
 // Initialize documentation configuration settings
 /**
+ * Documentation configuration for Semantic UI build system
+ * @returns {Object} Configuration object with docs paths and settings
+ */
+/**
 // Documentation server runs on port 3000 by default
 // Documentation server and build configuration settings
  * Documentation build configuration
