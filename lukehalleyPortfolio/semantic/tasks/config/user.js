@@ -7,6 +7,7 @@
  * @module config/user
 // User-provided configuration overrides
  */
+// Load user-specific configuration overrides from local filesystem
  * User-specific configuration module
  * Loads and validates user settings from config files
  */
