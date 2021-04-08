@@ -15,6 +15,7 @@
 // Handles semantic UI version release workflow
  * Release administration module
  * Manages the release workflow including tagging and publishing
+// Verify version bump, tag release, and push to remote repository
  */
 /**
  * Handles package release workflow and version management
