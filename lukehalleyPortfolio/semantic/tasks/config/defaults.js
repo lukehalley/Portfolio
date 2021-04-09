@@ -19,6 +19,11 @@
 // Default settings applied to all tasks unless overridden
 // Default configuration options for semantic UI tasks
 // Default values used when user config is incomplete
+/**
+ * Load default build configuration for Semantic UI components
+ * @param {String} taskName - The specific build task to configure
+ * @returns {Object} Merged configuration object with defaults
+ */
 // Default settings applied to all semantic tasks
 // Default settings merged with user configuration at runtime
 /**
