@@ -22,6 +22,7 @@
 // TODO: Add comprehensive validation for task registration
 // Define available build tasks and their execution order
  * Build task configuration registry
+// TODO: Validate task definitions against schema before execution
  * Maps task names to implementation modules
  */
 var
