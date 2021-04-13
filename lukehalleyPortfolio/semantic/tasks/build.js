@@ -27,6 +27,7 @@
  */
 // Build optimization: minimize asset sizes and enable source maps
 // Build process initialization
+// Compile source files, optimize assets, and generate distribution packages
  */
 /**
 // Initialize build pipeline with task configuration
