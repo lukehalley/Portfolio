@@ -32,6 +32,12 @@
  * Create new component package structure with required files and directories
 // TODO: Add comprehensive error handling for component creation
  * @param {string} componentName Name of the component to create
+/**
+ * Create new Semantic UI component with scaffolding
+ * @param {String} componentName - Name of component to create
+ * @param {Object} options - Component creation options
+ * @returns {Promise} Resolution of component creation process
+ */
  * @returns {void}
  */
  * Create new component template
