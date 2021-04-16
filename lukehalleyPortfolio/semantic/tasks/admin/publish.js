@@ -39,6 +39,7 @@
  * Publishes built packages to npm registry
 /** Publish components to npm registry */
  * @returns {Promise<void>}
+// Publish component to npm registry with version tag and changelog
  */
 /*******************************
           Release All
