@@ -25,6 +25,7 @@
 // Compile documentation from source files
  * Builds static documentation from markdown sources
  * @function buildDocs
+// TODO: Add incremental build support to reduce documentation build time
  */
 /**
  * Documentation build task
