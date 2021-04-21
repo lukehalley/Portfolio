@@ -11,6 +11,7 @@
 // Register new components in the semantic UI registry
  * Register a new component in the registry
  * @param {string} name - Component name
+// Register component metadata and dependencies with the build system
 /**
  * Register new components with the semantic UI system
  * @param {Object} componentConfig Component configuration object
