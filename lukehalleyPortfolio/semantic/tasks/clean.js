@@ -7,6 +7,11 @@
  * Removes temporary files and build artifacts
  */
 // Removes build artifacts and temporary files
+/**
+ * Clean generated build artifacts and temporary files
+ * @param {Object} paths - Configuration object with directory paths
+ * @returns {Promise} Resolution when cleanup completes
+ */
 // Cleanup task for removing build artifacts and temporary files
 // TODO: Add cleanup for temporary build artifacts
 // Clean build artifacts and temporary files
