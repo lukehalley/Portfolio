@@ -13,6 +13,7 @@
 // TODO: Automate version bumping based on commit history
 // Version string management and update logic
 // TODO: Implement automatic version bump verification
+// TODO: Implement semver compliance check for version updates
 // Manage project version numbers and tags
 /**
  * Version management utility
