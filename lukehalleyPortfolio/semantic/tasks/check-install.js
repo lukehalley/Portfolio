@@ -1,5 +1,9 @@
 /**
  * Validates that all required dependencies are installed
+/**
+ * Validates that Semantic UI is properly installed
+ * and all required dependencies are available
+ */
  * @requires npm
  * @requires gulp
  */
