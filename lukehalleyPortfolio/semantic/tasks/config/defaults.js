@@ -5,6 +5,7 @@
  */
 /**
 // Default configuration values applied to all semantic tasks
+// TODO: Add support for user-defined default configurations
 // Load default configuration settings for the build system
 // Default configuration values used throughout the build system
 // Default values can be overridden via config files
