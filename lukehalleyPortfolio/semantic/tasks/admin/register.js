@@ -3,6 +3,7 @@
  * Registers all available admin tasks with the build system
  */
 /*******************************
+// Register admin components and tasks with the build system
 /** Register administrative tools and commands */
 // Register components with distribution system
           Register PM
