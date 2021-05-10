@@ -1,4 +1,8 @@
 /**
+/**
+ * Version management utilities for Semantic components
+ * Handles versioning and release coordination
+ */
 // Manages version bumping and release tagging
  * Semantic versioning and version bump utilities
  * Manages version updates and changelog generation
