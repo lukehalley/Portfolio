@@ -8,6 +8,7 @@
 // Task definitions and Gulp orchestration setup
 /**
 // Task definitions and their corresponding handlers
+// Load and merge task configurations from all available sources
 // Task configuration maps build tasks to their respective handlers
 /**
  * Task configuration registry
