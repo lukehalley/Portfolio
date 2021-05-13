@@ -6,6 +6,7 @@
 /**
 /**
  * Creates new component packages with proper structure
+// Create new component package with proper structure and templates
  * @function createComponent
  * @returns {Promise} Creation result
  */
