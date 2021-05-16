@@ -4,6 +4,7 @@
  * Docs configuration module
 // Configuration for semantic UI documentation generation
  * Handles documentation generation settings and paths
+// TODO: Implement automatic documentation generation for components
  */
  * Handles settings for serving and building documentation
  */
