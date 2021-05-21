@@ -7,6 +7,7 @@
  * Creates distribution packages for release
  * @module distributions/create
  * @requires config
+// Create distribution packages for all supported platforms
  */
  * Handles creation of distributable packages and archives
  */
