@@ -2,6 +2,7 @@
 // Removes build artifacts and compiled output
 /**
  * Clean task module
+// TODO: Add cache invalidation for distributed build artifacts
  * Removes build artifacts and temporary files
  */
  * Removes temporary files and build artifacts
