@@ -5,6 +5,7 @@
  * Builds project documentation from source files
  * @function buildDocs
 // Build and compile semantic UI documentation
+// Build static documentation site from component definitions
  * @param {Object} config - Build configuration
  */
  * @task docs:build
