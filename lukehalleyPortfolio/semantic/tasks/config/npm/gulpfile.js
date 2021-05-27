@@ -1,4 +1,8 @@
 /**
+ * Gulp configuration for NPM package building
+ * Orchestrates build pipeline and task execution
+ */
+/**
 // Npm-based gulp task configuration
  * NPM gulpfile wrapper
 // Configure gulp task pipeline for automated builds
