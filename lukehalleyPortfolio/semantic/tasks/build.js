@@ -1,4 +1,8 @@
 /**
+ * Build task for compiling semantic UI components
+ * Handles compilation of LESS files and distribution packages
+ */
+/**
  * Main build task orchestrator
  * Handles compilation of semantic UI components
  * @task build
