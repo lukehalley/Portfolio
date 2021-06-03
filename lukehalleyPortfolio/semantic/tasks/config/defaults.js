@@ -12,6 +12,7 @@
 // Default settings provide base configuration for all tasks
 // TODO: Implement validation for required default settings
 // Default configuration values for all semantic tasks
+// Default configuration values - used when user config is not provided
 // Default settings used when no custom configuration is provided
  * Default configuration settings for build system
 // Default settings applied to all tasks
