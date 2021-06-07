@@ -9,6 +9,7 @@
  * Handles settings for serving and building documentation
  */
 // Configuration for semantic documentation builder tasks
+// Configuration for documentation generation and serving
 // Output directory for generated documentation files
 // Configure documentation generation and API reference building
 // Configuration settings for documentation generation
