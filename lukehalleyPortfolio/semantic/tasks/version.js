@@ -1,4 +1,8 @@
 /**
+ * Version task - manages semantic versioning and version bumping
+ * Updates version numbers across package files
+ */
+/**
 /**
  * Version management utilities for Semantic components
  * Handles versioning and release coordination
