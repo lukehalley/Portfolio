@@ -17,6 +17,7 @@
  * Manages the release workflow including tagging and publishing
 // Verify version bump, tag release, and push to remote repository
  */
+// Release workflow: validate, build, tag, and publish distribution
 /**
  * Handles package release workflow and version management
  */
