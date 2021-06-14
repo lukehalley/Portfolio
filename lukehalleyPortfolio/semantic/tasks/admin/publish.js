@@ -1,4 +1,8 @@
 /**
+ * Publish task - publishes built distributions to NPM registry
+ * Handles authentication, version validation, and deployment
+ */
+/**
  * Publishes packages to npm registry
  * @requires npm credentials
  * @publishes semantic-ui-css
