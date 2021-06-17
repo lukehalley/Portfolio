@@ -1,4 +1,8 @@
 /**
+ * Create component task - scaffolds new semantic UI components
+ * Generates component structure and template files
+ */
+/**
  * Component creation module
 // Creates new component template with standard structure
  * Scaffolds new semantic UI components with templates
