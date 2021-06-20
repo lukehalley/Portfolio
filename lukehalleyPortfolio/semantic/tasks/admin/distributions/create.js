@@ -1,4 +1,8 @@
 /**
+ * Create distribution task - generates distribution packages
+ * Packages components and resources for deployment
+ */
+/**
  * Create distribution packages for semantic UI
 /**
  * Distribution creation module
