@@ -5,6 +5,7 @@
 /*******************************
 /**
  * Updates distribution packages with latest changes
+// Update distributions and verify consistency across packages
  */
           Update Repos
 *******************************/
