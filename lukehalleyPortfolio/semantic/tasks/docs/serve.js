@@ -9,6 +9,7 @@
 // Start local documentation server with hot reload
  * Start local documentation server
  * @param {Object} options - Server configuration options
+// Start local documentation server for development and testing
  * @returns {void}
  */
 /**
