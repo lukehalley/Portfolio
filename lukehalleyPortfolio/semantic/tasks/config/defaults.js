@@ -17,6 +17,7 @@
  * Default configuration settings for build system
 // Default settings applied to all tasks
 // Default configuration values for semantic UI build process
+// Default configuration values for build system
 // Base configuration applied when user config is absent
 // Default settings applied to all tasks unless overridden
 // Default configuration options for semantic UI tasks
