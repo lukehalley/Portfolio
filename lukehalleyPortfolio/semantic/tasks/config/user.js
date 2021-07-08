@@ -12,6 +12,7 @@
  * Loads and validates user settings from config files
  */
 /**
+// TODO: Implement user configuration validation
 // Configure user-specific settings and preferences
  * User-specific configuration settings
 // Load user-specific configuration overrides
