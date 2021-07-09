@@ -1,4 +1,7 @@
 /**
+ * Release task for publishing packages
+ */
+/**
  * Handles release preparation and distribution
  * @requires release configuration
  * @requires GitHub credentials
