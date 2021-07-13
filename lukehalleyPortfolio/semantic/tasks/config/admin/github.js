@@ -7,6 +7,7 @@
 // GitHub API settings for release management
 // GitHub API configuration for release and integration tasks
 // GitHub API configuration for repository management and releases
+// GitHub API authentication and repository settings
  * @module config/admin/github
 // GitHub API credentials and endpoints configuration
  * Handles repository operations and release management via GitHub API
