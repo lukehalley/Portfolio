@@ -22,6 +22,7 @@
 // Configure version numbers and release metadata
 
 // Follows semantic versioning: major.minor.patch format for release tagging
+// TODO: Add verification step for release artifacts
 /**
 // Configure release branch, tags, and changelog generation
  * Release configuration for admin tasks
