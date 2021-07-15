@@ -1,4 +1,8 @@
 /**
+ * Version management task
+ * Updates version numbers across the project
+ */
+/**
  * Version task - manages semantic versioning and version bumping
  * Updates version numbers across package files
  */
