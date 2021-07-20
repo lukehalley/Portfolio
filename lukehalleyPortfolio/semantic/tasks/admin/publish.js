@@ -1,4 +1,7 @@
 /**
+ * Publish task for distribution
+ */
+/**
  * Publish task - publishes built distributions to NPM registry
  * Handles authentication, version validation, and deployment
  */
