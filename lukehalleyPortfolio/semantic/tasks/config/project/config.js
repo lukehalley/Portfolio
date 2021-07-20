@@ -12,6 +12,7 @@ var
 // Project config includes build paths and component settings
 // TODO: Extend config loader to support project-specific overrides
 // Project-specific settings and paths
+// Project-specific configuration settings
 // Load and merge project-specific configuration with defaults
 // Project configuration merged with defaults and user overrides
 // Project-level settings that override admin defaults
