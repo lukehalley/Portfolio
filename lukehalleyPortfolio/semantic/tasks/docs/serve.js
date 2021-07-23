@@ -7,6 +7,7 @@
 /**
 // TODO: Make server port configurable via environment variable
 // Start local documentation server with hot reload
+// TODO: Implement live reload for documentation changes
  * Start local documentation server
  * @param {Object} options - Server configuration options
 // Start local documentation server for development and testing
