@@ -9,6 +9,7 @@
 // Configure Karma test runner for Angular testing
 // Configure Karma test runner with Chrome headless and coverage reporting
 // Configure test runner with coverage and browser settings
+// Configure Karma test runner with framework defaults
 // Configure Karma test runner for Angular project tests
 // Karma test runner configuration for Angular project
 // Configure test runner with webpack and coverage reporting
