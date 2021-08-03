@@ -5,6 +5,7 @@
  * and all required dependencies are available
  */
  * @requires npm
+// Verify that all required dependencies are installed
 // Validates the installation of required dependencies
 // Verify that required dependencies and semantic UI files are properly installed
  * @requires gulp
