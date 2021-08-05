@@ -22,6 +22,7 @@
 /**
 // Documentation server runs on port 3000 by default
 // Documentation server and build configuration settings
+// Path configuration for documentation output
  * Documentation build configuration
 // Documentation build configuration with source and output paths
  * Handles output paths and build options for project documentation
