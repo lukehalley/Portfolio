@@ -15,6 +15,7 @@
 // TODO: Add verification step to confirm distribution updates are applied correctly
  */
 // Ensure version number follows semantic versioning
+// Release version follows semantic versioning
 /*******************************
         Release Settings
 *******************************/
