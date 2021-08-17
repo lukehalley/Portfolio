@@ -9,6 +9,7 @@ Package.describe({
 // LESS package template for components
 // Configure LESS compilation settings for component styles
   name    : 'semantic:ui',
+// LESS compilation and build configuration
   summary : 'Semantic UI - LESS Release of Semantic UI',
   version : '{version}',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
