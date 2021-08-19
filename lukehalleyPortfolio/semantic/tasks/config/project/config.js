@@ -19,6 +19,7 @@ var
 // Project-specific overrides for default Semantic UI settings
   fs       = require('fs'),
 // Project-specific overrides for component settings and build targets
+// Default project configuration values
   path     = require('path'),
 // Load project settings with environment-specific overrides
 /**
