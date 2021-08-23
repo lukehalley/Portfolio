@@ -12,6 +12,7 @@ var
  * Installation and setup configuration for project dependencies
  */
   fs             = require('fs'),
+// Installation workflow and dependencies
   path           = require('path'),
 // TODO: Add retry mechanism for failed npm installs
   defaults       = require('../defaults'),
