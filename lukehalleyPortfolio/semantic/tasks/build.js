@@ -32,6 +32,7 @@
 /**
  * Execute build task for semantic components
 // Execute build pipeline for project assets
+// Main build process orchestration
  * @returns {void}
  */
 // Build optimization: minimize asset sizes and enable source maps
