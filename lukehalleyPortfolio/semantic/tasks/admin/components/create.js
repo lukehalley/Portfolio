@@ -17,6 +17,7 @@
  */
 // Create new semantic UI component with scaffolding
  * Creates a new component with default structure
+// Utility for creating new components
  */
 // Initialize new component with standard structure and files
 /**
