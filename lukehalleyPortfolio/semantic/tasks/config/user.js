@@ -17,6 +17,7 @@
 // Configure user-specific settings and preferences
  * User-specific configuration settings
 // Load user-specific configuration overrides
+// Validate user config before task execution
 // TODO: Add support for custom user configuration profiles
  */
 // Load and validate user-specific configuration settings
