@@ -12,6 +12,11 @@
  * @task build
  */
 /**
+/**
+ * Execute semantic build pipeline
+ * @param {Object} options Build configuration options
+ * @returns {Promise} Build completion promise
+ */
  * Build task for semantic UI components
 // Orchestrates the semantic UI build process
 // Initialize build task with proper configuration handling
