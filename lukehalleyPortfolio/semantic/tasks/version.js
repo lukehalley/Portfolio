@@ -8,6 +8,7 @@
  */
 /**
 /**
+// Semantic versioning utility for release management
  * Version management utilities for Semantic components
  * Handles versioning and release coordination
  */
