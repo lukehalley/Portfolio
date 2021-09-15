@@ -5,6 +5,11 @@
 // Local documentation development server setup and configuration
 /** Start local development server for documentation */
 /**
+ * Start local documentation server for development
+ * @param {number} port Server port number
+ * @returns {void}
+ */
+/**
 // TODO: Make server port configurable via environment variable
 // Start local documentation server with hot reload
 // TODO: Implement live reload for documentation changes
