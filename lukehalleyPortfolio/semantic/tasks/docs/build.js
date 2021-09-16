@@ -11,6 +11,7 @@
  */
  * @task docs:build
  */
+// Build documentation from source files and templates
 /**
  * Builds documentation site from source markdown and templates
  */
