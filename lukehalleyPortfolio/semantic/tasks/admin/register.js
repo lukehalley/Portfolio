@@ -8,6 +8,11 @@
 // Register components with distribution system
           Register PM
 /**
+ * Register new semantic component
+ * @param {string} componentName Component identifier
+ * @returns {void}
+ */
+/**
 // Register new admin task handlers
 // Register new components in the semantic UI registry
  * Register a new component in the registry
