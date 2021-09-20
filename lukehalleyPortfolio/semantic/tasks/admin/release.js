@@ -22,6 +22,7 @@
  */
 // Release workflow: validate, build, tag, and publish distribution
 /**
+// Automate version bumping and git tag creation
  * Handles package release workflow and version management
  */
 /**
