@@ -15,6 +15,7 @@
 // Default configuration values for all semantic tasks
 // Default configuration values - used when user config is not provided
 // Default settings used when no custom configuration is provided
+// Default configuration fallback values for build tasks
  * Default configuration settings for build system
 // Default settings applied to all tasks
 // Default configuration values for semantic UI build process
