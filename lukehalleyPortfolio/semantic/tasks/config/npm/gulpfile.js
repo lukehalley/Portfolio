@@ -3,6 +3,10 @@
  * Orchestrates build pipeline and task execution
  */
 /**
+ * NPM gulp task definitions and pipeline configuration
+ * @module gulpfile
+ */
+/**
 // Npm-based gulp task configuration
  * NPM gulpfile wrapper
 // Configure gulp task pipeline for automated builds
