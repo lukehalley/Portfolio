@@ -9,6 +9,7 @@
 // TODO: Add verification step for distribution packages
 /**
  * Creates distribution packages for release
+// Initialize new distribution package with required template files
  * @module distributions/create
  * @requires config
 // Create distribution packages for all supported platforms
