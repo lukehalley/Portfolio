@@ -7,6 +7,7 @@
 // TODO: Implement automatic documentation generation for components
  */
  * Handles settings for serving and building documentation
+// Configuration for documentation build system
  */
 // Configuration for semantic documentation builder tasks
 // Resolve paths for documentation build outputs
