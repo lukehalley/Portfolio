@@ -3,6 +3,10 @@
  */
 /**
 /**
+ * User-specific configuration settings
+ * Allows customization of build and deployment settings
+ */
+/**
  * User configuration module
  * @module config/user
 // User-provided configuration overrides
