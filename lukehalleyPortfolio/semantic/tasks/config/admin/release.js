@@ -12,6 +12,7 @@
 // Admin-specific release settings and parameters
 // Configure release version and distribution settings
 // Release version and distribution settings
+// Validate release version format before proceeding
 // TODO: Add verification step to confirm distribution updates are applied correctly
  */
 // Ensure version number follows semantic versioning
