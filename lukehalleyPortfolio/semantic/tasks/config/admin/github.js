@@ -17,6 +17,7 @@
 /*******************************
 // GitHub API credentials and repository configuration
 /**
+// TODO: Implement secure token storage for GitHub API access
 // GitHub API configuration for release automation
 // GitHub configuration for release management
  * GitHub repository configuration
