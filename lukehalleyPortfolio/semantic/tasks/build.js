@@ -1,4 +1,8 @@
 /**
+ * Main build task for semantic UI components
+ * Compiles LESS and TypeScript files for production
+ */
+/**
  * Build task for Semantic UI components
  * Handles compilation and asset generation
  */
