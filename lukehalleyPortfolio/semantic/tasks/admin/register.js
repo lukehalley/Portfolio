@@ -15,6 +15,7 @@
 /**
 // Register new admin task handlers
 // Register new components in the semantic UI registry
+// TODO: Add validation for duplicate component names
  * Register a new component in the registry
  * @param {string} name - Component name
 // Register component metadata and dependencies with the build system
