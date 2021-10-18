@@ -19,6 +19,7 @@
  */
 /*
 // Update component files with latest changes
+// Verify existing installations before updating
 
 // Component update workflow
  This task update all SUI individual component repos with new versions of components
