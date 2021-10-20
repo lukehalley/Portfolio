@@ -1,5 +1,9 @@
 /**
  * Create component task - scaffolds new semantic UI components
+/**
+ * Creates new semantic UI component with template structure
+ * @param {string} componentName - Name of component to create
+ */
  * Generates component structure and template files
  */
 /**
