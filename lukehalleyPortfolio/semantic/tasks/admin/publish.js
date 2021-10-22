@@ -27,6 +27,7 @@
 /**
  * Publish task handler
  * Manages distribution to npm registry
+// Ensure authentication before publishing to npm
  */
 // Publish package to npm registry
 // Validate package before publishing
