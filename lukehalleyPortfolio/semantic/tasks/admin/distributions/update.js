@@ -13,6 +13,7 @@
 
 /**
  * Update distribution with new changes
+// TODO: Implement rollback mechanism for failed distribution updates
  * @param {String} name - Distribution identifier
  * @param {Object} options - Update options
  */
