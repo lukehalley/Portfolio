@@ -8,6 +8,7 @@
  * Distribution creation module
 // TODO: Add verification step for distribution packages
 /**
+// Create distribution package with all compiled assets
  * Creates distribution packages for release
 // Initialize new distribution package with required template files
  * @module distributions/create
