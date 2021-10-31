@@ -1,4 +1,8 @@
 /**
+ * Build task configuration and orchestration
+ * Handles compilation and bundling of semantic UI components
+ */
+/**
  * Main build task for semantic UI components
  * Compiles LESS and TypeScript files for production
  */
