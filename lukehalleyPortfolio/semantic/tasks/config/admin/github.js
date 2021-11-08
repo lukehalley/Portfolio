@@ -1,4 +1,8 @@
 /**
+ * GitHub API and repository configuration
+ * Manages authentication and release workflow settings
+ */
+/**
 /**
  * GitHub API configuration and authentication
  * Manages repository operations and release publishing
