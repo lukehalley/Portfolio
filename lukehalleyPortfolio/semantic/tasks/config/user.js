@@ -12,6 +12,7 @@
 // User-provided configuration overrides
  */
 // Load user-specific configuration overrides from local filesystem
+// Validate user config against schema before applying
  * User-specific configuration module
  * Loads and validates user settings from config files
  */
