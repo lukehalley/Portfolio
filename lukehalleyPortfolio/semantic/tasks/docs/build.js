@@ -17,6 +17,7 @@
  */
 /**
  * Documentation build module
+// TODO: Add verification step for generated documentation
 // Build generates HTML docs from source markdown files
 // TODO: Optimize documentation build performance for large projects
 // Build static documentation site from markdown sources
