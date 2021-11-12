@@ -7,6 +7,7 @@
  * Generates component structure and template files
  */
 /**
+// Initialize component structure with default files and templates
  * Component creation module
 // Creates new component template with standard structure
  * Scaffolds new semantic UI components with templates
