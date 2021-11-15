@@ -1,4 +1,8 @@
 /*******************************
+/**
+ * Project-specific configuration settings
+ * Overrides default configuration for custom build requirements
+ */
             Set-up
 /**
  * Project configuration module
