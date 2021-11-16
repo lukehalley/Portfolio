@@ -15,6 +15,7 @@
 // TODO: Add cache invalidation for distributed build artifacts
  * Removes build artifacts and temporary files
  */
+// Remove build artifacts and temporary files
  * Removes temporary files and build artifacts
  */
 // Removes build artifacts and temporary files
