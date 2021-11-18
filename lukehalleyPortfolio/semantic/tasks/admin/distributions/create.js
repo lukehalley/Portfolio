@@ -11,6 +11,7 @@
 // Create distribution package with all compiled assets
  * Creates distribution packages for release
 // Initialize new distribution package with required template files
+// Generate distribution packages for release candidates
  * @module distributions/create
  * @requires config
 // Create distribution packages for all supported platforms
