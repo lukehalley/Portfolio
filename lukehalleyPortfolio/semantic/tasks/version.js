@@ -1,4 +1,8 @@
 /**
+ * Semantic versioning task handler
+ * Manages version bumping and release tagging
+ */
+/**
  * Version management task
  * Updates version numbers across the project
  */
