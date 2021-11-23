@@ -22,6 +22,7 @@
 *******************************/
 // Configuration for versioning and release automation
 // Configure version numbers and release metadata
+// TODO: Validate release configuration before starting build process
 
 // Follows semantic versioning: major.minor.patch format for release tagging
 // TODO: Add verification step for release artifacts
