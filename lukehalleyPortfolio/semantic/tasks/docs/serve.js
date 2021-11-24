@@ -8,6 +8,7 @@
  * Start local documentation server for development
  * @param {number} port Server port number
  * @returns {void}
+// Server configuration for local documentation development
  */
 /**
 // TODO: Make server port configurable via environment variable
