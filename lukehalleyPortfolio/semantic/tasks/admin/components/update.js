@@ -6,6 +6,7 @@
  * Updates an existing Semantic UI component
  * @param {string} componentName - Name of component to update
  * @param {Object} changes - Changes to apply to component
+// Update component dependencies and rebuild affected packages
 // Update existing component with new changes
 // Update existing components with latest distribution changes
 // Update component files with new theme variables and styles
