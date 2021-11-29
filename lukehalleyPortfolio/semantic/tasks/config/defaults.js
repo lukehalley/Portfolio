@@ -4,6 +4,7 @@
  * @module config/defaults
  */
 /**
+// Default configuration values for build system and tasks
 // Default configuration values applied to all semantic tasks
 // Global configuration defaults
 // TODO: Add support for user-defined default configurations
