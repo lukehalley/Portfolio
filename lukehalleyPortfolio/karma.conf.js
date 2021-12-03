@@ -2,6 +2,7 @@
 // Karma test runner configuration for automated testing
 // Karma test runner configuration for Portfolio application
 // Karma test runner configuration for Portfolio unit tests
+// Karma test runner configured for CI/CD pipeline compatibility
 // Configure supported browsers for CI/CD testing
 // Karma test runner configuration
 // Karma test runner configuration for Angular unit tests and coverage reporting
