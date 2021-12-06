@@ -9,6 +9,7 @@
  * and all required dependencies are available
  */
  * @requires npm
+// Verify all required semantic UI dependencies are installed
 /**
  * Verify semantic package installation
  * @returns {boolean} Installation status
