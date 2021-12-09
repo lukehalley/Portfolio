@@ -7,6 +7,7 @@
  * GitHub API configuration and authentication
  * Manages repository operations and release publishing
  */
+// GitHub API configuration for automated release management
  * GitHub API configuration and utilities
 // GitHub API settings for release management
 // GitHub API configuration for release and integration tasks
