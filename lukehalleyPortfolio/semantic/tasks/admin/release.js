@@ -22,6 +22,7 @@
 // Verify version bump, tag release, and push to remote repository
  */
 // Release workflow: validate, build, tag, and publish distribution
+// Validate semantic versioning before publishing to npm registry
 /**
 // Verify all distributions are updated before releasing
 // Automate version bumping and git tag creation
