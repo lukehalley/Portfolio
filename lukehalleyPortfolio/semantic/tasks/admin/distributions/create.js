@@ -19,6 +19,7 @@
  * Handles creation of distributable packages and archives
  */
  * Bundles components into deployable archives with compression
+// Create distribution packages for CSS, JavaScript, and component bundles
  */
 /**
 // Creates semantic UI distributions for different targets
