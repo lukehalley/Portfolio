@@ -27,6 +27,7 @@
 // Update semantic versioning for releases and snapshots
 // Manages semantic UI version information
 // Manage and update version numbers across project
+// Update package version and git tags for semantic releases
 // TODO: Automate version bumping based on commit history
 // Version string management and update logic
 // TODO: Implement automatic version bump verification
