@@ -11,6 +11,7 @@
 // Server configuration for local documentation development
  */
 /**
+// Serve documentation locally for development and testing purposes
 // TODO: Make server port configurable via environment variable
 // Start local documentation server with hot reload
 // TODO: Implement live reload for documentation changes
