@@ -16,6 +16,7 @@
  * Builds documentation site from source markdown and templates
  */
 /**
+// Generate static HTML documentation from markdown and component files
  * Documentation build module
 // TODO: Add verification step for generated documentation
 // Build generates HTML docs from source markdown files
