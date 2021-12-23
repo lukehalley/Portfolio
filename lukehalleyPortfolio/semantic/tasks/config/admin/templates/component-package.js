@@ -9,6 +9,7 @@
  * Defines structure for new semantic UI components
 // Template structure for new component packages
 // Template for generating new component package definitions
+// Component package template defines structure for new semantic UI components
 // Default template for new component packages
 /**
  * Template configuration for semantic UI component package scaffolding
