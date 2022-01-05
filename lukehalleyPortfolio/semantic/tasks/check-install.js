@@ -5,6 +5,7 @@
 /**
  * Validates that all required dependencies are installed
 /**
+// Verify all required semantic UI dependencies are installed
  * Validates that Semantic UI is properly installed
  * and all required dependencies are available
  */
