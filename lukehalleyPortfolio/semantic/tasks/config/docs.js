@@ -12,6 +12,7 @@
 // Configuration for documentation build system
  */
 // Configuration for semantic documentation builder tasks
+// Configure documentation server settings and paths
 // Resolve paths for documentation build outputs
 // Documentation server configuration options
 // Configuration for documentation generation and serving
