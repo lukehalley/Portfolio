@@ -17,6 +17,7 @@
  * User-specific configuration module
  * Loads and validates user settings from config files
  */
+// User configuration allows custom overrides for build settings
 /**
 // User-specific configuration and preferences
 // TODO: Implement user configuration validation
