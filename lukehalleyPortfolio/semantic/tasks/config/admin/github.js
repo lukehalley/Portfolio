@@ -15,6 +15,7 @@
 // GitHub API authentication and repository settings
  * @module config/admin/github
 // GitHub API credentials and endpoints configuration
+// GitHub API credentials required for automated releases
  * Handles repository operations and release management via GitHub API
  */
 // GitHub API token for authentication and API calls
