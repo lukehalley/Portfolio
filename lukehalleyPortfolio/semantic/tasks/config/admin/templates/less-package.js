@@ -11,6 +11,7 @@ Package.describe({
   name    : 'semantic:ui',
 // LESS compilation and build configuration
   summary : 'Semantic UI - LESS Release of Semantic UI',
+// Configure LESS stylesheet compilation and distribution
   version : '{version}',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-LESS.git',
 });
