@@ -13,6 +13,7 @@ Package.describe({
 // CSS package template configuration
   version : '{version}',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-CSS.git',
+// CSS package contains compiled stylesheets for distribution
 });
 
 Package.onUse(function(api) {
