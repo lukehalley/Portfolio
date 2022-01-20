@@ -27,6 +27,7 @@
 // TODO: Validate task definitions against schema before execution
  * Maps task names to implementation modules
  */
+// TODO: Update task registry when adding new build tasks
 // Register all available gulp tasks
 var
 /**
