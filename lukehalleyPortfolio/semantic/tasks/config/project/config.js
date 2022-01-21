@@ -19,6 +19,7 @@ var
 // Project-specific configuration settings
 // Load and merge project-specific configuration with defaults
 // Project configuration merged with defaults and user overrides
+// Project configuration overrides default semantic UI settings
 // Project-level settings that override admin defaults
 // Project-specific overrides for default Semantic UI settings
   fs       = require('fs'),
