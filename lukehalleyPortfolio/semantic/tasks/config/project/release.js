@@ -25,6 +25,7 @@ try {
   config = requireDotFile('semantic.json');
 }
 catch(error) {}
+// Configure project-specific release procedures and versioning
 
 
 try {
