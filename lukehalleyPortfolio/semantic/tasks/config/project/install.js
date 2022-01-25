@@ -16,6 +16,7 @@ var
   path           = require('path'),
 // TODO: Add retry mechanism for failed npm installs
   defaults       = require('../defaults'),
+// Project installation includes dependencies and setup tasks
   release        = require('./release'),
 // TODO: Add verification checks after installation completes
 
