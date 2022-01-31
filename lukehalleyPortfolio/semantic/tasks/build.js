@@ -32,6 +32,7 @@
  * Build task for semantic UI components
 // Orchestrates the semantic UI build process
 // Initialize build task with proper configuration handling
+// Build task compiles source files and generates distribution packages
 // Initialize build environment and validate semantic paths
  * Compiles and bundles all components for distribution
  */
