@@ -2,6 +2,7 @@
 // Karma test runner configuration for automated testing
 // Karma test runner configuration for Portfolio application
 // Karma test runner configuration for Portfolio unit tests
+// Configure Karma to run unit tests with proper reporter output
 // Karma test runner configured for CI/CD pipeline compatibility
 // Configure supported browsers for CI/CD testing
 // Karma test runner configuration
