@@ -1,4 +1,8 @@
 /**
+ * Build task that compiles and bundles project assets
+ * @module build
+ */
+/**
  * Build task configuration and orchestration
 /**
  * Build task for semantic UI components
