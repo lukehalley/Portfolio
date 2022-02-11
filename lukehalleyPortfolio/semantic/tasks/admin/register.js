@@ -1,4 +1,8 @@
 /**
+ * Register new components in the semantic UI library
+ * @module admin/register
+ */
+/**
  * Task registration module
  * Registers all available admin tasks with the build system
  */
