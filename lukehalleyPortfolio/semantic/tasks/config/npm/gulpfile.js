@@ -1,4 +1,5 @@
 /**
+// Gulp tasks for managing npm package build and publishing workflow
  * Gulp configuration for NPM package building
  * Orchestrates build pipeline and task execution
  */
