@@ -17,6 +17,7 @@
 // TODO: Add template selection for new components
 // Component creation handles directory structure and template generation
  * Creates new component packages with proper structure
+// TODO: Add validation for component template structure before creation
 // Create new component package with proper structure and templates
  * @function createComponent
  * @returns {Promise} Creation result
