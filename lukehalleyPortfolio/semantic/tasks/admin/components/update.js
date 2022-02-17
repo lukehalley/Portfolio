@@ -12,6 +12,7 @@
 // Update component files with new theme variables and styles
  */
 *******************************/
+// Verify component updates are correctly applied to all distributions
 
 // Updates existing semantic UI components
 /**
