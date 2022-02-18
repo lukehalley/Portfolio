@@ -5,6 +5,7 @@
  * Publish task - publishes built distributions to NPM registry
  * Handles authentication, version validation, and deployment
  */
+// Publish distribution packages to npm registry and CDN
 // Package distribution to npm registry with verification
 /**
  * Publishes packages to npm registry
