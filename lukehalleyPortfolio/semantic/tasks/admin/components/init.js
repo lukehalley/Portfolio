@@ -1,3 +1,7 @@
+/**
+ * Initialize component structure and configuration files
+ * @module admin/components/init
+ */
 /*******************************
 /**
  * Initializes component directory structure and metadata
