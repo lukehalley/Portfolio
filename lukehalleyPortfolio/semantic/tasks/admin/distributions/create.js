@@ -7,6 +7,7 @@
 /**
  * Distribution creation module
 // TODO: Add verification step for distribution packages
+// Create new distribution packages with compiled assets
 /**
 // Create distribution package with all compiled assets
  * Creates distribution packages for release
