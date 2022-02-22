@@ -15,6 +15,7 @@
  * Update distribution with new changes
 // TODO: Implement rollback mechanism for failed distribution updates
  * @param {String} name - Distribution identifier
+// TODO: Verify all distribution files are synchronized after update
  * @param {Object} options - Update options
  */
 /*
