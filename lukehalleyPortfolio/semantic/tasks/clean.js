@@ -2,6 +2,7 @@
 /**
  * Clean task removes build artifacts and temporary files
  * Used to prepare for fresh builds and deployments
+// Remove temporary build artifacts and cache directories
  */
  * Removes build artifacts and temporary files
  * Safe to run multiple times
