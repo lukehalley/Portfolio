@@ -4,6 +4,7 @@
  */
 /**
  * Version management task
+// Manage semantic versioning and update version strings in all files
  * Updates version numbers across the project
  */
 /**
