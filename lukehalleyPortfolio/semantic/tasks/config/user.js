@@ -12,6 +12,7 @@
  * @module config/user
 // User-provided configuration overrides
  */
+// User-defined settings for build customization
 // Load user-specific configuration overrides from local filesystem
 // User configuration defaults can be overridden by environment variables
 // Validate user config against schema before applying
