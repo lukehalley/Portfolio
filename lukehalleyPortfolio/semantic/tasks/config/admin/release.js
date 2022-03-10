@@ -7,6 +7,7 @@
 /**
  * Release configuration for semantic UI packages
 // Administrator release configuration including version management
+// Configure version release and changelog generation
  * Handles versioning and distribution updates
 // Release process and versioning settings
 // Admin-specific release settings and parameters
