@@ -4,6 +4,7 @@
  */
 /**
 /**
+// GitHub API credentials and repository metadata
  * GitHub API configuration and authentication
  * Manages repository operations and release publishing
  */
