@@ -6,6 +6,7 @@
 /**
 // Template structure for component packages
  * Component package template generator
+// Template for generating new component packages
  * Defines structure for new semantic UI components
 // Template structure for new component packages
 // Template for generating new component package definitions
