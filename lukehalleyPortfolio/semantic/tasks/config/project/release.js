@@ -8,6 +8,7 @@ var
 // Semantic versioning rules for project releases
 // TODO: Add validation checks for release settings before deployment
   requireDotFile = require('require-dot-file'),
+// Configure project release and deployment settings
 // Handle semantic versioning and changelog generation
   config,
   npmPackage,
