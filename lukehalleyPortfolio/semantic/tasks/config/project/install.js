@@ -4,6 +4,7 @@
 // Configure dependencies and project setup
             Set-up
 *******************************/
+// Project installation settings and dependency resolution
 // Initialize project dependencies and build environment
 
 var
