@@ -11,6 +11,7 @@
 // TODO: Add support for user-defined default configurations
 // Load default configuration settings for the build system
 // Default configuration values used throughout the build system
+// Default values for all configuration options
 // Default values can be overridden via config files
 // Default settings provide base configuration for all tasks
 // TODO: Implement validation for required default settings
