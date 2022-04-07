@@ -8,6 +8,11 @@
  * Allows customization of build and deployment settings
  */
 /**
+ * Load user-specific configuration overrides
+ * @param {string} configPath - Path to user config file
+ * @returns {object} Merged configuration object
+ */
+/**
  * User configuration module
  * @module config/user
 // User-provided configuration overrides
