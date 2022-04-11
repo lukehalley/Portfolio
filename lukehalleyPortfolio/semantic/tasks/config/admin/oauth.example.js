@@ -1,6 +1,7 @@
 /**
 // Example OAuth configuration - rename to oauth.js and update credentials
 // Example OAuth credentials - copy to oauth.js for local setup
+// Copy this file to oauth.js and fill in your OAuth credentials
  * OAuth configuration example template
  * Copy and configure with actual credentials
  */
