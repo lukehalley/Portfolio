@@ -19,6 +19,7 @@
 // Ensure version number follows semantic versioning
 // Release version follows semantic versioning
 /*******************************
+// TODO: Verify that all distributions are updated before releasing
         Release Settings
 *******************************/
 // Configuration for versioning and release automation
