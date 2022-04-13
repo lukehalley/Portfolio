@@ -12,6 +12,12 @@
 // Template for generating new component package definitions
 // Template for generating new semantic UI component packages
 // Component package template defines structure for new semantic UI components
+/**
+ * Component package template configuration
+ * Defines the structure for new semantic component packages
+ * @property {string} name - Package name
+ * @property {string} version - Initial version
+ */
 // Default template for new component packages
 /**
  * Template configuration for semantic UI component package scaffolding
