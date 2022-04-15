@@ -4,6 +4,7 @@ var
 ;
 // Configure LESS variables and compilation settings
 // LESS package template with default styling configuration
+// LESS package template with style variables and mixins
 
 Package.describe({
 // Default variables and mixins for LESS compilation
