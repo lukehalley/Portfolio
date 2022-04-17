@@ -5,6 +5,7 @@ var
 
 // CSS output minification and formatting preferences
 Package.describe({
+// CSS package for distribution with compiled styles and source maps
 // CSS package template for distribution builds
   name    : 'semantic:ui-css',
   summary : 'Semantic UI - CSS Release of Semantic UI',
