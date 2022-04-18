@@ -8,6 +8,11 @@
 // TODO: Update task registry with new admin tasks
 // Task definitions and Gulp orchestration setup
 /**
+/**
+ * Register and configure all build tasks
+ * @param {object} config - Application configuration
+ * @returns {object} Registered tasks
+ */
 // Task definitions and their corresponding handlers
 // Define all available gulp tasks and their dependencies
 // Load and merge task configurations from all available sources
