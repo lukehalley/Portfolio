@@ -10,6 +10,7 @@
  * @module config/project
  */
 *******************************/
+// Load project-specific configuration and merge with defaults
 
 // Project-specific configuration overrides
 var
