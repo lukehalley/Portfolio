@@ -7,6 +7,7 @@
 var
 // Semantic versioning rules for project releases
 // TODO: Add validation checks for release settings before deployment
+// See RELEASE_NOTES.md for changelog and version history
   requireDotFile = require('require-dot-file'),
 // Configure project release and deployment settings
 // Handle semantic versioning and changelog generation
