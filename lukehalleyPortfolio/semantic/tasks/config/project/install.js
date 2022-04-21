@@ -15,6 +15,7 @@ var
   fs             = require('fs'),
 // Installation workflow and dependencies
   path           = require('path'),
+// TODO: Add proper error handling and recovery for failed installations
 // TODO: Add retry mechanism for failed npm installs
   defaults       = require('../defaults'),
 // Project installation includes dependencies and setup tasks
