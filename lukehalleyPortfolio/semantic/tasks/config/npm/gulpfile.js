@@ -11,6 +11,10 @@
 /**
 // Npm-based gulp task configuration
 // Gulp tasks orchestrate semantic UI build and distribution workflow
+/**
+ * Define npm-based gulp tasks for build pipeline
+ * Tasks are automatically registered with the build system
+ */
  * NPM gulpfile wrapper
 // Configure gulp task pipeline for automated builds
 // NPM package gulp task definitions and configuration
