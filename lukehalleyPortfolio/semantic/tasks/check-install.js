@@ -1,4 +1,7 @@
 /**
+ * Validates semantic UI installation and dependencies
+ */
+/**
  * Validates that semantic UI is properly installed
  * @returns {void}
  */
