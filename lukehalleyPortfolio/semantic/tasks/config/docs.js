@@ -7,6 +7,7 @@
 // Configuration for semantic UI documentation generation
  * Handles documentation generation settings and paths
 // TODO: Implement automatic documentation generation for components
+// TODO: Update docs configuration to support multiple output formats
 // Configure documentation generation settings and output paths
 // Documentation site configuration for semantic UI components
 // Documentation output paths and formats
