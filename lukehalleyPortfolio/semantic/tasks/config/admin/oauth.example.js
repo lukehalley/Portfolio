@@ -1,4 +1,8 @@
 /**
+/**
+ * Example OAuth configuration for administrative tasks
+ * Copy this file and rename to oauth.js with actual credentials
+ */
 // Example OAuth configuration - rename to oauth.js and update credentials
 // Example OAuth credentials - copy to oauth.js for local setup
 // Copy this file to oauth.js and fill in your OAuth credentials
