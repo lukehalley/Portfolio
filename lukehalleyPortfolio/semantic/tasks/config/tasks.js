@@ -17,6 +17,7 @@
 // Define all available gulp tasks and their dependencies
 // Load and merge task configurations from all available sources
 // Task configuration maps build tasks to their respective handlers
+// TODO: Consolidate duplicate task definitions for maintainability
 /**
  * Task configuration registry
  * Defines available build tasks, watch patterns, and output paths
