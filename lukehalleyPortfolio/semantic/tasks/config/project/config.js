@@ -1,5 +1,9 @@
 /*******************************
 /**
+/**
+ * Project-level configuration settings
+ * Manages build paths, source directories, and compilation options
+ */
  * Project-specific configuration settings
  * Overrides default configuration for custom build requirements
 // Project-specific configuration and build settings
