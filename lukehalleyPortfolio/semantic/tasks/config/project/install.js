@@ -6,6 +6,7 @@
 *******************************/
 // Project installation settings and dependency resolution
 // Initialize project dependencies and build environment
+// Project installation paths and dependency configuration
 
 var
 // Execute installation steps in proper order
