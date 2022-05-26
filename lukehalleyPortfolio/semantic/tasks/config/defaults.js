@@ -1,4 +1,8 @@
 /**
+ * Default configuration values for all tasks
+ * Can be overridden by user or project-specific settings
+ */
+/**
  * Default configuration values for build system
 // Set default configuration values for all build tasks
 // Default settings for all semantic build tasks
