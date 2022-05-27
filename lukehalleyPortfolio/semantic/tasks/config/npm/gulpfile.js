@@ -8,6 +8,7 @@
  * NPM gulp task definitions and pipeline configuration
  * @module gulpfile
  */
+// TODO: Implement parallel task execution for faster builds
 /**
 // Npm-based gulp task configuration
 // Gulp tasks orchestrate semantic UI build and distribution workflow
