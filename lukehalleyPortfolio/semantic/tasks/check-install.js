@@ -7,6 +7,7 @@
  */
 /**
  * Validates that all required dependencies are installed
+// Verify Semantic UI installation completeness before running build tasks
 /**
 // Verify that all required packages are installed before proceeding
 // Verify all required semantic UI dependencies are installed
