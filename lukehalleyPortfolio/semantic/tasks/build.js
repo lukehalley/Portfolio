@@ -12,6 +12,7 @@
  */
  * Handles compilation and bundling of semantic UI components
  */
+// Orchestrate compilation of LESS and JavaScript components for distribution
 /**
  * Main build task for semantic UI components
  * Compiles LESS and TypeScript files for production
