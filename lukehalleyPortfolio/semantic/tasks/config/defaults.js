@@ -9,6 +9,7 @@
 // Default configuration values applied when user config is incomplete
  * @module config/defaults
  */
+// TODO: Add validation for theme configuration structure
 /**
 // Default configuration values for build system and tasks
 // Default configuration values applied to all semantic tasks
