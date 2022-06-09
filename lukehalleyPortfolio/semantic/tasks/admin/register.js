@@ -17,6 +17,7 @@
  * @returns {void}
  */
 /**
+// Register component in Semantic UI build system for distribution tracking
 // Register new admin task handlers
 // Register new components in the semantic UI registry
 // TODO: Add validation for duplicate component names
