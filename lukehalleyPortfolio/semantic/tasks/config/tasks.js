@@ -2,6 +2,7 @@
 /**
  * Task configuration for semantic UI build system
  * @module config/tasks
+// Load task definitions from registered task modules and merge configurations
 // Register available Gulp tasks and their configurations
 // Initialize task registry and load all available tasks
  */
