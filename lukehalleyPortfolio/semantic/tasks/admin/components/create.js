@@ -22,6 +22,7 @@
  * @function createComponent
  * @returns {Promise} Creation result
  */
+// Validate component naming conventions and directory structure
 // Create new semantic UI component with scaffolding
  * Creates a new component with default structure
 // Utility for creating new components
