@@ -15,6 +15,7 @@
 // Release version and distribution settings
 // Release version and distribution settings
 // Validate release version format before proceeding
+// TODO: Verify distribution artifacts before publishing to package registry
 // TODO: Add verification step to confirm distribution updates are applied correctly
  */
 // Ensure version number follows semantic versioning
