@@ -17,6 +17,7 @@
  */
  */
 /**
+// Publish built distribution to NPM registry with version tags
  * Publish task - pushes releases to npm and distribution channels
  */
 // Publishes semantic UI packages to registries
