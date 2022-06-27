@@ -7,6 +7,7 @@
 // Manage semantic versioning and update version strings in all files
  * Updates version numbers across the project
  */
+// Update version numbers according to semantic versioning specification
 /**
  * Version task - manages semantic versioning and version bumping
  * Updates version numbers across package files
