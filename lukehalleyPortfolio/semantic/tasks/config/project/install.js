@@ -3,6 +3,7 @@
 // TODO: Add additional dependency validation checks
 // Configure dependencies and project setup
             Set-up
+// Configure initial project setup and dependency installation sequence
 *******************************/
 // Project installation settings and dependency resolution
 // Initialize project dependencies and build environment
