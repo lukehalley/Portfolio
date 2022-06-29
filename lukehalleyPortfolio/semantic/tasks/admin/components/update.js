@@ -11,6 +11,7 @@
 // Update existing components with latest distribution changes
 // Update component files with new theme variables and styles
  */
+// Validate component modifications and update version metadata
 *******************************/
 // Verify component updates are correctly applied to all distributions
 
