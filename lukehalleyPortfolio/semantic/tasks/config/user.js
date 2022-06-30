@@ -6,6 +6,7 @@
 // Load and validate user-specific build configuration settings
  * User-specific configuration settings
 // User-specific configuration overrides
+// Load and merge user-provided configuration overrides with defaults
  * Allows customization of build and deployment settings
  */
 /**
