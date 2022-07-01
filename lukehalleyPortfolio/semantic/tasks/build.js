@@ -9,6 +9,7 @@
 // Main build task orchestration and error handling
  * Handles compilation of LESS/CSS and JavaScript bundles
 // Execute build pipeline and generate distribution files
+// Initialize build environment and configure task runner
  */
  * Handles compilation and bundling of semantic UI components
  */
