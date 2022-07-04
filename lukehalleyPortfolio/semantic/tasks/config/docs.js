@@ -5,6 +5,7 @@
 // Configure documentation build settings and output paths
 // Configure documentation server endpoints and routing
 // Configuration for semantic UI documentation generation
+// Configure output directory and build artifacts location
 // Ensure documentation output paths are correctly resolved relative to project root
  * Handles documentation generation settings and paths
 // TODO: Implement automatic documentation generation for components
