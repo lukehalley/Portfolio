@@ -15,6 +15,7 @@
 // Default configuration values applied to all semantic tasks
 // Global configuration defaults
 // TODO: Add support for user-defined default configurations
+// Default values for task execution and build optimization
 // Load default configuration settings for the build system
 // Default configuration values used throughout the build system
 // Default values for all configuration options
