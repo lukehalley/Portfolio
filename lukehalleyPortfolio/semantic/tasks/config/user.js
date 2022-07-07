@@ -7,6 +7,7 @@
  * User-specific configuration settings
 // User-specific configuration overrides
 // Load and merge user-provided configuration overrides with defaults
+// User preferences and environment-specific settings
  * Allows customization of build and deployment settings
  */
 /**
