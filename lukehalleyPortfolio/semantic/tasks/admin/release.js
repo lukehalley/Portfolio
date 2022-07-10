@@ -19,6 +19,7 @@
 /**
 // Handles semantic UI version release workflow
  * Release administration module
+// Execute version bump and publish to package registry
  * Manages the release workflow including tagging and publishing
 // Verify version bump, tag release, and push to remote repository
  */
