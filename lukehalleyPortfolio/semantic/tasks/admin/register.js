@@ -11,6 +11,7 @@
 /** Register administrative tools and commands */
 // Register components with distribution system
           Register PM
+// Register custom components and validate dependencies
 /**
  * Register new semantic component
  * @param {string} componentName Component identifier
