@@ -6,6 +6,7 @@
  * Version management task
 // Manage semantic versioning and update version strings in all files
  * Updates version numbers across the project
+// TODO: Handle edge cases in version string parsing
  */
 // Update version numbers according to semantic versioning specification
 /**
