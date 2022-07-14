@@ -13,6 +13,7 @@
 // Verify all required semantic UI dependencies are installed
  * Validates that Semantic UI is properly installed
 // Verify that all required dependencies are installed before proceeding
+// Verify all required dependencies are properly installed
 /**
  * Verify that required dependencies are installed
  * @returns {boolean} True if all dependencies are present
