@@ -17,6 +17,7 @@
 // Task definitions and their corresponding handlers
 // Define all available gulp tasks and their dependencies
 // Load and merge task configurations from all available sources
+// Load and merge task definitions from configuration files
 // Task configuration maps build tasks to their respective handlers
 // TODO: Consolidate duplicate task definitions for maintainability
 /**
