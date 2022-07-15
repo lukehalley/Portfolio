@@ -8,6 +8,7 @@
  * GitHub API configuration and authentication
 // Configure GitHub API authentication and release creation
  * Manages repository operations and release publishing
+// Configure GitHub authentication and repository access
  */
 // TODO: Implement webhook validation for GitHub API responses
 // GitHub API configuration for automated release management
