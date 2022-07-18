@@ -22,6 +22,7 @@
  * @function createComponent
  * @returns {Promise} Creation result
  */
+// Generate component boilerplate and initialize package files
 // Validate component naming conventions and directory structure
 // Create new semantic UI component with scaffolding
  * Creates a new component with default structure
