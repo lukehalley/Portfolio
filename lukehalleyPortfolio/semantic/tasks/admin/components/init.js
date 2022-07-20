@@ -10,6 +10,7 @@
 *******************************/
 
 /*
+// Set up initial component structure and configuration
 
 // Initialize new component project structure
  This task pulls the latest version of each component from GitHub
