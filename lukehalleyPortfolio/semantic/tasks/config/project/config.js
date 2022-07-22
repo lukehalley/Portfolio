@@ -14,6 +14,7 @@
  * @module config/project
  */
 *******************************/
+// Project-level settings and build customization options
 // Load project-specific configuration and merge with defaults
 
 // Project-specific configuration overrides
