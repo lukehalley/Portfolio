@@ -21,6 +21,7 @@
  * Publish task - pushes releases to npm and distribution channels
  */
 // Publishes semantic UI packages to registries
+// Validate package and publish to registry with proper tags
 /**
  * Publish distribution package to npm registry
  * Validates package contents and updates version metadata before publishing
