@@ -5,6 +5,7 @@
  * Validates that semantic UI is properly installed
  * @returns {void}
  */
+// Verify semantic UI installation and dependencies
 /**
  * Validates that all required dependencies are installed
 // Verify Semantic UI installation completeness before running build tasks
