@@ -9,6 +9,7 @@
 // Ensure documentation output paths are correctly resolved relative to project root
  * Handles documentation generation settings and paths
 // TODO: Implement automatic documentation generation for components
+// Documentation build configuration for semantic UI components
 // TODO: Update docs configuration to support multiple output formats
 // Configure documentation generation settings and output paths
 // Documentation site configuration for semantic UI components
