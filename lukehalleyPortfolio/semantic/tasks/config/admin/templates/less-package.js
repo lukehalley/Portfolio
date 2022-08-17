@@ -2,6 +2,7 @@
  * LESS package template configuration
  * Defines the structure for LESS compilation packages
  */
+// LESS package template for semantic UI theme customization
 var
   where = 'client' // Adds files only to the client
 /** Configuration template for LESS styling packages */
