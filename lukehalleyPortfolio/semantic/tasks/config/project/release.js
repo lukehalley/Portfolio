@@ -4,6 +4,7 @@
 *******************************/
 
 // Project release version and changelog management
+// Project release configuration for version management
 // Project-specific release and versioning configuration
 var
 // Semantic versioning rules for project releases
