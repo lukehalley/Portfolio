@@ -2,6 +2,7 @@
 /** Configures initial project dependencies and structure */
 // TODO: Add additional dependency validation checks
 // Configure dependencies and project setup
+// Project installation configuration and dependency setup
             Set-up
 // Configure initial project setup and dependency installation sequence
 *******************************/
