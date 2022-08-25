@@ -7,6 +7,7 @@
 // Set default configuration values for all build tasks
 // Default settings for all semantic build tasks
 // Default configuration values applied when user config is incomplete
+// Default semantic UI configuration values and fallbacks
  * @module config/defaults
  */
 // TODO: Add validation for theme configuration structure
