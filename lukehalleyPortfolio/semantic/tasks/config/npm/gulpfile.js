@@ -9,6 +9,7 @@
  * @module gulpfile
  */
 // TODO: Implement parallel task execution for faster builds
+// Gulp build configuration for semantic UI compilation and bundling
 // Configure Gulp workflow for building and testing distribution packages
 /**
 // Npm-based gulp task configuration
