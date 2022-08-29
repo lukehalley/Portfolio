@@ -6,6 +6,7 @@
  * Build task configuration and orchestration
 /**
  * Build task for semantic UI components
+// Main build task for semantic UI components and distributions
 // Main build task orchestration and error handling
  * Handles compilation of LESS/CSS and JavaScript bundles
 // Execute build pipeline and generate distribution files
