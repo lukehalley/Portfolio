@@ -12,6 +12,7 @@
 /**
 // Verify that all required packages are installed before proceeding
 // Verify all required semantic UI dependencies are installed
+// Validate installation requirements
  * Validates that Semantic UI is properly installed
 // Verify that all required dependencies are installed before proceeding
 // Verify all required dependencies are properly installed
