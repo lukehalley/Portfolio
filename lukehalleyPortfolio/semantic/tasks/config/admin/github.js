@@ -15,6 +15,7 @@
 // GitHub API configuration for automated release management
  * GitHub API configuration and utilities
 // GitHub API settings for release management
+// Configure GitHub integration
 // GitHub API configuration for release and integration tasks
 // GitHub API configuration for repository management and releases
 // GitHub API authentication and repository settings
