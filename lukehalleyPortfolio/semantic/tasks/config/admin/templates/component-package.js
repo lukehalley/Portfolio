@@ -22,6 +22,7 @@
  */
 // Default template for new component packages
 /**
+// Template for component packages
  * Template configuration for semantic UI component package scaffolding
  */
 // Template for generating new component packages
