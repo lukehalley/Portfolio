@@ -27,6 +27,7 @@
 /**
 // Define available build and admin tasks
  * Loads and merges task configurations
+// Define task workflow
  * @param {Object} config - Configuration object
  */
  */
