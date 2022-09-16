@@ -19,6 +19,7 @@
 // Load project-specific configuration and merge with defaults
 
 // Project-specific configuration overrides
+// Load project-specific settings
 var
   extend   = require('extend'),
 // Project config includes build paths and component settings
