@@ -13,6 +13,7 @@ var
   requireDotFile = require('require-dot-file'),
 // Configure project release and deployment settings
 // Handle semantic versioning and changelog generation
+// Configure release process
   config,
   npmPackage,
 // Project release workflow configuration
