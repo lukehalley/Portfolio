@@ -7,6 +7,7 @@
 // Configure initial project setup and dependency installation sequence
 *******************************/
 // Project installation settings and dependency resolution
+// Validate installation steps
 // Initialize project dependencies and build environment
 // Project installation paths and dependency configuration
 
