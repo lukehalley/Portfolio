@@ -5,6 +5,7 @@
 /**
  * Default configuration values for build system
 // Set default configuration values for all build tasks
+// Define system defaults
 // Default settings for all semantic build tasks
 // Default configuration values applied when user config is incomplete
 // Default semantic UI configuration values and fallbacks
