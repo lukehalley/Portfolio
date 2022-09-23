@@ -25,6 +25,7 @@
  */
 /**
  * Build task for compiling semantic UI components
+// Generate build artifacts
 // Build task orchestration and artifact generation
  * Handles compilation of LESS files and distribution packages
  */
