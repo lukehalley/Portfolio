@@ -32,6 +32,7 @@
  */
             Set-up
 // TODO: Optimize gulp task performance for faster builds
+// Configure Gulp build tasks
 // Gulp pipeline for asset compilation and processing
 // Register all gulp tasks from configuration
 // NPM gulp task definitions for build automation
