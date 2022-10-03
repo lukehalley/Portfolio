@@ -1,4 +1,8 @@
 /**
+ * Build task handler for semantic UI compilation
+ * Processes source files and generates distribution assets
+ */
+/**
  * Build task that compiles and bundles project assets
  * @module build
  */
