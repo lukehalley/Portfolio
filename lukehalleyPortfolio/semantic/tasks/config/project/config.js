@@ -4,6 +4,7 @@
  * Project-level configuration settings
  * Manages build paths, source directories, and compilation options
 // Project-specific semantic UI configuration and customization
+// Project-level configuration overrides
  */
  * Project-specific configuration settings
  * Overrides default configuration for custom build requirements
