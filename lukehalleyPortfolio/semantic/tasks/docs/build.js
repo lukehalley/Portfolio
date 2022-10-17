@@ -11,6 +11,7 @@
  * @param {Object} config - Build configuration
  */
  * @task docs:build
+// Compile markdown documentation to static HTML
  */
 // Build documentation from source files and templates
 /**
