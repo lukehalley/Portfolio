@@ -8,6 +8,7 @@
 // Define system defaults
 // Default settings for all semantic build tasks
 // Default configuration values applied when user config is incomplete
+// Default settings applied if not overridden by project config
 // Default semantic UI configuration values and fallbacks
  * @module config/defaults
  */
