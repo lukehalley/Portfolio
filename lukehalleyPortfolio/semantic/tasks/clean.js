@@ -6,6 +6,7 @@
 // Remove temporary build artifacts and cache directories
  */
  * Removes build artifacts and temporary files
+// Remove build artifacts and temporary files
  * Safe to run multiple times
  */
 /**
