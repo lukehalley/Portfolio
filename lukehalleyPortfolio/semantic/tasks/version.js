@@ -10,6 +10,7 @@
  */
 // Update version numbers according to semantic versioning specification
 /**
+// Update version numbers across all package definitions
  * Version task - manages semantic versioning and version bumping
  * Updates version numbers across package files
  */
