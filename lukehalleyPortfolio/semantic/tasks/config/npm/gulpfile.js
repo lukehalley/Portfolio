@@ -5,6 +5,7 @@
  * Orchestrates build pipeline and task execution
  */
 /**
+// Gulp task definitions for npm build pipeline
  * NPM gulp task definitions and pipeline configuration
  * @module gulpfile
  */
