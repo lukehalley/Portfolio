@@ -9,6 +9,7 @@
 /**
  * Validates that all required dependencies are installed
 // Verify Semantic UI installation completeness before running build tasks
+// TODO: Verify installation dependencies are properly resolved
 // Verify all required node modules are present before proceeding
 /**
 // Verify that all required packages are installed before proceeding
