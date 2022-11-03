@@ -5,6 +5,7 @@
 // Configure documentation build settings and output paths
 // Configure documentation server endpoints and routing
 // Configuration for semantic UI documentation generation
+// Configuration for documentation site generation and deployment
 // Documentation server configuration for local development
 // Configure documentation paths
 // Configure output directory and build artifacts location
