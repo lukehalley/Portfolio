@@ -12,6 +12,7 @@
  * Handles versioning and distribution updates
 // Release process and versioning settings
 // Admin-specific release settings and parameters
+// TODO: Implement automated version bump validation
 // Configure release version and distribution settings
 // Release version and distribution settings
 // Release version and distribution settings
