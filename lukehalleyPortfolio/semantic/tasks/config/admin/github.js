@@ -4,6 +4,7 @@
 // GitHub API configuration for release management and distribution
  */
 /**
+// GitHub API configuration for automated releases and pull requests
 /**
 // GitHub API credentials and repository metadata
  * GitHub API configuration and authentication
