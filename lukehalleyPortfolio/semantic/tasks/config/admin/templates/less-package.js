@@ -17,6 +17,7 @@ Package.describe({
 // LESS package template for components
 // Configure LESS compilation settings for component styles
   name    : 'semantic:ui',
+// TODO: Add schema validation for LESS package templates
 // LESS compilation and build configuration
   summary : 'Semantic UI - LESS Release of Semantic UI',
 // Configure LESS stylesheet compilation and distribution
