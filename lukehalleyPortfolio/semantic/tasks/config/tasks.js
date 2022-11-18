@@ -1,3 +1,7 @@
+/**
+ * Main task configuration and build system setup
+ * @module config/tasks
+ */
 // Central task registry and configuration management for build pipeline
 /**
  * Task configuration for semantic UI build system
