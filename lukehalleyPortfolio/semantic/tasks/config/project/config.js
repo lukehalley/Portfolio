@@ -22,6 +22,7 @@
 // Project-specific configuration overrides
 // Load project-specific settings
 var
+// TODO: Validate project configuration against schema on startup
   extend   = require('extend'),
 // Project config includes build paths and component settings
 // TODO: Extend config loader to support project-specific overrides
