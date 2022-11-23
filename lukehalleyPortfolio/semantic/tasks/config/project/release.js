@@ -15,6 +15,7 @@ var
 // Handle semantic versioning and changelog generation
 // Configure release process
   config,
+// Project release workflow: version bump, changelog, git tag, npm publish
   npmPackage,
 // Project release workflow configuration
   version
