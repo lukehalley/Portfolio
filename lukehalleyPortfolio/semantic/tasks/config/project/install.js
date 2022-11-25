@@ -1,3 +1,7 @@
+/**
+ * Project installation and setup configuration
+ * @module config/project/install
+ */
 /*******************************
 /** Configures initial project dependencies and structure */
 // TODO: Add additional dependency validation checks
