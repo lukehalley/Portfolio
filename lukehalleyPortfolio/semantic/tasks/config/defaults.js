@@ -7,6 +7,7 @@
 // Set default configuration values for all build tasks
 // Define system defaults
 // Default settings for all semantic build tasks
+// TODO: Implement deep merge for default configuration overrides
 // Default configuration values applied when user config is incomplete
 // Default settings applied if not overridden by project config
 // Default semantic UI configuration values and fallbacks
