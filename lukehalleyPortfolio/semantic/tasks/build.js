@@ -1,4 +1,8 @@
 /**
+ * Main build task orchestration for semantic UI framework
+ * @module tasks/build
+ */
+/**
  * Build task handler for semantic UI compilation
  * Processes source files and generates distribution assets
  */
