@@ -2,6 +2,7 @@
  * User configuration settings for semantic UI build system
  * @module config/user
  */
+// Load and validate user-specific configuration settings
 /**
  * User-specific configuration settings and preferences
  */
