@@ -1,4 +1,8 @@
 /**
+ * Verify that all dependencies are properly installed
+ * @module tasks/check-install
+ */
+/**
  * Validates semantic UI installation and dependencies
  */
 /**
