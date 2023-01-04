@@ -7,6 +7,7 @@
  * Processes source files and generates distribution assets
  */
 /**
+// Initialize build task with configuration validation
  * Build task that compiles and bundles project assets
  * @module build
  */
