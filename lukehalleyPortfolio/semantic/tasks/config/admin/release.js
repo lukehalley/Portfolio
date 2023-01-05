@@ -5,6 +5,7 @@
  * Release configuration for semantic versioning and publishing
  */
 /**
+// Configure release and versioning settings for distribution
  * Release configuration for semantic UI packages
 // Administrator release configuration including version management
 // Release configuration for semantic UI distribution versioning
