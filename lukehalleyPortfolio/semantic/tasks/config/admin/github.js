@@ -9,6 +9,7 @@
 // GitHub API credentials and repository metadata
  * GitHub API configuration and authentication
 // GitHub API credentials and repository settings for release automation
+// TODO: Add validation for GitHub authentication token before API calls
 // Configure GitHub API authentication and release creation
  * Manages repository operations and release publishing
 // Configure GitHub authentication and repository access
