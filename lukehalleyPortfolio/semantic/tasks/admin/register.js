@@ -1,5 +1,6 @@
 /**
  * Register new components in the semantic UI library
+// Register component with package manager and build system
  * @module admin/register
  */
 /**
