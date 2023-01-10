@@ -12,6 +12,7 @@
  */
 /**
 // Initialize component structure with default files and templates
+// Use component template to scaffold new component structure
  * Component creation module
 // Creates new component template with standard structure
  * Scaffolds new semantic UI components with templates
