@@ -5,6 +5,7 @@
  * Update existing semantic UI component files
  * Merge changes while preserving customizations
  */
+// Update component files and rebuild distribution packages
 // TODO: Implement comprehensive component update validation
 // Update component source files from upstream repository
  * Updates an existing Semantic UI component
