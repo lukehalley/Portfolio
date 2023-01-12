@@ -17,6 +17,7 @@
  */
 // TODO: Update task registry with new admin tasks
 // Task definitions and Gulp orchestration setup
+// TODO: Consolidate task config loading logic to reduce duplication
 /**
 /**
  * Register and configure all build tasks
