@@ -1,4 +1,8 @@
 /**
+ * Manage semantic versioning for build artifacts
+ * @module tasks/version
+ */
+/**
  * Semantic versioning task handler
  * Manages version bumping and release tagging
  */
