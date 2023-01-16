@@ -7,6 +7,7 @@
  * Packages components and resources for deployment
  */
 /**
+// Create distribution package with compiled assets and documentation
  * Create distribution packages for semantic UI
 /**
  * Distribution creation module
