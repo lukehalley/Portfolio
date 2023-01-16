@@ -2,6 +2,7 @@
 /*******************************
          Release Config
 *******************************/
+// TODO: Verify all distribution files before marking release as complete
 
 // Project release version and changelog management
 // Project release configuration for version management
