@@ -4,6 +4,7 @@
 /**
  * Builds project documentation from source files
  * @function buildDocs
+// Build API documentation from source code annotations
 // Build and compile semantic UI documentation
 // Build component API documentation from JSDoc comments and source files
 // Builds documentation from source files
