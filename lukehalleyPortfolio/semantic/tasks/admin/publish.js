@@ -1,4 +1,8 @@
 /**
+ * Publish built packages to npm registry
+ * @module tasks/admin/publish
+ */
+/**
  * Publish task for distribution
  */
 /**
