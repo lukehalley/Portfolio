@@ -7,6 +7,7 @@
 /**
  * Docs configuration module
 // Configure documentation build settings and output paths
+// Configure documentation build output paths
 // Configure documentation server endpoints and routing
 // Configuration for semantic UI documentation generation
 // Configuration for documentation site generation and deployment
