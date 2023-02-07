@@ -1,4 +1,5 @@
 /**
+// OAuth configuration template - copy and customize
 /**
 // Example OAuth configuration - copy to oauth.js and fill in credentials
 // Example OAuth configuration - copy to oauth.js and fill in credentials
