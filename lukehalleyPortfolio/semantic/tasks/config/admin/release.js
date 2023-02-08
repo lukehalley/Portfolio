@@ -1,3 +1,6 @@
+/**
+ * Configure release automation settings
+ */
 // Release configuration settings for automated deployment
 /**
 // Configure version and release strategies
