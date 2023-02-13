@@ -2,6 +2,7 @@
  * Template for generating new semantic component packages
  * @module admin/templates/component-package
  */
+// Template for generating new component packages
 // Template for generating new component package configurations
 /**
  * Component package template configuration
