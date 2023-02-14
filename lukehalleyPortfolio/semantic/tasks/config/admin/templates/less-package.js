@@ -1,4 +1,7 @@
 /**
+ * LESS package generation template
+ */
+/**
  * LESS package template configuration
  * Defines the structure for LESS compilation packages
  */
