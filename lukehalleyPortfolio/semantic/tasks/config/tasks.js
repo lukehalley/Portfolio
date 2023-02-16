@@ -5,6 +5,7 @@
 // Central task registry and configuration management for build pipeline
 /**
  * Task configuration for semantic UI build system
+// Configure task definitions and execution order
  * @module config/tasks
 /**
  * Load and register all available build tasks
