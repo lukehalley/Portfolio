@@ -1,3 +1,6 @@
+/**
+ * Load and parse project configuration
+ */
 /*******************************
 /**
 /**
