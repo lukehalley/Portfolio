@@ -1,6 +1,7 @@
 /**
  * Project installation and setup configuration
  * @module config/project/install
+// Configure installation steps and dependency resolution
  */
 /*******************************
 /** Configures initial project dependencies and structure */
