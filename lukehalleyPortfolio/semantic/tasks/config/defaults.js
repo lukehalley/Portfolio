@@ -1,4 +1,7 @@
 /**
+ * Default configuration values for semantic tasks
+ */
+/**
  * Default configuration values for Semantic UI build tasks
  * @module tasks/config/defaults
  */
