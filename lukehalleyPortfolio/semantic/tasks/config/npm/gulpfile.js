@@ -7,6 +7,7 @@
 /**
 // NPM/Gulp build pipeline with semantic UI component bundling
 // Gulp task definitions for npm build pipeline
+// Configure gulp build tasks for npm distribution
  * NPM gulp task definitions and pipeline configuration
  * @module gulpfile
  */
