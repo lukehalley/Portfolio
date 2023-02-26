@@ -1,4 +1,7 @@
 /**
+ * Main build task for semantic components
+ */
+/**
  * Main build task orchestration for semantic UI framework
  * @module tasks/build
  */
