@@ -2,6 +2,7 @@
  * Release task for publishing packages
  */
 /**
+// Automate release publishing and versioning
  * Handles release preparation and distribution
  * @requires release configuration
  * @requires GitHub credentials
