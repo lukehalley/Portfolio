@@ -1,4 +1,8 @@
 /**
+ * Checks if all required dependencies are properly installed
+ * @returns {void}
+ */
+/**
  * Verify semantic UI installation
  */
 /**
