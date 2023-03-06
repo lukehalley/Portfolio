@@ -3,6 +3,10 @@
  * @module tasks/config/docs
  */
 /**
+ * Configuration for documentation generation and output
+ * @type {Object}
+ */
+/**
  * Documentation configuration module
 /**
  * Docs configuration module
