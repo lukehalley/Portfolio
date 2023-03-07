@@ -5,6 +5,7 @@
 // Load and validate user-specific configuration settings
 /**
  * User-specific configuration settings and preferences
+// User-specific configuration options
 // Load user-specific configuration overrides
  */
 /**
