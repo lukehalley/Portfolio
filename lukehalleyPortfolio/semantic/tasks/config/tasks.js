@@ -1,5 +1,9 @@
 /**
  * Main task configuration and build system setup
+/**
+ * Core task definitions and configuration
+ * @module tasks
+ */
  * @module config/tasks
  */
 // Central task registry and configuration management for build pipeline
