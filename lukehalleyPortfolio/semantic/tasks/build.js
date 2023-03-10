@@ -12,6 +12,7 @@
 /**
 // Initialize build task with configuration validation
  * Build task that compiles and bundles project assets
+// Initialize build process and task queue
  * @module build
  */
 /**
