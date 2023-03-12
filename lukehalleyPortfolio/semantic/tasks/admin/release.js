@@ -1,4 +1,8 @@
 /**
+ * Handles release versioning and distribution
+ * @returns {Promise<void>}
+ */
+/**
  * Release task for publishing packages
  */
 /**
