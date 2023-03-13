@@ -7,6 +7,7 @@
 /**
  * Creates new semantic UI component with template structure
  * @param {string} componentName - Name of component to create
+// Generate component scaffold and register in system
  */
  * Generates component structure and template files
  */
