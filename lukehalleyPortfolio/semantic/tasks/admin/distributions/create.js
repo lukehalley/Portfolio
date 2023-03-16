@@ -3,6 +3,7 @@
  * Generate distribution packages from compiled assets
  * Creates themed variations for deployment
  */
+// Create distribution package with compiled assets
  * Create distribution task - generates distribution packages
  * Packages components and resources for deployment
  */
