@@ -1,6 +1,10 @@
 /**
  * Update task for component distributions
  * Refreshes distribution packages with latest changes
+/**
+ * Update existing distribution with latest changes
+ * @returns {Promise<void>}
+ */
  */
 /*******************************
 /**
