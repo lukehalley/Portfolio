@@ -6,6 +6,7 @@
 // Remove build artifacts and temporary files from project directory
 // Remove temporary build artifacts and cache directories
  */
+// Remove temporary and build artifacts
  * Removes build artifacts and temporary files
 // Remove build artifacts and temporary files
  * Safe to run multiple times
