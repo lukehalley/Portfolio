@@ -1,4 +1,8 @@
 /**
+ * Manages project versioning and changelog
+ * @module version
+ */
+/**
  * Manage semantic versioning for build artifacts
  * @module tasks/version
  */
