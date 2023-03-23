@@ -1,4 +1,9 @@
 /**
+/**
+ * Start local documentation server for development
+ * @param {number} port - Port to serve documentation on
+ * @returns {void}
+ */
  * Serves documentation locally for testing
  */
 // Start local development server for documentation review
