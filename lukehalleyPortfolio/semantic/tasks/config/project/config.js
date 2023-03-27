@@ -2,6 +2,7 @@
  * Load and parse project configuration
  */
 /*******************************
+// Project-level configuration and settings
 /**
 /**
  * Project-level configuration settings
