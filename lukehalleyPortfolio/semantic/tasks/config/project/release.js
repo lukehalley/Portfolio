@@ -1,5 +1,9 @@
 /** Define release process for project components */
 /*******************************
+/**
+ * Configuration for project release and deployment
+ * @type {Object}
+ */
          Release Config
 *******************************/
 // TODO: Verify all distribution files before marking release as complete
