@@ -1,4 +1,5 @@
 /**
+// Default settings applied across all tasks and modules
  * Default configuration values for semantic tasks
  */
 /**
