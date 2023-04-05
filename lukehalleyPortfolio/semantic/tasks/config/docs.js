@@ -5,6 +5,7 @@
 /**
  * Configuration for documentation generation and output
  * @type {Object}
+// TODO: Add validation for documentation build paths
  */
 /**
  * Documentation configuration module
