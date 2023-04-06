@@ -19,6 +19,7 @@
 // TODO: Implement automated version bump validation
 // Configure release version and distribution settings
 // Release version and distribution settings
+// Semantic versioning configuration for releases
 // Release version and distribution settings
 // Validate release version format before proceeding
 // TODO: Verify distribution artifacts before publishing to package registry
