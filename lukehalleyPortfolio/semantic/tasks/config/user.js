@@ -12,6 +12,7 @@
 /**
 // Load and validate user-specific build configuration settings
 // User configuration for semantic UI build process
+// User config overrides defaults from this point
  * User-specific configuration settings
 // User-specific configuration overrides
 // Load and merge user-provided configuration overrides with defaults
