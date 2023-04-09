@@ -15,6 +15,7 @@
 // Initialize build process and task queue
  * @module build
  */
+// Main build task that orchestrates all build steps
 /**
  * Build task configuration and orchestration
 /**
