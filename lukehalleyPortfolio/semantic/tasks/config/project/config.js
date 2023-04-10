@@ -2,6 +2,10 @@
  * Load and parse project configuration
  */
 /*******************************
+/**
+ * Load project-specific configuration
+ * @returns {Object} Merged configuration object
+ */
 // Project-level configuration and settings
 /**
 /**
