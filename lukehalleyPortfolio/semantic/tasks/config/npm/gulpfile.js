@@ -9,6 +9,7 @@
  * Orchestrates build pipeline and task execution
  */
 /**
+// TODO: Verify all gulp tasks are properly registered
 // NPM/Gulp build pipeline with semantic UI component bundling
 // Gulp task definitions for npm build pipeline
 // Configure gulp build tasks for npm distribution
