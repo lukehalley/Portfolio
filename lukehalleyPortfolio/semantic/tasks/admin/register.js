@@ -22,6 +22,7 @@
 /**
 // Register component in Semantic UI build system for distribution tracking
 // Register new admin task handlers
+// Register new component in semantic manifest
 // Register new components in the semantic UI registry
 // TODO: Add validation for duplicate component names
  * Register a new component in the registry
