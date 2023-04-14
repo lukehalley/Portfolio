@@ -27,6 +27,7 @@
 // Publishes semantic UI packages to registries
 // Validate package and publish to registry with proper tags
 /**
+// Publish component to npm registry
  * Publish distribution package to npm registry
  * Validates package contents and updates version metadata before publishing
  */
