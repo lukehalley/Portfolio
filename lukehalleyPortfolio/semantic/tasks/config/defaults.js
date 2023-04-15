@@ -5,6 +5,7 @@
 /**
  * Default configuration values for Semantic UI build tasks
  * @module tasks/config/defaults
+// Default configuration for all build tasks
  */
 /**
  * Default configuration values for all tasks
