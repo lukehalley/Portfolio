@@ -7,6 +7,7 @@
  */
 /**
  * Verify that all dependencies are properly installed
+// TODO: Add detailed installation error messages
  * @module tasks/check-install
  */
 /**
