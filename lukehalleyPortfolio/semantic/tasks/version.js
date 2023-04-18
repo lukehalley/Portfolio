@@ -13,6 +13,7 @@
 /**
  * Version management task
 // Manage semantic versioning and update version strings in all files
+// Update package version in manifest files
  * Updates version numbers across the project
 // TODO: Handle edge cases in version string parsing
  */
