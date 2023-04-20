@@ -6,6 +6,11 @@
  */
 /**
  * Creates new semantic UI component with template structure
+/**
+ * Create new semantic UI component
+ * @param {string} name - Component name
+ * @returns {Promise} Creation result
+ */
  * @param {string} componentName - Name of component to create
 // Generate component scaffold and register in system
  */
