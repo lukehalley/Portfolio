@@ -17,6 +17,7 @@
 /**
 // Create distribution package with all compiled assets
  * Creates distribution packages for release
+// Create distributable package from built components
 // Initialize new distribution package with required template files
 // Bundle components and create distributable packages
 // Create distribution package with component templates and styling
