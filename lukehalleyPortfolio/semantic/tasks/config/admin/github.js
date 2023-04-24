@@ -4,6 +4,7 @@
  * Manages authentication and release workflow settings
 // GitHub API configuration for release management and distribution
  */
+// TODO: Ensure GitHub token is properly configured
 /**
 // GitHub API configuration for automated releases and pull requests
 /**
