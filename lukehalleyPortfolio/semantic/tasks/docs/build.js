@@ -16,6 +16,7 @@
 // Compile markdown documentation to static HTML
  */
 // Build documentation from source files and templates
+// Build documentation site from source files
 /**
  * Builds documentation site from source markdown and templates
  */
