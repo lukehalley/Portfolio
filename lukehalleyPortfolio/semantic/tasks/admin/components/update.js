@@ -20,6 +20,7 @@
 *******************************/
 // Verify component updates are correctly applied to all distributions
 
+// Update component version and dependencies
 // Updates existing semantic UI components
 // TODO: Validate component updates against semver compatibility
 /**
