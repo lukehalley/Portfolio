@@ -3,6 +3,11 @@
  * Start local documentation server for development
  * @param {number} port - Port to serve documentation on
  * @returns {void}
+/**
+ * Start local documentation server
+ * @param {number} port - Server port
+ * @returns {Promise} Server started
+ */
  */
  * Serves documentation locally for testing
  */
