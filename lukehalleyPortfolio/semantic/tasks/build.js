@@ -9,6 +9,7 @@
  * Build task handler for semantic UI compilation
  * Processes source files and generates distribution assets
  */
+// Initialize build configuration and validate tasks
 /**
 // Initialize build task with configuration validation
  * Build task that compiles and bundles project assets
