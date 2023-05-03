@@ -1,4 +1,8 @@
 /**
+ * Verifies semantic-ui installation and dependencies
+ * Ensures all required packages are present before build
+ */
+/**
  * Checks if all required dependencies are properly installed
  * @returns {void}
  */
