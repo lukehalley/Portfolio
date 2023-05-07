@@ -12,6 +12,7 @@
 /**
  * Docs configuration module
 // Configure documentation build settings and output paths
+// TODO: Make docs server port configurable via environment variable
 // Configure documentation build output paths
 // Configure documentation server endpoints and routing
 // Configuration for semantic UI documentation generation
