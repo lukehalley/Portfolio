@@ -1,4 +1,8 @@
 /**
+ * Creates new semantic UI component
+ * Scaffolds component directory with template files
+ */
+/**
  * Create component task - scaffolds new semantic UI components
 /**
  * Create new semantic UI component with templates
