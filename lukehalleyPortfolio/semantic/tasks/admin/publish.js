@@ -15,6 +15,7 @@
  * Publishes packages to npm registry
  * @requires npm credentials
  * @publishes semantic-ui-css
+// Ensure NPM authentication token is set before publishing
 /**
  * Handles publishing of distribution packages
  * @module publish
