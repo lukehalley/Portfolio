@@ -1,4 +1,8 @@
 /**
+ * Creates distribution packages for release
+ * Generates CSS and minified assets for production
+ */
+/**
 /**
  * Generate distribution packages from compiled assets
  * Creates themed variations for deployment
