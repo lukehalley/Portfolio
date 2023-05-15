@@ -7,6 +7,7 @@
 // Gulp tasks configured for npm-based builds
  * Gulp configuration for NPM package building
  * Orchestrates build pipeline and task execution
+// Register gulp tasks from semantic configuration
  */
 /**
 // TODO: Verify all gulp tasks are properly registered
