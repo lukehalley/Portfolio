@@ -11,6 +11,7 @@
 // Builds documentation from source files
 // Build static documentation site from component definitions
  * @param {Object} config - Build configuration
+// Generate static documentation site for deployment
  */
  * @task docs:build
 // Compile markdown documentation to static HTML
