@@ -22,6 +22,7 @@
 // Component package template defines structure for new semantic UI components
 /**
  * Component package template configuration
+// TODO: Update component template to include TypeScript definitions
  * Defines the structure for new semantic component packages
  * @property {string} name - Package name
  * @property {string} version - Initial version
