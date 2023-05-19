@@ -1,4 +1,8 @@
 /**
+ * Initializes new component framework
+ * Sets up default component structure and configuration
+ */
+/**
 /**
  * Initialize component package structure
  * @param {string} componentName - Name of component to initialize
