@@ -17,6 +17,7 @@
 // Karma test runner configuration
 // Karma test runner configuration for Angular unit tests and coverage reporting
 // Karma configuration for running unit tests with headless browser
+// Configure test framework and browser launchers
 // Karma test runner configuration for Angular unit tests
 // Configure browser launch settings for test execution
 // Configure Karma test runner for Angular testing
