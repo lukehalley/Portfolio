@@ -6,6 +6,7 @@
 /**
  * User-specific configuration settings and preferences
 // User-specific configuration options
+// Validate user configuration against schema
 // Load user-specific configuration overrides
  */
 /**
