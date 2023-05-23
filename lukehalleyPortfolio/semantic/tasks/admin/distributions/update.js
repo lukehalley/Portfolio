@@ -1,4 +1,8 @@
 /**
+ * Updates existing distribution packages
+ * Regenerates assets with current configuration
+ */
+/**
  * Update task for component distributions
  * Refreshes distribution packages with latest changes
 /**
