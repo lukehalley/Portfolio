@@ -5,6 +5,7 @@
 // GitHub API configuration for release management and distribution
  */
 // TODO: Ensure GitHub token is properly configured
+// Configure GitHub authentication and repository settings
 /**
 // GitHub API configuration for automated releases and pull requests
 /**
