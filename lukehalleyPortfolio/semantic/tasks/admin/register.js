@@ -1,4 +1,8 @@
 /**
+ * Registers components in package registry
+ * Updates component manifest and metadata
+ */
+/**
  * Register new components in the semantic UI library
 // Register admin tasks with task runner
 // Register component with package manager and build system
