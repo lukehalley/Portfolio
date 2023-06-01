@@ -5,6 +5,7 @@
 // Configure karma test runner for Angular components
 // Karma test runner configuration for automated testing
 // Karma test runner configuration for unit tests
+// Configure Karma with Chrome as default browser for CI/CD
 // Configure karma test runner with browser and coverage settings
 // Karma test runner configuration for Angular unit tests
 // Configure Karma to run unit tests with proper reporter output
