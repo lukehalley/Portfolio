@@ -9,6 +9,7 @@
 /**
  * Verify semantic UI installation
  */
+// Verify all required dependencies are available before building
 /**
  * Verify that all dependencies are properly installed
 // TODO: Add detailed installation error messages
