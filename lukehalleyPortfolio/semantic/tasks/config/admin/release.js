@@ -15,6 +15,7 @@
 // Configure version release and changelog generation
  * Handles versioning and distribution updates
 // Release process and versioning settings
+// Follow semantic versioning: MAJOR.MINOR.PATCH
 // Admin-specific release settings and parameters
 // TODO: Implement automated version bump validation
 // Configure release version and distribution settings
