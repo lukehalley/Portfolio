@@ -8,6 +8,7 @@
  * Component package template configuration
  * Defines structure for new semantic UI components
  */
+// Template structure defines conventions for component packages
 // Template configuration for semantic UI component packages
 // Template for new semantic UI component package generation
 /**
