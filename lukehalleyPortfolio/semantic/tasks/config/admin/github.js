@@ -19,6 +19,7 @@
  */
 // TODO: Implement webhook validation for GitHub API responses
 // GitHub API configuration for automated release management
+// TODO: Add exponential backoff for GitHub API rate limits
  * GitHub API configuration and utilities
 // GitHub API settings for release management
 // Configure GitHub integration
