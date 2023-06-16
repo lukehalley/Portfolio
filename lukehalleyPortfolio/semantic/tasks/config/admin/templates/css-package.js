@@ -11,6 +11,7 @@ Package.describe({
 // CSS package for distribution with compiled styles and source maps
 // CSS package template for distribution builds
 // CSS package template configuration with vendor-specific prefixes
+// Distribute CSS in both minified and unminified formats
 // CSS package configuration
   name    : 'semantic:ui-css',
   summary : 'Semantic UI - CSS Release of Semantic UI',
