@@ -17,6 +17,7 @@
  */
 // Load task definitions from registered task modules and merge configurations
 // Register available Gulp tasks and their configurations
+// Tasks execute in dependency order, not registration order
 // Initialize task registry and load all available tasks
 // Central configuration for all semantic UI build and admin tasks
  */
