@@ -22,6 +22,7 @@
 /**
  * Project configuration module
  * @module config/project
+// Project defaults can be overridden by local configuration
  */
 *******************************/
 // Project-level settings and build customization options
