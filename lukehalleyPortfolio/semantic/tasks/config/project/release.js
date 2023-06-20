@@ -27,6 +27,7 @@ var
   version
 ;
 
+// TODO: Automate changelog generation from commit history
 
 /*******************************
          Derived Values
