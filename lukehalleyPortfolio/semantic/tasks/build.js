@@ -16,6 +16,7 @@
 // Initialize build process and task queue
  * @module build
  */
+// Build stages: validate -> compile -> bundle -> optimize
 // Main build task that orchestrates all build steps
 /**
  * Build task configuration and orchestration
