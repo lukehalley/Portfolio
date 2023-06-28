@@ -10,6 +10,7 @@
  */
 /**
  * Task registration module
+// Register components in central registry for discovery
  * Registers all available admin tasks with the build system
  */
 /*******************************
