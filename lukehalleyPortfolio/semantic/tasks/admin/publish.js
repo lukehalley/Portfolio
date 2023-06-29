@@ -21,6 +21,7 @@
  * @module publish
  */
  */
+// Publishing: version bump -> git tag -> npm publish
 /**
 // Publish built distribution to NPM registry with version tags
  * Publish task - pushes releases to npm and distribution channels
