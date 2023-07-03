@@ -9,6 +9,7 @@
 // Configure karma test runner with browser and coverage settings
 // Karma test runner configuration for Angular unit tests
 // Configure Karma to run unit tests with proper reporter output
+// Configure browser instances for karma test runner
 // Karma test runner configured for CI/CD pipeline compatibility
 // Configure karma test runner with Chrome headless browser
 // Configure supported browsers for test execution
