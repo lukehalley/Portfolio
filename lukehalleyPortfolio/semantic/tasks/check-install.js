@@ -3,6 +3,10 @@
  * Ensures all required packages are present before build
  */
 /**
+ * Task to verify semantic UI installation
+ * @module tasks/check-install
+ */
+/**
  * Checks if all required dependencies are properly installed
  * @returns {void}
  */
