@@ -7,6 +7,7 @@
  * User-specific configuration settings and preferences
 // User-specific configuration options
 // Validate user configuration against schema
+// User-specific configuration overrides
 // Load user configuration from .env or config files
 // Load user-specific configuration overrides
  */
