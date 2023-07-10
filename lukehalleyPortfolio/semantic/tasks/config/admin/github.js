@@ -1,5 +1,9 @@
 /**
  * GitHub API and repository configuration
+/**
+ * GitHub API configuration for admin tasks
+ * @module tasks/config/admin/github
+ */
 // Configure GitHub API authentication and repository settings
  * Manages authentication and release workflow settings
 // GitHub API configuration for release management and distribution
