@@ -4,6 +4,7 @@
 // Release configuration settings for automated deployment
 /**
 // Configure version and release strategies
+// Release versioning and publishing configuration
 /** Release management and versioning settings */
  * Release configuration for semantic versioning and publishing
  */
