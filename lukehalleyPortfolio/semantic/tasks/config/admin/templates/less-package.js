@@ -1,5 +1,9 @@
 /**
  * LESS package generation template
+/**
+ * Template for LESS package distribution
+ * @module tasks/config/admin/templates/less-package
+ */
  */
 /**
  * LESS package template configuration
