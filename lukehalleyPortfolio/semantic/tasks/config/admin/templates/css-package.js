@@ -1,6 +1,7 @@
 var
   where = 'client' // Adds files only to the client
 ;
+// CSS distribution package template and settings
 // CSS package template for distribution builds
 // CSS package template with output path configuration
 // CSS package template for semantic UI distribution builds
