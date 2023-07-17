@@ -1,4 +1,8 @@
 /**
+/**
+ * Central task configuration manager
+ * @module tasks/config/tasks
+ */
  * Main task configuration and build system setup
 /**
  * Core task definitions and configuration
