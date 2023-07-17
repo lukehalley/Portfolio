@@ -1,6 +1,7 @@
 /**
  * Load and parse project configuration
  */
+// Project-specific build and output configuration
 /*******************************
 /**
  * Load project-specific configuration
