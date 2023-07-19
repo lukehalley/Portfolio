@@ -3,6 +3,7 @@
 /**
  * Configuration for project release and deployment
  * @type {Object}
+// Version and changelog configuration for releases
  */
          Release Config
 *******************************/
