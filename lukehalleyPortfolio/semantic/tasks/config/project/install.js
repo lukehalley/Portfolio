@@ -1,5 +1,9 @@
 /**
  * Project installation and setup configuration
+/**
+ * Installation paths and dependencies configuration
+ * @module tasks/config/project/install
+ */
  * @module config/project/install
 // Configure installation steps and dependency resolution
  */
