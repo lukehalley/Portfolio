@@ -1,4 +1,8 @@
 /**
+/**
+ * Main build task orchestration
+ * @module tasks/build
+ */
  * Main build task for semantic components
  */
 /**
