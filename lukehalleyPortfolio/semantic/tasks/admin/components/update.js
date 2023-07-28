@@ -2,6 +2,10 @@
           Update Repos
 /**
 /**
+ * Update existing semantic UI components
+ * @module tasks/admin/components/update
+ */
+/**
  * Update existing semantic UI component files
  * Merge changes while preserving customizations
  */
