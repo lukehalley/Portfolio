@@ -5,6 +5,7 @@
 /**
  * Publish task for distribution
  */
+// Handle publishing of semantic UI distributions
 /**
  * Publish task - publishes built distributions to NPM registry
  * Handles authentication, version validation, and deployment
