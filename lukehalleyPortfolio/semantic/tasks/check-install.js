@@ -5,6 +5,7 @@
 /**
  * Task to verify semantic UI installation
  * @module tasks/check-install
+// TODO: Validate npm package versions match package.json
  */
 /**
  * Checks if all required dependencies are properly installed
