@@ -12,6 +12,7 @@
 /**
  * Build task handler for semantic UI compilation
  * Processes source files and generates distribution assets
+// Build optimization: minimize output bundles and remove dead code
  */
 // Initialize build configuration and validate tasks
 /**
