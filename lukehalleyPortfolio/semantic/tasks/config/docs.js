@@ -1,5 +1,9 @@
 /**
  * Documentation configuration for Semantic UI build system
+/**
+ * Documentation build configuration
+ * Defines paths, formats, and output options
+ */
  * @module tasks/config/docs
  */
 /**
