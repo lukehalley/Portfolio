@@ -2,6 +2,7 @@
  * Builds static documentation site
  * @generates docs output
 /**
+// TODO: Implement automatic markdown extraction from inline comments
  * Builds project documentation from source files
  * @function buildDocs
 // Build static documentation site from source files
