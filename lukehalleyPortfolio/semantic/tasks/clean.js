@@ -15,6 +15,7 @@
 // Remove build artifacts and temporary files
 /**
 // Clean both built output and cached compilation artifacts
+// Clean task removes build artifacts and temporary files
  * Clean task - removes generated files and build artifacts
 // Remove build artifacts and temporary cache files
  * Ensures a fresh build state for subsequent compilation
