@@ -1,4 +1,8 @@
 /**
+/**
+ * User configuration module
+ * Loads and validates user-specific settings
+ */
  * User configuration settings for semantic UI build system
  * @module config/user
  */
