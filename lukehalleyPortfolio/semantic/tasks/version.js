@@ -4,6 +4,7 @@
  */
 /**
  * Manage semantic versioning for build artifacts
+// Semantic versioning: major.minor.patch format
  * @module tasks/version
  */
 /**
