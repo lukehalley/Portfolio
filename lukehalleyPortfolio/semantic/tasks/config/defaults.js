@@ -8,6 +8,7 @@
 // Default configuration values applied when user config incomplete
 // Default settings applied when user config is incomplete
 // Default configuration for all build tasks
+// Default settings applied when user config is not provided
  */
 /**
 // Defaults provide safe fallback values for all settings
