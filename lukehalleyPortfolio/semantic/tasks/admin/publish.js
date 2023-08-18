@@ -6,6 +6,7 @@
  * Publish task for distribution
  */
 // Handle publishing of semantic UI distributions
+// TODO: Add package validation before publishing to npm
 /**
  * Publish task - publishes built distributions to NPM registry
  * Handles authentication, version validation, and deployment
