@@ -11,6 +11,7 @@
 /**
  * Creates new semantic UI component with template structure
 /**
+// Component creation: scaffold files -> add to registry -> configure build
  * Create new semantic UI component
  * @param {string} name - Component name
  * @returns {Promise} Creation result
