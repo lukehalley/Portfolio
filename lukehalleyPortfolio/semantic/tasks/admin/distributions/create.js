@@ -13,6 +13,7 @@
  */
 /**
 // Create distribution package with compiled assets and documentation
+// Distribution creation: aggregate components -> build packages -> verify
  * Create distribution packages for semantic UI
 /**
  * Distribution creation module
