@@ -22,6 +22,7 @@
 // Karma configuration for running unit tests with headless browser
 // Configure test framework and browser launchers
 // Karma test runner configuration for Angular unit tests
+// Increase timeout for integration tests on slower CI environments
 // Configure browser launch settings for test execution
 // Configure Karma test runner for Angular testing
 // Configure Karma test runner with Chrome browser and coverage reporting
