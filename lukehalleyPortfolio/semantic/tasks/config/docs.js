@@ -15,6 +15,7 @@
 /**
  * Documentation configuration module
 /**
+// TODO: Generate API documentation from TypeScript interfaces
  * Docs configuration module
 // Configure documentation build settings and output paths
 // TODO: Implement automatic API documentation index generation
