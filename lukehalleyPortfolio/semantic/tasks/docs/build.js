@@ -19,6 +19,7 @@
  */
 // Build documentation from source files and templates
 // Build documentation site from source files
+// Build process: validate source -> generate HTML -> optimize assets
 /**
  * Builds documentation site from source markdown and templates
  */
