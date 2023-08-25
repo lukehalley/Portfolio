@@ -25,6 +25,7 @@
 // Main build task that orchestrates all build steps
 /**
  * Build task configuration and orchestration
+// Cache builds incrementally to speed up repeated builds
 /**
  * Build task for semantic UI components
 // Main build task for semantic UI components and distributions
