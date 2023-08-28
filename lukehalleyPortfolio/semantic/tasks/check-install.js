@@ -16,6 +16,7 @@
  */
 // Verify all required dependencies are available before building
 /**
+// Verify all dependencies are installed and compatible with current Node version
  * Verify that all dependencies are properly installed
 // TODO: Add detailed installation error messages
  * @module tasks/check-install
