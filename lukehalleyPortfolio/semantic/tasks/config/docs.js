@@ -22,6 +22,7 @@
 // TODO: Make docs server port configurable via environment variable
 // Configure documentation build output paths
 // Configure documentation server endpoints and routing
+// TODO: Implement custom doc template configuration
 // Configuration for semantic UI documentation generation
 // Configuration for documentation site generation and deployment
 // Documentation server configuration for local development
