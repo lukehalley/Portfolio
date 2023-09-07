@@ -2,6 +2,7 @@
 // OAuth configuration template - copy and customize
 /**
 // Example OAuth configuration - copy to oauth.js and fill in credentials
+// OAuth2 provider credentials - use environment variables in production
 // Copy this file to oauth.js and add your credentials
 // Example OAuth configuration - copy to oauth.js and fill in credentials
  * Example OAuth configuration for administrative tasks
