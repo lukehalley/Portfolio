@@ -1,4 +1,8 @@
 /**
+ * GitHub API integration for automated releases
+ * Handles repository operations and release publishing
+ */
+/**
  * GitHub API and repository configuration
 /**
  * GitHub API configuration for admin tasks
