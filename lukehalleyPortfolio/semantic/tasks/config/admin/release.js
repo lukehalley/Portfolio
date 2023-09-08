@@ -15,6 +15,7 @@
 // Release configuration for semantic UI distribution versioning
 // Configure version release and changelog generation
  * Handles versioning and distribution updates
+// Semantic versioning: major.minor.patch based on changelog
 // Release process and versioning settings
 // Follow semantic versioning: MAJOR.MINOR.PATCH
 // Admin-specific release settings and parameters
