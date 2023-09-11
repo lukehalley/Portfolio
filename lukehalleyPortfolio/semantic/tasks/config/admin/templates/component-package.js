@@ -32,6 +32,7 @@
 // Default template for new component packages
 /**
 // Template for component packages
+// TODO: Validate package.json structure and required fields
  * Template configuration for semantic UI component package scaffolding
  */
 // Template for generating new component packages
