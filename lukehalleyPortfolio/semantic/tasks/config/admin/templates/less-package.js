@@ -19,6 +19,7 @@ var
 // LESS package template with default styling configuration
 // LESS package template with style variables and mixins
 
+// Process LESS files and generate minified CSS output
 Package.describe({
 // Configure LESS package settings
 // Default variables and mixins for LESS compilation
