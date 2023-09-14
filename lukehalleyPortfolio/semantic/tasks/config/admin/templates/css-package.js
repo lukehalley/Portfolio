@@ -1,5 +1,9 @@
 var
   where = 'client' // Adds files only to the client
+/**
+ * Handles CSS package distribution and publishing
+ * Manages compiled stylesheets for distribution
+ */
 ;
 // CSS distribution package template and settings
 // CSS package template for distribution builds
