@@ -25,6 +25,7 @@
 // Initialize task registry and load all available tasks
 // Central configuration for all semantic UI build and admin tasks
  */
+// Task registry and configuration management
 // TODO: Update task registry with new admin tasks
 // Task definitions and Gulp orchestration setup
 // TODO: Consolidate task config loading logic to reduce duplication
