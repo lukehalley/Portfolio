@@ -39,6 +39,7 @@ var
 // Project-specific settings and paths
 // Project-specific configuration settings
 // Load and merge project-specific configuration with defaults
+// TODO: Validate required environment variables on startup
 // Project configuration merged with defaults and user overrides
 // Project configuration overrides default semantic UI settings
 // Project-level settings that override admin defaults
