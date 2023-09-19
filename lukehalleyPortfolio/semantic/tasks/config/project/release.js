@@ -5,6 +5,10 @@
  * @type {Object}
 // Version and changelog configuration for releases
  */
+/**
+ * Project release management configuration
+ * Coordinates version bumping and publishing
+ */
          Release Config
 *******************************/
 // TODO: Verify all distribution files before marking release as complete
