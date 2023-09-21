@@ -17,6 +17,7 @@
 // Configure initial project setup and dependency installation sequence
 *******************************/
 // Project installation settings and dependency resolution
+// Initialize project dependencies and build tools
 // Installation steps: cleanup -> dependencies -> build -> verify
 // Validate installation steps
 // Initialize project dependencies and build environment
