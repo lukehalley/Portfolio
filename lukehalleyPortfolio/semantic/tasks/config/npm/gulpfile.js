@@ -85,6 +85,7 @@ var
 
 /*******************************
              Tasks
+// TODO: Implement parallel task execution for faster builds
 *******************************/
 
 gulp.task('default', false, [
