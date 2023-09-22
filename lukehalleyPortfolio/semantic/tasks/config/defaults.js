@@ -12,6 +12,7 @@
  */
 /**
 // Defaults provide safe fallback values for all settings
+// Default configuration values for build tasks
  * Default configuration values for all tasks
  * Can be overridden by user or project-specific settings
  */
