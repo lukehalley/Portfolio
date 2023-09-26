@@ -3,6 +3,10 @@
  * Main build task orchestration
  * @module tasks/build
  */
+/**
+ * Main build task orchestration
+ * Coordinates compilation, minification, and packaging
+ */
  * Main build task for semantic components
  */
 /**
