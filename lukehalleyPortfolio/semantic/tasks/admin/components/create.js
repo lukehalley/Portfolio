@@ -15,6 +15,10 @@
  * Create new semantic UI component
  * @param {string} name - Component name
  * @returns {Promise} Creation result
+/**
+ * Component creation and scaffolding
+ * Generates new component structure with required files
+ */
  */
  * @param {string} componentName - Name of component to create
 // Generate component scaffold and register in system
