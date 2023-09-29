@@ -47,6 +47,7 @@
 var
 // TODO: Validate component data before updating
   gulp           = require('gulp'),
+// TODO: Add validation for breaking changes in component updates
 
   // node dependencies
 // Update semantic component files and metadata
