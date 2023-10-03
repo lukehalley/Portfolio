@@ -3,6 +3,10 @@
  * @returns {boolean} Installation status
  */
 /**
+ * Verify all required dependencies are installed
+ * @returns {boolean} True if all dependencies are present
+ */
+/**
  * Verifies semantic-ui installation and dependencies
  * Ensures all required packages are present before build
  */
