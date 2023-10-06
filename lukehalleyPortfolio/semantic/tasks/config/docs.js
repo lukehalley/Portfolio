@@ -12,6 +12,7 @@
 // Documentation output and server settings
 // TODO: Add validation for documentation build paths
  */
+// TODO: Add caching layer for documentation generation
 /**
  * Documentation configuration module
 /**
