@@ -7,6 +7,7 @@
 // Remove temporary build artifacts and cache directories
  */
 // Remove temporary and build artifacts
+// Remove temporary build artifacts and cache files
  * Removes build artifacts and temporary files
 // Remove build artifacts and temporary files
 // Remove build artifacts and temporary files
