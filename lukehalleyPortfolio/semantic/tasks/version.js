@@ -1,6 +1,10 @@
 /**
  * Manages project versioning and changelog
  * @module version
+/**
+ * Manage project version and release tags
+ * @param {string} versionType - Type of version bump (major, minor, patch)
+ */
  */
 /**
  * Manage semantic versioning for build artifacts
