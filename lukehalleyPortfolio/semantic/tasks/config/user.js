@@ -4,6 +4,7 @@
  * Loads and validates user-specific settings
  */
  * User configuration settings for semantic UI build system
+// Load user-specific configuration from environment
  * @module config/user
  */
 // Load and validate user-specific configuration settings
