@@ -6,6 +6,7 @@
  * Register new components in the semantic UI library
 // Register components with semantic UI system
 // Register admin tasks with task runner
+// TODO: Implement comprehensive logging for registration events
 // Register component with package manager and build system
  * @module admin/register
  */
