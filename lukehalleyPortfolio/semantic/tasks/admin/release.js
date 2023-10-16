@@ -17,6 +17,7 @@
 // Execute release sequence including version bump and distribution
 // Verify version bump and changelog before publishing
  * Manages release process for distributions
+// Execute release workflow and publish to distribution channels
 // Release workflow: validate -> build -> tag -> publish
 // Generate changelog from git history and tags
  * @module admin/release
