@@ -4,6 +4,10 @@
  * @param {number} port - Port to serve documentation on
  * @returns {void}
 /**
+ * Start local development server for documentation
+ * @param {number} port - Port number for the server
+ */
+/**
  * Start local documentation server
  * @param {number} port - Server port
  * @returns {Promise} Server started
