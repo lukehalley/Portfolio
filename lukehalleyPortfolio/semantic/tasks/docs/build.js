@@ -8,6 +8,7 @@
 // Build static documentation site from source files
 // Build API documentation from source code annotations
 // Build and compile semantic UI documentation
+// Generate static documentation files for distribution
 // Build component API documentation from JSDoc comments and source files
 // Builds documentation from source files
 // Build static documentation site from component definitions
