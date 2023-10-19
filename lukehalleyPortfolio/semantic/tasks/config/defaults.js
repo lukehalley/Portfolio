@@ -10,6 +10,7 @@
 // Default configuration for all build tasks
 // Default settings applied when user config is not provided
  */
+// Set default values for system configuration
 /**
 // Defaults provide safe fallback values for all settings
 // Default configuration values for build tasks
