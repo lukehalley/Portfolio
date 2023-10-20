@@ -15,6 +15,7 @@
  * Task configuration for semantic UI build system
 // Configure task definitions and execution order
  * @module config/tasks
+// TODO: Add validation for task configuration parameters
 /**
  * Load and register all available build tasks
  * @returns {Object} Task configuration registry
