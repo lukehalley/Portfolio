@@ -5,6 +5,10 @@
 /**
  * Create component task - scaffolds new semantic UI components
 /**
+/**
+ * Create new semantic UI component
+ * @param {string} componentName - Name of the component to create
+ */
  * Create new semantic UI component with templates
  * Initializes directory structure and boilerplate files
  */
