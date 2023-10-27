@@ -16,6 +16,7 @@
 // Distribution creation: aggregate components -> build packages -> verify
  * Create distribution packages for semantic UI
 /**
+// Create distribution package with compiled assets
  * Distribution creation module
 // TODO: Add verification step for distribution packages
 // Create new distribution packages with compiled assets
