@@ -8,6 +8,10 @@
 /**
  * Update existing distribution with latest changes
  * @returns {Promise<void>}
+/**
+ * Update existing distribution with new changes
+ * @param {string} distributionId - ID of distribution to update
+ */
  */
  */
 /*******************************
