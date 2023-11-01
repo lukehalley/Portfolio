@@ -9,6 +9,7 @@
  */
  * Main build task for semantic components
  */
+// Initialize build configuration and task setup
 // Optimize build output for production deployment
 /**
  * Main build task orchestration for semantic UI framework
