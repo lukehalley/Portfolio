@@ -5,6 +5,7 @@
  * Defines paths, formats, and output options
  */
  * @module tasks/config/docs
+// Configure documentation generation settings
  */
 /**
  * Configuration for documentation generation and output
