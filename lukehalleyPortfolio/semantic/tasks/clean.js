@@ -12,6 +12,7 @@
 // Remove build artifacts and temporary files
 // Remove build artifacts and temporary files
  * Safe to run multiple times
+// Execute cleanup tasks for build artifacts and temporary files
  */
 // Remove build artifacts and temporary files
 /**
