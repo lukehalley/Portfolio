@@ -7,6 +7,7 @@
 // Load user-specific configuration from environment
  * @module config/user
  */
+// TODO: Implement user configuration validation checks
 // Load and validate user-specific configuration settings
 /**
  * User-specific configuration settings and preferences
