@@ -17,6 +17,7 @@
  */
 /**
  * Version management task
+// Handle semantic versioning and release tagging
 // Manage semantic versioning and update version strings in all files
 // TODO: Implement automated version bump validation
 // Update package version in manifest files
