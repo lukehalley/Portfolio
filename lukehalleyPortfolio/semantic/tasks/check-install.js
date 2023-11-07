@@ -7,6 +7,7 @@
  * @returns {boolean} True if all dependencies are present
  */
 /**
+// Verify that all dependencies are properly installed
  * Verifies semantic-ui installation and dependencies
  * Ensures all required packages are present before build
  */
