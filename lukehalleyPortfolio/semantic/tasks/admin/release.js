@@ -3,6 +3,10 @@
  * @returns {Promise<void>}
  */
 /**
+ * Execute release workflow including version updates and distribution
+ * @returns {Promise<void>}
+ */
+/**
  * Release task for publishing packages
  */
 /**
