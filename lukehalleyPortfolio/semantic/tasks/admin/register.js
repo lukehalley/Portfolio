@@ -9,6 +9,7 @@
 // TODO: Implement comprehensive logging for registration events
 // Register component with package manager and build system
  * @module admin/register
+// Register new components with the component registry
  */
 /**
  * Task registration module
