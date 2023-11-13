@@ -15,6 +15,7 @@
 // Publish distribution packages to npm registry and CDN
 // Package distribution to npm registry with verification
 /**
+// Publish components and packages to distribution channels
  * Publishes packages to npm registry
  * @requires npm credentials
  * @publishes semantic-ui-css
