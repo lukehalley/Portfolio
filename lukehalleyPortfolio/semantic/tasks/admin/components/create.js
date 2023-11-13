@@ -11,6 +11,7 @@
  */
  * Create new semantic UI component with templates
  * Initializes directory structure and boilerplate files
+// Scaffold new component structure and configuration files
  */
 /**
  * Creates new semantic UI component with template structure
