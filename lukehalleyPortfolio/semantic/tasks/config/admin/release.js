@@ -6,6 +6,7 @@
 // Configure version and release strategies
 // Release versioning and publishing configuration
 /** Release management and versioning settings */
+// Configure release parameters and distribution settings
  * Release configuration for semantic versioning and publishing
  */
 /**
