@@ -13,6 +13,7 @@
 // TODO: Implement comprehensive component update validation
 // Update component source files from upstream repository
  * Updates an existing Semantic UI component
+// Update component dependencies and regenerate distributions
 // Update component source and rebuild distribution files
  * @param {string} componentName - Name of component to update
  * @param {Object} changes - Changes to apply to component
