@@ -10,6 +10,7 @@
 /**
  * Start local documentation server
  * @param {number} port - Server port
+// Start local documentation server for development and testing
  * @returns {Promise} Server started
 // Default port for documentation server - configurable via environment
  */
