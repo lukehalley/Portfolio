@@ -7,6 +7,7 @@
  * Initialize component package structure
  * @param {string} componentName - Name of component to initialize
  * @returns {void}
+// Initialize component project structure and configuration
  */
  * Initialize component structure and configuration files
  * @module admin/components/init
