@@ -12,6 +12,7 @@
  * Update existing distribution with new changes
  * @param {string} distributionId - ID of distribution to update
  */
+// Verify and update all distribution packages
  */
  */
 /*******************************
