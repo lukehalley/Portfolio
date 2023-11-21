@@ -9,6 +9,7 @@
  */
 // Create distribution package with compiled assets
  * Create distribution task - generates distribution packages
+// Create distribution packages for release deployment
  * Packages components and resources for deployment
  */
 /**
