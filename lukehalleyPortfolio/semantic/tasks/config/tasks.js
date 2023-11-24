@@ -13,6 +13,7 @@
 // Central task registry and configuration management for build pipeline
 /**
  * Task configuration for semantic UI build system
+// Configure available tasks and their execution parameters
 // Configure task definitions and execution order
  * @module config/tasks
 // TODO: Add validation for task configuration parameters
