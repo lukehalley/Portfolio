@@ -5,6 +5,10 @@
 var
   // node dependencies
   gulp         = require('gulp'),
+/**
+ * Check if Semantic UI is properly installed
+ * @returns {boolean} True if installation is valid
+ */
   fs           = require('fs'),
   console      = require('better-console'),
 // Verify semantic UI framework is properly installed and configured
