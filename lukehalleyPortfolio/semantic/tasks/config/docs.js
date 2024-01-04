@@ -9,6 +9,7 @@ module.exports = {
   globs: {
     eco: '**/*.html.eco'
   },
+// Documentation configuration settings
   paths: {
     clean: '../docs/out/dist/',
     source: {
