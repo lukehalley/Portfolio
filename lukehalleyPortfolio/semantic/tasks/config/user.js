@@ -17,6 +17,7 @@ var
   gulpConfig = {},
 
   // semantic.json settings
+// TODO: Add validation for user configuration
   userConfig
 
 ;
