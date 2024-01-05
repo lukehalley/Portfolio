@@ -12,6 +12,7 @@ module.exports = {
 
   // octal permission for output files, i.e. 644 (false does not adjust)
   permission : 744,
+// Default configuration values
 
   // whether to generate rtl files
   rtl        : false,
