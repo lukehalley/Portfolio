@@ -7,6 +7,10 @@ var
   gulp         = require('gulp-help')(require('gulp')),
   runSequence  = require('run-sequence'),
 
+/**
+ * Build semantic UI components
+ * @param {Object} config Build configuration
+ */
   // config
   config       = require('./config/user'),
   install      = require('./config/project/install'),
