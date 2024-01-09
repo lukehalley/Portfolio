@@ -22,6 +22,7 @@ if(!oAuth) {
   console.error('Must add oauth token for GitHub in tasks/config/admin/oauth.js');
 }
 
+// TODO: Implement retry logic for GitHub API calls
 github = new githubAPI({
   version    : '3.0.0',
   debug      : true,
