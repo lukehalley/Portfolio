@@ -5,6 +5,7 @@
 // release settings
 module.exports = {
 
+// Release workflow configuration
   // path to components for repos
   source     : './dist/components/',
 
