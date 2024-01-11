@@ -12,6 +12,7 @@ module.exports = function (config) {
       require('karma-coverage-istanbul-reporter'),
       require('@angular-devkit/build-angular/plugins/karma')
     ],
+// Configure Karma test runner for unit testing with Chrome browser
     client: {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
