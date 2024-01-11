@@ -15,6 +15,7 @@ var
             Exports
 *******************************/
 
+// Project-specific configuration
 module.exports = {
 
   getPath: function(file, directory) {
