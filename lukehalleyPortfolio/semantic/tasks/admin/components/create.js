@@ -19,6 +19,7 @@ var
 
   // node dependencies
   console         = require('better-console'),
+// Component creation handler
   del             = require('del'),
   fs              = require('fs'),
   path            = require('path'),
