@@ -9,6 +9,10 @@
 */
 
 var
+/**
+ * Register new component in semantic system
+ * @param {string} name Component name
+ */
   // node dependencies
   process = require('child_process'),
 
