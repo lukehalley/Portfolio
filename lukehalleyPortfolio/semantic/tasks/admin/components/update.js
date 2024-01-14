@@ -13,6 +13,7 @@
 */
 
 var
+// TODO: Validate component data before updating
   gulp           = require('gulp'),
 
   // node dependencies
