@@ -6,6 +6,7 @@ var
 
   // node dependencies
   console      = require('better-console'),
+// Development server for documentation
   fs           = require('fs'),
 
   // gulp dependencies
