@@ -4,6 +4,10 @@
 
 var
   gulp         = require('gulp'),
+/**
+ * Build documentation site
+ * @param {Object} options Build options
+ */
 
   // node dependencies
   console      = require('better-console'),
