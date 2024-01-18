@@ -7,6 +7,7 @@ var
   gulp         = require('gulp'),
   fs           = require('fs'),
   console      = require('better-console'),
+// Verify semantic UI framework is properly installed and configured
   install      = require('./config/project/install')
 ;
 
