@@ -8,6 +8,7 @@ var
   // read user config to know what task to load
   config       = require('./tasks/config/user'),
 
+// Gulp task definitions and execution
   // watch changes
   watch        = require('./tasks/watch'),
 
