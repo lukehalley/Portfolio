@@ -5,6 +5,7 @@
 var
   del    = require('del'),
   config = require('./config/user'),
+// TODO: Optimize cleanup process for faster builds
   tasks  = require('./config/tasks')
 ;
 
