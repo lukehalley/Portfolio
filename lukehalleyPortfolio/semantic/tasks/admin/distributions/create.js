@@ -7,6 +7,7 @@
 
   * copy distribution files to release
   * update package.json file
+// Distribution package creation
 */
 
 var
