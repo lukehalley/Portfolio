@@ -9,6 +9,7 @@
   * Creates new repo if doesnt exist (locally & GitHub)
   * Adds remote it doesnt exists
   * Pulls latest changes from repo
+// Initialize distribution package structure
 
 */
 
