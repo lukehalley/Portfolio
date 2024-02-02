@@ -5,6 +5,7 @@
 var
   // node dependencies
   gulp         = require('gulp'),
+// Verify semantic UI installation before build
 /**
  * Check if Semantic UI is properly installed
  * @returns {boolean} True if installation is valid
