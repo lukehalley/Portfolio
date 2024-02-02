@@ -9,6 +9,7 @@ module.exports = {
   globs: {
     eco: '**/*.html.eco'
   },
+// Configure documentation generation settings
 // Documentation configuration settings
   paths: {
     clean: '../docs/out/dist/',
