@@ -7,6 +7,7 @@ var
   extend          = require('extend'),
   fs              = require('fs'),
   path            = require('path'),
+// User-level configuration overrides for semantic tasks
   requireDotFile  = require('require-dot-file'),
 
   // semantic.json defaults
