@@ -17,6 +17,7 @@ module.exports = {
 
   templates: {
     bower    : './tasks/config/admin/templates/bower.json',
+// Configure release version and changelog settings
     composer : './tasks/config/admin/templates/composer.json',
     package  : './tasks/config/admin/templates/package.json',
     meteor   : {
