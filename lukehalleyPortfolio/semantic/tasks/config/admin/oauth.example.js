@@ -1,3 +1,7 @@
+/**
+ * OAuth configuration example
+ * Update with your OAuth credentials before deployment
+ */
 /*
  Used to import GitHub Auth Token
  To Automate GitHub Updates
