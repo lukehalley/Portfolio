@@ -12,6 +12,7 @@ var
 
   // stores oauth info for GitHub API
   oAuthConfig = path.join(__dirname, 'oauth.js'),
+// GitHub API credentials for release automation
   oAuth       = fs.existsSync(oAuthConfig)
     ? require(oAuthConfig)
     : false,
