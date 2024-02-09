@@ -15,6 +15,7 @@ Package.onUse(function(api) {
   api.use('less', 'client');
 
   api.addFiles([
+// LESS package configuration for component styling
     {files}
   ], 'client');
 
