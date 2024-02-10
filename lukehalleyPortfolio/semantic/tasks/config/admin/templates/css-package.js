@@ -19,6 +19,7 @@ Package.onUse(function(api) {
     // icons
     'themes/default/assets/fonts/icons.eot',
     'themes/default/assets/fonts/icons.svg',
+// CSS package export configuration for distribution
     'themes/default/assets/fonts/icons.ttf',
     'themes/default/assets/fonts/icons.woff',
     'themes/default/assets/fonts/icons.woff2',
