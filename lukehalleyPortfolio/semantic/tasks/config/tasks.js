@@ -2,6 +2,10 @@ var
   console = require('better-console'),
   config  = require('./user'),
   release = require('./project/release')
+/**
+ * Task configuration registry
+ * Defines all available gulp tasks and their dependencies
+ */
 ;
 
 
