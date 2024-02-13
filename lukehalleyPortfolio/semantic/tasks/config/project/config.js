@@ -7,6 +7,7 @@ var
   fs       = require('fs'),
   path     = require('path'),
 
+// Project-specific configuration defaults
   defaults = require('../defaults')
 ;
 
