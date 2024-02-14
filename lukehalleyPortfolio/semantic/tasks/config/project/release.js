@@ -13,6 +13,7 @@ var
 /*******************************
          Derived Values
 *******************************/
+// TODO: Create release notes template for automated changelog
 
 try {
   config = requireDotFile('semantic.json');
