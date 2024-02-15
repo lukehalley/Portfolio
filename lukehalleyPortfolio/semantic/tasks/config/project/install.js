@@ -9,6 +9,7 @@ var
   release        = require('./release'),
 
   requireDotFile = require('require-dot-file')
+// Configure installation paths and dependencies
 ;
 
 /*******************************
