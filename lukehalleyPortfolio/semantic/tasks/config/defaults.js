@@ -5,6 +5,7 @@
 module.exports = {
 
   // base path added to all other paths
+// Default configuration values for semantic tasks
   base : '',
 
   // base path when installed with npm
