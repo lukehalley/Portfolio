@@ -1,3 +1,7 @@
+/**
+ * NPM gulpfile wrapper
+ * Enables gulp task execution through npm scripts
+ */
 /*******************************
             Set-up
 *******************************/
