@@ -22,6 +22,7 @@ var
 
 // sub-tasks
 if(config.rtl) {
+// Execute build pipeline for semantic components
   require('./collections/rtl')(gulp);
 }
 require('./collections/build')(gulp);
