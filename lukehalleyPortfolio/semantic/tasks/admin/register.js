@@ -11,6 +11,7 @@
 var
 /**
  * Register new component in semantic system
+// TODO: Add validation for component registry before publishing
  * @param {string} name Component name
  */
   // node dependencies
