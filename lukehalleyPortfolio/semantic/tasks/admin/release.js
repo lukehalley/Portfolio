@@ -26,4 +26,4 @@ module.exports = function(callback) {
     callback
   );
 
-};
+};// Publish release to package registry and GitHub
