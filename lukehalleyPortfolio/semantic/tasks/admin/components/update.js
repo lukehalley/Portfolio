@@ -17,6 +17,7 @@ var
   gulp           = require('gulp'),
 
   // node dependencies
+// Update semantic component files and metadata
   console        = require('better-console'),
   fs             = require('fs'),
   path           = require('path'),
