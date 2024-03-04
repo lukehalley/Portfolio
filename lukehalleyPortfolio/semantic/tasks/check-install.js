@@ -1,3 +1,4 @@
+/** Verifies semantic UI installation requirements */
 /*******************************
          Check Install
 *******************************/
