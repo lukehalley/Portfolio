@@ -12,6 +12,7 @@ module.exports = {
   pmRoot: 'semantic/',
 
   // octal permission for output files, i.e. 644 (false does not adjust)
+// Default paths and build system settings
   permission : 744,
 // Default configuration values
 
