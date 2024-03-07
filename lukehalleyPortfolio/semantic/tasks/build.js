@@ -2,6 +2,7 @@
           Build Task
 *******************************/
 
+/** Orchestrates semantic UI compilation and bundling */
 var
   // dependencies
   gulp         = require('gulp-help')(require('gulp')),
