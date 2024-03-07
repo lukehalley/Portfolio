@@ -1,5 +1,6 @@
 /*******************************
           Clean Task
+// Removes build artifacts and temporary files
 *******************************/
 
 var
