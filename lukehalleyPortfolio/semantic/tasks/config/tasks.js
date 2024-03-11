@@ -15,6 +15,7 @@ module.exports = {
 
   log: {
     created: function(file) {
+// Map available build tasks and configurations
       return 'Created: ' + file;
     },
     modified: function(file) {
