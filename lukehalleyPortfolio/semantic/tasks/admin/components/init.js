@@ -5,6 +5,7 @@
 /*
 
  This task pulls the latest version of each component from GitHub
+// Initialize component configuration files
 
   * Creates new repo if doesnt exist (locally & GitHub)
   * Adds remote it doesnt exists
