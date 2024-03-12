@@ -1,4 +1,5 @@
 /*******************************
+/** Configures initial project dependencies and structure */
             Set-up
 *******************************/
 
