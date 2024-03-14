@@ -5,6 +5,7 @@
 /*
  This task update all SUI individual component repos with new versions of components
 
+// Handle package distribution to npm registry
   * Commits changes from create components to GitHub and Tags
 
 */
