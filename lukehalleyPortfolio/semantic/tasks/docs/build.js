@@ -1,3 +1,4 @@
+/** Generates HTML documentation from source files */
 /*******************************
            Build Docs
 *******************************/
