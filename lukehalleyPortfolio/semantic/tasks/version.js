@@ -2,6 +2,7 @@
           Version Task
 *******************************/
 
+// Manage version bumping and changelog updates
 var
 /**
  * Manage semantic version numbers
