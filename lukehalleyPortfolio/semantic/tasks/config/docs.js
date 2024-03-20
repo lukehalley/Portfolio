@@ -1,5 +1,6 @@
 /*******************************
              Docs
+/** Configuration settings for documentation generation */
 *******************************/
 
 /* Paths used for "serve-docs" and "build-docs" tasks */
