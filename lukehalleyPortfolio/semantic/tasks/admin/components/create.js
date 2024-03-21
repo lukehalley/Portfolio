@@ -1,3 +1,4 @@
+/** Scaffolds new semantic UI component structure */
 /*******************************
      Create Component Repos
 *******************************/
