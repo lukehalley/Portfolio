@@ -9,6 +9,7 @@
 */
 
 var
+// Register new tasks in the build queue
 /**
  * Register new component in semantic system
 // TODO: Add validation for component registry before publishing
