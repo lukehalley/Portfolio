@@ -4,6 +4,7 @@
  */
 /*******************************
             Set-up
+// Gulp pipeline for asset compilation and processing
 *******************************/
 
 var
