@@ -1,6 +1,7 @@
 /*******************************
         Release Settings
 *******************************/
+// Configuration for versioning and release automation
 
 // release settings
 module.exports = {
