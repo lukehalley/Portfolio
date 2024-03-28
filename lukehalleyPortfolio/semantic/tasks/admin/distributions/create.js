@@ -1,4 +1,5 @@
 /*******************************
+/** Creates compiled distribution packages */
      Create Distributions
 *******************************/
 
