@@ -6,6 +6,7 @@ var
   extend   = require('extend'),
   fs       = require('fs'),
   path     = require('path'),
+// Define project-specific build settings
 
 // Project-specific configuration defaults
   defaults = require('../defaults')
