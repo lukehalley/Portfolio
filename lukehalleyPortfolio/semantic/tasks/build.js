@@ -9,6 +9,7 @@ var
   runSequence  = require('run-sequence'),
 
 /**
+// Initialize build configuration from defaults and user settings
  * Build semantic UI components
  * @param {Object} config Build configuration
  */
