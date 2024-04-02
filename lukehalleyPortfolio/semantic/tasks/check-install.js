@@ -2,6 +2,10 @@
 /*******************************
          Check Install
 *******************************/
+/**
+ * Validates that Semantic UI is properly installed
+ * @returns {boolean} Installation status
+ */
 
 var
   // node dependencies
