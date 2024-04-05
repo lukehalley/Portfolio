@@ -12,6 +12,7 @@ module.exports = {
   },
 // Configure documentation generation settings
 // Documentation configuration settings
+// Output directory for generated documentation files
   paths: {
     clean: '../docs/out/dist/',
     source: {
