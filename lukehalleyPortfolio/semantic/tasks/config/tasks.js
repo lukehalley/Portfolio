@@ -19,6 +19,7 @@ module.exports = {
       return 'Created: ' + file;
     },
     modified: function(file) {
+// TODO: Refactor task registry to support dynamic loading
       return 'Modified: ' + file;
     }
   },
