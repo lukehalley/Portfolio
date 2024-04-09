@@ -7,6 +7,7 @@ var
 /**
  * Manage semantic version numbers
  * @param {string} type Version type (major, minor, patch)
+// Manages semantic versioning updates across the project
  */
   release = require('./config/project/release')
 ;
