@@ -1,5 +1,9 @@
 /*******************************
           Clean Task
+/**
+ * Removes generated build artifacts and temporary files
+ * @param {Object} config - Cleanup configuration
+ */
 // Removes build artifacts and temporary files
 *******************************/
 
