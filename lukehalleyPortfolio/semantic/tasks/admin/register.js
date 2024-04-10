@@ -15,6 +15,7 @@ var
 // TODO: Add validation for component registry before publishing
  * @param {string} name Component name
  */
+// Register new component in the Semantic UI registry
   // node dependencies
   process = require('child_process'),
 
