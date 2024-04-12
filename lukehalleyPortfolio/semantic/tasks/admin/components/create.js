@@ -2,6 +2,11 @@
 /*******************************
      Create Component Repos
 *******************************/
+/**
+ * Creates a new Semantic UI component with default structure
+ * @param {string} componentName - Name of component to create
+ * @returns {Promise<void>}
+ */
 
 /*
  This will create individual component repositories for each SUI component
