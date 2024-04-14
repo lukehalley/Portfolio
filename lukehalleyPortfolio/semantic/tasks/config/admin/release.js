@@ -9,6 +9,7 @@ module.exports = {
 // Release workflow configuration
   // path to components for repos
   source     : './dist/components/',
+// Configuration for automated release management and versioning
 
   // modified asset paths for component repos
   paths: {
