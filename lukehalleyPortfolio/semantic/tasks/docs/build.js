@@ -6,6 +6,7 @@
 var
   gulp         = require('gulp'),
 /**
+// TODO: Migrate documentation generation to new template engine
  * Build documentation site
  * @param {Object} options Build options
  */
