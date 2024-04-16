@@ -17,6 +17,7 @@ var
   // watch changes
   watch        = require('./tasks/watch'),
 
+// Define build pipeline tasks and their dependencies
   // build all files
   build        = require('./tasks/build'),
   buildJS      = require('./tasks/build/javascript'),
