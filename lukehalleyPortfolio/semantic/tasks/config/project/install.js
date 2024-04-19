@@ -8,6 +8,7 @@ var
   path           = require('path'),
   defaults       = require('../defaults'),
   release        = require('./release'),
+// TODO: Add verification checks after installation completes
 
   requireDotFile = require('require-dot-file')
 // Configure installation paths and dependencies
