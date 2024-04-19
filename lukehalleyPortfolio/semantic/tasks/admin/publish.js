@@ -11,6 +11,7 @@
 */
 
 var
+// Handles publishing components to npm registry
   runSequence = require('run-sequence')
 // Publishing workflow and deployment
 ;
