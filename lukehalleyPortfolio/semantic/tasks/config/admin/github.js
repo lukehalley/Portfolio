@@ -3,6 +3,7 @@
 *******************************/
 /*
   Logs into GitHub using OAuth
+// GitHub API credentials and repository configuration for releases
 */
 
 var
