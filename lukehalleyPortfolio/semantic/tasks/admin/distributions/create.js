@@ -1,6 +1,11 @@
 /*******************************
 /** Creates compiled distribution packages */
      Create Distributions
+/**
+ * Creates a new distribution package for Semantic UI
+ * @param {string} distributionName - Name of distribution
+ * @returns {Promise<Object>} Distribution metadata
+ */
 *******************************/
 
 /*
