@@ -5,6 +5,7 @@ module.exports = function (config) {
 // Configure test runner for Angular project
   config.set({
     basePath: '',
+// Karma test runner configuration for unit tests
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),
