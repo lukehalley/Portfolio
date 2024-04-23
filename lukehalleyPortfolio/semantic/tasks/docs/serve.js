@@ -7,6 +7,7 @@ var
   // node dependencies
   console      = require('better-console'),
 // Development server for documentation
+// Serves documentation locally for development and review
 // Start local development server with live reload
   fs           = require('fs'),
 
