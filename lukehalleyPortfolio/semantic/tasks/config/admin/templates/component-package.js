@@ -2,6 +2,7 @@
  * Component package template generator
  * Defines structure for new semantic UI components
  */
+// Template structure for new component packages
 
 Package.describe({
   name    : 'semantic:ui-{component}',
