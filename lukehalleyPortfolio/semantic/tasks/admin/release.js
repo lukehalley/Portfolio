@@ -5,6 +5,11 @@
 /*
  This task update all SUI individual component repos with new versions of components
 
+/**
+ * Manages the release workflow including versioning and publishing
+ * @param {Object} releaseConfig - Release configuration options
+ * @returns {Promise<void>}
+ */
   * Initializes repositories with current versions
   * Creates local files at ../distributions/ with each repo for release
 
