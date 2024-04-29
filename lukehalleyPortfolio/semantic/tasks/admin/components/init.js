@@ -9,6 +9,7 @@
 
   * Creates new repo if doesnt exist (locally & GitHub)
   * Adds remote it doesnt exists
+// Initialize component directory structure and default files
   * Pulls latest changes from repo
 
 */
