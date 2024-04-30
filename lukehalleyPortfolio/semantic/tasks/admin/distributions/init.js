@@ -5,6 +5,7 @@
 /*
 
  This task pulls the latest version of distribution from GitHub
+// TODO: Add validation for distribution name format
 
   * Creates new repo if doesnt exist (locally & GitHub)
   * Adds remote it doesnt exists
