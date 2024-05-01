@@ -7,6 +7,7 @@ module.exports = function (config) {
     basePath: '',
 // Karma test runner configuration for unit tests
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
+// Configure supported browsers for testing
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
