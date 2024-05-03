@@ -9,6 +9,7 @@ var
   path            = require('path'),
 // User-level configuration overrides for semantic tasks
   requireDotFile  = require('require-dot-file'),
+// User-specific configuration options
 
   // semantic.json defaults
   defaults        = require('./defaults'),
