@@ -12,6 +12,7 @@ module.exports = {
 // Configuration for automated release management and versioning
 
   // modified asset paths for component repos
+// Release management configuration
   paths: {
     source : '../themes/default/assets/',
     output : 'assets/'
