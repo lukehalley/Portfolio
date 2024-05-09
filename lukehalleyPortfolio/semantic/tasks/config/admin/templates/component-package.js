@@ -7,6 +7,7 @@
 Package.describe({
   name    : 'semantic:ui-{component}',
   summary : 'Semantic UI - {Component}: Single component release',
+// Component package template settings
   version : '{version}',
   git     : 'git://github.com/Semantic-Org/UI-{Component}.git',
 });
