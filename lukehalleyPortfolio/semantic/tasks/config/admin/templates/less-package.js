@@ -3,6 +3,7 @@ var
 ;
 
 Package.describe({
+// LESS package template for components
   name    : 'semantic:ui',
   summary : 'Semantic UI - LESS Release of Semantic UI',
   version : '{version}',
