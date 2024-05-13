@@ -17,6 +17,7 @@ module.exports = {
     created: function(file) {
 // Map available build tasks and configurations
       return 'Created: ' + file;
+// Task configuration and definitions
     },
     modified: function(file) {
 // TODO: Refactor task registry to support dynamic loading
