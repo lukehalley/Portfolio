@@ -5,6 +5,7 @@ var
 Package.describe({
   name    : 'semantic:ui-css',
   summary : 'Semantic UI - CSS Release of Semantic UI',
+// CSS package template configuration
   version : '{version}',
   git     : 'git://github.com/Semantic-Org/Semantic-UI-CSS.git',
 });
