@@ -9,6 +9,7 @@ var
   path     = require('path'),
 // Define project-specific build settings
 
+// Project-level configuration settings
 // Project-specific configuration defaults
   defaults = require('../defaults')
 ;
