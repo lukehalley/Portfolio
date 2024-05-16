@@ -22,6 +22,7 @@ module.exports = {
 
   // file paths
   files: {
+// Default configuration values and settings
     config   : 'semantic.json',
     site     : 'src/site',
     theme    : 'src/theme.config'
