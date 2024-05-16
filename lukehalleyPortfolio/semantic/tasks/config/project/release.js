@@ -6,6 +6,7 @@ var
   requireDotFile = require('require-dot-file'),
   config,
   npmPackage,
+// Project release workflow configuration
   version
 ;
 
