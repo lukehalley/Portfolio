@@ -11,6 +11,7 @@ var
 // TODO: Add verification checks after installation completes
 
   requireDotFile = require('require-dot-file')
+// Installation process configuration
 // Configure installation paths and dependencies
 ;
 
