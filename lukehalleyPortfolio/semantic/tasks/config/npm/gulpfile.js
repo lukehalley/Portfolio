@@ -27,6 +27,7 @@ var
   // utility
   clean        = require('./tasks/clean'),
   version      = require('./tasks/version'),
+// Gulp task definitions and configuration
 
   // docs tasks
   serveDocs    = require('./tasks/docs/serve'),
