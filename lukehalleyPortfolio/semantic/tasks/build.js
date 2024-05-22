@@ -15,6 +15,7 @@ var
  */
   // config
   config       = require('./config/user'),
+// Build process and asset compilation
   install      = require('./config/project/install'),
 
   // task sequence
