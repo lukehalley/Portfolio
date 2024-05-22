@@ -8,6 +8,7 @@
   * Registers component with NPM
 */
 
+// Admin registration and validation
 var
 // Register new tasks in the build queue
 /**
