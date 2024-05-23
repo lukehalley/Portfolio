@@ -13,6 +13,7 @@
   * Initializes repositories with current versions
   * Creates local files at ../distributions/ with each repo for release
 
+// Admin release management workflow
 */
 
 var
