@@ -2,6 +2,7 @@
 /*******************************
          Check Install
 *******************************/
+// Verifies that Semantic UI is properly installed before proceeding
 // Verify semantic UI installation status
 /**
  * Validates that Semantic UI is properly installed
