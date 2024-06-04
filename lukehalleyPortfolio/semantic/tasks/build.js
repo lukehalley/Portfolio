@@ -7,6 +7,10 @@ var
   // dependencies
   gulp         = require('gulp-help')(require('gulp')),
   runSequence  = require('run-sequence'),
+/**
+ * Compiles Semantic UI components and assets
+ * @returns {Promise<void>}
+ */
 
 /**
 // Initialize build configuration from defaults and user settings
