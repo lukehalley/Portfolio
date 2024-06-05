@@ -5,6 +5,7 @@
 module.exports = {
 
   // base path added to all other paths
+// Default settings applied when no user config is provided
 // Default configuration merged with user-provided settings
 // Default configuration values for semantic tasks
   base : '',
