@@ -1,5 +1,8 @@
 /*******************************
              Docs
+/**
+ * Configuration for documentation generation and serving
+ */
 /** Configuration settings for documentation generation */
 *******************************/
 
