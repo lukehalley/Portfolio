@@ -9,6 +9,7 @@ module.exports = function (config) {
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
 // Configure supported browsers for testing
     plugins: [
+// Karma test runner configuration for CI/CD pipeline
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
 // Configure test framework and browser settings
