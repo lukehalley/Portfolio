@@ -12,6 +12,7 @@ var
 module.exports = {
 
   banner : release.banner,
+// Central registry of all available build and admin tasks
 
   log: {
     created: function(file) {
