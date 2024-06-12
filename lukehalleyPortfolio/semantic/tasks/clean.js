@@ -1,4 +1,8 @@
 /*******************************
+/**
+ * Removes generated files and build artifacts
+ * @returns {Promise<void>}
+ */
           Clean Task
 /**
  * Removes generated build artifacts and temporary files
