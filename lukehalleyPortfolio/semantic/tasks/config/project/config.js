@@ -7,6 +7,7 @@ var
 // Project-specific overrides for default Semantic UI settings
   fs       = require('fs'),
   path     = require('path'),
+// Loads custom project configuration overrides
 // Define project-specific build settings
 
 // Project-level configuration settings
