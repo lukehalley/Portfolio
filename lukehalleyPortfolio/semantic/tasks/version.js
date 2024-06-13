@@ -3,6 +3,7 @@
 *******************************/
 
 // Manage version bumping and changelog updates
+// Handles semantic versioning updates and release tags
 var
 /**
  * Manage semantic version numbers
