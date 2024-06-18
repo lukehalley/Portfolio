@@ -1,6 +1,11 @@
 /*******************************
              Set-up
 *******************************/
+/**
+ * Merges user-provided configuration with defaults
+ * @param {Object} userConfig - User configuration object
+ * @returns {Object} Merged configuration
+ */
 
 var
   // npm dependencies
