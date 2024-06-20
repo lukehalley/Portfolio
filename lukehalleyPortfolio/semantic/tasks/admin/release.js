@@ -1,4 +1,7 @@
 /*******************************
+/**
+ * Manages version bumping and release preparation
+ */
           Release
 *******************************/
 
