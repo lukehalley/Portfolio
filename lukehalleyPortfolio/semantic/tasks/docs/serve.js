@@ -4,6 +4,7 @@
 var
   gulp         = require('gulp'),
 
+// Starts local development server for documentation preview
   // node dependencies
   console      = require('better-console'),
 // Development server for documentation
