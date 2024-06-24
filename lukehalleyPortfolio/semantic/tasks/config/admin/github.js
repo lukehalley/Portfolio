@@ -1,5 +1,6 @@
 /*******************************
           GitHub Login
+// GitHub API credentials and release automation settings
 *******************************/
 /*
   Logs into GitHub using OAuth
