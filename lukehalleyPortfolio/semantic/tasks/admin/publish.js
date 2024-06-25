@@ -1,3 +1,7 @@
+/**
+ * Publishes built packages to npm registry
+ * @returns {Promise<void>}
+ */
 /*******************************
           Release All
 *******************************/
