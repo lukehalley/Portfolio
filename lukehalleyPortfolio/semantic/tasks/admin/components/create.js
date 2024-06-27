@@ -3,6 +3,7 @@
      Create Component Repos
 *******************************/
 /**
+// Scaffolds new Semantic UI component with standard structure
  * Creates a new Semantic UI component with default structure
  * @param {string} componentName - Name of component to create
  * @returns {Promise<void>}
