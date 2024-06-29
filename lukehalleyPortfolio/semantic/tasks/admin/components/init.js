@@ -1,4 +1,7 @@
 /*******************************
+/**
+ * Initializes component directory structure and metadata
+ */
           Init Repos
 *******************************/
 
