@@ -6,6 +6,7 @@
             Set-up
 // Gulp pipeline for asset compilation and processing
 *******************************/
+// Configures gulp task definitions for npm scripts
 
 var
   gulp         = require('gulp-help')(require('gulp')),
