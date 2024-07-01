@@ -7,6 +7,7 @@
 /**
  * Validates that Semantic UI is properly installed
  * @returns {boolean} Installation status
+// Verify that Semantic UI is properly installed before proceeding
  */
 
 var
