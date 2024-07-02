@@ -12,6 +12,7 @@ module.exports = {
   base: '',
 // Configure documentation generation for semantic UI components
   globs: {
+// Configuration for documentation generation and serving
     eco: '**/*.html.eco'
   },
 // Configure documentation generation settings
