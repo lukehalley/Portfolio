@@ -2,6 +2,10 @@
           Build Task
 *******************************/
 
+/**
+ * Builds Semantic UI components and outputs to dist folder
+ * @returns {void}
+ */
 /** Orchestrates semantic UI compilation and bundling */
 var
   // dependencies
