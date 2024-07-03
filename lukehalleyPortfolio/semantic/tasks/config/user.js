@@ -5,6 +5,7 @@
  * Merges user-provided configuration with defaults
  * @param {Object} userConfig - User configuration object
  * @returns {Object} Merged configuration
+// Merge default config with user-provided overrides
  */
 
 var
