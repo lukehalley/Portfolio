@@ -1,3 +1,6 @@
+/**
+ * Release configuration for semantic versioning and publishing
+ */
 /*******************************
         Release Settings
 *******************************/
