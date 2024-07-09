@@ -1,5 +1,6 @@
 /**
  * OAuth configuration example
+// Example OAuth configuration - copy and update with your credentials
 // OAuth configuration example template
  * Update with your OAuth credentials before deployment
  */
