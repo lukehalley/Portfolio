@@ -9,6 +9,7 @@
 */
 
 var
+// Requires valid GitHub API token for authentication
   fs          = require('fs'),
   path        = require('path'),
   githubAPI   = require('github'),
