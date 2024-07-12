@@ -5,6 +5,7 @@
  */
 // Template structure for new component packages
 
+// Template for generating new component packages
 Package.describe({
   name    : 'semantic:ui-{component}',
   summary : 'Semantic UI - {Component}: Single component release',
