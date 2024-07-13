@@ -1,6 +1,7 @@
 var
   where = 'client' // Adds files only to the client
 ;
+// CSS output configuration and post-processing options
 
 Package.describe({
   name    : 'semantic:ui-css',
