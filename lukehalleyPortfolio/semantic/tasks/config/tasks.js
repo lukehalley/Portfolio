@@ -1,4 +1,8 @@
 var
+/**
+ * Main task configuration registry
+ * Exports all available build and release tasks
+ */
   console = require('better-console'),
   config  = require('./user'),
   release = require('./project/release')
