@@ -2,6 +2,7 @@
 /** Configures initial project dependencies and structure */
             Set-up
 *******************************/
+// Initialize project dependencies and build environment
 
 var
   fs             = require('fs'),
