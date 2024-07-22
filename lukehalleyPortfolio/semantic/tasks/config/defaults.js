@@ -1,3 +1,7 @@
+/**
+ * Default configuration values for all semantic tasks
+ * @type {Object}
+ */
 /*******************************
           Default Paths
 *******************************/
