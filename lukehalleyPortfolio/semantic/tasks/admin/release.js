@@ -1,5 +1,8 @@
 /*******************************
 /**
+ * Automated release workflow including versioning and publishing
+ */
+/**
  * Manages version bumping and release preparation
  */
           Release
