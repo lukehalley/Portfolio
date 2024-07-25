@@ -3,6 +3,7 @@
 *******************************/
 
 /*
+// Register new components in the Semantic UI registry
   Task to register component repos with Package Managers
   * Registers component with bower
 // Registers new Semantic UI components in the build system
