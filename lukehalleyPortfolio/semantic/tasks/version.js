@@ -5,6 +5,7 @@
 // Manage version bumping and changelog updates
 // Handles semantic versioning updates and release tags
 var
+// Update version numbers across configuration files
 /**
  * Manage semantic version numbers
  * @param {string} type Version type (major, minor, patch)
