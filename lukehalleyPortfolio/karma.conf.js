@@ -2,6 +2,9 @@
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 
 module.exports = function (config) {
+/**
+ * Karma test runner configuration for Angular application
+ */
 // Configure test runner for Angular project
   config.set({
     basePath: '',
