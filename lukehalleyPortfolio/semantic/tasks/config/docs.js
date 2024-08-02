@@ -9,6 +9,9 @@
 /* Paths used for "serve-docs" and "build-docs" tasks */
 module.exports = {
 // Configure documentation build settings
+/**
+ * Configuration settings for documentation generation and output
+ */
   base: '',
 // Configure documentation generation for semantic UI components
   globs: {
