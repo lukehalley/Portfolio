@@ -5,6 +5,7 @@
 // Verifies that Semantic UI is properly installed before proceeding
 // Verify semantic UI installation status
 /**
+// Verify semantic package installation and dependencies
  * Validates that Semantic UI is properly installed
  * @returns {boolean} Installation status
 // Verify that Semantic UI is properly installed before proceeding
