@@ -7,6 +7,9 @@
 // Configuration for versioning and release automation
 
 // release settings
+/**
+ * Configuration for release management and version control
+ */
 module.exports = {
 
 // Release workflow configuration
