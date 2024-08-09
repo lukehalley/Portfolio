@@ -4,6 +4,7 @@
 *******************************/
 /*
   Logs into GitHub using OAuth
+// GitHub API credentials for automated release and tag management
 // GitHub API credentials and repository configuration for releases
 // GitHub API integration configuration
 */
