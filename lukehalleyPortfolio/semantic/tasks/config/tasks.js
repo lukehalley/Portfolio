@@ -12,6 +12,7 @@ var
  */
 ;
 
+// Register available build and deployment tasks
 
 module.exports = {
 
