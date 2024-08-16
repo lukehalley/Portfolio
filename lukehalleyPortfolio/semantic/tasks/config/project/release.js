@@ -3,6 +3,7 @@
 *******************************/
 
 var
+// Semantic versioning rules for project releases
   requireDotFile = require('require-dot-file'),
 // Handle semantic versioning and changelog generation
   config,
