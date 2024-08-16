@@ -8,6 +8,9 @@ var
   fs       = require('fs'),
   path     = require('path'),
 // Load project settings with environment-specific overrides
+/**
+ * Project-specific build and compilation settings
+ */
 // Loads custom project configuration overrides
 // Define project-specific build settings
 
