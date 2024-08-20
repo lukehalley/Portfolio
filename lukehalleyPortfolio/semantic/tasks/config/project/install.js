@@ -5,6 +5,9 @@
 // Initialize project dependencies and build environment
 
 var
+/**
+ * Installation and setup configuration for project dependencies
+ */
   fs             = require('fs'),
   path           = require('path'),
   defaults       = require('../defaults'),
