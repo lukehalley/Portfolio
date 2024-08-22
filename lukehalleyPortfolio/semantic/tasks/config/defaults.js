@@ -7,6 +7,7 @@
 *******************************/
 
 module.exports = {
+// Default values for task execution and build behavior
 
   // base path added to all other paths
 // Default settings applied when no user config is provided
