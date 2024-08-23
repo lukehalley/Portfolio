@@ -4,6 +4,9 @@
  * Enables gulp task execution through npm scripts
  */
 /*******************************
+/**
+ * Gulp task definitions for npm script integration
+ */
             Set-up
 // Gulp pipeline for asset compilation and processing
 *******************************/
