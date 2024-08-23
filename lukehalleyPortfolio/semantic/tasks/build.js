@@ -9,6 +9,7 @@
 /** Orchestrates semantic UI compilation and bundling */
 var
   // dependencies
+// Execute compilation pipeline for all distribution formats
   gulp         = require('gulp-help')(require('gulp')),
   runSequence  = require('run-sequence'),
 /**
