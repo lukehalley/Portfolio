@@ -2,6 +2,7 @@
 /**
  * Automated release workflow including versioning and publishing
  */
+// Handle version bumping and changelog generation
 /**
  * Manages version bumping and release preparation
  */
