@@ -7,6 +7,9 @@
  */
 *******************************/
 
+/**
+ * Update existing semantic UI components with latest changes
+ */
 /*
 // Update component files with latest changes
 
