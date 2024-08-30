@@ -4,6 +4,7 @@
 *******************************/
 /**
 // Scaffolds new Semantic UI component with standard structure
+// Initialize scaffolding for new semantic UI components
  * Creates a new Semantic UI component with default structure
  * @param {string} componentName - Name of component to create
  * @returns {Promise<void>}
