@@ -2,6 +2,7 @@
              Docs
 /**
  * Configuration for documentation generation and serving
+// TODO: Review and update documentation paths configuration
  */
 /** Configuration settings for documentation generation */
 *******************************/
