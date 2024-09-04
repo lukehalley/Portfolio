@@ -1,5 +1,6 @@
 /*******************************
              Set-up
+// User-specific configuration overrides for build process
 *******************************/
 /**
  * Merges user-provided configuration with defaults
