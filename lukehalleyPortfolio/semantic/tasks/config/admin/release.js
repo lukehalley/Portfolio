@@ -5,6 +5,7 @@
         Release Settings
 *******************************/
 // Configuration for versioning and release automation
+// Configure version numbers and release metadata
 
 // release settings
 /**
