@@ -1,4 +1,5 @@
 /*******************************
+// Configure GitHub API credentials and repository settings
           GitHub Login
 // GitHub API credentials and release automation settings
 *******************************/
