@@ -1,6 +1,7 @@
 var
   where = 'client' // Adds files only to the client
 ;
+// Configure LESS variables and compilation settings
 
 Package.describe({
 // Default variables and mixins for LESS compilation
