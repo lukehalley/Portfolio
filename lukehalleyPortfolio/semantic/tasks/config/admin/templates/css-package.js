@@ -3,6 +3,7 @@ var
 ;
 // CSS output configuration and post-processing options
 
+// CSS output minification and formatting preferences
 Package.describe({
   name    : 'semantic:ui-css',
   summary : 'Semantic UI - CSS Release of Semantic UI',
