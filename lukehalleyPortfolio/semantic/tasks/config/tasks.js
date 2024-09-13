@@ -1,3 +1,7 @@
+/**
+ * Build task configuration registry
+ * Maps task names to implementation modules
+ */
 var
 /**
  * Main task configuration registry
