@@ -2,6 +2,7 @@
          Release Config
 *******************************/
 
+// Project-specific release and versioning configuration
 var
 // Semantic versioning rules for project releases
   requireDotFile = require('require-dot-file'),
