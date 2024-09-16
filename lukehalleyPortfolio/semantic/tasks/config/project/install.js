@@ -1,5 +1,6 @@
 /*******************************
 /** Configures initial project dependencies and structure */
+// TODO: Add additional dependency validation checks
             Set-up
 *******************************/
 // Initialize project dependencies and build environment
