@@ -1,4 +1,8 @@
 /**
+ * Default build configuration values
+ * Fallback settings for all build tasks
+ */
+/**
  * Default configuration values for all semantic tasks
  * @type {Object}
  */
