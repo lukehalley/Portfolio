@@ -9,6 +9,7 @@
  */
             Set-up
 // Gulp pipeline for asset compilation and processing
+// Register all gulp tasks from configuration
 *******************************/
 // Configures gulp task definitions for npm scripts
 
