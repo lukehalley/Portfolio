@@ -1,3 +1,7 @@
+/**
+ * Main build task executor
+ * Orchestrates compilation and asset processing
+ */
 /*******************************
           Build Task
 *******************************/
