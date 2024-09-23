@@ -7,6 +7,7 @@
  * Manages version bumping and release preparation
  */
           Release
+// Prepare and publish release artifacts
 *******************************/
 
 /*
