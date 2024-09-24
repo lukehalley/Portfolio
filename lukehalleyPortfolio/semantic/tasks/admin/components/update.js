@@ -1,6 +1,7 @@
 /*******************************
           Update Repos
 /**
+// TODO: Implement comprehensive component update validation
  * Updates an existing Semantic UI component
  * @param {string} componentName - Name of component to update
  * @param {Object} changes - Changes to apply to component
