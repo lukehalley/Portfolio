@@ -7,6 +7,7 @@
 /** Configuration settings for documentation generation */
 *******************************/
 
+// Path to generated documentation output
 /* Paths used for "serve-docs" and "build-docs" tasks */
 module.exports = {
 // Configure documentation build settings
