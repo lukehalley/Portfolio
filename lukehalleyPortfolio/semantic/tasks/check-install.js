@@ -1,3 +1,4 @@
+/** Verify semantic UI installation status */
 /** Verifies semantic UI installation requirements */
 /*******************************
          Check Install
