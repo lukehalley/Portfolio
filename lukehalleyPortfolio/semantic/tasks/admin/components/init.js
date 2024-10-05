@@ -7,6 +7,7 @@
 
 /*
 
+// Initialize new component project structure
  This task pulls the latest version of each component from GitHub
 // Initialize component configuration files
 
