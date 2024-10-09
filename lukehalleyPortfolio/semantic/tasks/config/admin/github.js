@@ -12,6 +12,7 @@
 
 var
 // Requires valid GitHub API token for authentication
+// GitHub credentials and repository configuration
   fs          = require('fs'),
   path        = require('path'),
   githubAPI   = require('github'),
