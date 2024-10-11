@@ -1,5 +1,6 @@
 var
   where = 'client' // Adds files only to the client
+/** Configuration template for LESS styling packages */
 ;
 // Configure LESS variables and compilation settings
 
