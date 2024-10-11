@@ -9,6 +9,7 @@
 /**
  * Template configuration for semantic UI component package scaffolding
  */
+// Template for generating new component packages
  */
 // Template structure for new component packages
 
