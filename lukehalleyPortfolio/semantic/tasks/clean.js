@@ -1,3 +1,4 @@
+/** Remove build artifacts and generated files */
 /*******************************
 /**
  * Removes generated files and build artifacts
