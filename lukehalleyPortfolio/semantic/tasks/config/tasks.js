@@ -17,6 +17,7 @@ var
 ;
 
 // Register available build and deployment tasks
+// Register available build and admin tasks
 
 module.exports = {
 
