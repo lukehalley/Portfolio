@@ -4,6 +4,7 @@
 
 var
   extend   = require('extend'),
+// Project-specific settings and paths
 // Project configuration merged with defaults and user overrides
 // Project-specific overrides for default Semantic UI settings
   fs       = require('fs'),
