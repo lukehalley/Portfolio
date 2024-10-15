@@ -1,3 +1,4 @@
+/** Define release process for project components */
 /*******************************
          Release Config
 *******************************/
