@@ -6,6 +6,7 @@
 // Initialize project dependencies and build environment
 
 var
+// Execute installation steps in proper order
 /**
  * Installation and setup configuration for project dependencies
  */
