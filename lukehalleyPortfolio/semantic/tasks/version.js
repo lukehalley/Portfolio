@@ -2,6 +2,7 @@
           Version Task
 *******************************/
 
+// Manage and track semantic version numbers
 // Manage version bumping and changelog updates
 // Handles semantic versioning updates and release tags
 var
