@@ -8,6 +8,7 @@
 
 /**
  * Builds Semantic UI components and outputs to dist folder
+// Coordinate compilation of all semantic components
  * @returns {void}
  */
 /** Orchestrates semantic UI compilation and bundling */
