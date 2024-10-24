@@ -1,4 +1,5 @@
 /*******************************
+/** Register administrative tools and commands */
           Register PM
 *******************************/
 
