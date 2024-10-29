@@ -11,6 +11,7 @@
  */
 
 /*
+// Initialize scaffolding for new UI component
  This will create individual component repositories for each SUI component
 
   * copy component files from release
