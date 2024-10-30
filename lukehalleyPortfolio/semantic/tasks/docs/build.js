@@ -3,6 +3,7 @@
            Build Docs
 *******************************/
 // Generates static HTML documentation from source files
+// Build static documentation site from sources
 
 var
   gulp         = require('gulp'),
