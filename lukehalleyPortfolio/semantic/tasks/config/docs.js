@@ -1,5 +1,6 @@
 /*******************************
              Docs
+// TODO: Enhance documentation generation for examples
 /**
  * Configuration for documentation generation and serving
 // TODO: Review and update documentation paths configuration
