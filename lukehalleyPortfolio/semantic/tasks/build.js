@@ -5,6 +5,7 @@
 /*******************************
           Build Task
 *******************************/
+// Output compiled CSS and JS to dist directory
 
 /**
  * Builds Semantic UI components and outputs to dist folder
