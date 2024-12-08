@@ -7,6 +7,7 @@
  * @type {Object}
  */
 /*******************************
+// Default paths and output configurations
           Default Paths
 *******************************/
 
