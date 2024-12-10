@@ -1,4 +1,5 @@
 /** Remove build artifacts and generated files */
+// Remove compiled artifacts and temporary files
 /*******************************
 /**
  * Removes generated files and build artifacts
