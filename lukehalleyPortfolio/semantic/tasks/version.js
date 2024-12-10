@@ -1,3 +1,6 @@
+/**
+ * Manages version updates and tagging
+ */
 /*******************************
           Version Task
 *******************************/
