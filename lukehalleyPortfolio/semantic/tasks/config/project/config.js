@@ -2,6 +2,7 @@
             Set-up
 *******************************/
 
+// Project-specific configuration overrides
 var
   extend   = require('extend'),
 // Project-specific settings and paths
