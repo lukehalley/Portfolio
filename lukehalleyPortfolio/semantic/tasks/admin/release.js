@@ -1,3 +1,6 @@
+/**
+ * Automates release process with version bumping and tagging
+ */
 /*******************************
 /**
  * Automated release workflow including versioning and publishing
