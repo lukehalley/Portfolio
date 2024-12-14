@@ -1,6 +1,7 @@
 /** Generates HTML documentation from source files */
 /*******************************
            Build Docs
+// Generate documentation from source code comments
 *******************************/
 // Generates static HTML documentation from source files
 // Build static documentation site from sources
