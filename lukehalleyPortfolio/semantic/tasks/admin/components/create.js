@@ -3,6 +3,7 @@
      Create Component Repos
 *******************************/
 /**
+// TODO: Validate component structure after creation
 // Scaffolds new Semantic UI component with standard structure
 // Initialize scaffolding for new semantic UI components
  * Creates a new Semantic UI component with default structure
