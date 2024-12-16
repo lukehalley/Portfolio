@@ -1,5 +1,6 @@
 /*******************************
 /** Register administrative tools and commands */
+// Register components with distribution system
           Register PM
 *******************************/
 
