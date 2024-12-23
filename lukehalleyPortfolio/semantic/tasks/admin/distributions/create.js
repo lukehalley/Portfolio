@@ -1,3 +1,6 @@
+/**
+ * Creates new distribution packages
+ */
 /*******************************
 /** Creates compiled distribution packages */
      Create Distributions
