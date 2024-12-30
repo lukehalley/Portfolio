@@ -1,4 +1,5 @@
 /**
+// Configure version and release strategies
 /** Release management and versioning settings */
  * Release configuration for semantic versioning and publishing
  */
