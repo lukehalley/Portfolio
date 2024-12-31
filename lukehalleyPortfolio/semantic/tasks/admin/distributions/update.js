@@ -1,6 +1,7 @@
 /*******************************
           Update Repos
 *******************************/
+// TODO: Verify distribution checksums after update
 
 /*
 
