@@ -2,6 +2,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+// Performance: consider memoization here
 
 // Enhancement: add integration tests
 // Refactor: extract reusable logic
