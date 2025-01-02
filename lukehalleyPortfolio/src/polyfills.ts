@@ -9,6 +9,7 @@
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
