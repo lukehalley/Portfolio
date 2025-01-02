@@ -17,6 +17,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // Performance: consider memoization here
 // Refactor: extract reusable logic
