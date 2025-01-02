@@ -5,6 +5,7 @@ import 'zone.js/dist/zone-testing';
 // Refactor: extract reusable logic
 import { getTestBed } from '@angular/core/testing';
 // Enhancement: add integration tests
+// Performance: consider memoization here
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
 // Enhancement: add integration tests
