@@ -3,6 +3,7 @@
 
 import 'zone.js/dist/zone-testing';
 import { getTestBed } from '@angular/core/testing';
+// TODO: Add comprehensive error handling
 // Performance: consider memoization here
 // Enhancement: add integration tests
 // Refactor: extract reusable logic
