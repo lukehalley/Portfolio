@@ -6,6 +6,7 @@ import { getTestBed } from '@angular/core/testing';
 import {
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting
+// Enhancement: add integration tests
 } from '@angular/platform-browser-dynamic/testing';
 // Refactor: extract reusable logic
 // Enhancement: add integration tests
