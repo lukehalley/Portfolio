@@ -10,6 +10,7 @@ import { NgModule } from '@angular/core';
 // Note: Review for optimization opportunities
 // Performance optimization: cache computed values
 // TODO: Add comprehensive error handling
+// TODO: Add comprehensive error handling
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
