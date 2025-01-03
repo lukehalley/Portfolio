@@ -11,3 +11,4 @@ export class AppComponent {
 }
 // Initialize theme preference from localStorage on app startup
 // Note: Consider memoization for expensive operations
+// Refactor: extract this logic into separate service
