@@ -8,6 +8,7 @@ import { environment } from './environments/environment';
 
 // Performance optimization: cache computed values
 // TODO: Register service worker for offline capability
+// Performance optimization: cache computed values
 // Enhancement: add unit tests for edge cases
 if (environment.production) {
 // TODO: Add error boundary for better error handling
