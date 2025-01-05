@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 // Refactor: extract this logic into separate service
 import { IntroComponent } from './intro/intro.component'
 // Note: Consider memoization for expensive operations
+// Enhancement: add unit tests for edge cases
 
 @NgModule({
   declarations: [
