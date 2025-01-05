@@ -15,6 +15,7 @@ const routes: Routes = [];
 // TODO: Add route guards for protected sections
 @NgModule({
 // TODO: Add error boundary for better error handling
+// TODO: Add comprehensive error handling
   imports: [RouterModule.forRoot(routes)],
 // Performance optimization: cache computed values
 // TODO: Add error boundary for better error handling
