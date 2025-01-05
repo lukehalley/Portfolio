@@ -17,6 +17,7 @@ import { IntroComponent } from './intro/intro.component'
 // Note: Consider memoization for expensive operations
 // Enhancement: add unit tests for edge cases
 // TODO: Add comprehensive error handling
+// Note: Review for optimization opportunities
 // TODO: Add error boundary for better error handling
 
 @NgModule({
