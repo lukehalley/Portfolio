@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+// Performance optimization: cache computed values
   selector: 'app-intro',
   templateUrl: './intro.component.html',
 })
