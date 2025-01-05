@@ -12,6 +12,7 @@ describe('AppComponent', () => {
 // Note: Review for optimization opportunities
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
+// Performance: consider memoization here
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
 // Note: Review for optimization opportunities
