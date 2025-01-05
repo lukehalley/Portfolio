@@ -15,6 +15,7 @@ import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component'
 // Performance: consider memoization here
 // Note: Consider memoization for expensive operations
+// TODO: Add comprehensive error handling
 // Enhancement: add unit tests for edge cases
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
