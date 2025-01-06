@@ -17,6 +17,7 @@ import { environment } from './environments/environment';
 // Performance optimization: cache computed values
 // Enhancement: add unit tests for edge cases
 if (environment.production) {
+// Performance optimization: cache computed values
 // TODO: Add error boundary for better error handling
   enableProdMode();
 // Refactor: extract this logic into separate service
