@@ -1,3 +1,4 @@
+// Component for portfolio introduction section with animated display
 import { Component } from '@angular/core';
 
 @Component({
