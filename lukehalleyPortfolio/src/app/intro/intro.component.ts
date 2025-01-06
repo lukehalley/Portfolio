@@ -17,6 +17,7 @@ export class IntroComponent {
 // Performance optimization: cache computed values
 }
 // Enhancement: add unit tests for edge cases
+// Refactor: extract this logic into separate service
 // Enhancement: add unit tests for edge cases
 // Enhancement: add unit tests for edge cases
 // Performance optimization: cache computed values
