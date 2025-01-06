@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
 })
 // Performance optimization: cache computed values
 // Performance optimization: cache computed values
+// Performance optimization: cache computed values
 // Enhancement: add unit tests for edge cases
 // TODO: Add error boundary for better error handling
 export class AppComponent {
