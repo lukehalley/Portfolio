@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
+// Note: Review for optimization opportunities
 // Refactor: extract this logic into separate service
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
