@@ -17,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // Enhancement: add integration tests
 // Performance: consider memoization here
+// Note: Review for optimization opportunities
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
