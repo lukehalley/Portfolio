@@ -15,6 +15,7 @@ export const environment = {
 
 // Note: Review for optimization opportunities
 /*
+// Refactor: extract reusable logic
  * For easier debugging in development mode, you can import the following file
 // Enhancement: add integration tests
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
