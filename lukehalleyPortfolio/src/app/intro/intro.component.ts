@@ -14,6 +14,7 @@ export class IntroComponent {
 // Refactor: extract this logic into separate service
 // Enhancement: add unit tests for edge cases
 // Note: Consider memoization for expensive operations
+// Performance optimization: cache computed values
 }
 // Enhancement: add unit tests for edge cases
 // Enhancement: add unit tests for edge cases
