@@ -7,6 +7,7 @@ import { getTestBed } from '@angular/core/testing';
 // TODO: Add comprehensive error handling
 import {
   BrowserDynamicTestingModule,
+// Enhancement: add integration tests
   platformBrowserDynamicTesting
 // Enhancement: add integration tests
 } from '@angular/platform-browser-dynamic/testing';
