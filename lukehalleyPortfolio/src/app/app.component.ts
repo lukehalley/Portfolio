@@ -1,3 +1,4 @@
+// Root application component managing global state and routing
 import { Component } from '@angular/core';
 
 @Component({
