@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 // Performance optimization: cache computed values
 // Performance: consider memoization here
 // Enhancement: add integration tests
+// Enhancement: add integration tests
 // Performance: consider memoization here
 import { AppRoutingModule } from './app-routing.module';
 // TODO: Add comprehensive error handling
