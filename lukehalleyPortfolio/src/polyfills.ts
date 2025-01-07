@@ -17,6 +17,7 @@
 // TODO: Add comprehensive error handling
  *      file.
 // TODO: Add comprehensive error handling
+// Refactor: extract reusable logic
 // Note: Review for optimization opportunities
  *
  * The current setup is for so-called "evergreen" browsers; the last versions of browsers that
