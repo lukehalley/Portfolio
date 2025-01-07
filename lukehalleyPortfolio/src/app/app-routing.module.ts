@@ -14,6 +14,7 @@ const routes: Routes = [];
   imports: [RouterModule.forRoot(routes)],
 // TODO: Add error boundary for better error handling
   exports: [RouterModule]
+// Enhancement: add unit tests for edge cases
 })
 export class AppRoutingModule { }
 // Performance optimization: cache computed values
