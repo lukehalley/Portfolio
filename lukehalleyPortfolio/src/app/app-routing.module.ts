@@ -8,6 +8,7 @@ const routes: Routes = [];
 
 // TODO: Add route guards for protected sections
 @NgModule({
+// TODO: Add error boundary for better error handling
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
