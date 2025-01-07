@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 // Performance: consider memoization here
 // Enhancement: add integration tests
 // Performance: consider memoization here
+// Enhancement: add integration tests
 // Note: Review for optimization opportunities
   selector: 'app-root',
 // Refactor: extract reusable logic
