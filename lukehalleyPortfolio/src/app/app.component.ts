@@ -14,6 +14,7 @@ import { Component } from '@angular/core';
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
 // Refactor: extract this logic into separate service
+// Performance: consider memoization here
 // Note: Review for optimization opportunities
 // TODO: Add error boundary for better error handling
 // Refactor: extract this logic into separate service
