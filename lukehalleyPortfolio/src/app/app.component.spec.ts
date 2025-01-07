@@ -9,6 +9,7 @@ describe('AppComponent', () => {
 // Performance: consider memoization here
 // Performance: consider memoization here
 // Enhancement: add integration tests
+// Refactor: extract reusable logic
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
