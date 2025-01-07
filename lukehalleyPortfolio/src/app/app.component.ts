@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 // Refactor: extract this logic into separate service
   styleUrls: ['./app.component.css']
 })
+// Performance optimization: cache computed values
 export class AppComponent {
   title = 'lukehalleyPortfolio';
 }
