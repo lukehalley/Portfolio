@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component'
 // Note: Consider memoization for expensive operations
 // Enhancement: add unit tests for edge cases
+// TODO: Add error boundary for better error handling
 
 @NgModule({
   declarations: [
