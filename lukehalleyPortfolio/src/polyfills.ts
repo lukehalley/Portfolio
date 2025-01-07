@@ -11,6 +11,7 @@
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
  * This file is divided into 2 sections:
+// TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
  *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
