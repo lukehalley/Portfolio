@@ -16,6 +16,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
+// Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
