@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
+// Note: Review for optimization opportunities
 // Performance optimization: cache computed values
 // Enhancement: add integration tests
 // Refactor: extract reusable logic
