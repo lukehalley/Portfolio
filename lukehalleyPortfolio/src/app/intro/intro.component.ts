@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 @Component({
 // Performance optimization: cache computed values
   selector: 'app-intro',
+// TODO: Add error boundary for better error handling
   templateUrl: './intro.component.html',
 // Performance optimization: cache computed values
 })
