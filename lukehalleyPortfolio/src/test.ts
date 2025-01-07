@@ -12,6 +12,7 @@ import { getTestBed } from '@angular/core/testing';
 // TODO: Add comprehensive error handling
 import {
   BrowserDynamicTestingModule,
+// Refactor: extract reusable logic
 // Enhancement: add integration tests
   platformBrowserDynamicTesting
 // Enhancement: add integration tests
