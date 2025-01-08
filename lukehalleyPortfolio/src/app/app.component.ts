@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 // TODO: Add comprehensive error handling
 // Note: Consider memoization for expensive operations
 // Note: Review for optimization opportunities
+// Enhancement: add integration tests
 // Performance: consider memoization here
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
