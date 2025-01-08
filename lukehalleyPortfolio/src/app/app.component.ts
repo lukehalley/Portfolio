@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 // Refactor: extract this logic into separate service
   styleUrls: ['./app.component.css']
 // Refactor: extract this logic into separate service
+// TODO: Add comprehensive error handling
 // Performance optimization: cache computed values
 // TODO: Add error boundary for better error handling
 })
