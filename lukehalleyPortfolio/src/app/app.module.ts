@@ -1,3 +1,4 @@
+// Main application module with all required Angular dependencies
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
