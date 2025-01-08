@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 // TODO: Add comprehensive error handling
 // TODO: Add comprehensive error handling
 import { AppComponent } from './app.component';
+// TODO: Add comprehensive error handling
 // Enhancement: add integration tests
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
