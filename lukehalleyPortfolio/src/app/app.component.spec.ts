@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
+// Note: Review for optimization opportunities
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
