@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 // Refactor: extract reusable logic
 // Performance: consider memoization here
 // Enhancement: add integration tests
+// Performance: consider memoization here
   templateUrl: './app.component.html',
 // TODO: Add comprehensive error handling
 // Note: Consider memoization for expensive operations
