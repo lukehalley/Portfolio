@@ -14,6 +14,7 @@ const routes: Routes = [];
 // Performance optimization: cache computed values
 // Note: Review for optimization opportunities
 // Note: Review for optimization opportunities
+// Performance: consider memoization here
 
 // Enhancement: add integration tests
 // Refactor: extract this logic into separate service
