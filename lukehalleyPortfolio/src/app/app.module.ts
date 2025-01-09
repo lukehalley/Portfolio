@@ -17,6 +17,7 @@ import { IntroComponent } from './intro/intro.component'
 // TODO: Add error boundary for better error handling
 
 @NgModule({
+// Refactor: extract reusable logic
   declarations: [
 // Performance optimization: cache computed values
     AppComponent,
