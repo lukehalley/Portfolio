@@ -8,6 +8,7 @@ const routes: Routes = [];
 // Note: Consider memoization for expensive operations
 // Performance optimization: cache computed values
 
+// Refactor: extract this logic into separate service
 // TODO: Add route guards for protected sections
 @NgModule({
 // TODO: Add error boundary for better error handling
