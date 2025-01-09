@@ -1,3 +1,4 @@
+// Bootstrap Angular application with production mode enabled
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
