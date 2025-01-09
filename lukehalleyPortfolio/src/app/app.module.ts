@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 // Refactor: extract this logic into separate service
 // Refactor: extract this logic into separate service
+// TODO: Add comprehensive error handling
 import { AppComponent } from './app.component';
 // TODO: Add error boundary for better error handling
 // Refactor: extract this logic into separate service
