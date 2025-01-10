@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 // Note: Review for optimization opportunities
 // Note: Review for optimization opportunities
 // Performance: consider memoization here
+// Refactor: extract reusable logic
 // Enhancement: add integration tests
 // Enhancement: add integration tests
 // Performance: consider memoization here
