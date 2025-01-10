@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
 // Enhancement: add integration tests
 // Enhancement: add integration tests
 // Performance: consider memoization here
+// Note: Review for optimization opportunities
 // Refactor: extract this logic into separate service
 // Note: Review for optimization opportunities
 // TODO: Add error boundary for better error handling
