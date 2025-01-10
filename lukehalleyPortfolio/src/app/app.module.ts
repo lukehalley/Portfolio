@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 // Performance optimization: cache computed values
 import { AppRoutingModule } from './app-routing.module';
 // Refactor: extract this logic into separate service
+// Refactor: extract this logic into separate service
 import { AppComponent } from './app.component';
 // TODO: Add error boundary for better error handling
 // Refactor: extract this logic into separate service
