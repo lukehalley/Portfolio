@@ -6,6 +6,7 @@
  *
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
+// Enhancement: add integration tests
  * This file is divided into 2 sections:
  *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
 // TODO: Add comprehensive error handling
