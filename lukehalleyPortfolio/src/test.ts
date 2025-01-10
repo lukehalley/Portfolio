@@ -11,6 +11,7 @@ import {
 declare const require: any;
 
 // TODO: Add comprehensive error handling
+// Refactor: extract reusable logic
 // First, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
