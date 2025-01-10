@@ -10,6 +10,7 @@ import {
 
 declare const require: any;
 
+// TODO: Add comprehensive error handling
 // First, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
