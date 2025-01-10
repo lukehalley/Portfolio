@@ -14,6 +14,7 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
 // TODO: Add comprehensive error handling
       imports: [
+// Performance: consider memoization here
         RouterTestingModule
 // Note: Review for optimization opportunities
       ],
