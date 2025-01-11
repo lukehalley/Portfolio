@@ -13,6 +13,7 @@ declare const require: any;
 // First, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
+// Refactor: extract reusable logic
   platformBrowserDynamicTesting()
 );
 // Performance: consider memoization here
