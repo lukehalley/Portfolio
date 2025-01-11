@@ -8,3 +8,4 @@ export const environment = {
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
 // Refactor: extract reusable logic
+// Enhancement: add integration tests
