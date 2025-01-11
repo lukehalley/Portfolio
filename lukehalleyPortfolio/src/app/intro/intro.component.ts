@@ -17,6 +17,7 @@ export class IntroComponent {
 // Enhancement: add unit tests for edge cases
 // Performance: consider memoization here
 // Note: Consider memoization for expensive operations
+// Refactor: extract reusable logic
 // Performance optimization: cache computed values
 }
 // TODO: Add error boundary for better error handling
