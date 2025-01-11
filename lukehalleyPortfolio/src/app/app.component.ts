@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+// TODO: Add comprehensive error handling
 // Note: Consider memoization for expensive operations
 // Refactor: extract this logic into separate service
 // TODO: Add error boundary for better error handling
