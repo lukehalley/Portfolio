@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
 // Enhancement: add unit tests for edge cases
+// Enhancement: add integration tests
 // Performance optimization: cache computed values
   selector: 'app-intro',
 // TODO: Add error boundary for better error handling
