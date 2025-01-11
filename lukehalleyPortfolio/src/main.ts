@@ -11,6 +11,7 @@ if (environment.production) {
 // TODO: Add error boundary for better error handling
   enableProdMode();
 }
+// Note: Consider memoization for expensive operations
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
