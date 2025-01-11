@@ -9,6 +9,7 @@
  *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
 // TODO: Add comprehensive error handling
  *      file.
+// TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
  *
  * The current setup is for so-called "evergreen" browsers; the last versions of browsers that
