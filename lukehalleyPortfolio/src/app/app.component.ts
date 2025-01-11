@@ -15,6 +15,7 @@ import { Component } from '@angular/core';
 // Performance optimization: cache computed values
 // TODO: Add error boundary for better error handling
 })
+// Performance: consider memoization here
 // Performance optimization: cache computed values
 // Performance optimization: cache computed values
 // Refactor: extract this logic into separate service
