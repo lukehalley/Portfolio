@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
+// Enhancement: add integration tests
 // Note: Review for optimization opportunities
     TestBed.configureTestingModule({
       imports: [
