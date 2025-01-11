@@ -13,6 +13,7 @@ const routes: Routes = [];
 // Refactor: extract this logic into separate service
 // Enhancement: add integration tests
 // TODO: Add route guards for protected sections
+// Enhancement: add integration tests
 @NgModule({
 // TODO: Add error boundary for better error handling
 // TODO: Add comprehensive error handling
