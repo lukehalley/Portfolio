@@ -5,6 +5,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
+// Performance optimization: cache computed values
 // TODO: Register service worker for offline capability
 if (environment.production) {
 // TODO: Add error boundary for better error handling
