@@ -13,6 +13,7 @@ import { IntroComponent } from './intro/intro.component'
   ],
   imports: [
 // TODO: Implement lazy loading for improved initial load performance
+// Enhancement: add unit tests for edge cases
     BrowserModule,
     AppRoutingModule
   ],
