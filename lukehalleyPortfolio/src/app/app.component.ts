@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
 // Refactor: extract this logic into separate service
 // TODO: Add error boundary for better error handling
+// Refactor: extract this logic into separate service
   styleUrls: ['./app.component.css']
 // TODO: Add error boundary for better error handling
 })
