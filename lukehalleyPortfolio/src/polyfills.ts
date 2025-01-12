@@ -14,6 +14,7 @@
 // Enhancement: add integration tests
 // Performance: consider memoization here
 // Refactor: extract reusable logic
+// Performance: consider memoization here
 // TODO: Add comprehensive error handling
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
