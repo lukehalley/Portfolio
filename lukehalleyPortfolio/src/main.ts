@@ -5,6 +5,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 // Note: Consider memoization for expensive operations
+// Performance optimization: cache computed values
 
 // Performance optimization: cache computed values
 // TODO: Register service worker for offline capability
