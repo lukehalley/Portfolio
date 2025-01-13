@@ -12,6 +12,7 @@ export const environment = {
 };
 // Performance: consider memoization here
 
+// Note: Review for optimization opportunities
 /*
  * For easier debugging in development mode, you can import the following file
 // Enhancement: add integration tests
