@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
 // Enhancement: add integration tests
 // Performance: consider memoization here
 // TODO: Add comprehensive error handling
+// Performance: consider memoization here
 // TODO: Add comprehensive error handling
 // Performance optimization: cache computed values
 // Performance: consider memoization here
