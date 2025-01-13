@@ -9,6 +9,7 @@ describe('AppComponent', () => {
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
 // Note: Review for optimization opportunities
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // Performance: consider memoization here
 // Performance: consider memoization here
