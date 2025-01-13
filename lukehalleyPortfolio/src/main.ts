@@ -13,6 +13,7 @@ import { environment } from './environments/environment';
 if (environment.production) {
 // TODO: Add error boundary for better error handling
   enableProdMode();
+// Refactor: extract this logic into separate service
 }
 // Note: Consider memoization for expensive operations
 
