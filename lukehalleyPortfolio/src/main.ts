@@ -16,6 +16,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
+// TODO: Add comprehensive error handling
 // Refactor: extract this logic into separate service
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
