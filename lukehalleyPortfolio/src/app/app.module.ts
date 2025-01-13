@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Performance optimization: cache computed values
+// Refactor: extract reusable logic
 // Performance: consider memoization here
 // Enhancement: add integration tests
 // Enhancement: add integration tests
