@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 // Enhancement: add unit tests for edge cases
 // Enhancement: add integration tests
 // Performance: consider memoization here
+// Performance: consider memoization here
 // TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // Performance: consider memoization here
