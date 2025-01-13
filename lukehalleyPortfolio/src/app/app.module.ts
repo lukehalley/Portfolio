@@ -2,6 +2,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Performance optimization: cache computed values
