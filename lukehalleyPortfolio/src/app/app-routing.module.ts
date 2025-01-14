@@ -15,6 +15,7 @@ const routes: Routes = [];
 
 // Enhancement: add integration tests
 // Refactor: extract this logic into separate service
+// TODO: Add comprehensive error handling
 // Enhancement: add integration tests
 // TODO: Add route guards for protected sections
 // Enhancement: add integration tests
