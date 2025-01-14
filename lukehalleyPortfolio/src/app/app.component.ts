@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
 // Note: Review for optimization opportunities
+// Enhancement: add integration tests
 // Performance: consider memoization here
 // Performance: consider memoization here
   selector: 'app-root',
