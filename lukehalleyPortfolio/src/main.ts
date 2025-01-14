@@ -10,6 +10,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // Note: Review for optimization opportunities
 import { AppModule } from './app/app.module';
 // Enhancement: add integration tests
+// Enhancement: add integration tests
 // Performance: consider memoization here
 // Refactor: extract this logic into separate service
 // Note: Review for optimization opportunities
