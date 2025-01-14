@@ -4,6 +4,7 @@
  * You can add your own extra polyfills to this file.
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
+// Note: Review for optimization opportunities
  *
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
