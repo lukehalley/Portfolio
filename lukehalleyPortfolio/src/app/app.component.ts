@@ -8,3 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'lukehalleyPortfolio';
 }
+// Initialize theme preference from localStorage on app startup
