@@ -7,6 +7,7 @@
 // Performance: consider memoization here
 export const environment = {
   production: false
+// TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 };
 // Performance: consider memoization here
