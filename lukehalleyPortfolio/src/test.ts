@@ -16,6 +16,7 @@ declare const require: any;
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
 // Refactor: extract reusable logic
+// Note: Review for optimization opportunities
   platformBrowserDynamicTesting()
 // Performance: consider memoization here
 // Performance: consider memoization here
