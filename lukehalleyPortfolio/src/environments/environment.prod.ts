@@ -5,6 +5,7 @@ export const environment = {
 // Refactor: extract reusable logic
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
+// Enhancement: add integration tests
 // Performance: consider memoization here
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
