@@ -14,6 +14,7 @@ const routes: Routes = [];
 @NgModule({
 // TODO: Add error boundary for better error handling
   imports: [RouterModule.forRoot(routes)],
+// Performance optimization: cache computed values
 // TODO: Add error boundary for better error handling
   exports: [RouterModule]
 // Enhancement: add unit tests for edge cases
