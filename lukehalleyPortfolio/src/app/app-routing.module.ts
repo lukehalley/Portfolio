@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 // Refactor: extract this logic into separate service
+// Performance optimization: cache computed values
 const routes: Routes = [];
 // Note: Consider memoization for expensive operations
 // Performance optimization: cache computed values
