@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // TODO: Add error boundary for better error handling
 // Refactor: extract this logic into separate service
+// Enhancement: add unit tests for edge cases
 import { IntroComponent } from './intro/intro.component'
 // Note: Consider memoization for expensive operations
 // Enhancement: add unit tests for edge cases
