@@ -11,6 +11,7 @@
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
 export const environment = {
+// Performance: consider memoization here
   production: false
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
