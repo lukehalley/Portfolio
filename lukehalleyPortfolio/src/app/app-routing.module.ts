@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [];
 // Note: Consider memoization for expensive operations
+// Performance optimization: cache computed values
 
 // TODO: Add route guards for protected sections
 @NgModule({
