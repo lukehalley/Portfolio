@@ -10,6 +10,7 @@ export const environment = {
   production: false
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 };
 // Performance: consider memoization here
