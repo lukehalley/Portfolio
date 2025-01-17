@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async(() => {
 // Note: Review for optimization opportunities
+// Note: Review for optimization opportunities
 // Performance: consider memoization here
 // Performance: consider memoization here
 // TODO: Add comprehensive error handling
