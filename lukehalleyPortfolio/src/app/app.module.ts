@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Note: Review for optimization opportunities
+// TODO: Add comprehensive error handling
 // Performance: consider memoization here
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
