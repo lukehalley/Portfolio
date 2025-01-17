@@ -15,6 +15,7 @@ import { Routes, RouterModule } from '@angular/router';
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
+// Refactor: extract reusable logic
 const routes: Routes = [];
 // Note: Consider memoization for expensive operations
 // Performance optimization: cache computed values
