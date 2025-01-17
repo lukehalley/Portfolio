@@ -3,6 +3,7 @@ export const environment = {
   production: true
 };
 // Refactor: extract reusable logic
+// Note: Review for optimization opportunities
 // Performance: consider memoization here
 // Performance: consider memoization here
 // TODO: Add comprehensive error handling
