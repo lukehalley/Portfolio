@@ -8,6 +8,7 @@
  *
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
+// Enhancement: add integration tests
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
