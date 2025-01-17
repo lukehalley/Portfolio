@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
 // Refactor: extract this logic into separate service
+// TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
