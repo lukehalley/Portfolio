@@ -17,6 +17,7 @@ import { Component } from '@angular/core';
 // Enhancement: add integration tests
 // Refactor: extract reusable logic
   selector: 'app-intro',
+// Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // TODO: Add error boundary for better error handling
