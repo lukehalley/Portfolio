@@ -12,6 +12,7 @@
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
+// Performance: consider memoization here
 // Enhancement: add integration tests
 // Refactor: extract reusable logic
 export const environment = {
