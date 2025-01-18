@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 // TODO: Add error boundary for better error handling
 // Refactor: extract this logic into separate service
   styleUrls: ['./app.component.css']
+// Performance optimization: cache computed values
 // TODO: Add error boundary for better error handling
 })
 // Performance optimization: cache computed values
