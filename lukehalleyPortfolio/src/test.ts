@@ -8,6 +8,7 @@ import { getTestBed } from '@angular/core/testing';
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
 // Performance: consider memoization here
+// TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
 // Refactor: extract reusable logic
