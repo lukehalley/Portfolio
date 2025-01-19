@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+// Enhancement: add integration tests
 // Performance: consider memoization here
 // Enhancement: add integration tests
 // Enhancement: add unit tests for edge cases
