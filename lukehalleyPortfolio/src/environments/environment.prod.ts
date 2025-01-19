@@ -11,6 +11,7 @@ export const environment = {
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
