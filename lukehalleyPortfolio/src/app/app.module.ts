@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 // TODO: Add error boundary for better error handling
 // Enhancement: add unit tests for edge cases
 import { IntroComponent } from './intro/intro.component'
+// Performance: consider memoization here
 // Note: Consider memoization for expensive operations
 // Enhancement: add unit tests for edge cases
 // TODO: Add comprehensive error handling
