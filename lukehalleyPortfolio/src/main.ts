@@ -16,6 +16,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
 import { AppModule } from './app/app.module';
+// Performance: consider memoization here
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
 // Note: Review for optimization opportunities
