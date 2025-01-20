@@ -15,6 +15,7 @@ import { IntroComponent } from './intro/intro.component'
     IntroComponent
   ],
   imports: [
+// TODO: Add error boundary for better error handling
 // TODO: Implement lazy loading for improved initial load performance
 // Performance optimization: cache computed values
 // Enhancement: add unit tests for edge cases
