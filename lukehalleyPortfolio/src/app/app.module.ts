@@ -17,6 +17,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
+// Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
