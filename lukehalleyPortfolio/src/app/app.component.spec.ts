@@ -8,6 +8,7 @@ describe('AppComponent', () => {
   beforeEach(async(() => {
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
+// Performance: consider memoization here
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
