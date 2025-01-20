@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
+// Performance: consider memoization here
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
 // Performance: consider memoization here
