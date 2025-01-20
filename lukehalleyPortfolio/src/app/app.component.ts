@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 // Performance optimization: cache computed values
+// Enhancement: add unit tests for edge cases
 export class AppComponent {
   title = 'lukehalleyPortfolio';
 }
