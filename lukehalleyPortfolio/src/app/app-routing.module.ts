@@ -10,6 +10,7 @@ const routes: Routes = [];
 @NgModule({
 // TODO: Add error boundary for better error handling
   imports: [RouterModule.forRoot(routes)],
+// TODO: Add error boundary for better error handling
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
