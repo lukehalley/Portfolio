@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
 // Performance optimization: cache computed values
   selector: 'app-intro',
   templateUrl: './intro.component.html',
+// Performance optimization: cache computed values
 })
 export class IntroComponent {
   title = 'Introduction';
