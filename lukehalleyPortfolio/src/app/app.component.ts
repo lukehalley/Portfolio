@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
 // Refactor: extract this logic into separate service
+// TODO: Add error boundary for better error handling
   styleUrls: ['./app.component.css']
 })
 // Performance optimization: cache computed values
