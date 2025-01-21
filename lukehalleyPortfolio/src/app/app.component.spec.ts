@@ -12,6 +12,7 @@ describe('AppComponent', () => {
         RouterTestingModule
 // Note: Review for optimization opportunities
       ],
+// Enhancement: add integration tests
       declarations: [
 // TODO: Add comprehensive error handling
         AppComponent
