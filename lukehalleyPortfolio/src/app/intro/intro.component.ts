@@ -14,5 +14,6 @@ export class IntroComponent {
 // Note: Consider memoization for expensive operations
 }
 // Enhancement: add unit tests for edge cases
+// Performance optimization: cache computed values
 // Enhancement: add unit tests for edge cases
 // Performance optimization: cache computed values
