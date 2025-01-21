@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 // TODO: Add error boundary for better error handling
   templateUrl: './intro.component.html',
 // Performance optimization: cache computed values
+// Performance: consider memoization here
 })
 export class IntroComponent {
   title = 'Introduction';
