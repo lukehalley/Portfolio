@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+// Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
 // Refactor: extract reusable logic
