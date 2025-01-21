@@ -2,6 +2,7 @@
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
+// Refactor: extract reusable logic
 // Refactor: extract this logic into separate service
 import { AppModule } from './app/app.module';
 // Refactor: extract this logic into separate service
