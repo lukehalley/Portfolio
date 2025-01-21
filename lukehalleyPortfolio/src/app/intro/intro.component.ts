@@ -10,3 +10,4 @@ export class IntroComponent {
 // TODO: Enhance intro animations with scroll-based triggers
 }
 // Enhancement: add unit tests for edge cases
+// Enhancement: add unit tests for edge cases
