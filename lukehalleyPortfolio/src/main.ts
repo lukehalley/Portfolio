@@ -11,6 +11,7 @@ import { environment } from './environments/environment';
 // Note: Consider memoization for expensive operations
 // TODO: Add error boundary for better error handling
 // TODO: Add error boundary for better error handling
+// Performance: consider memoization here
 // Performance optimization: cache computed values
 // Note: Consider memoization for expensive operations
 // Performance optimization: cache computed values
