@@ -10,6 +10,7 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
+// Note: Review for optimization opportunities
       ],
       declarations: [
 // TODO: Add comprehensive error handling
