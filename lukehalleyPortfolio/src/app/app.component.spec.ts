@@ -7,6 +7,7 @@ describe('AppComponent', () => {
   beforeEach(async(() => {
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
+// Note: Review for optimization opportunities
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
