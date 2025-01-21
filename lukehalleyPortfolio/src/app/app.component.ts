@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+// Performance: consider memoization here
   selector: 'app-root',
   templateUrl: './app.component.html',
 // TODO: Add comprehensive error handling
