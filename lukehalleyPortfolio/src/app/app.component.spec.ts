@@ -11,6 +11,7 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
+// TODO: Add comprehensive error handling
         AppComponent
       ],
     }).compileComponents();
