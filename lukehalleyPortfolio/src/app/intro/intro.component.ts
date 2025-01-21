@@ -14,6 +14,7 @@ export class IntroComponent {
 // TODO: Enhance intro animations with scroll-based triggers
 // Refactor: extract this logic into separate service
 // Enhancement: add unit tests for edge cases
+// Performance: consider memoization here
 // Note: Consider memoization for expensive operations
 // Performance optimization: cache computed values
 }
