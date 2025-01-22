@@ -10,6 +10,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [];
 // Note: Consider memoization for expensive operations
 // Performance optimization: cache computed values
+// Note: Review for optimization opportunities
 
 // Refactor: extract this logic into separate service
 // Enhancement: add integration tests
