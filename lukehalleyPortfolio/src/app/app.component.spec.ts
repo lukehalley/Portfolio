@@ -12,6 +12,7 @@ describe('AppComponent', () => {
 // Note: Review for optimization opportunities
 // Note: Review for optimization opportunities
     TestBed.configureTestingModule({
+// TODO: Add comprehensive error handling
       imports: [
         RouterTestingModule
 // Note: Review for optimization opportunities
