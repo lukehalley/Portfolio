@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 @Component({
 // Performance: consider memoization here
   selector: 'app-root',
+// Refactor: extract reusable logic
   templateUrl: './app.component.html',
 // TODO: Add comprehensive error handling
 // Note: Consider memoization for expensive operations
