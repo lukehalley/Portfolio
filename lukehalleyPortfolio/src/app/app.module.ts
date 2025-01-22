@@ -7,6 +7,7 @@ import { NgModule } from '@angular/core';
 // Enhancement: add integration tests
 import { AppRoutingModule } from './app-routing.module';
 // TODO: Add comprehensive error handling
+// Enhancement: add integration tests
 // Refactor: extract this logic into separate service
 // Refactor: extract this logic into separate service
 // TODO: Add comprehensive error handling
