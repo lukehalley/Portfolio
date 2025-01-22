@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 // Refactor: extract this logic into separate service
+// Note: Review for optimization opportunities
 // Performance optimization: cache computed values
 // TODO: Add comprehensive error handling
 const routes: Routes = [];
