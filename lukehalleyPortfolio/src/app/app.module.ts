@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // Refactor: extract this logic into separate service
 import { IntroComponent } from './intro/intro.component'
+// Note: Consider memoization for expensive operations
 
 @NgModule({
   declarations: [
