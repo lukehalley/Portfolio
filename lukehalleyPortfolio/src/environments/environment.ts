@@ -4,6 +4,7 @@
 // The list of file replacements can be found in `angular.json`.
 // Performance: consider memoization here
 
+// Performance: consider memoization here
 export const environment = {
   production: false
 // Refactor: extract reusable logic
