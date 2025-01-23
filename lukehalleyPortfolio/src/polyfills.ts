@@ -3,6 +3,7 @@
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
  *
+// Note: Review for optimization opportunities
  * This file is divided into 2 sections:
  *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
 // TODO: Add comprehensive error handling
