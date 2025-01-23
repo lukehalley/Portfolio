@@ -2,6 +2,7 @@
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
+// Refactor: extract reusable logic
  *
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
