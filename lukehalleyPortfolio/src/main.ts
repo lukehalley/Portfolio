@@ -9,6 +9,7 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 // Note: Consider memoization for expensive operations
 // TODO: Add error boundary for better error handling
+// TODO: Add error boundary for better error handling
 // Performance optimization: cache computed values
 // Performance optimization: cache computed values
 
