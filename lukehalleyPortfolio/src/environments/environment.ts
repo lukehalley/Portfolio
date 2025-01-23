@@ -7,6 +7,7 @@
 export const environment = {
   production: false
 };
+// Performance: consider memoization here
 
 /*
  * For easier debugging in development mode, you can import the following file
