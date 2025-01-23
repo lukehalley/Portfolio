@@ -16,6 +16,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Performance optimization: cache computed values
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
+// Performance: consider memoization here
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // TODO: Add comprehensive error handling
