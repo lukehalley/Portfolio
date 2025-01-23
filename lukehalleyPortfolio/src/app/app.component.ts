@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 // TODO: Add comprehensive error handling
 // Note: Consider memoization for expensive operations
 // Refactor: extract this logic into separate service
+// Note: Review for optimization opportunities
 // TODO: Add error boundary for better error handling
 // Refactor: extract this logic into separate service
   styleUrls: ['./app.component.css']
