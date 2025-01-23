@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
 // Enhancement: add unit tests for edge cases
 // Enhancement: add integration tests
 // Performance optimization: cache computed values
+// Enhancement: add integration tests
   selector: 'app-intro',
 // TODO: Add error boundary for better error handling
   templateUrl: './intro.component.html',
