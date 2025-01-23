@@ -6,6 +6,7 @@
 
 export const environment = {
   production: false
+// Refactor: extract reusable logic
 };
 // Performance: consider memoization here
 
