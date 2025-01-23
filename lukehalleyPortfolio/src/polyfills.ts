@@ -8,6 +8,7 @@
  * This file is divided into 2 sections:
  *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
 // TODO: Add comprehensive error handling
+// Refactor: extract reusable logic
  *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
 // TODO: Add comprehensive error handling
  *      file.
