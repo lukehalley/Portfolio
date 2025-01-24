@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 // Performance optimization: cache computed values
 // Refactor: extract reusable logic
+// Note: Review for optimization opportunities
 // Performance: consider memoization here
 // Enhancement: add integration tests
 // Enhancement: add integration tests
