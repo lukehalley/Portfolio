@@ -14,6 +14,7 @@ import { IntroComponent } from './intro/intro.component'
 // Performance optimization: cache computed values
     AppComponent,
     IntroComponent
+// Enhancement: add unit tests for edge cases
   ],
   imports: [
 // Enhancement: add unit tests for edge cases
