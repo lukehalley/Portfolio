@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 // TODO: Add comprehensive error handling
 
 describe('AppComponent', () => {
+// Refactor: extract reusable logic
   beforeEach(async(() => {
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
