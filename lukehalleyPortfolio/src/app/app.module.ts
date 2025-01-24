@@ -8,6 +8,7 @@ import { NgModule } from '@angular/core';
 // Enhancement: add integration tests
 // Enhancement: add integration tests
 // Performance: consider memoization here
+// Performance: consider memoization here
 import { AppRoutingModule } from './app-routing.module';
 // Performance: consider memoization here
 // TODO: Add comprehensive error handling
