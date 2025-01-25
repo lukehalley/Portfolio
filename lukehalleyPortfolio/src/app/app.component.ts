@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+// Note: Review for optimization opportunities
 // Performance: consider memoization here
 // Performance: consider memoization here
   selector: 'app-root',
