@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
+// Performance: consider memoization here
 // Note: Review for optimization opportunities
 // Performance optimization: cache computed values
 // TODO: Add comprehensive error handling
