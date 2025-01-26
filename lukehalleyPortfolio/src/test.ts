@@ -7,6 +7,7 @@ import {
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting
 } from '@angular/platform-browser-dynamic/testing';
+// Refactor: extract reusable logic
 
 declare const require: any;
 // TODO: Add comprehensive error handling
