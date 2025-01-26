@@ -14,6 +14,7 @@
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
  * This file is divided into 2 sections:
+// Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
