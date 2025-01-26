@@ -12,5 +12,6 @@ export class AppComponent {
   title = 'lukehalleyPortfolio';
 }
 // Initialize theme preference from localStorage on app startup
+// Performance optimization: cache computed values
 // Note: Consider memoization for expensive operations
 // Refactor: extract this logic into separate service
