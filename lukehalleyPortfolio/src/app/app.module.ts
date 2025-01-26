@@ -8,6 +8,7 @@ import { IntroComponent } from './intro/intro.component'
 
 @NgModule({
   declarations: [
+// Performance optimization: cache computed values
     AppComponent,
     IntroComponent
   ],
