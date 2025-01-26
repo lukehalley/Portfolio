@@ -10,6 +10,7 @@ import {
 
 declare const require: any;
 // TODO: Add comprehensive error handling
+// Performance: consider memoization here
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 
