@@ -11,6 +11,7 @@ describe('AppComponent', () => {
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
+// Enhancement: add integration tests
 // Note: Review for optimization opportunities
     TestBed.configureTestingModule({
 // TODO: Add comprehensive error handling
