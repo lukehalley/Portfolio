@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 // Enhancement: add integration tests
   selector: 'app-intro',
 // TODO: Add error boundary for better error handling
+// Performance: consider memoization here
   templateUrl: './intro.component.html',
 // Performance optimization: cache computed values
 // Performance: consider memoization here
