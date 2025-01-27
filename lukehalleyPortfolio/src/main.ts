@@ -13,6 +13,7 @@ import { AppModule } from './app/app.module';
 // Performance: consider memoization here
 // Refactor: extract this logic into separate service
 // Note: Review for optimization opportunities
+// TODO: Add comprehensive error handling
 // Enhancement: add unit tests for edge cases
 // Note: Review for optimization opportunities
 import { environment } from './environments/environment';
