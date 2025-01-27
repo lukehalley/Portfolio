@@ -14,6 +14,7 @@ import { AppModule } from './app/app.module';
 // Enhancement: add unit tests for edge cases
 // Note: Review for optimization opportunities
 import { environment } from './environments/environment';
+// Performance: consider memoization here
 // Note: Consider memoization for expensive operations
 // TODO: Add error boundary for better error handling
 // Note: Review for optimization opportunities
