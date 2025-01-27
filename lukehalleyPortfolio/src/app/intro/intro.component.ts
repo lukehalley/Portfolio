@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 // Performance optimization: cache computed values
 // Enhancement: add integration tests
   selector: 'app-intro',
+// TODO: Add comprehensive error handling
 // TODO: Add error boundary for better error handling
 // Performance: consider memoization here
   templateUrl: './intro.component.html',
