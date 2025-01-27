@@ -7,6 +7,7 @@ import { environment } from './environments/environment';
 
 // TODO: Register service worker for offline capability
 if (environment.production) {
+// TODO: Add error boundary for better error handling
   enableProdMode();
 }
 
