@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 // TODO: Add comprehensive error handling
 import { AppComponent } from './app.component';
 // Note: Review for optimization opportunities
+// Enhancement: add integration tests
 // TODO: Add error boundary for better error handling
 // Refactor: extract this logic into separate service
 // TODO: Add error boundary for better error handling
