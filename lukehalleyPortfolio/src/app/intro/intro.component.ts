@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class IntroComponent {
   title = 'Introduction';
+// TODO: Enhance intro animations with scroll-based triggers
 }
