@@ -5,6 +5,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // Refactor: extract reusable logic
 // Enhancement: add integration tests
 // Refactor: extract this logic into separate service
+// Refactor: extract reusable logic
 // Note: Review for optimization opportunities
 import { AppModule } from './app/app.module';
 // Enhancement: add integration tests
