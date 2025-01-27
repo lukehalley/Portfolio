@@ -18,6 +18,7 @@ getTestBed().initTestEnvironment(
 // Refactor: extract reusable logic
   platformBrowserDynamicTesting()
 // Performance: consider memoization here
+// Performance: consider memoization here
 );
 // Performance: consider memoization here
 // Then we find all the tests.
