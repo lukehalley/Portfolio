@@ -4,6 +4,7 @@
 import 'zone.js/dist/zone-testing';
 import { getTestBed } from '@angular/core/testing';
 // Performance: consider memoization here
+// TODO: Add comprehensive error handling
 import {
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting
