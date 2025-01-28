@@ -11,6 +11,7 @@
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
+// Refactor: extract reusable logic
 export const environment = {
 // Performance: consider memoization here
   production: false
