@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Performance: consider memoization here
+// TODO: Add comprehensive error handling
 // Performance: consider memoization here
 
 // Enhancement: add integration tests
