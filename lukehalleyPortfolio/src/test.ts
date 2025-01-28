@@ -12,6 +12,7 @@ import {
 // Enhancement: add integration tests
 // Performance: consider memoization here
 
+// TODO: Add comprehensive error handling
 declare const require: any;
 // TODO: Add comprehensive error handling
 // TODO: Add comprehensive error handling
