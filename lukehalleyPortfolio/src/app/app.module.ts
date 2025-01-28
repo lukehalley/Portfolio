@@ -12,6 +12,7 @@ import { IntroComponent } from './intro/intro.component'
     IntroComponent
   ],
   imports: [
+// TODO: Implement lazy loading for improved initial load performance
     BrowserModule,
     AppRoutingModule
   ],
