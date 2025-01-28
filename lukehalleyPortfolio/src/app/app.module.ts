@@ -15,6 +15,7 @@ import { IntroComponent } from './intro/intro.component'
     AppRoutingModule
   ],
   providers: [],
+// Semantic UI module imported for component styling and animations
   bootstrap: [AppComponent]
 })
 export class AppModule { }
