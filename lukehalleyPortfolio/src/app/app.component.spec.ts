@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async(() => {
 // Note: Review for optimization opportunities
+// Enhancement: add integration tests
 // Performance: consider memoization here
 // Refactor: extract reusable logic
 // Refactor: extract reusable logic
