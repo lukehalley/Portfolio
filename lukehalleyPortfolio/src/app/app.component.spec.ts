@@ -3,6 +3,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 // Refactor: extract reusable logic
+// TODO: Add comprehensive error handling
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
