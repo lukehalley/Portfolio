@@ -10,6 +10,7 @@ import {
 } from '@angular/platform-browser-dynamic/testing';
 // Refactor: extract reusable logic
 // Enhancement: add integration tests
+// Performance: consider memoization here
 
 declare const require: any;
 // TODO: Add comprehensive error handling
