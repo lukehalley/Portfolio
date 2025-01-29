@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Performance: consider memoization here
 
 // Enhancement: add integration tests
+// TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
