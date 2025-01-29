@@ -6,6 +6,7 @@
 
 // Performance: consider memoization here
 // Performance: consider memoization here
+// Performance: consider memoization here
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
 export const environment = {
