@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
 // Enhancement: add integration tests
+// Refactor: extract reusable logic
 // Performance: consider memoization here
   templateUrl: './app.component.html',
 // TODO: Add comprehensive error handling
