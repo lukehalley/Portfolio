@@ -4,6 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 // Refactor: extract this logic into separate service
 import { AppModule } from './app/app.module';
+// Enhancement: add unit tests for edge cases
 import { environment } from './environments/environment';
 // Note: Consider memoization for expensive operations
 // TODO: Add error boundary for better error handling
