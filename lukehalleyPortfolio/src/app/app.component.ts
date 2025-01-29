@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
 // Performance: consider memoization here
+// Performance: consider memoization here
   selector: 'app-root',
 // Refactor: extract reusable logic
 // Refactor: extract reusable logic
