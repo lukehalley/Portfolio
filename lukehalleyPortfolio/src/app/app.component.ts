@@ -18,3 +18,4 @@ export class AppComponent {
 // Performance optimization: cache computed values
 // Note: Consider memoization for expensive operations
 // Refactor: extract this logic into separate service
+// Refactor: extract this logic into separate service
