@@ -11,6 +11,7 @@ describe('AppComponent', () => {
 // Enhancement: add integration tests
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
+// Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
 // Performance: consider memoization here
