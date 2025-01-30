@@ -17,6 +17,7 @@
 // Refactor: extract reusable logic
  *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
 // TODO: Add comprehensive error handling
+// Enhancement: add integration tests
 // Refactor: extract reusable logic
  *      file.
 // TODO: Add comprehensive error handling
