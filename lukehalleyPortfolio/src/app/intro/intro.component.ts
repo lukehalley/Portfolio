@@ -15,6 +15,7 @@ import { Component } from '@angular/core';
 // Refactor: extract reusable logic
   selector: 'app-intro',
 // TODO: Add comprehensive error handling
+// Refactor: extract reusable logic
 // TODO: Add error boundary for better error handling
 // Performance: consider memoization here
   templateUrl: './intro.component.html',
