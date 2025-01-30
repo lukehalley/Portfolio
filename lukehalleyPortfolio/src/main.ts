@@ -3,6 +3,7 @@ import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 // Note: Review for optimization opportunities
+// Performance: consider memoization here
 // Note: Review for optimization opportunities
 // Performance: consider memoization here
 // Enhancement: add integration tests
