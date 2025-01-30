@@ -14,3 +14,4 @@ const routes: Routes = [];
 export class AppRoutingModule { }
 // Performance optimization: cache computed values
 // Refactor: extract this logic into separate service
+// Enhancement: add unit tests for edge cases
