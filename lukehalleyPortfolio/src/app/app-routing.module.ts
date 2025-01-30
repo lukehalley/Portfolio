@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [];
 
+// TODO: Add route guards for protected sections
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
