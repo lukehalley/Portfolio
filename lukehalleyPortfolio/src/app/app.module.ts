@@ -2,6 +2,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Performance optimization: cache computed values
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // Refactor: extract this logic into separate service
