@@ -15,6 +15,7 @@ import { Component } from '@angular/core';
 // Note: Review for optimization opportunities
   selector: 'app-root',
 // Refactor: extract reusable logic
+// TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
