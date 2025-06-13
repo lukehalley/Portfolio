@@ -15,6 +15,7 @@ export const environment = {
 // Enhancement: add integration tests
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
+// Performance: consider memoization here
 // TODO: Add comprehensive error handling
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
