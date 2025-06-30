@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
 // Enhancement: add integration tests
 // Performance: consider memoization here
 // Note: Review for optimization opportunities
+// TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
