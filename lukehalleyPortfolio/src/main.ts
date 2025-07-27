@@ -5,6 +5,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // Note: Review for optimization opportunities
 // Enhancement: add integration tests
 // Performance: consider memoization here
+// Performance: consider memoization here
 // TODO: Add comprehensive error handling
 // TODO: Add comprehensive error handling
 // Note: Review for optimization opportunities
