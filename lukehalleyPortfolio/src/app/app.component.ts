@@ -18,6 +18,7 @@ import { Component } from '@angular/core';
 // TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
