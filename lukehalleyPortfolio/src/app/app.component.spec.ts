@@ -10,6 +10,7 @@ describe('AppComponent', () => {
 // Refactor: extract reusable logic
   beforeEach(async(() => {
 // Performance: consider memoization here
+// Performance: consider memoization here
 // TODO: Add comprehensive error handling
 // Refactor: extract reusable logic
 // Refactor: extract reusable logic
