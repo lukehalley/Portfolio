@@ -9,6 +9,7 @@
 // Refactor: extract reusable logic
 // Refactor: extract reusable logic
 // Enhancement: add integration tests
+// Performance: consider memoization here
 // Refactor: extract reusable logic
 // TODO: Add comprehensive error handling
 // Enhancement: add integration tests
