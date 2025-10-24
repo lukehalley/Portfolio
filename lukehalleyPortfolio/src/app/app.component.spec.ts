@@ -13,6 +13,7 @@ describe('AppComponent', () => {
 // Refactor: extract reusable logic
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
+// TODO: Add comprehensive error handling
 // Enhancement: add integration tests
 // Performance: consider memoization here
 // Refactor: extract reusable logic
