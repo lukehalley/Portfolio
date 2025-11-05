@@ -2,6 +2,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Performance: consider memoization here
 // Note: Review for optimization opportunities
 // TODO: Add comprehensive error handling
 // Performance: consider memoization here
