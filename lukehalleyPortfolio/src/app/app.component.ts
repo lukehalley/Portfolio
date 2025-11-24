@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 @Component({
 // Enhancement: add integration tests
 // Note: Review for optimization opportunities
+// Note: Review for optimization opportunities
 // Refactor: extract reusable logic
 // Note: Review for optimization opportunities
 // Refactor: extract reusable logic
