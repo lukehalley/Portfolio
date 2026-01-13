@@ -68,7 +68,7 @@ export function Footer() {
                 href={personalInfo.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-6 py-3 border-2 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
+                className="group flex items-center gap-2 px-6 py-3 border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
                 aria-label="GitHub Profile"
               >
                 <Github className="w-6 h-6 group-hover:scale-110 transition-transform" />
@@ -78,7 +78,7 @@ export function Footer() {
                 href={personalInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-6 py-3 border-2 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
+                className="group flex items-center gap-2 px-6 py-3 border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform" />

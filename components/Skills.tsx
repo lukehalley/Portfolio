@@ -22,28 +22,21 @@ export function Skills() {
           {Object.entries(skills).map(([domain, skillList]) => (
             <div key={domain}>
               <h3
-                className="font-mono text-tertiary tracking-tight uppercase font-black mb-6 pb-3 border-b-2 border-tertiary/30"
+                className="font-mono text-tertiary tracking-tight uppercase font-black mb-6 pb-3 border-b-4 border-tertiary/30"
                 style={{ fontSize: 'var(--fluid-lg)' }}
               >
                 {domain}
               </h3>
               <ul className="space-y-3">
-                {(skillList as Array<{ name: string; highlight?: string }>).map((skill) => (
+                {(skillList as Array<{ name: string }>).map((skill) => (
                   <li
                     key={skill.name}
                     className="flex items-start gap-3"
                   >
                     <span className="w-1.5 h-1.5 bg-tertiary rounded-full mt-2 flex-shrink-0"></span>
-                    <div>
-                      <span className="font-medium" style={{ fontSize: 'var(--fluid-base)' }}>
-                        {skill.name}
-                      </span>
-                      {skill.highlight && (
-                        <span className="block text-xs font-mono text-primary/50 mt-0.5">
-                          {skill.highlight}
-                        </span>
-                      )}
-                    </div>
+                    <span className="font-medium" style={{ fontSize: 'var(--fluid-base)' }}>
+                      {skill.name}
+                    </span>
                   </li>
                 ))}
               </ul>

@@ -47,15 +47,15 @@ export function Personal() {
                 <h3 className="font-mono font-black mb-3 uppercase" style={{ fontSize: 'var(--fluid-xl)' }}>
                   {hobby.name}
                 </h3>
-                <p className="text-sm text-primary/70 mb-4 leading-relaxed">
+                <p className="text-primary/70 mb-4 leading-relaxed" style={{ fontSize: 'var(--fluid-sm)' }}>
                   {hobby.description}
                 </p>
 
                 {/* Travel highlights */}
                 {'highlights' in hobby && hobby.highlights && (
-                  <div className="flex flex-wrap gap-2 text-xs font-mono">
+                  <div className="flex flex-wrap gap-2 font-mono" style={{ fontSize: 'var(--fluid-xs)' }}>
                     {hobby.highlights.map((item) => (
-                      <span key={item} className="px-2 py-1 border border-primary/20">
+                      <span key={item} className="px-2 py-1 border border-primary/20 transition-colors duration-300 hover:border-tertiary">
                         {item}
                       </span>
                     ))}
@@ -65,7 +65,7 @@ export function Personal() {
                 {/* Running PRs */}
                 {'prs' in hobby && hobby.prs && (
                   <>
-                    <div className="grid grid-cols-2 gap-2 text-xs font-mono mb-4">
+                    <div className="grid grid-cols-2 gap-2 font-mono mb-4" style={{ fontSize: 'var(--fluid-xs)' }}>
                       <div>
                         <span className="text-primary/60">Marathon:</span>{' '}
                         <span className="font-bold">{hobby.prs.marathon}</span>
@@ -80,9 +80,10 @@ export function Personal() {
                         href={hobby.stravaUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs font-mono text-tertiary hover:underline"
+                        className="font-mono text-tertiary hover:underline transition-colors duration-300 hover:text-primary"
+                        style={{ fontSize: 'var(--fluid-xs)' }}
                       >
-                        View Strava Profile →
+                        View Strava Profile
                       </a>
                     )}
                   </>

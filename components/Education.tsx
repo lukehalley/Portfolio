@@ -61,7 +61,7 @@ export function Education() {
                     {cert.name}
                   </p>
                   <p className="text-tertiary font-bold group-hover:text-primary transition-colors" style={{ fontSize: 'var(--fluid-2xl)' }}>
-                    {cert.level} →
+                    {cert.level}
                   </p>
                 </a>
               ))}
