@@ -4,8 +4,12 @@ import { useEffect, useState } from 'react';
 
 const sections = [
   { id: 'hero', label: 'INTRO' },
-  { id: 'projects', label: 'WORK' },
   { id: 'about', label: 'ABOUT' },
+  { id: 'experience', label: 'WORK' },
+  { id: 'projects', label: 'PROJECTS' },
+  { id: 'skills', label: 'SKILLS' },
+  { id: 'education', label: 'EDU' },
+  { id: 'personal', label: 'LIFE' },
 ];
 
 export function SidebarNav() {
@@ -57,7 +61,7 @@ export function SidebarNav() {
       </div>
 
       {/* Section links */}
-      <div className="flex flex-col gap-20 items-center relative px-2">
+      <div className="flex flex-col gap-10 items-center relative px-2">
         {sections.map(({ id, label }, index) => {
           const isActive = activeSection === id;
           return (

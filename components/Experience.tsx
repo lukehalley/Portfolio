@@ -22,7 +22,7 @@ export function Experience() {
         <div className="mb-32 md:mb-40">
           <div className="mb-10 md:mb-12">
             <div className="flex items-center gap-4 mb-2">
-              <span className="px-3 py-1 bg-tertiary text-primary text-xs font-mono font-bold uppercase">
+              <span className="px-3 py-1 bg-tertiary text-primary font-mono font-bold uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
                 Current
               </span>
             </div>
@@ -46,27 +46,25 @@ export function Experience() {
                 key={index}
                 className="border-l-4 border-tertiary pl-8 py-3"
               >
-                <h4 className="font-bold mb-4 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
+                <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                   {highlight.title}
                 </h4>
+                <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
+                  {highlight.impact}
+                </p>
                 <p className="text-primary/80 mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
                   <FormattedText text={highlight.description} />
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2">
                   {highlight.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1.5 font-mono border-2 border-primary/60 text-xs"
+                      className="px-3 py-1.5 font-mono border-2 border-primary/60 transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
+                      style={{ fontSize: 'var(--fluid-xs)' }}
                     >
                       {tech}
                     </span>
                   ))}
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-tertiary rounded-full"></span>
-                  <span className="font-mono text-tertiary tracking-tight" style={{ fontSize: 'var(--fluid-base)' }}>
-                    {highlight.impact}
-                  </span>
                 </div>
               </div>
             ))}
@@ -88,49 +86,40 @@ export function Experience() {
               </p>
             </div>
 
-            <div className="space-y-8 md:space-y-10">
+            <div className="space-y-10 md:space-y-12">
               {job.highlights.map((highlight, index) => (
                 <div
                   key={index}
                   className="border-l-4 border-tertiary pl-8 py-3"
                 >
-                  <h4 className="font-bold mb-4" style={{ fontSize: 'var(--fluid-2xl)' }}>
+                  <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {highlight.title}
                   </h4>
-                  <p className="text-primary/80 mb-4 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
-                    {highlight.description}
+                  <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
+                    {highlight.impact}
                   </p>
-                  <div className="flex items-center gap-3">
-                    <span className="w-2 h-2 bg-tertiary rounded-full"></span>
-                    <span className="font-mono text-tertiary tracking-tight" style={{ fontSize: 'var(--fluid-base)' }}>
-                      {highlight.impact}
-                    </span>
-                  </div>
+                  <p className="text-primary/80 mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
+                    <FormattedText text={highlight.description} />
+                  </p>
+                  {highlight.technologies && (
+                    <div className="flex flex-wrap gap-2">
+                      {highlight.technologies.map((tech) => (
+                        <span
+                          key={tech}
+                          className="px-3 py-1.5 font-mono border-2 border-primary/60 transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
+                          style={{ fontSize: 'var(--fluid-xs)' }}
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
           </div>
         ))}
 
-        {/* Awards */}
-        <div>
-          <div className="mb-10 md:mb-12">
-            <h3 className="font-black uppercase text-primary" style={{ fontSize: 'var(--fluid-5xl)' }}>
-              Awards & Recognition
-            </h3>
-          </div>
-          <div className="flex flex-wrap gap-6">
-            {experience.awards.map((award, index) => (
-              <div
-                key={index}
-                className="brutal-border bg-white px-8 py-4 font-mono hover:bg-tertiary hover:text-primary"
-                style={{ fontSize: 'var(--fluid-lg)' }}
-              >
-                {award}
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

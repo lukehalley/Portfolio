@@ -1,13 +1,13 @@
 import { personalInfo } from "@/data/content";
 import Image from "next/image";
-import { MapPin, ArrowUpRight, Download } from "lucide-react";
+import { MapPin, ArrowUpRight } from "lucide-react";
 import { FormattedText } from "./FormattedText";
 
 export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 pb-40 md:pb-48"
+      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20"
     >
       <div className="max-w-6xl w-full relative z-10">
         <div className="grid lg:grid-cols-[1fr_450px] gap-16 lg:gap-20 items-center">
@@ -28,7 +28,9 @@ export function Hero() {
               </p>
               <p className="font-bold text-primary max-w-3xl leading-tight"
                  style={{ fontSize: 'var(--fluid-3xl)' }}>
-                <FormattedText text={personalInfo.tagline} /> <strong>{new Date().getFullYear() - personalInfo.careerStartYear}+ years</strong>.
+                <FormattedText text={personalInfo.tagline} />
+                <br />
+                <strong>{new Date().getFullYear() - personalInfo.careerStartYear}+ years</strong>.
               </p>
             </div>
 
@@ -56,22 +58,22 @@ export function Hero() {
                 href={personalInfo.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-6 py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white"
+                className="group inline-flex items-center gap-2 px-6 py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
                 style={{ fontSize: 'var(--fluid-lg)' }}
               >
                 <span>GitHub</span>
-                <ArrowUpRight className="w-5 h-5" />
+                <ArrowUpRight className="w-5 h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
 
               <a
                 href={personalInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-6 py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white"
+                className="group inline-flex items-center gap-2 px-6 py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
                 style={{ fontSize: 'var(--fluid-lg)' }}
               >
                 <span>LinkedIn</span>
-                <ArrowUpRight className="w-5 h-5" />
+                <ArrowUpRight className="w-5 h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
             </div>
           </div>

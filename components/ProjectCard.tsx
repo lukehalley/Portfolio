@@ -45,7 +45,7 @@ export function ProjectCard({
 
       {/* Category Label with enhanced styling */}
       <div className={`absolute -top-4 left-8 bg-white px-4 py-2 border-4 z-10 ${featured ? 'border-tertiary' : 'border-primary'}`}>
-        <span className={`text-sm font-mono font-black tracking-tight uppercase ${featured ? 'text-tertiary' : ''}`}>
+        <span className={`font-mono font-black tracking-tight uppercase ${featured ? 'text-tertiary' : ''}`} style={{ fontSize: 'var(--fluid-sm)' }}>
           {category}
         </span>
       </div>
@@ -54,7 +54,7 @@ export function ProjectCard({
       {featured && (
         <div className="absolute -top-4 right-8 bg-tertiary px-4 py-2 border-4 border-tertiary z-10 flex items-center gap-2">
           <Star className="w-4 h-4 text-white fill-white" />
-          <span className="text-sm font-mono font-black tracking-tight uppercase text-white">
+          <span className="font-mono font-black tracking-tight uppercase text-white" style={{ fontSize: 'var(--fluid-sm)' }}>
             Featured
           </span>
         </div>
@@ -77,7 +77,7 @@ export function ProjectCard({
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-tertiary hover:text-primary flex-shrink-0"
+              className="text-tertiary hover:text-primary flex-shrink-0 transition-colors duration-300"
               aria-label={`View ${title}`}
             >
               {link.includes('github') ? (
@@ -110,25 +110,13 @@ export function ProjectCard({
         {description}
       </p>
 
-      {/* Impact Badge and Technologies */}
-      <div className="relative z-10 mt-auto space-y-6">
-        {/* Impact Badge */}
-        {impact && (
-          <div className="flex items-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-tertiary text-white border-4 border-tertiary font-mono font-black tracking-tight"
-                 style={{ fontSize: 'var(--fluid-sm)' }}>
-              <span className="w-2 h-2 bg-white rounded-full" />
-              {impact}
-            </div>
-          </div>
-        )}
-
-        {/* Technologies */}
+      {/* Technologies */}
+      <div className="relative z-10 mt-auto">
         <div className="flex flex-wrap gap-2 content-start">
           {technologies.map((tech) => (
             <span
               key={tech}
-              className="px-3 py-1.5 font-mono border-2 border-primary/60 hover:border-tertiary hover:bg-tertiary hover:text-primary cursor-default"
+              className="px-3 py-1.5 font-mono border-2 border-primary/60 hover:border-tertiary hover:bg-tertiary hover:text-primary cursor-default transition-colors duration-300"
               style={{ fontSize: 'var(--fluid-xs)' }}
             >
               {tech}
@@ -139,3 +127,5 @@ export function ProjectCard({
     </div>
   );
 }
+
+// Keep impact in interface for backwards compatibility but don't render it

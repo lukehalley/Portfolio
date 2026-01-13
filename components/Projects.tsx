@@ -57,7 +57,7 @@ export function Projects() {
                     description={project.description}
                     impact={project.impact}
                     technologies={project.technologies}
-                    link={project.link}
+                    link={'link' in project ? project.link : undefined}
                     featured={project.featured}
                     image={project.image}
                   />
