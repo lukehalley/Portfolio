@@ -63,33 +63,33 @@ export function Footer() {
               </div>
             </div>
 
-            <div className="flex gap-6 mt-8">
+            <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 mt-8">
               <a
                 href={personalInfo.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-6 py-3 border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
                 aria-label="GitHub Profile"
               >
-                <Github className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                <span className="font-mono font-bold" style={{ fontSize: 'var(--fluid-base)' }}>GitHub</span>
+                <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                <span className="font-mono font-bold" style={{ fontSize: 'var(--fluid-sm)' }}>GitHub</span>
               </a>
               <a
                 href={personalInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-6 py-3 border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
                 aria-label="LinkedIn Profile"
               >
-                <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                <span className="font-mono font-bold" style={{ fontSize: 'var(--fluid-base)' }}>LinkedIn</span>
+                <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                <span className="font-mono font-bold" style={{ fontSize: 'var(--fluid-sm)' }}>LinkedIn</span>
               </a>
             </div>
           </div>
         </div>
 
         {/* Divider */}
-        <div className="h-px w-full bg-white/20 mb-8"></div>
+        <div className="h-px w-full bg-white/20 mb-8" />
 
         {/* Bottom Row */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
@@ -103,12 +103,12 @@ export function Footer() {
           {/* Back to Top Button */}
           <button
             onClick={scrollToTop}
-            className="group flex items-center gap-2 px-6 py-3 bg-tertiary hover:bg-accent text-white font-mono font-bold uppercase transition-all duration-300 hover:translate-y-[-2px]"
-            style={{ fontSize: 'var(--fluid-sm)' }}
+            className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 bg-tertiary hover:bg-accent text-white font-mono font-bold uppercase transition-all duration-300"
+            style={{ fontSize: 'var(--fluid-xs)' }}
             aria-label="Scroll to top"
           >
             <span>Back to Top</span>
-            <ArrowUp className="w-5 h-5 transition-transform group-hover:-translate-y-1" />
+            <ArrowUp className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:-translate-y-1" />
           </button>
         </div>
       </div>

@@ -1,10 +1,9 @@
-import { Github, ExternalLink, Star } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 import Image from "next/image";
 
 interface ProjectCardProps {
   title: string;
   subtitle: string;
-  category: string;
   period: string;
   description: string;
   impact?: string;
@@ -17,17 +16,15 @@ interface ProjectCardProps {
 export function ProjectCard({
   title,
   subtitle,
-  category,
   period,
   description,
-  impact,
   technologies,
   link,
   featured = false,
   image,
 }: ProjectCardProps) {
   return (
-    <div className={`brutal-border bg-white p-8 md:p-10 group relative flex flex-col ${featured ? 'border-tertiary' : ''}`}>
+    <div className={`brutal-border bg-white p-6 sm:p-8 md:p-10 group relative flex flex-col h-full min-h-[380px] sm:min-h-[400px] md:min-h-[420px] ${featured ? 'border-tertiary' : ''}`}>
       {/* Background Image - Faded and positioned to the right corner */}
       {image && (
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -43,77 +40,61 @@ export function ProjectCard({
         </div>
       )}
 
-      {/* Category Label with enhanced styling */}
-      <div className={`absolute -top-4 left-8 bg-white px-4 py-2 border-4 z-10 ${featured ? 'border-tertiary' : 'border-primary'}`}>
-        <span className={`font-mono font-black tracking-tight uppercase ${featured ? 'text-tertiary' : ''}`} style={{ fontSize: 'var(--fluid-sm)' }}>
-          {category}
+      {/* Category & Period Label */}
+      <div className={`absolute -top-3 sm:-top-4 left-4 sm:left-6 md:left-8 bg-white px-3 py-1.5 sm:px-4 sm:py-2 border-3 sm:border-4 z-10 ${featured ? 'border-tertiary' : 'border-primary'}`}>
+        <span className={`font-mono font-black tracking-tight uppercase ${featured ? 'text-tertiary' : ''}`} style={{ fontSize: 'var(--fluid-xs)' }}>
+          {period}
         </span>
       </div>
 
-      {/* Featured Badge */}
-      {featured && (
-        <div className="absolute -top-4 right-8 bg-tertiary px-4 py-2 border-4 border-tertiary z-10 flex items-center gap-2">
-          <Star className="w-4 h-4 text-white fill-white" />
-          <span className="font-mono font-black tracking-tight uppercase text-white" style={{ fontSize: 'var(--fluid-sm)' }}>
-            Featured
-          </span>
-        </div>
+      {/* Link icon top right */}
+      {link && (
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute -top-3 sm:-top-4 right-4 sm:right-6 md:right-8 bg-white px-3 py-1.5 sm:px-4 sm:py-2 border-3 sm:border-4 border-primary z-10 text-tertiary hover:text-primary hover:border-tertiary transition-colors duration-300"
+          aria-label={`View ${title}`}
+        >
+          {link.includes('github') ? (
+            <Github className="w-4 h-4 sm:w-5 sm:h-5" />
+          ) : (
+            <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
+          )}
+        </a>
       )}
 
       {/* Decorative corner accent */}
-      <div className={`absolute top-0 right-0 w-16 h-16 border-r-4 border-t-4 ${featured ? 'border-tertiary/40' : 'border-tertiary/20'}`} />
+      <div className={`absolute top-0 right-0 w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 border-r-3 border-t-3 sm:border-r-4 sm:border-t-4 ${featured ? 'border-tertiary/40' : 'border-tertiary/20'}`} />
 
-      {/* Title, Subtitle and Link */}
-      <div className="relative z-10 mt-6 mb-4 flex flex-col">
-        <div className="flex items-start justify-between gap-3 mb-2">
-          <h3
-            className="font-bold leading-tight"
-            style={{ fontSize: 'var(--fluid-3xl)' }}
-          >
-            {title}
-          </h3>
-          {link && (
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-tertiary hover:text-primary flex-shrink-0 transition-colors duration-300"
-              aria-label={`View ${title}`}
-            >
-              {link.includes('github') ? (
-                <Github className="w-8 h-8" />
-              ) : (
-                <ExternalLink className="w-8 h-8" />
-              )}
-            </a>
-          )}
-        </div>
+      {/* Title & Subtitle */}
+      <div className="relative z-10 mt-4 mb-4 flex flex-col">
+        <h3
+          className="font-bold leading-tight mb-2"
+          style={{ fontSize: 'var(--fluid-2xl)' }}
+        >
+          {title}
+        </h3>
         <p
-          className="text-secondary/80"
-          style={{ fontSize: 'var(--fluid-lg)' }}
+          className="text-tertiary font-mono uppercase tracking-tight"
+          style={{ fontSize: 'var(--fluid-sm)' }}
         >
           {subtitle}
         </p>
       </div>
 
-      {/* Meta Info */}
-      <div className="relative z-10 mb-6 font-mono opacity-60"
-           style={{ fontSize: 'var(--fluid-sm)' }}>
-        <span className="font-bold">{period}</span>
-      </div>
-
-      {/* Description */}
+      {/* Description - truncated to maintain uniform height */}
       <p
-        className="relative z-10 leading-relaxed mb-6 opacity-90"
-        style={{ fontSize: 'var(--fluid-lg)' }}
+        className="relative z-10 leading-relaxed mb-6 opacity-90 line-clamp-4"
+        style={{ fontSize: 'var(--fluid-base)' }}
       >
         {description}
       </p>
 
-      {/* Technologies */}
+      {/* Technologies - pushed to bottom */}
       <div className="relative z-10 mt-auto">
-        <div className="flex flex-wrap gap-2 content-start">
-          {technologies.map((tech) => (
+        <div className="flex flex-wrap gap-2 content-start max-h-[80px] overflow-hidden">
+          {technologies.slice(0, 6).map((tech) => (
             <span
               key={tech}
               className="px-3 py-1.5 font-mono border-2 border-primary/60 hover:border-tertiary hover:bg-tertiary hover:text-primary cursor-default transition-colors duration-300"
@@ -122,6 +103,14 @@ export function ProjectCard({
               {tech}
             </span>
           ))}
+          {technologies.length > 6 && (
+            <span
+              className="px-3 py-1.5 font-mono text-primary/50"
+              style={{ fontSize: 'var(--fluid-xs)' }}
+            >
+              +{technologies.length - 6} more
+            </span>
+          )}
         </div>
       </div>
     </div>
