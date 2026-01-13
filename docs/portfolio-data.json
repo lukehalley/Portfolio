@@ -1,0 +1,123 @@
+{
+  "personal": {
+    "name": "Luke Halley",
+    "title": "Cloud Developer | DevOps Engineer",
+    "tagline": "Building scalable cloud infrastructure and automating CI/CD pipelines with 5+ years of experience in AWS, Terraform, and enterprise DevOps solutions.",
+    "yearsExperience": "5+",
+    "currentCompany": "Mineral Resources",
+    "currentRole": "Cloud Developer",
+    "location": {
+      "current": "Perth, Australia",
+      "relocating": "Sydney, Australia",
+      "availableFrom": "February 24th, 2025"
+    },
+    "workPreference": "remote-first"
+  },
+  "contact": {
+    "email": "luke123halley@gmail.com",
+    "phone": "+61 448 306 369",
+    "social": {
+      "github": "https://github.com/lukehalley",
+      "gitlab": "https://gitlab.com/lukehalley",
+      "linkedin": "https://www.linkedin.com/in/luke-halley-284b9b115/"
+    }
+  },
+  "about": {
+    "summary": [
+      "DevOps Engineer with 5+ years of experience optimizing CI/CD pipelines, orchestrating continuous deployments, and leading cloud infrastructure migrations.",
+      "Currently at Mineral Resources, designing scalable cloud solutions across 95 AWS accounts and building automation frameworks that eliminate manual operations.",
+      "Recognized for technical excellence with a First Class Honours BSc in Internet of Things and AWS Solutions Architect certification."
+    ],
+    "interests": ["IaC", "Automation", "Cloud"]
+  },
+  "education": {
+    "degree": "BSc in Internet of Things",
+    "honours": "First Class Honours"
+  },
+  "experience": [
+    {
+      "role": "Cloud Developer (Senior Level)",
+      "company": "Mineral Resources",
+      "period": "Dec 2024 - Present",
+      "location": "Perth, Australia",
+      "achievements": [
+        {
+          "title": "End-to-End Infrastructure Deployment",
+          "description": "Designed and implemented a solution for deploying infrastructure across 95 AWS accounts using Terraform and Azure DevOps Pipelines.",
+          "impact": "60% efficiency improvement",
+          "technologies": ["Terraform", "Azure DevOps", "ServiceNow"]
+        },
+        {
+          "title": "Data Amendment Automation",
+          "description": "Automated amendment of bad records in Coupa from Redshift, eliminating manual tasks requested multiple times per week.",
+          "impact": "40% workload reduction",
+          "technologies": ["Redshift", "Coupa", "Python", "Lambda"]
+        }
+      ]
+    },
+    {
+      "role": "DevOps Engineer (Mid Level)",
+      "company": "Verizon Connect",
+      "period": "May 2019 - Sept 2024",
+      "location": "Dublin, Ireland",
+      "achievements": [
+        {
+          "title": "Container Deployment Enhancement",
+          "description": "Enhanced company-wide container deployment process, resulting in increased migrations from EC2 to Fargate.",
+          "impact": "50% cost decrease",
+          "technologies": ["ECS Fargate", "PowerShell", "Octopus"]
+        },
+        {
+          "title": "GitLab Migration Pipeline",
+          "description": "Created PowerShell solution for autonomous migration of Bitbucket repositories to GitLab.",
+          "impact": "200+ repos migrated",
+          "technologies": ["GitLab", "Bitbucket", "Lambda", "SQS"]
+        },
+        {
+          "title": "Database Migration to Aurora",
+          "description": "Collaborated with AWS ProServe on migrating hundreds of SQL Server databases to Aurora.",
+          "impact": "Multi-environment migration",
+          "technologies": ["Aurora", "SQL Server", "EC2"]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      { "name": "PowerShell", "level": 95 },
+      { "name": "Bash", "level": 90 },
+      { "name": "Python", "level": 85 },
+      { "name": "Go", "level": 80 },
+      { "name": "NodeJS", "level": 75 }
+    ],
+    "aws": [
+      { "name": "ECS/Fargate", "level": 95 },
+      { "name": "EC2", "level": 95 },
+      { "name": "S3", "level": 95 },
+      { "name": "RDS/Aurora", "level": 90 },
+      { "name": "CloudWatch", "level": 90 },
+      { "name": "Lambda", "level": 85 }
+    ],
+    "devops": [
+      { "name": "Terraform", "level": 95 },
+      { "name": "Octopus Deploy", "level": 95 },
+      { "name": "GitLab CI/CD", "level": 90 },
+      { "name": "AWS CDK", "level": 85 },
+      { "name": "Azure DevOps", "level": 85 },
+      { "name": "CloudFormation", "level": 80 }
+    ]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "level": "Associate",
+      "credlyUrl": "https://www.credly.com/badges/1c32c717-2f94-42cf-af07-e31498b86558"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Sunlife 2019 Enterprise Award",
+      "description": "Excellence Recognition"
+    }
+  ]
+}

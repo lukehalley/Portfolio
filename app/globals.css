@@ -1,0 +1,307 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-primary;
+  }
+
+  :root {
+    /* Enhanced color system with depth */
+    --color-primary: #222831;
+    --color-secondary: #393E46;
+    --color-tertiary: #948979;
+    --color-accent: #DFD0B8;
+
+    /* Gradient overlays for depth */
+    --gradient-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+
+    /* Fluid type scale using clamp() */
+    --fluid-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+    --fluid-sm: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+    --fluid-base: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+    --fluid-lg: clamp(1.125rem, 1rem + 0.625vw, 1.5rem);
+    --fluid-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.75rem);
+    --fluid-2xl: clamp(1.5rem, 1.3rem + 1vw, 2.25rem);
+    --fluid-3xl: clamp(1.875rem, 1.6rem + 1.375vw, 2.75rem);
+    --fluid-4xl: clamp(2.25rem, 1.9rem + 1.75vw, 3.5rem);
+    --fluid-5xl: clamp(3rem, 2.4rem + 3vw, 5rem);
+    --fluid-6xl: clamp(3.75rem, 3rem + 3.75vw, 6rem);
+    --fluid-7xl: clamp(4.5rem, 3.6rem + 4.5vw, 7.5rem);
+    --fluid-8xl: clamp(6rem, 4.8rem + 6vw, 9rem);
+    --fluid-9xl: clamp(8rem, 6.4rem + 8vw, 12rem);
+
+    /* Spacing system */
+    --space-xs: clamp(0.5rem, 0.45rem + 0.25vw, 0.625rem);
+    --space-sm: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+    --space-md: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+    --space-lg: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
+    --space-xl: clamp(2rem, 1.6rem + 2vw, 4rem);
+    --space-2xl: clamp(3rem, 2.4rem + 3vw, 6rem);
+    --space-3xl: clamp(4rem, 3.2rem + 4vw, 8rem);
+
+    /* Shadow system for depth */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-brutal: 8px 8px 0 0 var(--color-primary);
+    --shadow-brutal-hover: 12px 12px 0 0 var(--color-tertiary);
+
+    /* Animation durations */
+    --duration-fast: 150ms;
+    --duration-base: 300ms;
+    --duration-slow: 500ms;
+    --duration-slower: 700ms;
+
+    /* Easing curves - custom for premium feel */
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  html {
+    @apply antialiased;
+    scroll-behavior: smooth;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "ss01" 1;
+    text-rendering: optimizeLegibility;
+    /* Account for sticky header height */
+    scroll-padding-top: 12rem;
+  }
+
+  @supports (scrollbar-gutter: stable) {
+    html {
+      scrollbar-gutter: stable;
+    }
+  }
+
+  body {
+    @apply bg-white;
+    color: var(--color-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image:
+      linear-gradient(var(--color-primary) 1px, transparent 1px),
+      linear-gradient(90deg, var(--color-primary) 1px, transparent 1px),
+      var(--gradient-noise);
+    background-size: 80px 80px, 80px 80px, 100%;
+    background-attachment: fixed;
+    opacity: 1;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: white;
+    opacity: 0.97;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Ensure all text inherits proper color and is above background */
+  main, section, div, p, span, a, h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Sticky Section Header Design System */
+  .sticky-header-pin {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 30;
+    /* Layered border effect - brutalist depth */
+    border-bottom: 6px solid var(--color-primary);
+    box-shadow:
+      0 6px 0 0 var(--color-primary),
+      0 8px 0 0 var(--color-tertiary),
+      0 12px 24px -4px rgba(34, 40, 49, 0.1);
+  }
+
+  /* Top accent strip when pinned */
+  .sticky-header-pin::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: var(--color-tertiary);
+  }
+
+  /* Optional side accent markers */
+  .sticky-header-pin::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--color-tertiary), var(--color-tertiary) 40%, transparent);
+  }
+
+  /* Enhanced typography with fluid scaling */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    line-height: 1.1;
+  }
+
+  h1 { font-size: var(--fluid-9xl); }
+  h2 { font-size: var(--fluid-7xl); }
+  h3 { font-size: var(--fluid-5xl); }
+  h4 { font-size: var(--fluid-3xl); }
+
+  p {
+    text-wrap: pretty;
+    line-height: 1.6;
+  }
+
+  /* Focus visible styles for accessibility */
+  *:focus-visible {
+    outline: 3px solid var(--color-tertiary);
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
+
+  /* Selection styling */
+  ::selection {
+    background-color: var(--color-tertiary);
+    color: white;
+  }
+}
+
+@layer components {
+  /* Glassmorphic card effect */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Magnetic button base */
+  .magnetic-btn {
+  }
+
+  /* Bento grid container */
+  .bento-grid {
+    display: grid;
+    gap: var(--space-md);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+  }
+
+  /* Brutal border effect - enhanced depth */
+  .brutal-border {
+    border: 5px solid var(--color-primary);
+    box-shadow:
+      var(--shadow-brutal),
+      12px 12px 0 -4px var(--color-accent);
+    position: relative;
+  }
+
+  .brutal-border:hover {
+    box-shadow:
+      var(--shadow-brutal-hover),
+      16px 16px 0 -4px var(--color-accent);
+    transform: translate(-4px, -4px);
+  }
+
+  /* Scroll reveal */
+  .scroll-reveal {
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  /* Animation classes disabled */
+  .animate-fade-in,
+  .animate-fade-in-delay-1,
+  .animate-fade-in-delay-2,
+  .animate-fade-in-delay-3,
+  .animate-slide-left,
+  .animate-slide-right {
+    opacity: 1;
+  }
+
+  .parallax-slow {
+    transform: translateZ(0);
+  }
+
+  /* Performance optimizations */
+  .content-visibility-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 500px;
+  }
+
+  /* Image enhancement */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  /* Hover lift effect */
+  .hover-lift {
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Text gradient effect */
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-tertiary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Noise texture overlay */
+  .noise-overlay {
+    position: relative;
+  }
+
+  .noise-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--gradient-noise);
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  /* Safe zone spacing for sticky headers */
+  .content-safe-zone {
+    padding-top: 2rem;
+    margin-top: 2rem;
+  }
+
+  /* Section markers - subtle dividers */
+  .section-divider {
+    position: relative;
+    margin-top: 8rem;
+    padding-top: 8rem;
+  }
+
+  .section-divider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--color-tertiary) 20%,
+      var(--color-tertiary) 80%,
+      transparent
+    );
+  }
+}
