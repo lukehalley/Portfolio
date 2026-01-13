@@ -215,7 +215,7 @@ export const projects = {
       technologies: ["Terraform", "AWS Organizations", "Control Tower", "Azure DevOps", "OIDC", "PowerShell"],
       impact: "95 AWS accounts • 2-week to 2-hour provisioning",
       featured: true,
-      image: "/images/projects/aws-manage.png",
+      image: "/images/projects/aws-manage.svg",
     },
     {
       title: "Runners Platform",
@@ -226,7 +226,7 @@ export const projects = {
       technologies: ["ECS Fargate", "API Gateway", "SQS FIFO", "Lambda", "Terraform", "Docker"],
       impact: "Multi-pool agent orchestration • Serverless scaling",
       featured: true,
-      image: "/images/projects/runners.png",
+      image: "/images/projects/runners.svg",
     },
     {
       title: "AWS Pipeline Templates",
@@ -237,7 +237,7 @@ export const projects = {
       technologies: ["Azure Pipelines", "YAML", "S3", "CloudFront", "Lambda", "Terraform"],
       impact: "Standardized deployments • Self-service for 30+ teams",
       featured: true,
-      image: "/images/projects/templates.png",
+      image: "/images/projects/templates.svg",
     },
     {
       title: "Terraform Module Registry",
@@ -248,7 +248,7 @@ export const projects = {
       technologies: ["Terraform", "HCP Terraform", "VPC", "Transit Gateway", "Checkov"],
       impact: "Private module registry • Reusable infrastructure patterns",
       featured: false,
-      image: "/images/projects/modules.png",
+      image: "/images/projects/modules.svg",
     },
   ],
   sideProjects: [

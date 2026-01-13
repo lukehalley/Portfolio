@@ -7,21 +7,21 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20"
+      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 overflow-hidden"
     >
       <div className="max-w-6xl w-full relative z-10">
-        <div className="grid lg:grid-cols-[1fr_450px] gap-16 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] gap-10 md:gap-16 lg:gap-20 items-center">
           <div className="space-y-12">
-            {/* Name with enhanced animation */}
-            <div className="animate-fade-in">
+            {/* Name */}
+            <div>
               <h1 className="font-black tracking-tighter leading-[0.85] text-primary"
                   style={{ fontSize: 'var(--fluid-9xl)' }}>
                 {personalInfo.name}
               </h1>
             </div>
 
-            {/* Title & Tagline with stagger */}
-            <div className="space-y-6 animate-fade-in-delay-1">
+            {/* Title & Tagline */}
+            <div className="space-y-6">
               <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line"
                  style={{ fontSize: 'var(--fluid-xl)' }}>
                 {personalInfo.title}
@@ -34,8 +34,8 @@ export function Hero() {
               </p>
             </div>
 
-            {/* Location with icon animation */}
-            <div className="animate-fade-in-delay-2">
+            {/* Location */}
+            <div>
               <p className="font-mono font-bold text-secondary flex items-center gap-3 uppercase"
                  style={{ fontSize: 'var(--fluid-base)' }}>
                 <MapPin className="w-5 h-5 text-tertiary" />
@@ -43,49 +43,49 @@ export function Hero() {
               </p>
             </div>
 
-            {/* Contact with magnetic buttons */}
-            <div className="flex flex-wrap gap-6 items-center animate-fade-in-delay-3">
+            {/* Contact */}
+            <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 items-center">
               <a
                 href={`mailto:${personalInfo.email}`}
-                className="group relative inline-flex items-center gap-2 px-6 py-3 font-mono font-bold uppercase text-white bg-primary border-4 border-primary overflow-hidden"
-                style={{ fontSize: 'var(--fluid-lg)' }}
+                className="group relative inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-white bg-primary border-4 border-primary overflow-hidden hover:bg-primary/90 transition-colors"
+                style={{ fontSize: 'var(--fluid-base)' }}
               >
                 <span className="relative z-10">Email</span>
-                <ArrowUpRight className="w-5 h-5" />
+                <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5" />
               </a>
 
               <a
                 href={personalInfo.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-6 py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
-                style={{ fontSize: 'var(--fluid-lg)' }}
+                className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
+                style={{ fontSize: 'var(--fluid-base)' }}
               >
                 <span>GitHub</span>
-                <ArrowUpRight className="w-5 h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
 
               <a
                 href={personalInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-6 py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
-                style={{ fontSize: 'var(--fluid-lg)' }}
+                className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
+                style={{ fontSize: 'var(--fluid-base)' }}
               >
                 <span>LinkedIn</span>
-                <ArrowUpRight className="w-5 h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
             </div>
           </div>
 
-          {/* Profile Image with enhanced effects */}
-          <div className="animate-fade-in-delay-3 lg:justify-self-end">
+          {/* Profile Image */}
+          <div className="lg:justify-self-end order-first lg:order-last">
             <div className="relative group">
               {/* Decorative corner accents */}
-              <div className="absolute -top-4 -left-4 w-12 h-12 border-t-4 border-l-4 border-tertiary" />
-              <div className="absolute -bottom-4 -right-4 w-12 h-12 border-b-4 border-r-4 border-tertiary" />
+              <div className="absolute -top-2 -left-2 md:-top-4 md:-left-4 w-8 h-8 md:w-12 md:h-12 border-t-4 border-l-4 border-tertiary" />
+              <div className="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 w-8 h-8 md:w-12 md:h-12 border-b-4 border-r-4 border-tertiary" />
 
-              <div className="relative w-full h-[500px] lg:w-[450px] lg:h-[600px] overflow-hidden border-8 border-primary">
+              <div className="relative w-full aspect-[3/4] max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-8 border-primary">
                 <Image
                   src="/images/me.png"
                   alt="Luke Halley"

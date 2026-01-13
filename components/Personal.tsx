@@ -1,10 +1,10 @@
 import { personal } from "@/data/content";
 import Image from "next/image";
 
-const hobbyImages: Record<string, string> = {
-  Travel: "/images/travelling.png",
-  Running: "/images/running.jpg",
-  Cooking: "/images/cooking.jpeg",
+const hobbyImages: Record<string, { src: string; position?: string }> = {
+  Travel: { src: "/images/travelling.png", position: "object-[center_25%]" },
+  Running: { src: "/images/running.jpg", position: "object-top" },
+  Cooking: { src: "/images/cooking.jpeg", position: "object-bottom" },
 };
 
 export function Personal() {
@@ -25,7 +25,7 @@ export function Personal() {
         </div>
 
         {/* Hobbies Grid */}
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
           {personal.hobbies.map((hobby, index) => (
             <div key={index} className="group">
               {/* Image with hero-style filter */}
@@ -33,10 +33,10 @@ export function Personal() {
                 <div className="relative mb-6">
                   <div className="relative aspect-[4/3] overflow-hidden border-4 border-primary">
                     <Image
-                      src={hobbyImages[hobby.name]}
+                      src={hobbyImages[hobby.name].src}
                       alt={hobby.name}
                       fill
-                      className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                      className={`object-cover grayscale group-hover:grayscale-0 transition-all duration-500 ${hobbyImages[hobby.name].position || ''}`}
                     />
                     <div className="absolute inset-0 bg-tertiary/20 mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
                   </div>
@@ -64,29 +64,16 @@ export function Personal() {
 
                 {/* Running PRs */}
                 {'prs' in hobby && hobby.prs && (
-                  <>
-                    <div className="grid grid-cols-2 gap-2 font-mono mb-4" style={{ fontSize: 'var(--fluid-xs)' }}>
-                      <div>
-                        <span className="text-primary/60">Marathon:</span>{' '}
-                        <span className="font-bold">{hobby.prs.marathon}</span>
-                      </div>
-                      <div>
-                        <span className="text-primary/60">Half:</span>{' '}
-                        <span className="font-bold">{hobby.prs.half}</span>
-                      </div>
+                  <div className="grid grid-cols-2 gap-2 font-mono" style={{ fontSize: 'var(--fluid-xs)' }}>
+                    <div>
+                      <span className="text-primary/60">Marathon:</span>{' '}
+                      <span className="font-bold">{hobby.prs.marathon}</span>
                     </div>
-                    {'stravaUrl' in hobby && hobby.stravaUrl && (
-                      <a
-                        href={hobby.stravaUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-mono text-tertiary hover:underline transition-colors duration-300 hover:text-primary"
-                        style={{ fontSize: 'var(--fluid-xs)' }}
-                      >
-                        View Strava Profile
-                      </a>
-                    )}
-                  </>
+                    <div>
+                      <span className="text-primary/60">Half:</span>{' '}
+                      <span className="font-bold">{hobby.prs.half}</span>
+                    </div>
+                  </div>
                 )}
               </div>
             </div>

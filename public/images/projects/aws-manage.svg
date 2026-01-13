@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#0a0a0a"/>
+  <!-- AWS Icon stylized -->
+  <path d="M120 150 L160 130 L200 150 L200 190 L160 210 L120 190 Z" stroke="#f97316" stroke-width="3" fill="none"/>
+  <path d="M200 150 L240 130 L280 150 L280 190 L240 210 L200 190 Z" stroke="#f97316" stroke-width="3" fill="none"/>
+  <path d="M160 90 L200 70 L240 90 L240 130 L200 150 L160 130 Z" stroke="#f97316" stroke-width="3" fill="none"/>
+  <!-- Connection lines -->
+  <line x1="160" y1="130" x2="160" y2="90" stroke="#f97316" stroke-width="2" stroke-dasharray="4"/>
+  <line x1="240" y1="130" x2="240" y2="90" stroke="#f97316" stroke-width="2" stroke-dasharray="4"/>
+  <line x1="200" y1="150" x2="200" y2="110" stroke="#f97316" stroke-width="2" stroke-dasharray="4"/>
+  <!-- Label -->
+  <text x="200" y="260" font-family="system-ui" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">AWS ORGANIZATIONS</text>
+</svg>

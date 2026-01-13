@@ -42,10 +42,7 @@ export function Experience() {
 
           <div className="space-y-10 md:space-y-12">
             {experience.current.highlights.map((highlight, index) => (
-              <div
-                key={index}
-                className="border-l-4 border-tertiary pl-8 py-3"
-              >
+              <div key={index} className="border-l-4 border-tertiary pl-8 py-3">
                 <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                   {highlight.title}
                 </h4>
@@ -88,10 +85,7 @@ export function Experience() {
 
             <div className="space-y-10 md:space-y-12">
               {job.highlights.map((highlight, index) => (
-                <div
-                  key={index}
-                  className="border-l-4 border-tertiary pl-8 py-3"
-                >
+                <div key={index} className="border-l-4 border-tertiary pl-8 py-3">
                   <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {highlight.title}
                   </h4>
