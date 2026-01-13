@@ -2,16 +2,16 @@ import { personal } from "@/data/content";
 import Image from "next/image";
 
 const hobbyImages: Record<string, { src: string; position?: string }> = {
-  Travel: { src: "/images/travelling.png", position: "object-[center_25%]" },
-  Running: { src: "/images/running.jpg", position: "object-top" },
-  Cooking: { src: "/images/cooking.jpeg", position: "object-bottom" },
+  Travel: { src: "/images/travelling-opt.webp", position: "object-[center_25%]" },
+  Running: { src: "/images/running-opt.webp", position: "object-top" },
+  Cooking: { src: "/images/cooking-opt.webp", position: "object-bottom" },
 };
 
 export function Personal() {
   return (
     <section
       id="personal"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary/[0.02]"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-white"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
@@ -36,6 +36,7 @@ export function Personal() {
                       src={hobbyImages[hobby.name].src}
                       alt={hobby.name}
                       fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className={`object-cover grayscale group-hover:grayscale-0 transition-all duration-500 ${hobbyImages[hobby.name].position || ''}`}
                     />
                     <div className="absolute inset-0 bg-tertiary/20 mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />

@@ -9,6 +9,8 @@ export const size = {
 export const contentType = "image/png";
 
 export default async function Image() {
+  const yearsExperience = new Date().getFullYear() - 2013;
+
   return new ImageResponse(
     (
       <div
@@ -89,18 +91,7 @@ export default async function Image() {
             }}
           >
             <div style={{ fontSize: 56, fontWeight: 900, color: "#ffffff" }}>
-              95
-            </div>
-            <div style={{ fontSize: 24, color: "#a3a3a3" }}>AWS Accounts</div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <div style={{ fontSize: 56, fontWeight: 900, color: "#ffffff" }}>
-              5+
+              {yearsExperience}+
             </div>
             <div style={{ fontSize: 24, color: "#a3a3a3" }}>Years Experience</div>
           </div>
@@ -114,6 +105,17 @@ export default async function Image() {
               50%
             </div>
             <div style={{ fontSize: 24, color: "#a3a3a3" }}>Cost Savings</div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <div style={{ fontSize: 56, fontWeight: 900, color: "#ffffff" }}>
+              200+
+            </div>
+            <div style={{ fontSize: 24, color: "#a3a3a3" }}>Repos Migrated</div>
           </div>
         </div>
 

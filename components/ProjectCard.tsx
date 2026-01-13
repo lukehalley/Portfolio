@@ -93,7 +93,7 @@ export function ProjectCard({
 
       {/* Technologies - pushed to bottom */}
       <div className="relative z-10 mt-auto">
-        <div className="flex flex-wrap gap-2 content-start max-h-[80px] overflow-hidden">
+        <div className="flex flex-wrap gap-2 content-start">
           {technologies.slice(0, 6).map((tech) => (
             <span
               key={tech}

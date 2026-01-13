@@ -5,7 +5,7 @@ export function Experience() {
   return (
     <section
       id="experience"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-white"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
@@ -22,7 +22,7 @@ export function Experience() {
         <div className="mb-32 md:mb-40">
           <div className="mb-10 md:mb-12">
             <div className="flex items-center gap-4 mb-2">
-              <span className="px-3 py-1 bg-tertiary text-primary font-mono font-bold uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
+              <span className="px-3 py-1 bg-primary text-white font-mono font-bold uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
                 Current
               </span>
             </div>

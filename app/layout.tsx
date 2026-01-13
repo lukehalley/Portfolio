@@ -14,9 +14,12 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
+// Calculate years dynamically
+const yearsExperience = new Date().getFullYear() - 2013;
+
 export const metadata: Metadata = {
-  title: "Luke Halley - Senior Cloud Engineer | DevOps | AWS Solutions Architect",
-  description: "Senior Cloud Engineer with 5+ years scaling infrastructure across 95 AWS accounts. Led migrations saving 50% costs at Verizon. Expert in Terraform, AWS, Azure DevOps. Based in Perth, Australia.",
+  title: "Luke Halley",
+  description: `Senior Cloud Engineer with ${yearsExperience}+ years building infrastructure at scale. From database migrations to container platforms, I design systems that ship faster and cost less. Terraform, AWS, Azure DevOps. Perth, Australia.`,
   keywords: [
     "Luke Halley",
     "Luke Halley DevOps",
@@ -38,8 +41,8 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://lukehalley.com"),
   openGraph: {
-    title: "Luke Halley - Senior Cloud Engineer | 95 AWS Accounts | 50% Cost Savings",
-    description: "Senior Cloud Engineer scaling infrastructure across 95 AWS accounts at Mineral Resources. Expert in Terraform, AWS, and DevOps automation.",
+    title: `Luke Halley - Senior Cloud Engineer | ${yearsExperience}+ Years | Infrastructure at Scale`,
+    description: `Senior Cloud Engineer specializing in Terraform, AWS, and DevOps automation. ${yearsExperience}+ years designing infrastructure that scales.`,
     type: "website",
     locale: "en_US",
     url: "https://lukehalley.com",
@@ -56,7 +59,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Luke Halley - Senior Cloud Engineer",
-    description: "Designed infrastructure for 95 AWS accounts. Led migrations saving 50% costs. 5+ years scaling cloud systems.",
+    description: `${yearsExperience}+ years building cloud infrastructure at scale. Migrations that save 50% costs. Systems that ship faster. Terraform, AWS, Azure DevOps.`,
     images: ["/og-image.png"],
   },
 };
@@ -68,7 +71,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${manrope.variable} ${jetbrainsMono.variable}`}>
-      <body className="font-sans">{children}</body>
+      <head>
+        <link
+          rel="preload"
+          href="/images/me.webp"
+          as="image"
+          type="image/webp"
+        />
+      </head>
+      <body className="font-sans" suppressHydrationWarning>{children}</body>
     </html>
   );
 }
