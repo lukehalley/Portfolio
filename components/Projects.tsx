@@ -11,13 +11,13 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-24 md:mb-32">
           <h2
-            className="font-black tracking-tighter text-primary"
+            className="font-black tracking-tighter text-white"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Projects
@@ -39,7 +39,7 @@ export function Projects() {
                 >
                   {section.title}
                 </h3>
-                <p className="text-primary/60 mt-2" style={{ fontSize: 'var(--fluid-base)' }}>
+                <p className="text-white/60 mt-2" style={{ fontSize: 'var(--fluid-base)' }}>
                   {section.description}
                 </p>
               </div>

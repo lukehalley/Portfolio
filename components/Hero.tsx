@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 overflow-hidden bg-white"
     >
       <div className="max-w-6xl w-full relative z-10">
         <div className="grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] gap-10 md:gap-16 lg:gap-20 items-center">
@@ -87,11 +87,13 @@ export function Hero() {
 
               <div className="relative w-full aspect-[3/4] max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-8 border-primary">
                 <Image
-                  src="/images/me.png"
+                  src="/images/me.webp"
                   alt="Luke Halley"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 400px, 450px"
                   className="object-cover grayscale"
                   priority
+                  fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-tertiary/20 mix-blend-multiply" />
               </div>

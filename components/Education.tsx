@@ -4,13 +4,13 @@ export function Education() {
   return (
     <section
       id="education"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-24 md:mb-32">
           <h2
-            className="font-black tracking-tighter text-primary"
+            className="font-black tracking-tighter text-white"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Education
@@ -35,7 +35,7 @@ export function Education() {
               <p className="font-mono text-secondary mb-2" style={{ fontSize: 'var(--fluid-lg)' }}>
                 {education.institution}
               </p>
-              <p className="font-mono text-primary/50 uppercase" style={{ fontSize: 'var(--fluid-base)' }}>
+              <p className="font-mono text-white/50 uppercase" style={{ fontSize: 'var(--fluid-base)' }}>
                 {education.period}
               </p>
             </div>
@@ -60,7 +60,7 @@ export function Education() {
                   <p className="font-black mb-3 group-hover:text-tertiary transition-colors" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {cert.name}
                   </p>
-                  <p className="text-tertiary font-bold group-hover:text-primary transition-colors" style={{ fontSize: 'var(--fluid-2xl)' }}>
+                  <p className="text-tertiary font-bold group-hover:text-white transition-colors" style={{ fontSize: 'var(--fluid-2xl)' }}>
                     {cert.level}
                   </p>
                 </a>

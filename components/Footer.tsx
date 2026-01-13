@@ -105,7 +105,7 @@ export function Footer() {
             onClick={scrollToTop}
             className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 bg-tertiary hover:bg-accent text-white font-mono font-bold uppercase transition-all duration-300"
             style={{ fontSize: 'var(--fluid-xs)' }}
-            aria-label="Scroll to top"
+            aria-label="Back to Top"
           >
             <span>Back to Top</span>
             <ArrowUp className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:-translate-y-1" />

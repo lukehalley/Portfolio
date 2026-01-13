@@ -6,7 +6,7 @@ export function Skills() {
   return (
     <section
       id="skills"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary/[0.02]"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-white"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}

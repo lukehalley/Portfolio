@@ -184,22 +184,19 @@ export const personal = {
   hobbies: [
     {
       name: "Travel",
-      description: "Exploring cultures and landscapes around the world",
-      highlights: ["Thailand", "Italy", "France", "Slovenia"],
+      description: "I aim to explore the world one day",
     },
     {
       name: "Running",
-      description: "Marathon runner • Track my progress on Strava",
+      description: "Been running since I was 7 and I am an avid runner",
       prs: {
         marathon: "3:08:26",
         half: "1:22:44",
       },
-      stravaUrl: "https://strava.app.link/6R6NwOPRSZb",
     },
     {
       name: "Cooking",
-      description: "Exploring flavors and experimenting in the kitchen",
-      highlights: ["Italian", "French", "Irish"],
+      description: "Helps me switch off after a day at the screen",
     },
   ],
 };
@@ -300,7 +297,7 @@ export const projects = {
       impact: "27 GitHub stars",
       featured: false,
       link: "https://github.com/lukehalley/NoSQL-Spotify",
-      image: "/images/projects/spotify-logo.png",
+      image: "/images/projects/spotify-logo.webp",
     },
     {
       title: "Reduke",
