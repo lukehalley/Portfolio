@@ -1,8 +1,25 @@
+import {
+  createDateRange,
+  formatDateRange,
+  formatDuration,
+  calculateCareerYears,
+} from '@/lib/date-utils';
+
+// Career start date (first professional role after graduation)
+const CAREER_START_YEAR = 2019;
+
+// Key employment dates
+const VERIZON_START = createDateRange('2019-05');
+const VERIZON_END = createDateRange('2019-05', '2024-09');
+const MINRES_START = createDateRange('2024-12');
+const EDUCATION_RANGE = createDateRange('2014-01', '2019-06');
+
 export const personalInfo = {
   name: "Luke Halley",
   title: "Senior Cloud Engineer\nDevOps Specialist",
-  tagline: "Building and deploying cloud infrastructure at scale.",
-  careerStartYear: 2013,
+  tagline: "I build multi-cloud infrastructure at enterprise scale. Terraform, CI/CD, AWS.",
+  careerStartYear: CAREER_START_YEAR,
+  yearsOfExperience: calculateCareerYears(CAREER_START_YEAR),
   location: "Perth, Australia",
   email: "luke123halley@gmail.com",
   social: {
@@ -13,36 +30,36 @@ export const personalInfo = {
 };
 
 export const journey = [
-  "Started my career in **Ireland**, earning a **First Class Honours BSc** in Internet of Things (Jan 2014 - Jun 2019) before joining Verizon Connect in Dublin.",
-  "Spent **5+ years** at Verizon Connect (May 2019 - Sept 2024) as a **DevOps Engineer**, leading major infrastructure migrations and automation initiatives.",
-  "Now at **Mineral Resources** in Perth, Australia (Dec 2024 - Present), designing and implementing __cloud solutions at enterprise scale__.",
+  `At **Mineral Resources** (${formatDateRange(MINRES_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **95 accounts** via Azure DevOps Pipelines.`,
+  `Before that, spent **${formatDuration(VERIZON_END)}** at **Verizon Connect** in Dublin (${formatDateRange(VERIZON_END)}), migrating **200+ repositories** to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
+  `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning the SunLife 2019 Enterprise Award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
 ];
 
 export const experience = {
   current: {
     company: "Mineral Resources",
     role: "Senior Cloud Engineer",
-    period: "Dec 2024 - Present",
+    period: formatDateRange(MINRES_START),
     location: "Perth, Australia",
     context: "ASX-listed mining services company with $5B+ revenue and 4,000+ employees across Australia",
     highlights: [
       {
-        title: "Enterprise-Scale Infrastructure Deployment",
-        description: "Architected and deployed **infrastructure as code** across **95 AWS accounts** using Terraform modules and Azure DevOps Pipelines. Standardized deployment patterns replacing manual operations across mining operations, corporate IT, and data platforms.",
-        impact: "60% efficiency improvement",
-        technologies: ["Terraform", "Azure DevOps", "AWS Organizations", "CloudFormation"],
+        title: "Multi-Cloud Infrastructure Transformation",
+        description: "Migrated MinRes **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **95 AWS accounts** using Azure DevOps Pipelines with ServiceNow integration for change management.",
+        impact: "Multi-cloud enablement • 60% efficiency improvement",
+        technologies: ["Terraform", "AWS CDK", "Azure DevOps", "AWS Organizations", "Azure"],
+      },
+      {
+        title: "Enterprise Account Orchestration",
+        description: "Architected **account vending machine** automating end-to-end AWS account lifecycle: Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, Azure DevOps project setup, and standardized CI/CD pipelines. Single source of truth for **30+ development teams**.",
+        impact: "2-week to 2-hour provisioning",
+        technologies: ["AWS Control Tower", "Service Catalog", "IAM", "OIDC", "Terraform Cloud"],
       },
       {
         title: "Financial Systems Automation",
         description: "Built automated pipeline to identify and remediate **bad records** in Coupa procurement system from Redshift data warehouse. Eliminated recurring manual interventions that blocked finance operations multiple times weekly.",
-        impact: "40% workload reduction, $200K+ annual savings",
+        impact: "40% workload reduction • $200K+ annual savings",
         technologies: ["Python", "AWS Redshift", "Lambda", "EventBridge"],
-      },
-      {
-        title: "Multi-Account Governance",
-        description: "Designed **AWS account vending machine** and **security baseline** using Control Tower, Organizations, and custom Terraform modules. Enabled **safe self-service cloud provisioning** for 30+ development teams.",
-        impact: "2-week to 2-hour account setup",
-        technologies: ["AWS Control Tower", "Service Catalog", "IAM", "Config"],
       },
     ],
   },
@@ -50,7 +67,7 @@ export const experience = {
     {
       company: "Verizon Connect",
       role: "DevOps Engineer",
-      period: "May 2019 - Sept 2024",
+      period: formatDateRange(VERIZON_END),
       location: "Dublin, Ireland",
       context: "Global fleet management and telematics company serving 1M+ vehicles worldwide",
       highlights: [
@@ -74,9 +91,9 @@ export const experience = {
         },
         {
           title: "Infrastructure as Code Standardization",
-          description: "Source-controlled **Octopus Deploy step templates** and established Terraform patterns for consistent infrastructure provisioning across teams.",
-          impact: "Standardized deployments",
-          technologies: ["Terraform", "Octopus Deploy", "PowerShell", "Git"],
+          description: "Engineered **source-controlled Octopus Deploy step templates** with **complex state synchronization** across hundreds of templates and two Octopus instances. Automated once-manual management enabling teams to submit changes through version control with programmatic API updates.",
+          impact: "Reduced daily CICD team requests",
+          technologies: ["Octopus Deploy", "PowerShell", "REST APIs", "Git"],
         },
       ],
     },
@@ -88,34 +105,23 @@ export const experience = {
 };
 
 export const skills = {
-  "CI/CD & Automation": [
-    { name: "Azure DevOps Pipelines" },
-    { name: "GitLab CI" },
-    { name: "Jenkins" },
-    { name: "Octopus Deploy" },
-    { name: "Step Functions" },
+  "Infrastructure as Code": [
+    { name: "Terraform / OpenTofu" },
+    { name: "AWS CDK" },
+    { name: "CloudFormation" },
+    { name: "Checkov / tfsec" },
+    { name: "OPA / Sentinel" },
   ],
-  "Cloud Platforms": [
+  "Multi-Cloud Platforms": [
     { name: "AWS" },
     { name: "Azure" },
   ],
-  "Containers & Compute": [
-    { name: "Docker" },
-    { name: "EC2 & Auto Scaling" },
-    { name: "ECS / Fargate" },
-    { name: "Lambda" },
-  ],
-  "Data & Databases": [
-    { name: "DMS" },
-    { name: "DynamoDB" },
-    { name: "RDS / Aurora" },
-    { name: "Redshift" },
-    { name: "SQS / SNS" },
-  ],
-  "FinOps": [
-    { name: "AWS Budgets" },
-    { name: "Cost Explorer" },
-    { name: "Tagging Strategies" },
+  "CI/CD & Automation": [
+    { name: "Azure DevOps Pipelines" },
+    { name: "GitLab CI" },
+    { name: "Octopus Deploy" },
+    { name: "Jenkins" },
+    { name: "Step Functions" },
   ],
   "Governance & Multi-Account": [
     { name: "AWS Organizations" },
@@ -123,46 +129,45 @@ export const skills = {
     { name: "Service Catalog" },
     { name: "Service Control Policies" },
   ],
-  "Infrastructure as Code": [
-    { name: "AWS CDK" },
-    { name: "Checkov / tfsec" },
-    { name: "CloudFormation" },
-    { name: "OPA / Sentinel" },
-    { name: "Terraform / OpenTofu" },
+  "Containers & Compute": [
+    { name: "ECS / Fargate" },
+    { name: "Docker" },
+    { name: "EC2 & Auto Scaling" },
+    { name: "Lambda" },
+  ],
+  "Data & Databases": [
+    { name: "RDS / Aurora" },
+    { name: "DynamoDB" },
+    { name: "Redshift" },
+    { name: "DMS" },
+    { name: "SQS / SNS" },
   ],
   "Networking & Edge": [
+    { name: "VPC Design" },
+    { name: "Transit Gateway" },
     { name: "ALB / NLB" },
     { name: "API Gateway" },
     { name: "CloudFront" },
     { name: "Route53" },
-    { name: "Transit Gateway" },
-    { name: "VPC Design" },
+  ],
+  "Security": [
+    { name: "IAM & Identity Center" },
+    { name: "Security Hub" },
+    { name: "AWS Config Rules" },
+    { name: "GuardDuty" },
+    { name: "Secrets Manager" },
   ],
   "Observability": [
-    { name: "CloudWatch Alarms" },
     { name: "CloudWatch Logs & Metrics" },
+    { name: "CloudWatch Alarms" },
     { name: "EventBridge" },
     { name: "X-Ray" },
   ],
-  "Scripting": [
-    { name: "Bash" },
+  "Languages": [
     { name: "Go" },
-    { name: "PowerShell" },
     { name: "Python" },
-  ],
-  "Security": [
-    { name: "AWS Config Rules" },
-    { name: "GuardDuty" },
-    { name: "IAM & Identity Center" },
-    { name: "Secrets Manager" },
-    { name: "Security Hub" },
-  ],
-  "Storage & Backup": [
-    { name: "AWS Backup" },
-    { name: "EBS" },
-    { name: "EFS" },
-    { name: "S3" },
-    { name: "S3 Glacier" },
+    { name: "PowerShell" },
+    { name: "Bash" },
   ],
 };
 
@@ -170,7 +175,7 @@ export const education = {
   degree: "BSc in Internet of Things",
   honours: "First Class Honours",
   institution: "Waterford Institute of Technology, Ireland",
-  period: "Jan 2014 - Jun 2019",
+  period: formatDateRange(EDUCATION_RANGE),
   certifications: [
     {
       name: "AWS Certified Solutions Architect",
@@ -197,13 +202,19 @@ export const personal = {
   ],
 };
 
+// Project date ranges
+const PROJECT_MINRES_START = createDateRange('2024-01');
+const PROJECT_ATC = createDateRange('2022-01', '2023-12');
+const PROJECT_STORK = createDateRange('2019-01', '2019-06');
+const PROJECT_NDIS_START = createDateRange('2024-01');
+
 export const projects = {
   professional: [
     {
       title: "Account Vending Machine",
       subtitle: "Enterprise AWS Account Orchestration",
       category: "Platform Engineering",
-      period: "2024 - Present",
+      period: formatDateRange(PROJECT_MINRES_START),
       description: "Central orchestration platform for provisioning and managing 95+ AWS accounts. Automates end-to-end account lifecycle: AWS Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, Azure DevOps project setup, and standardized CI/CD pipelines. Single source of truth for enterprise cloud governance.",
       technologies: ["Terraform", "AWS Organizations", "Control Tower", "Azure DevOps", "OIDC", "PowerShell"],
       impact: "95 AWS accounts • 2-week to 2-hour provisioning",
@@ -214,7 +225,7 @@ export const projects = {
       title: "Runners Platform",
       subtitle: "Serverless CI/CD Agent Infrastructure",
       category: "Platform Engineering",
-      period: "2024 - Present",
+      period: formatDateRange(PROJECT_MINRES_START),
       description: "Scalable, serverless platform for Azure DevOps self-hosted agents on AWS. ECS Fargate containers with intelligent agent allocation tracking via SQS FIFO queues to prevent race conditions. Supports multiple agent types: Terraform, Python, Node.js, Docker, and ImageBuilder runners.",
       technologies: ["ECS Fargate", "API Gateway", "SQS FIFO", "Lambda", "Terraform", "Docker"],
       impact: "Multi-pool agent orchestration • Serverless scaling",
@@ -225,7 +236,7 @@ export const projects = {
       title: "AWS Pipeline Templates",
       subtitle: "Standardized CI/CD Pipeline Library",
       category: "Platform Engineering",
-      period: "2024 - Present",
+      period: formatDateRange(PROJECT_MINRES_START),
       description: "Comprehensive Azure Pipelines YAML template library for AWS deployments. Reusable templates for static sites (S3/CloudFront), Python Lambda functions, and Terraform infrastructure. Implements quality gates, security scanning, and multi-environment promotion.",
       technologies: ["Azure Pipelines", "YAML", "S3", "CloudFront", "Lambda", "Terraform"],
       impact: "Standardized deployments • Self-service for 30+ teams",
@@ -236,7 +247,7 @@ export const projects = {
       title: "Terraform Module Registry",
       subtitle: "Enterprise Terraform Modules",
       category: "Platform Engineering",
-      period: "2024 - Present",
+      period: formatDateRange(PROJECT_MINRES_START),
       description: "Collection of enterprise-grade Terraform modules published to HCP Terraform private registry. Foundation networking (VPC, Transit Gateway, routing), security baselines, and standardized patterns.",
       technologies: ["Terraform", "HCP Terraform", "VPC", "Transit Gateway", "Checkov"],
       impact: "Private module registry • Reusable infrastructure patterns",
@@ -249,7 +260,7 @@ export const projects = {
       title: "ndisready.com.au",
       subtitle: "NDIS Provider Platform",
       category: "Production SaaS",
-      period: "2024 - Present",
+      period: formatDateRange(PROJECT_NDIS_START),
       description: "Live production platform connecting NDIS providers with clients across Australia. Full-stack Next.js application with provider directory, advanced search/filtering, appointment booking system, and SEO optimization.",
       technologies: ["Next.js 15", "TypeScript", "Tailwind CSS", "Vercel", "SEO"],
       impact: "Live production • Active users",
@@ -259,10 +270,10 @@ export const projects = {
     },
     {
       title: "ArbTheChain",
-      subtitle: "Distributed Trading Platform",
+      subtitle: "Go Microservices • Real-Time Data Processing",
       category: "FinTech Infrastructure",
-      period: "2022 - 2023",
-      description: "Production-grade cryptocurrency arbitrage platform. Built 10+ microservices in Go and Python, deployed via Terraform on AWS. Real-time data collectors, route optimization algorithms, execution engine, and monitoring infrastructure.",
+      period: formatDateRange(PROJECT_ATC),
+      description: "Production-grade cryptocurrency arbitrage platform built with **10+ Go microservices** and Python services, deployed via Terraform on AWS. Real-time data collectors processing exchange feeds, route optimization algorithms, execution engine, and comprehensive monitoring infrastructure.",
       technologies: ["Go", "Python", "Terraform", "AWS Lambda", "DynamoDB", "EventBridge"],
       impact: "10+ microservices • Real-time trading",
       featured: true,
@@ -270,12 +281,13 @@ export const projects = {
       image: "/images/projects/bitcoin.png",
     },
   ],
+  // College projects use static year strings as they're historical and won't change
   college: [
     {
       title: "Stork",
       subtitle: "IoT Tracking System",
       category: "Award Winner",
-      period: "2019",
+      period: formatDateRange(PROJECT_STORK),
       description: "Award-winning IoT solution for elderly care safety. End-to-end system: custom GPS tracking devices, Python backend services, real-time web dashboard, and SMS alerting. Capstone project earning First Class Honours and SunLife 2019 Enterprise Award.",
       technologies: ["IoT", "Python", "GPS", "WebSockets", "AWS", "SMS"],
       impact: "SunLife Enterprise Award • Honours Project",
