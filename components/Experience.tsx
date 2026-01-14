@@ -2,7 +2,6 @@
 
 import { experience } from "@/data/content";
 import { FormattedText } from "./FormattedText";
-import { AnimatedSection } from "./AnimatedSection";
 import { motion } from "framer-motion";
 import { borderGrow, scrollViewport } from "@/lib/animations";
 
@@ -33,7 +32,7 @@ export function Experience() {
         </motion.div>
 
         {/* Current Role */}
-        <AnimatedSection className="mb-32 md:mb-40">
+        <div className="mb-32 md:mb-40">
           <div className="mb-10 md:mb-12">
             <div className="flex items-center gap-4 mb-2">
               <span className="px-3 py-1 bg-primary text-white font-mono font-bold uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
@@ -56,15 +55,9 @@ export function Experience() {
 
           <div className="space-y-10 md:space-y-12">
             {experience.current.highlights.map((highlight, index) => (
-              <AnimatedSection key={index}>
+              <div key={index}>
                 <div className="relative pl-8 py-3">
-                <motion.div
-                  className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary origin-top"
-                  initial="hidden"
-                  whileInView="show"
-                  viewport={scrollViewport}
-                  variants={borderGrow}
-                />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary" />
                 <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                   {highlight.title}
                 </h4>
@@ -78,7 +71,7 @@ export function Experience() {
                   {highlight.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-red-600 hover:bg-red-600 hover:text-primary"
+                      className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-red-600 hover:bg-red-600 hover:text-white"
                       style={{ fontSize: 'var(--fluid-xs)' }}
                     >
                       {tech}
@@ -86,14 +79,14 @@ export function Experience() {
                   ))}
                 </div>
               </div>
-              </AnimatedSection>
+              </div>
             ))}
           </div>
-        </AnimatedSection>
+        </div>
 
         {/* Previous Roles */}
         {experience.previous.map((job, jobIndex) => (
-          <AnimatedSection key={jobIndex} className="mb-32 md:mb-40">
+          <div key={jobIndex} className="mb-32 md:mb-40">
             <div className="mb-10 md:mb-12">
               <h3 className="font-black uppercase text-primary tracking-wide" style={{ fontSize: 'var(--fluid-5xl)' }}>
                 {job.company}
@@ -108,15 +101,9 @@ export function Experience() {
 
             <div className="space-y-10 md:space-y-12">
               {job.highlights.map((highlight, index) => (
-                <AnimatedSection key={index}>
+                <div key={index}>
                   <div className="relative pl-8 py-3">
-                  <motion.div
-                    className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary origin-top"
-                    initial="hidden"
-                    whileInView="show"
-                    viewport={scrollViewport}
-                    variants={borderGrow}
-                  />
+                  <div className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary" />
                   <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {highlight.title}
                   </h4>
@@ -140,10 +127,10 @@ export function Experience() {
                     </div>
                   )}
                 </div>
-                </AnimatedSection>
+                </div>
               ))}
             </div>
-          </AnimatedSection>
+          </div>
         ))}
 
       </div>

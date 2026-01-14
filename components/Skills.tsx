@@ -1,7 +1,6 @@
 "use client";
 
 import { skills } from "@/data/content";
-import { AnimatedSection } from "./AnimatedSection";
 import { motion } from "framer-motion";
 import { borderGrow, scrollViewport } from "@/lib/animations";
 
@@ -36,7 +35,7 @@ export function Skills() {
         {/* Skills by Domain */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8 md:gap-y-16">
           {skillEntries.map(([domain, skillList]) => (
-            <AnimatedSection key={domain}>
+            <div key={domain}>
               <div className="mb-4 md:mb-6">
                 <div className="h-[3rem] md:h-[4.5rem] flex items-end">
                   <h3
@@ -61,7 +60,7 @@ export function Skills() {
                   </li>
                 ))}
               </ul>
-            </AnimatedSection>
+            </div>
           ))}
         </div>
       </div>
