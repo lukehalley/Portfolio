@@ -1,4 +1,7 @@
+"use client";
+
 import { education } from "@/data/content";
+import { AnimatedSection } from "./AnimatedSection";
 
 export function Education() {
   return (
@@ -8,18 +11,18 @@ export function Education() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="mb-24 md:mb-32">
+        <AnimatedSection className="mb-24 md:mb-32">
           <h2
             className="font-black tracking-tighter text-white"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Education
           </h2>
-        </div>
+        </AnimatedSection>
 
         <div className="grid md:grid-cols-2 gap-12 md:gap-16">
           {/* Degree */}
-          <div>
+          <AnimatedSection>
             <div className="mb-8">
               <h3 className="font-mono text-tertiary tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-2xl)' }}>
                 Degree
@@ -39,10 +42,10 @@ export function Education() {
                 {education.period}
               </p>
             </div>
-          </div>
+          </AnimatedSection>
 
           {/* Certifications */}
-          <div>
+          <AnimatedSection>
             <div className="mb-8">
               <h3 className="font-mono text-tertiary tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-2xl)' }}>
                 Certifications
@@ -66,7 +69,7 @@ export function Education() {
                 </a>
               ))}
             </div>
-          </div>
+          </AnimatedSection>
         </div>
       </div>
     </section>

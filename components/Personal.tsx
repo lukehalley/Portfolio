@@ -1,5 +1,8 @@
+"use client";
+
 import { personal } from "@/data/content";
 import Image from "next/image";
+import { AnimatedSection } from "./AnimatedSection";
 
 const hobbyImages: Record<string, { src: string; position?: string }> = {
   Travel: { src: "/images/travelling-opt.webp", position: "object-[center_25%]" },
@@ -15,19 +18,20 @@ export function Personal() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="mb-24 md:mb-32">
+        <AnimatedSection className="mb-24 md:mb-32">
           <h2
             className="font-black tracking-tighter text-primary"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Beyond Work
           </h2>
-        </div>
+        </AnimatedSection>
 
         {/* Hobbies Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
           {personal.hobbies.map((hobby, index) => (
-            <div key={index} className="group">
+            <AnimatedSection key={index}>
+              <div className="group">
               {/* Image with hero-style filter */}
               {hobbyImages[hobby.name] && (
                 <div className="relative mb-6">
@@ -78,6 +82,7 @@ export function Personal() {
                 )}
               </div>
             </div>
+            </AnimatedSection>
           ))}
         </div>
       </div>
