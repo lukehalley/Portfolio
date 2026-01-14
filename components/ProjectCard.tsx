@@ -99,8 +99,8 @@ export function ProjectCard({
 
       {/* Description - truncated to maintain uniform height */}
       <p
-        className="relative z-10 mb-6 line-clamp-4"
-        style={{ fontSize: 'var(--fluid-base)', fontWeight: 200, lineHeight: '1.75', letterSpacing: '0.01em' }}
+        className="relative z-10 mb-6 line-clamp-4 font-normal leading-relaxed tracking-normal"
+        style={{ fontSize: 'var(--fluid-base)' }}
       >
         {description}
       </p>

@@ -23,17 +23,17 @@ export function About() {
         </div>
 
         {/* Journey */}
-        <div className="space-y-6 md:space-y-8">
+        <div className="space-y-8 md:space-y-12">
           {journey.map((paragraph, index) => (
-            <div key={index} className="relative pl-6 md:pl-8">
+            <div key={index} className="relative pl-8 md:pl-12">
               <motion.div
-                className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary-faint origin-top"
+                className="absolute left-0 top-0 bottom-0 w-2 md:w-3 bg-tertiary origin-top"
                 initial="hidden"
                 whileInView="show"
                 viewport={scrollViewport}
                 variants={borderGrow}
               />
-              <p className="text-white" style={{ fontSize: 'var(--fluid-xl)', fontWeight: 200, lineHeight: '1.8', letterSpacing: '0.01em' }}>
+              <p className="text-white font-medium leading-relaxed tracking-tight" style={{ fontSize: 'var(--fluid-2xl)' }}>
                 <FormattedText text={paragraph} />
               </p>
             </div>

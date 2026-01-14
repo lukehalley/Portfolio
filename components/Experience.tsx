@@ -62,7 +62,7 @@ export function Experience() {
                 <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
                   {highlight.impact}
                 </p>
-                <p className="text-primary-muted mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
+                <p className="text-primary-muted mb-6 leading-relaxed font-normal" style={{ fontSize: 'var(--fluid-lg)' }}>
                   <FormattedText text={highlight.description} />
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -114,7 +114,7 @@ export function Experience() {
                   <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
                     {highlight.impact}
                   </p>
-                  <p className="text-primary-muted mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
+                  <p className="text-primary-muted mb-6 leading-relaxed font-normal" style={{ fontSize: 'var(--fluid-lg)' }}>
                     <FormattedText text={highlight.description} />
                   </p>
                   {highlight.technologies && (
