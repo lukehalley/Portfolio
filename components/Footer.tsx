@@ -1,13 +1,7 @@
-'use client';
-
 import { personalInfo } from "@/data/content";
-import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <footer className="relative bg-white text-primary px-6 md:px-12 lg:px-24 py-20 overflow-hidden">
       {/* Decorative grid background */}
@@ -92,24 +86,13 @@ export function Footer() {
         <div className="h-px w-full bg-primary opacity-10 mb-8" />
 
         {/* Bottom Row */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="flex justify-center md:justify-start">
           <p
             className="text-secondary font-mono"
             style={{ fontSize: 'var(--fluid-sm)' }}
           >
             © {new Date().getFullYear()} {personalInfo.name}. Built with Next.js & Tailwind CSS.
           </p>
-
-          {/* Back to Top Button */}
-          <button
-            onClick={scrollToTop}
-            className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 bg-primary hover:bg-tertiary text-white font-mono font-bold uppercase transition-all duration-300"
-            style={{ fontSize: 'var(--fluid-xs)' }}
-            aria-label="Back to Top"
-          >
-            <span>Back to Top</span>
-            <ArrowUp className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:-translate-y-1" />
-          </button>
         </div>
       </div>
     </footer>
