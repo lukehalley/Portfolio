@@ -2,10 +2,12 @@
 
 import { personalInfo } from "@/data/content";
 import Image from "next/image";
-import { MapPin, Mail, Github, Linkedin } from "lucide-react";
+import { MapPin, Github, Linkedin } from "lucide-react";
 import { FormattedText } from "./FormattedText";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeUp } from "@/lib/animations";
+import { GridCanvas } from "./GridCanvas";
+import { EmailCopy } from "./EmailCopy";
 
 export function Hero() {
   return (
@@ -13,6 +15,8 @@ export function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-8 sm:py-12 md:py-16 lg:py-20 overflow-hidden"
     >
+      {/* Animated grid canvas */}
+      <GridCanvas />
       <motion.div
         className="max-w-6xl w-full relative z-10"
         initial="hidden"
@@ -77,8 +81,8 @@ export function Hero() {
                    }} />
             </motion.div>
 
-            {/* Title & Tagline */}
-            <motion.div className="space-y-4 sm:space-y-6 pr-4 md:pr-0 max-w-[95%] md:max-w-none" variants={fadeUp}>
+            {/* Title & Tagline - No animation delays for LCP optimization */}
+            <div className="space-y-4 sm:space-y-6 pr-4 md:pr-0 max-w-[95%] md:max-w-none">
               <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
                  style={{
                    fontSize: 'clamp(0.75rem, 3vw, 1rem)',
@@ -97,7 +101,7 @@ export function Hero() {
                 <br />
                 <strong>{personalInfo.yearsOfExperience}+ years</strong>.
               </p>
-            </motion.div>
+            </div>
 
             {/* Location */}
             <motion.div variants={fadeUp}>
@@ -110,48 +114,42 @@ export function Hero() {
 
             {/* Contact */}
             <motion.div
-              className="flex flex-wrap gap-2 sm:gap-4 md:gap-6 items-center"
+              className="flex flex-col gap-4 sm:gap-6"
               variants={fadeUp}
             >
-              <motion.a
-                href={`mailto:${personalInfo.email}`}
-                className="group relative inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-white bg-primary border-4 border-primary overflow-hidden"
-                style={{ fontSize: 'var(--fluid-base)' }}
-                whileHover={{ scale: 1.05, boxShadow: "12px 12px 0 0 var(--color-tertiary)" }}
-                whileTap={{ scale: 0.98 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Mail className="w-5 h-5 md:w-6 md:h-6 relative z-10" />
-                <span className="relative z-10">Email</span>
-              </motion.a>
+              {/* Email with copy functionality */}
+              <EmailCopy />
 
-              <motion.a
-                href={personalInfo.social.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
-                style={{ fontSize: 'var(--fluid-base)' }}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.98 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
-                <span>GitHub</span>
-              </motion.a>
+              {/* Social links */}
+              <div className="flex flex-wrap gap-2 sm:gap-4 items-center">
+                <motion.a
+                  href={personalInfo.social.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
+                  style={{ fontSize: 'var(--fluid-base)' }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.98 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                  <span>GitHub</span>
+                </motion.a>
 
-              <motion.a
-                href={personalInfo.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
-                style={{ fontSize: 'var(--fluid-base)' }}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.98 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
-                <span>LinkedIn</span>
-              </motion.a>
+                <motion.a
+                  href={personalInfo.social.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
+                  style={{ fontSize: 'var(--fluid-base)' }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.98 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                  <span>LinkedIn</span>
+                </motion.a>
+              </div>
             </motion.div>
           </div>
         </div>
