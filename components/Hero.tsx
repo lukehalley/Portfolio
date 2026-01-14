@@ -69,18 +69,30 @@ export function Hero() {
                   }}>
                 Luke<br />Halley
               </h1>
-              {/* Subtle background accent for depth */}
-              <div className="absolute -left-2 -top-1 w-[calc(100%+1rem)] h-[calc(100%+0.5rem)] bg-white/30 -z-10 md:hidden" />
+              {/* Subtle background accent for depth with gradient fade */}
+              <div className="absolute -left-2 -top-1 w-[calc(100%+1rem)] h-[calc(100%+0.5rem)] bg-white/30 -z-10 md:hidden"
+                   style={{
+                     maskImage: 'linear-gradient(to right, white 0%, white 85%, transparent 100%)',
+                     WebkitMaskImage: 'linear-gradient(to right, white 0%, white 85%, transparent 100%)'
+                   }} />
             </motion.div>
 
             {/* Title & Tagline */}
             <motion.div className="space-y-4 sm:space-y-6 pr-4 md:pr-0 max-w-[95%] md:max-w-none" variants={fadeUp}>
               <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
-                 style={{ fontSize: 'clamp(0.75rem, 3vw, 1rem)' }}>
+                 style={{
+                   fontSize: 'clamp(0.75rem, 3vw, 1rem)',
+                   maskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)',
+                   WebkitMaskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)'
+                 }}>
                 {personalInfo.title}
               </p>
               <p className="font-bold text-primary max-w-3xl leading-tight bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
-                 style={{ fontSize: 'var(--fluid-xl)' }}>
+                 style={{
+                   fontSize: 'var(--fluid-xl)',
+                   maskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)',
+                   WebkitMaskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)'
+                 }}>
                 <FormattedText text={personalInfo.tagline} />
                 <br />
                 <strong>{personalInfo.yearsOfExperience}+ years</strong>.
