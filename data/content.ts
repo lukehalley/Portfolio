@@ -176,6 +176,7 @@ export const education = {
   honours: "First Class Honours",
   institution: "Waterford Institute of Technology, Ireland",
   period: formatDateRange(EDUCATION_RANGE),
+  award: "SunLife 2019 Enterprise Award for IoT tracking system (Stork)",
   certifications: [
     {
       name: "AWS Certified Solutions Architect",

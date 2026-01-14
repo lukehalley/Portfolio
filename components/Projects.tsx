@@ -4,7 +4,6 @@ import { ProjectCard } from "./ProjectCard";
 const sections = [
   { key: "professional" as const, title: "Professional", description: "Enterprise platform engineering and infrastructure at scale" },
   { key: "sideProjects" as const, title: "Side Projects", description: "Personal ventures and technical experiments" },
-  { key: "college" as const, title: "College", description: "Academic projects from my BSc in Internet of Things" },
 ];
 
 export function Projects() {
