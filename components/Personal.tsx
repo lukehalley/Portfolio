@@ -3,11 +3,56 @@
 import { personal } from "@/data/content";
 import Image from "next/image";
 import { AnimatedSection } from "./AnimatedSection";
+import { motion } from "framer-motion";
+import { borderGrow, scrollViewport } from "@/lib/animations";
 
 const hobbyImages: Record<string, { src: string; position?: string }> = {
   Travel: { src: "/images/travelling-opt.webp", position: "object-[center_25%]" },
   Running: { src: "/images/running-opt.webp", position: "object-top" },
   Cooking: { src: "/images/cooking-opt.webp", position: "object-bottom" },
+};
+
+// Helper to render description with varied typography
+const renderDescription = (text: string) => {
+  // Travel description
+  if (text.includes("Thailand")) {
+    return (
+      <>
+        <span className="font-light text-primary-subtle">I've traveled to </span>
+        <span className="font-bold" style={{ fontSize: 'var(--fluid-lg)' }}>Thailand, Slovenia, Italy, France</span>
+        <span className="font-light text-primary-subtle">, and a few other spots over the years. Each place has its own vibe and way of doing things. </span>
+        <span className="font-semibold" style={{ fontSize: 'var(--fluid-md)' }}>Travel is a good way to get perspective</span>
+        <span className="font-light text-primary-subtle"> outside of work and daily routines. I'd like to see more of the world when time allows.</span>
+      </>
+    );
+  }
+
+  // Running description
+  if (text.includes("running since")) {
+    return (
+      <>
+        <span className="font-bold" style={{ fontSize: 'var(--fluid-lg)' }}>Been running since I was 7.</span>
+        <span className="font-light text-primary-subtle"> Started with local races in Ireland and kept it up over the years. It's good for </span>
+        <span className="font-semibold" style={{ fontSize: 'var(--fluid-md)' }}>clearing my head and staying fit</span>
+        <span className="font-light text-primary-subtle">. These days I just try to stay consistent with it.</span>
+      </>
+    );
+  }
+
+  // Cooking description
+  if (text.includes("cooking")) {
+    return (
+      <>
+        <span className="font-light text-primary-subtle">After spending the day on infrastructure and pipelines, </span>
+        <span className="font-semibold" style={{ fontSize: 'var(--fluid-md)' }}>cooking is a good way to switch off</span>
+        <span className="font-light text-primary-subtle">. I like making </span>
+        <span className="font-bold" style={{ fontSize: 'var(--fluid-lg)' }}>Irish, Italian, and French food</span>
+        <span className="font-light text-primary-subtle">. It's practical, hands-on work that doesn't involve a screen. Also means I eat well.</span>
+      </>
+    );
+  }
+
+  return <span className="font-normal">{text}</span>;
 };
 
 export function Personal() {
@@ -28,10 +73,10 @@ export function Personal() {
         </AnimatedSection>
 
         {/* Hobbies Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 items-start">
           {personal.hobbies.map((hobby, index) => (
-            <AnimatedSection key={index}>
-              <div className="group">
+            <AnimatedSection key={index} className="h-full">
+              <div className="group h-full flex flex-col">
               {/* Image with hero-style filter */}
               {hobbyImages[hobby.name] && (
                 <div className="relative mb-6">
@@ -48,13 +93,20 @@ export function Personal() {
                 </div>
               )}
 
-              <div className="border-l-4 border-tertiary-faint pl-6 py-2 group-hover:border-tertiary transition-colors">
-                <h3 className="font-mono font-black mb-3 uppercase" style={{ fontSize: 'var(--fluid-xl)' }}>
+              <div className="relative pl-6 py-2 flex-1 flex flex-col">
+                <motion.div
+                  className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary-faint group-hover:bg-tertiary origin-top transition-colors"
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={scrollViewport}
+                  variants={borderGrow}
+                />
+                <h3 className="font-mono mb-4 uppercase" style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 900 }}>
                   {hobby.name}
                 </h3>
-                <p className="text-primary-subtle mb-4 leading-relaxed" style={{ fontSize: 'var(--fluid-sm)' }}>
-                  {hobby.description}
-                </p>
+                <div className="text-primary mb-4 flex-1" style={{ fontSize: 'var(--fluid-base)', lineHeight: '1.75', letterSpacing: '0.01em' }}>
+                  {renderDescription(hobby.description)}
+                </div>
 
                 {/* Travel highlights */}
                 {'highlights' in hobby && hobby.highlights && (
@@ -64,20 +116,6 @@ export function Personal() {
                         {item}
                       </span>
                     ))}
-                  </div>
-                )}
-
-                {/* Running PRs */}
-                {'prs' in hobby && hobby.prs && (
-                  <div className="grid grid-cols-2 gap-2 font-mono" style={{ fontSize: 'var(--fluid-xs)' }}>
-                    <div>
-                      <span className="text-primary-faint">Marathon:</span>{' '}
-                      <span className="font-bold">{hobby.prs.marathon}</span>
-                    </div>
-                    <div>
-                      <span className="text-primary-faint">Half:</span>{' '}
-                      <span className="font-bold">{hobby.prs.half}</span>
-                    </div>
                   </div>
                 )}
               </div>

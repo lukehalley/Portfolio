@@ -142,12 +142,13 @@
     background: linear-gradient(to bottom, var(--color-tertiary), var(--color-tertiary) 40%, transparent);
   }
 
-  /* Enhanced typography with fluid scaling */
+  /* Extreme typographic contrast - whisper to shout */
   h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
-    letter-spacing: -0.02em;
+    @apply font-black;
+    letter-spacing: -0.025em;
     text-wrap: balance;
-    line-height: 1.1;
+    line-height: 1.05;
+    font-weight: 900;
   }
 
   h1 { font-size: var(--fluid-9xl); }
@@ -157,8 +158,19 @@
 
   p {
     text-wrap: pretty;
-    line-height: 1.6;
+    line-height: 1.75;
+    font-weight: 200;
+    letter-spacing: 0.01em;
   }
+
+  /* Typography weight utilities - Medium-style hierarchy */
+  .text-light { font-weight: 300; }
+  .text-normal { font-weight: 400; }
+  .text-medium { font-weight: 500; }
+  .text-semibold { font-weight: 600; }
+  .text-bold { font-weight: 700; }
+  .text-extrabold { font-weight: 800; }
+  .text-black { font-weight: 900; }
 
   /* Focus visible styles for accessibility */
   *:focus-visible {
@@ -323,6 +335,43 @@
     background-image: var(--gradient-noise);
     opacity: 0.4;
     pointer-events: none;
+  }
+
+  /* Dark section texture (for bg-primary sections) */
+  .dark-texture {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .dark-texture::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 30px,
+        rgba(255, 255, 255, 0.015) 30px,
+        rgba(255, 255, 255, 0.015) 32px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 30px,
+        rgba(255, 255, 255, 0.01) 30px,
+        rgba(255, 255, 255, 0.01) 32px
+      ),
+      var(--gradient-noise);
+    background-attachment: fixed;
+    opacity: 1;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .dark-texture > * {
+    position: relative;
+    z-index: 1;
   }
 
   /* Safe zone spacing for sticky headers */

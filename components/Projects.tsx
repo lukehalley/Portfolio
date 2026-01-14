@@ -11,7 +11,7 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary dark-texture"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
@@ -34,12 +34,12 @@ export function Projects() {
               {/* Section Header */}
               <div className="mb-12">
                 <h3
-                  className="font-mono font-black text-tertiary uppercase tracking-tight"
-                  style={{ fontSize: 'var(--fluid-2xl)' }}
+                  className="font-mono text-tertiary uppercase tracking-tight"
+                  style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 900 }}
                 >
                   {section.title}
                 </h3>
-                <p className="text-white-muted mt-2" style={{ fontSize: 'var(--fluid-base)' }}>
+                <p className="text-white-muted mt-4" style={{ fontSize: 'var(--fluid-lg)', fontWeight: 200, lineHeight: '1.7', letterSpacing: '0.01em' }}>
                   {section.description}
                 </p>
               </div>

@@ -83,16 +83,15 @@ export function ProjectCard({
       <div className="absolute top-0 right-0 w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 border-r-3 border-t-3 sm:border-r-4 sm:border-t-4 border-tertiary-faint" />
 
       {/* Title & Subtitle */}
-      <div className="relative z-10 mt-4 mb-4 flex flex-col">
+      <div className="relative z-10 mt-4 mb-5 flex flex-col">
         <h3
-          className="font-bold leading-tight mb-2"
-          style={{ fontSize: 'var(--fluid-2xl)' }}
+          style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 900, lineHeight: '1.05', letterSpacing: '-0.02em' }}
         >
           {title}
         </h3>
         <p
-          className="text-tertiary font-mono uppercase tracking-tight"
-          style={{ fontSize: 'var(--fluid-sm)' }}
+          className="text-tertiary font-mono uppercase tracking-tight mt-2"
+          style={{ fontSize: 'var(--fluid-sm)', fontWeight: 500 }}
         >
           {subtitle}
         </p>
@@ -100,8 +99,8 @@ export function ProjectCard({
 
       {/* Description - truncated to maintain uniform height */}
       <p
-        className="relative z-10 leading-relaxed mb-6 opacity-90 line-clamp-4"
-        style={{ fontSize: 'var(--fluid-base)' }}
+        className="relative z-10 mb-6 line-clamp-4"
+        style={{ fontSize: 'var(--fluid-base)', fontWeight: 200, lineHeight: '1.75', letterSpacing: '0.01em' }}
       >
         {description}
       </p>
