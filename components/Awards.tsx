@@ -53,7 +53,7 @@ export function Awards() {
               <div className="relative bg-white border-4 border-white p-8 md:p-10 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
                 {/* Large index number */}
                 <span
-                  className="absolute -top-6 -right-2 font-black text-white-ghost select-none z-0"
+                  className="absolute -top-6 -right-2 font-black text-tertiary select-none z-0"
                   style={{ fontSize: 'clamp(6rem, 12vw, 10rem)', lineHeight: 0.8 }}
                 >
                   0{index + 1}

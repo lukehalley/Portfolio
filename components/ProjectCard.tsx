@@ -68,7 +68,7 @@ export function ProjectCard({
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute -top-3 sm:-top-4 right-4 sm:right-6 md:right-8 bg-white px-3 py-1.5 sm:px-4 sm:py-2 border-3 sm:border-4 border-primary z-10 text-tertiary hover:text-primary hover:border-tertiary transition-colors duration-300"
+          className="absolute -top-3 sm:-top-4 right-4 sm:right-6 md:right-8 bg-white px-3 py-1.5 sm:px-4 sm:py-2 border-3 sm:border-4 border-primary z-10 text-primary hover:text-red-600 hover:border-red-600 transition-colors duration-300"
           aria-label={`View ${title}`}
         >
           {link.includes('github') ? (
@@ -111,7 +111,7 @@ export function ProjectCard({
           {technologies.slice(0, 6).map((tech) => (
             <span
               key={tech}
-              className="px-3 py-1.5 font-mono border-2 border-primary-faint hover:border-tertiary hover:bg-tertiary hover:text-primary cursor-default transition-colors duration-300"
+              className="px-3 py-1.5 font-mono border-2 border-primary-faint hover:border-red-600 hover:bg-red-600 hover:text-white cursor-default transition-colors duration-300"
               style={{ fontSize: 'var(--fluid-xs)' }}
             >
               {tech}
