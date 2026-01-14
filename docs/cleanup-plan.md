@@ -79,7 +79,7 @@ Senior Cloud/DevOps Engineer with 5+ years experience building scalable infrastr
 
 ## Connect
 - [LinkedIn](#)
-- [Email](mailto:luke123halley@gmail.com)
+- [Email](mailto:contact@lukehalley.com)
 ```
 
 ---

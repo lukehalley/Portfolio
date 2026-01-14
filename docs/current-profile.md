@@ -115,7 +115,7 @@ Based on cover letters, Luke positions himself as:
 
 ## Contact & Links
 
-- **Email**: luke123halley@gmail.com
+- **Email**: contact@lukehalley.com
 - **GitHub**: https://github.com/lukehalley
 - **GitLab**: https://gitlab.com/lukehalley
 - **LinkedIn**: (to be added)
