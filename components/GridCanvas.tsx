@@ -15,12 +15,28 @@ export function GridCanvas() {
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
-    // Defer initialization to avoid blocking paint
+    // Defer initialization significantly to avoid blocking LCP
     const initTimeout = setTimeout(() => {
-      setIsReady(true);
-    }, 100);
+      // Only initialize after user interaction or after page fully loaded
+      if (document.readyState === 'complete') {
+        requestIdleCallback(() => setIsReady(true), { timeout: 2000 });
+      }
+    }, 500);
 
-    return () => clearTimeout(initTimeout);
+    const onLoad = () => {
+      requestIdleCallback(() => setIsReady(true), { timeout: 2000 });
+    };
+
+    if (document.readyState === 'complete') {
+      onLoad();
+    } else {
+      window.addEventListener('load', onLoad, { once: true });
+    }
+
+    return () => {
+      clearTimeout(initTimeout);
+      window.removeEventListener('load', onLoad);
+    };
   }, []);
 
   useEffect(() => {
@@ -31,7 +47,8 @@ export function GridCanvas() {
 
     const ctx = canvas.getContext("2d", {
       alpha: true,
-      desynchronized: true // Improve performance
+      desynchronized: true,
+      willReadFrequently: false
     });
     if (!ctx) return;
 

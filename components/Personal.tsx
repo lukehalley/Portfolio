@@ -2,7 +2,6 @@
 
 import { personal } from "@/data/content";
 import Image from "next/image";
-import { AnimatedSection } from "./AnimatedSection";
 import { motion } from "framer-motion";
 import { borderGrow, scrollViewport } from "@/lib/animations";
 
@@ -84,7 +83,7 @@ export function Personal() {
         {/* Hobbies Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 items-start">
           {personal.hobbies.map((hobby, index) => (
-            <AnimatedSection key={index} className="h-full">
+            <div key={index} className="h-full">
               <div className="group h-full flex flex-col">
               {/* Image with hero-style filter */}
               {hobbyImages[hobby.name] && (
@@ -103,13 +102,7 @@ export function Personal() {
               )}
 
               <div className="relative pl-6 py-2 flex-1 flex flex-col">
-                <motion.div
-                  className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary-faint group-hover:bg-tertiary origin-top transition-colors"
-                  initial="hidden"
-                  whileInView="show"
-                  viewport={scrollViewport}
-                  variants={borderGrow}
-                />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary-faint group-hover:bg-tertiary transition-colors" />
                 <h3 className="font-mono mb-4 uppercase" style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 900 }}>
                   {hobby.name}
                 </h3>
@@ -129,7 +122,7 @@ export function Personal() {
                 ) : null}
               </div>
             </div>
-            </AnimatedSection>
+            </div>
           ))}
         </div>
       </div>

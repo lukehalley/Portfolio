@@ -1,9 +1,9 @@
 "use client";
 
 import { education } from "@/data/content";
-import { AnimatedSection } from "./AnimatedSection";
 import { motion } from "framer-motion";
 import { borderGrow, scrollViewport } from "@/lib/animations";
+import { AnimatedSection } from "./AnimatedSection";
 
 export function Education() {
   return (
@@ -34,20 +34,14 @@ export function Education() {
 
         <div className="grid md:grid-cols-2 gap-12 md:gap-16">
           {/* Degree */}
-          <AnimatedSection>
+          <div>
             <div className="mb-8">
               <h3 className="font-mono text-tertiary tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-xl)' }}>
                 Degree
               </h3>
             </div>
             <div className="relative pl-8 py-2 group">
-              <motion.div
-                className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary group-hover:bg-primary origin-top transition-colors"
-                initial="hidden"
-                whileInView="show"
-                viewport={scrollViewport}
-                variants={borderGrow}
-              />
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary group-hover:bg-primary transition-colors" />
               <p className="text-white mb-3" style={{ fontSize: 'var(--fluid-3xl)', fontWeight: 900, lineHeight: '1.0' }}>
                 {education.degree}
               </p>
@@ -66,10 +60,10 @@ export function Education() {
                 </p>
               )}
             </div>
-          </AnimatedSection>
+          </div>
 
           {/* Certifications */}
-          <AnimatedSection>
+          <div>
             <div className="mb-8">
               <h3 className="font-mono text-tertiary tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-xl)' }}>
                 Certifications
@@ -84,13 +78,7 @@ export function Education() {
                   rel="noopener noreferrer"
                   className="block relative pl-8 py-2 group"
                 >
-                  <motion.div
-                    className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary group-hover:bg-primary origin-top transition-colors"
-                    initial="hidden"
-                    whileInView="show"
-                    viewport={scrollViewport}
-                    variants={borderGrow}
-                  />
+                  <div className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary group-hover:bg-primary transition-colors" />
                   <p className="text-white mb-3 group-hover:text-tertiary transition-colors" style={{ fontSize: 'var(--fluid-3xl)', fontWeight: 900, lineHeight: '1.0' }}>
                     {cert.name}
                   </p>
@@ -100,7 +88,7 @@ export function Education() {
                 </a>
               ))}
             </div>
-          </AnimatedSection>
+          </div>
         </div>
       </div>
     </section>
