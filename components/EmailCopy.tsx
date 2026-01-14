@@ -75,23 +75,6 @@ export function EmailCopy() {
           style={{ transformOrigin: "left" }}
         />
       </motion.div>
-
-      {/* Toast notification */}
-      <AnimatePresence>
-        {copied && (
-          <motion.div
-            initial={{ opacity: 0, y: 10, scale: 0.8 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: -10, scale: 0.8 }}
-            transition={{ duration: 0.2 }}
-            className="absolute -bottom-14 left-1/2 -translate-x-1/2 whitespace-nowrap"
-          >
-            <div className="px-4 py-2 bg-primary text-white font-mono font-bold text-sm border-4 border-primary shadow-[4px_4px_0_0_var(--color-tertiary)]">
-              Copied to clipboard!
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   );
 }
