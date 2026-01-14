@@ -51,7 +51,7 @@ export function SidebarNav() {
       <div className="absolute top-0 left-0 right-0 h-1 bg-tertiary" />
 
       {/* Vertical progress indicator */}
-      <div className="absolute left-0 top-1/4 bottom-1/4 w-[2px] bg-primary/10">
+      <div className="absolute left-0 top-1/4 bottom-1/4 w-[2px] bg-primary-faint">
         <div
           className="w-full bg-tertiary transition-all duration-500"
           style={{
@@ -77,7 +77,7 @@ export function SidebarNav() {
                   className={`font-mono text-[9px] tracking-[0.35em] uppercase select-none ${
                     isActive
                       ? 'text-primary font-black'
-                      : 'text-primary/30 font-bold group-hover:text-primary/60'
+                      : 'text-primary-whisper font-bold group-hover:text-primary-faint'
                   }`}
                   style={{
                     writingMode: 'vertical-rl',
@@ -96,10 +96,10 @@ export function SidebarNav() {
 
               {/* Section number overlay on hover */}
               <div
-                className={`absolute top-1/2 -translate-y-1/2 -left-6 font-mono text-[10px] font-black ${
+                className={`absolute top-1/2 -translate-y-1/2 -left-6 font-mono text-[10px] font-black transition-all ${
                   isActive
                     ? 'text-tertiary opacity-100'
-                    : 'text-primary/0 group-hover:text-primary/40 group-hover:opacity-100 opacity-0'
+                    : 'text-transparent group-hover:text-primary-ghost group-hover:opacity-100 opacity-0'
                 }`}
               >
                 {String(index + 1).padStart(2, '0')}

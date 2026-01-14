@@ -77,15 +77,15 @@
   }
 
   body {
-    @apply bg-white;
     color: var(--color-primary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f5f5;
     background-image:
-      linear-gradient(var(--color-primary) 1px, transparent 1px),
-      linear-gradient(90deg, var(--color-primary) 1px, transparent 1px),
+      linear-gradient(var(--color-primary) 2px, transparent 2px),
+      linear-gradient(90deg, var(--color-primary) 2px, transparent 2px),
       var(--gradient-noise);
-    background-size: 80px 80px, 80px 80px, 100%;
+    background-size: 60px 60px, 60px 60px, 100%;
     background-attachment: fixed;
     opacity: 1;
   }
@@ -95,7 +95,7 @@
     position: fixed;
     inset: 0;
     background: white;
-    opacity: 0.97;
+    opacity: 0.94;
     pointer-events: none;
     z-index: 0;
   }

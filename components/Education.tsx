@@ -26,16 +26,16 @@ export function Education() {
               </h3>
             </div>
             <div className="border-l-4 border-tertiary pl-8 py-2 hover:border-primary transition-colors">
-              <p className="font-black mb-3" style={{ fontSize: 'var(--fluid-3xl)' }}>
+              <p className="font-black text-white mb-3" style={{ fontSize: 'var(--fluid-3xl)' }}>
                 {education.degree}
               </p>
               <p className="text-tertiary font-bold mb-3" style={{ fontSize: 'var(--fluid-2xl)' }}>
                 {education.honours}
               </p>
-              <p className="font-mono text-secondary mb-2" style={{ fontSize: 'var(--fluid-lg)' }}>
+              <p className="font-mono text-white-muted mb-2" style={{ fontSize: 'var(--fluid-lg)' }}>
                 {education.institution}
               </p>
-              <p className="font-mono text-white/50 uppercase" style={{ fontSize: 'var(--fluid-base)' }}>
+              <p className="font-mono text-white-subtle uppercase" style={{ fontSize: 'var(--fluid-base)' }}>
                 {education.period}
               </p>
             </div>
@@ -57,7 +57,7 @@ export function Education() {
                   rel="noopener noreferrer"
                   className="block border-l-4 border-tertiary pl-8 py-2 hover:border-primary group transition-colors"
                 >
-                  <p className="font-black mb-3 group-hover:text-tertiary transition-colors" style={{ fontSize: 'var(--fluid-3xl)' }}>
+                  <p className="font-black text-white mb-3 group-hover:text-tertiary transition-colors" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {cert.name}
                   </p>
                   <p className="text-tertiary font-bold group-hover:text-white transition-colors" style={{ fontSize: 'var(--fluid-2xl)' }}>

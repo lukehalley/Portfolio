@@ -24,7 +24,7 @@ export function ProjectCard({
   image,
 }: ProjectCardProps) {
   return (
-    <div className={`brutal-border bg-white p-6 sm:p-8 md:p-10 group relative flex flex-col h-full min-h-[380px] sm:min-h-[400px] md:min-h-[420px] ${featured ? 'border-tertiary' : ''}`}>
+    <div className="brutal-border bg-white p-6 sm:p-8 md:p-10 group relative flex flex-col h-full min-h-[380px] sm:min-h-[400px] md:min-h-[420px]">
       {/* Background Image - Faded and positioned to the right corner */}
       {image && (
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -35,14 +35,14 @@ export function ProjectCard({
               fill
               className="object-contain object-right scale-150 grayscale"
             />
-            <div className="absolute inset-0 bg-tertiary/20 mix-blend-multiply" />
+            <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply" />
           </div>
         </div>
       )}
 
       {/* Category & Period Label */}
-      <div className={`absolute -top-3 sm:-top-4 left-4 sm:left-6 md:left-8 bg-white px-3 py-1.5 sm:px-4 sm:py-2 border-3 sm:border-4 z-10 ${featured ? 'border-tertiary' : 'border-primary'}`}>
-        <span className={`font-mono font-black tracking-tight uppercase ${featured ? 'text-tertiary' : ''}`} style={{ fontSize: 'var(--fluid-xs)' }}>
+      <div className="absolute -top-3 sm:-top-4 left-4 sm:left-6 md:left-8 bg-white px-3 py-1.5 sm:px-4 sm:py-2 border-3 sm:border-4 z-10 border-primary">
+        <span className="font-mono font-black tracking-tight uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
           {period}
         </span>
       </div>
@@ -65,7 +65,7 @@ export function ProjectCard({
       )}
 
       {/* Decorative corner accent */}
-      <div className={`absolute top-0 right-0 w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 border-r-3 border-t-3 sm:border-r-4 sm:border-t-4 ${featured ? 'border-tertiary/40' : 'border-tertiary/20'}`} />
+      <div className="absolute top-0 right-0 w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 border-r-3 border-t-3 sm:border-r-4 sm:border-t-4 border-tertiary-faint" />
 
       {/* Title & Subtitle */}
       <div className="relative z-10 mt-4 mb-4 flex flex-col">
@@ -97,7 +97,7 @@ export function ProjectCard({
           {technologies.slice(0, 6).map((tech) => (
             <span
               key={tech}
-              className="px-3 py-1.5 font-mono border-2 border-primary/60 hover:border-tertiary hover:bg-tertiary hover:text-primary cursor-default transition-colors duration-300"
+              className="px-3 py-1.5 font-mono border-2 border-primary-faint hover:border-tertiary hover:bg-tertiary hover:text-primary cursor-default transition-colors duration-300"
               style={{ fontSize: 'var(--fluid-xs)' }}
             >
               {tech}
@@ -105,7 +105,7 @@ export function ProjectCard({
           ))}
           {technologies.length > 6 && (
             <span
-              className="px-3 py-1.5 font-mono text-primary/50"
+              className="px-3 py-1.5 font-mono text-primary-faint"
               style={{ fontSize: 'var(--fluid-xs)' }}
             >
               +{technologies.length - 6} more

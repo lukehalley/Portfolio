@@ -6,7 +6,7 @@ export function Skills() {
   return (
     <section
       id="skills"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-white"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
@@ -24,7 +24,7 @@ export function Skills() {
           {skillEntries.map(([domain, skillList]) => (
             <div key={domain}>
               <h3
-                className="font-mono text-tertiary tracking-tight uppercase font-black mb-6 pb-3 border-b-4 border-tertiary/30"
+                className="font-mono text-tertiary tracking-tight uppercase font-black mb-6 pb-3 border-b-4 border-tertiary-faint"
                 style={{ fontSize: 'var(--fluid-lg)' }}
               >
                 {domain}

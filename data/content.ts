@@ -184,11 +184,11 @@ export const personal = {
   hobbies: [
     {
       name: "Travel",
-      description: "I aim to explore the world one day",
+      description: "I've traveled to Thailand, Slovenia, Italy, France, and a few other spots over the years. Each place has its own vibe and way of doing things. Travel is a good way to get perspective outside of work and daily routines. I'd like to see more of the world when time allows.",
     },
     {
       name: "Running",
-      description: "Been running since I was 7 and I am an avid runner",
+      description: "Been running since I was 7. Started with local races in Ireland and kept it up over the years. It's good for clearing my head and staying fit. Managed a 3:08 marathon and 1:22 half marathon. These days I just try to stay consistent with it.",
       prs: {
         marathon: "3:08:26",
         half: "1:22:44",
@@ -196,7 +196,7 @@ export const personal = {
     },
     {
       name: "Cooking",
-      description: "Helps me switch off after a day at the screen",
+      description: "After spending the day on infrastructure and pipelines, cooking is a good way to switch off. I like making Irish, Italian, and French food. It's practical, hands-on work that doesn't involve a screen. Also means I eat well.",
     },
   ],
 };
