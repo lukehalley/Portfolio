@@ -15,16 +15,26 @@ export function GridCanvas() {
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
+    // Safari-compatible idle callback
+    const safeRequestIdleCallback = (callback: () => void, options?: { timeout?: number }) => {
+      if (typeof window.requestIdleCallback !== 'undefined') {
+        window.requestIdleCallback(callback, options);
+      } else {
+        // Fallback for Safari
+        setTimeout(callback, options?.timeout || 1);
+      }
+    };
+
     // Defer initialization significantly to avoid blocking LCP
     const initTimeout = setTimeout(() => {
       // Only initialize after user interaction or after page fully loaded
       if (document.readyState === 'complete') {
-        requestIdleCallback(() => setIsReady(true), { timeout: 2000 });
+        safeRequestIdleCallback(() => setIsReady(true), { timeout: 2000 });
       }
     }, 500);
 
     const onLoad = () => {
-      requestIdleCallback(() => setIsReady(true), { timeout: 2000 });
+      safeRequestIdleCallback(() => setIsReady(true), { timeout: 2000 });
     };
 
     if (document.readyState === 'complete') {
