@@ -35,7 +35,7 @@ export function Projects() {
               {/* Section Header */}
               <div className="mb-12">
                 <h3
-                  className="font-mono text-tertiary uppercase tracking-tight"
+                  className="font-mono text-white uppercase tracking-tight"
                   style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 900 }}
                 >
                   {section.title}
