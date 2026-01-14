@@ -61,9 +61,9 @@ export function Hero() {
           <div className="space-y-8 sm:space-y-8 md:space-y-12 w-full pt-2">
             {/* Name - Enhanced for readability over photo */}
             <motion.div variants={fadeUp} className="relative">
-              <h1 className="font-black tracking-tighter leading-[0.85] text-primary relative z-10"
+              <h1 className="font-black tracking-tighter leading-[0.85] text-primary relative z-10 max-w-[60%] sm:max-w-[65%] md:max-w-none"
                   style={{
-                    fontSize: 'var(--fluid-7xl)',
+                    fontSize: 'clamp(3rem, 12vw, 7rem)',
                     textShadow: '4px 4px 0 rgba(255, 255, 255, 0.9), 6px 6px 0 rgba(107, 99, 88, 0.3)',
                     WebkitTextStroke: '1px rgba(34, 40, 49, 0.1)'
                   }}>
@@ -74,9 +74,9 @@ export function Hero() {
             </motion.div>
 
             {/* Title & Tagline */}
-            <motion.div className="space-y-4 sm:space-y-6 pr-4 md:pr-0" variants={fadeUp}>
+            <motion.div className="space-y-4 sm:space-y-6 pr-4 md:pr-0 max-w-[95%] md:max-w-none" variants={fadeUp}>
               <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
-                 style={{ fontSize: 'var(--fluid-base)' }}>
+                 style={{ fontSize: 'clamp(0.75rem, 3vw, 1rem)' }}>
                 {personalInfo.title}
               </p>
               <p className="font-bold text-primary max-w-3xl leading-tight bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
