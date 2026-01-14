@@ -1,5 +1,8 @@
+"use client";
+
 import { personalInfo } from "@/data/content";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
+import { EmailCopy } from "./EmailCopy";
 
 export function Footer() {
   return (
@@ -37,47 +40,34 @@ export function Footer() {
           </div>
 
           {/* Right: Contact & Social */}
-          <div className="flex flex-col justify-between">
-            <div>
-              <h4
-                className="font-mono font-bold text-tertiary mb-6 uppercase tracking-wide"
-                style={{ fontSize: 'var(--fluid-xl)' }}
-              >
-                Get in Touch
-              </h4>
-              <div className="space-y-4">
+          <div className="flex flex-col justify-end">
+            <div className="flex flex-col gap-4 sm:gap-6 max-w-fit">
+              {/* Email with copy functionality - spans full width */}
+              <EmailCopy />
+
+              {/* Social links on same row */}
+              <div className="flex flex-wrap gap-2 sm:gap-4 items-center">
                 <a
-                  href={`mailto:${personalInfo.email}`}
-                  className="group flex items-center gap-3 text-primary hover:text-red-600 transition-colors duration-300"
-                  style={{ fontSize: 'var(--fluid-lg)' }}
+                  href={personalInfo.social.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-red-600 hover:text-white hover:border-red-600 transition-colors duration-300"
+                  style={{ fontSize: 'var(--fluid-base)' }}
                 >
-                  <Mail className="w-6 h-6 transition-transform group-hover:scale-110" />
-                  <span className="font-mono">{personalInfo.email}</span>
+                  <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                  <span>GitHub</span>
+                </a>
+                <a
+                  href={personalInfo.social.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-red-600 hover:text-white hover:border-red-600 transition-colors duration-300"
+                  style={{ fontSize: 'var(--fluid-base)' }}
+                >
+                  <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                  <span>LinkedIn</span>
                 </a>
               </div>
-            </div>
-
-            <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 mt-8">
-              <a
-                href={personalInfo.social.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-red-600 hover:text-primary hover:border-red-600 transition-all duration-300"
-                aria-label="GitHub Profile"
-              >
-                <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
-                <span className="font-mono font-bold" style={{ fontSize: 'var(--fluid-sm)' }}>GitHub</span>
-              </a>
-              <a
-                href={personalInfo.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-red-600 hover:text-primary hover:border-red-600 transition-all duration-300"
-                aria-label="LinkedIn Profile"
-              >
-                <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
-                <span className="font-mono font-bold" style={{ fontSize: 'var(--fluid-sm)' }}>LinkedIn</span>
-              </a>
             </div>
           </div>
         </div>
@@ -91,7 +81,7 @@ export function Footer() {
             className="text-secondary font-mono"
             style={{ fontSize: 'var(--fluid-sm)' }}
           >
-            © {new Date().getFullYear()} {personalInfo.name}. Built with Next.js & Tailwind CSS.
+            © {new Date().getFullYear()} {personalInfo.name}.
           </p>
         </div>
       </div>

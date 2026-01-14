@@ -5,10 +5,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { borderGrow, scrollViewport } from "@/lib/animations";
 
-const hobbyImages: Record<string, { src: string; position?: string }> = {
-  Travel: { src: "/images/travelling-opt.webp", position: "object-[center_25%]" },
-  Running: { src: "/images/running-opt.webp", position: "object-top" },
-  Cooking: { src: "/images/cooking-opt.webp", position: "object-bottom" },
+const hobbyImages: Record<string, { src: string; width: number; height: number; position?: string }> = {
+  Travel: { src: "/images/travelling-opt.webp", width: 338, height: 450, position: "object-[center_25%]" },
+  Running: { src: "/images/running-opt.webp", width: 360, height: 450, position: "object-top" },
+  Cooking: { src: "/images/cooking-opt.webp", width: 338, height: 450, position: "object-bottom" },
 };
 
 // Helper to render description with varied typography
@@ -88,15 +88,16 @@ export function Personal() {
               {/* Image with hero-style filter */}
               {hobbyImages[hobby.name] && (
                 <div className="relative mb-6">
-                  <div className="relative aspect-[4/3] overflow-hidden border-4 border-primary">
+                  <div className="relative overflow-hidden border-4 border-primary">
                     <Image
                       src={hobbyImages[hobby.name].src}
                       alt={hobby.name}
-                      fill
+                      width={hobbyImages[hobby.name].width}
+                      height={hobbyImages[hobby.name].height}
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      className={`object-cover grayscale group-hover:grayscale-0 transition-all duration-500 ${hobbyImages[hobby.name].position || ''}`}
+                      className={`w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-500 ${hobbyImages[hobby.name].position || ''}`}
                     />
-                    <div className="absolute inset-0 bg-tertiary/10 group-hover:opacity-0 transition-opacity duration-500" />
+                    <div className="absolute inset-0 bg-tertiary/10 group-hover:opacity-0 transition-opacity duration-500 pointer-events-none" />
                   </div>
                 </div>
               )}

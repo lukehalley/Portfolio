@@ -39,17 +39,18 @@ export function Hero() {
                 transition={{ delay: 0.9, duration: 0.4 }}
               />
 
-              <div className="relative w-full aspect-[3/4] max-h-[190px] sm:max-h-[240px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-4 lg:border-8 border-primary shadow-[8px_8px_0_0_rgba(107,99,88,0.3)]">
+              <div className="relative w-full max-h-[190px] sm:max-h-[240px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-4 lg:border-8 border-primary shadow-[8px_8px_0_0_rgba(107,99,88,0.3)]">
                 <Image
                   src="/images/me.webp"
                   alt="Luke Halley"
-                  fill
+                  width={600}
+                  height={800}
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 400px, 450px"
-                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-500"
                   priority
                   fetchPriority="high"
                 />
-                <div className="absolute inset-0 bg-tertiary/10 group-hover:opacity-0 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-tertiary/10 group-hover:opacity-0 transition-opacity duration-500 pointer-events-none" />
                 {/* Brutalist frame accent - mobile only */}
                 <div className="absolute inset-0 border-2 border-tertiary/20 pointer-events-none md:hidden" />
               </div>
