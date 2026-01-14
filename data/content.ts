@@ -271,6 +271,18 @@ export const projects = {
       image: "/images/projects/ndis.png",
     },
     {
+      title: "MigrateChart",
+      subtitle: "Multi-Pool Price History Platform",
+      category: "FinTech Tools",
+      period: "2026",
+      description: "Full-stack platform consolidating historical price data across liquidity pool migrations. Python data pipeline fetches OHLCV data via GeckoTerminal API, Next.js web app with lightweight-charts for interactive visualization. Smart gap interpolation during transitions.",
+      technologies: ["Next.js", "TypeScript", "Python", "Recharts", "Supabase", "Vercel"],
+      impact: "Live production • Multi-pool tracking",
+      featured: false,
+      link: "https://github.com/lukehalley/MigrateChart",
+      image: "/images/projects/migration.svg",
+    },
+    {
       title: "ArbTheChain",
       subtitle: "Go Microservices • Real-Time Data Processing",
       category: "FinTech Infrastructure",
