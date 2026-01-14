@@ -134,6 +134,6 @@ export const borderGrow: Variants = {
 // Viewport animation options (for scroll triggers)
 export const scrollViewport = {
   once: true, // Only animate once
-  margin: "0px 0px -100px 0px", // Trigger slightly before element enters viewport
-  amount: 0.3, // Trigger when 30% of element is visible
+  margin: "0px 0px -400px 0px", // Trigger 400px before element enters viewport
+  amount: 0, // Trigger as soon as any part becomes visible (combined with margin)
 };
