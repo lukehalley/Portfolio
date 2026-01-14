@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -79,7 +80,10 @@ export default function RootLayout({
           type="image/webp"
         />
       </head>
-      <body className="font-sans" suppressHydrationWarning>{children}</body>
+      <body className="font-sans" suppressHydrationWarning>
+        {children}
+        <ScrollToTop />
+      </body>
     </html>
   );
 }
