@@ -2,7 +2,7 @@
 
 import { personalInfo } from "@/data/content";
 import Image from "next/image";
-import { MapPin, ArrowUpRight } from "lucide-react";
+import { MapPin, Mail, Github, Linkedin } from "lucide-react";
 import { FormattedText } from "./FormattedText";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeUp } from "@/lib/animations";
@@ -65,8 +65,8 @@ export function Hero() {
                 whileTap={{ scale: 0.98 }}
                 transition={{ duration: 0.2 }}
               >
+                <Mail className="w-5 h-5 md:w-6 md:h-6 relative z-10" />
                 <span className="relative z-10">Email</span>
-                <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5" />
               </motion.a>
 
               <motion.a
@@ -79,8 +79,8 @@ export function Hero() {
                 whileTap={{ scale: 0.98 }}
                 transition={{ duration: 0.2 }}
               >
+                <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
                 <span>GitHub</span>
-                <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </motion.a>
 
               <motion.a
@@ -93,8 +93,8 @@ export function Hero() {
                 whileTap={{ scale: 0.98 }}
                 transition={{ duration: 0.2 }}
               >
+                <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
                 <span>LinkedIn</span>
-                <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </motion.a>
             </motion.div>
           </div>

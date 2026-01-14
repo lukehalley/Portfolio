@@ -5,7 +5,7 @@ export function Awards() {
   return (
     <section
       id="awards"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary dark-texture"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header with trophy accent */}
@@ -55,8 +55,8 @@ export function Awards() {
 
                 {/* Award name */}
                 <h3
-                  className="relative z-10 font-black text-primary uppercase tracking-tight leading-tight"
-                  style={{ fontSize: 'var(--fluid-2xl)' }}
+                  className="relative z-10 text-primary uppercase tracking-tight"
+                  style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 900, lineHeight: '1.05' }}
                 >
                   {award}
                 </h3>
@@ -72,7 +72,7 @@ export function Awards() {
         <div className="mt-20 md:mt-28 border-t border-white-ghost pt-8">
           <p
             className="font-mono text-white-subtle uppercase tracking-widest"
-            style={{ fontSize: 'var(--fluid-sm)' }}
+            style={{ fontSize: 'var(--fluid-lg)', fontWeight: 200, letterSpacing: '0.15em' }}
           >
             Professional achievements & industry recognition
           </p>

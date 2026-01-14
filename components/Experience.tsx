@@ -3,6 +3,8 @@
 import { experience } from "@/data/content";
 import { FormattedText } from "./FormattedText";
 import { AnimatedSection } from "./AnimatedSection";
+import { motion } from "framer-motion";
+import { borderGrow, scrollViewport } from "@/lib/animations";
 
 export function Experience() {
   return (
@@ -46,7 +48,14 @@ export function Experience() {
           <div className="space-y-10 md:space-y-12">
             {experience.current.highlights.map((highlight, index) => (
               <AnimatedSection key={index}>
-                <div className="border-l-4 border-tertiary pl-8 py-3">
+                <div className="relative pl-8 py-3">
+                <motion.div
+                  className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary origin-top"
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={scrollViewport}
+                  variants={borderGrow}
+                />
                 <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                   {highlight.title}
                 </h4>
@@ -91,7 +100,14 @@ export function Experience() {
             <div className="space-y-10 md:space-y-12">
               {job.highlights.map((highlight, index) => (
                 <AnimatedSection key={index}>
-                  <div className="border-l-4 border-tertiary pl-8 py-3">
+                  <div className="relative pl-8 py-3">
+                  <motion.div
+                    className="absolute left-0 top-0 bottom-0 w-1 bg-tertiary origin-top"
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={scrollViewport}
+                    variants={borderGrow}
+                  />
                   <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {highlight.title}
                   </h4>

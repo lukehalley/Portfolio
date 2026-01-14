@@ -115,6 +115,22 @@ export const headerReveal: Variants = {
   },
 };
 
+// Border grow animation (for left borders on content blocks)
+export const borderGrow: Variants = {
+  hidden: {
+    scaleY: 0,
+    opacity: 0,
+  },
+  show: {
+    scaleY: 1,
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+      ease: easing.emphasized,
+    },
+  },
+};
+
 // Viewport animation options (for scroll triggers)
 export const scrollViewport = {
   once: true, // Only animate once

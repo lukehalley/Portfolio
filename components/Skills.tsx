@@ -26,12 +26,17 @@ export function Skills() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
           {skillEntries.map(([domain, skillList]) => (
             <AnimatedSection key={domain}>
-              <h3
-                className="font-mono text-tertiary tracking-tight uppercase font-black mb-6 pb-3 border-b-4 border-tertiary-faint"
-                style={{ fontSize: 'var(--fluid-lg)' }}
-              >
-                {domain}
-              </h3>
+              <div className="mb-6">
+                <div className="h-[4.5rem] flex items-end">
+                  <h3
+                    className="font-mono text-tertiary tracking-tight uppercase font-black"
+                    style={{ fontSize: 'var(--fluid-lg)' }}
+                  >
+                    {domain}
+                  </h3>
+                </div>
+                <div className="h-1 bg-tertiary-faint mt-3" />
+              </div>
               <ul className="space-y-3">
                 {(skillList as Array<{ name: string }>).map((skill) => (
                   <li

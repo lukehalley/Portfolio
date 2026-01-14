@@ -40,7 +40,7 @@ export const experience = {
       },
       {
         title: "Multi-Account Governance",
-        description: "Designed AWS account vending machine and security baseline using Control Tower, Organizations, and custom Terraform modules. Enabled safe self-service cloud provisioning for 30+ development teams.",
+        description: "Designed **AWS account vending machine** and **security baseline** using Control Tower, Organizations, and custom Terraform modules. Enabled **safe self-service cloud provisioning** for 30+ development teams.",
         impact: "2-week to 2-hour account setup",
         technologies: ["AWS Control Tower", "Service Catalog", "IAM", "Config"],
       },
@@ -188,11 +188,7 @@ export const personal = {
     },
     {
       name: "Running",
-      description: "Been running since I was 7. Started with local races in Ireland and kept it up over the years. It's good for clearing my head and staying fit. Managed a 3:08 marathon and 1:22 half marathon. These days I just try to stay consistent with it.",
-      prs: {
-        marathon: "3:08:26",
-        half: "1:22:44",
-      },
+      description: "Been running since I was 7. Started with local races in Ireland and kept it up over the years. It's good for clearing my head and staying fit. These days I just try to stay consistent with it.",
     },
     {
       name: "Cooking",
