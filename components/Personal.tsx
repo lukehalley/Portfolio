@@ -109,15 +109,15 @@ export function Personal() {
                 </div>
 
                 {/* Travel highlights */}
-                {'highlights' in hobby && hobby.highlights && (
+                {'highlights' in hobby && hobby.highlights && Array.isArray(hobby.highlights) ? (
                   <div className="flex flex-wrap gap-2 font-mono" style={{ fontSize: 'var(--fluid-xs)' }}>
-                    {hobby.highlights.map((item) => (
+                    {(hobby.highlights as string[]).map((item) => (
                       <span key={item} className="px-2 py-1 border border-primary-faint transition-colors duration-300 hover:border-tertiary">
                         {item}
                       </span>
                     ))}
                   </div>
-                )}
+                ) : null}
               </div>
             </div>
             </AnimatedSection>

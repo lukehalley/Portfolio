@@ -2,9 +2,9 @@ import { Variants } from "framer-motion";
 
 // Easing functions - sharp and mechanical for brutalist aesthetic
 export const easing = {
-  sharp: [0.4, 0, 0.2, 1], // Material sharp
-  emphasized: [0.2, 0, 0, 1], // Emphasized deceleration
-  standard: [0.4, 0, 0.6, 1], // Standard curve
+  sharp: [0.4, 0, 0.2, 1] as const, // Material sharp
+  emphasized: [0.2, 0, 0, 1] as const, // Emphasized deceleration
+  standard: [0.4, 0, 0.6, 1] as const, // Standard curve
 };
 
 // Stagger children animation
