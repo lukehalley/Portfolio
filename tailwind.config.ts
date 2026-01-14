@@ -14,7 +14,7 @@ const config: Config = {
           dark: "#2a2d30",
           light: "#4d5357",
           muted: "#393e41cc", // 80% opacity
-          subtle: "#393e41b3", // 70% opacity
+          subtle: "#6a6d70", // Darker for WCAG AA compliance (4.5:1 contrast)
           faint: "#393e4199", // 60% opacity
           ghost: "#393e4166", // 40% opacity
           whisper: "#393e414d", // 30% opacity
@@ -24,7 +24,7 @@ const config: Config = {
           light: "#9fa5aa",
         },
         tertiary: {
-          DEFAULT: "#e94f37",
+          DEFAULT: "#c73c28", // Darker for WCAG AA compliance (4.5:1 contrast)
           light: "#ff6b54",
           dark: "#d43f29",
           faint: "#e94f370d", // 5% opacity
