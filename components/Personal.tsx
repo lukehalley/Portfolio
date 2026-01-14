@@ -88,7 +88,7 @@ export function Personal() {
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className={`object-cover grayscale group-hover:grayscale-0 transition-all duration-500 ${hobbyImages[hobby.name].position || ''}`}
                     />
-                    <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
+                    <div className="absolute inset-0 bg-tertiary/10 group-hover:opacity-0 transition-opacity duration-500" />
                   </div>
                 </div>
               )}

@@ -50,7 +50,7 @@ export function Hero() {
                   priority
                   fetchPriority="high"
                 />
-                <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-tertiary/10 group-hover:opacity-0 transition-opacity duration-500" />
                 {/* Brutalist frame accent - mobile only */}
                 <div className="absolute inset-0 border-2 border-tertiary/20 pointer-events-none md:hidden" />
               </div>
