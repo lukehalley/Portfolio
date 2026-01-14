@@ -21,10 +21,9 @@ export function EmailCopy() {
   return (
     <div className="relative w-full">
       {/* Email display container */}
-      <motion.div
-        className="group relative flex items-center gap-0 border-4 border-primary bg-white overflow-hidden w-full"
-        whileHover={{ boxShadow: "8px 8px 0 0 var(--color-tertiary)" }}
-        transition={{ duration: 0.2 }}
+      <div
+        className="group relative flex items-center gap-0 border-4 border-primary bg-white overflow-hidden w-full md:hover:shadow-[8px_8px_0_0_var(--color-tertiary)] md:transition-shadow md:duration-200"
+        style={{ transform: 'translateZ(0)', WebkitTransform: 'translateZ(0)' }}
       >
         {/* Email text */}
         <div className="flex-1 px-4 py-3 sm:px-5 sm:py-3 font-mono font-bold text-primary border-r-4 border-primary select-all"
@@ -33,10 +32,9 @@ export function EmailCopy() {
         </div>
 
         {/* Copy button */}
-        <motion.button
+        <button
           onClick={handleCopy}
-          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white hover:bg-red-600 transition-colors duration-300 relative flex items-center justify-center shrink-0"
-          whileTap={{ scale: 0.95 }}
+          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white hover:bg-red-600 transition-colors duration-300 relative flex items-center justify-center shrink-0 active:scale-95"
           aria-label={copied ? "Copied!" : "Copy email address"}
         >
           <AnimatePresence mode="wait" initial={false}>
@@ -64,17 +62,13 @@ export function EmailCopy() {
               </motion.div>
             )}
           </AnimatePresence>
-        </motion.button>
+        </button>
 
         {/* Hover accent line - hidden on mobile/touch devices */}
-        <motion.div
-          className="absolute bottom-0 left-0 right-0 h-1 bg-red-600 hidden md:block"
-          initial={{ scaleX: 0 }}
-          whileHover={{ scaleX: 1 }}
-          transition={{ duration: 0.3 }}
-          style={{ transformOrigin: "left" }}
+        <div
+          className="absolute bottom-0 left-0 right-0 h-1 bg-red-600 hidden md:group-hover:block transition-transform duration-300 origin-left scale-x-0 md:group-hover:scale-x-100"
         />
-      </motion.div>
+      </div>
     </div>
   );
 }
