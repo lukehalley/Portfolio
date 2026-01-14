@@ -29,7 +29,7 @@ export function Skills() {
               <div className="mb-6">
                 <div className="h-[4.5rem] flex items-end">
                   <h3
-                    className="font-mono text-tertiary tracking-tight uppercase font-black"
+                    className="font-mono text-tertiary tracking-tight uppercase font-bold"
                     style={{ fontSize: 'var(--fluid-lg)' }}
                   >
                     {domain}
@@ -41,9 +41,9 @@ export function Skills() {
                 {(skillList as Array<{ name: string }>).map((skill) => (
                   <li
                     key={skill.name}
-                    className="flex items-start gap-3 group"
+                    className="flex items-center gap-3 group"
                   >
-                    <span className="w-1.5 h-1.5 bg-tertiary rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
+                    <span className="w-1.5 h-1.5 bg-tertiary rounded-full flex-shrink-0 group-hover:scale-150 transition-transform" />
                     <span className="font-medium group-hover:text-tertiary transition-colors" style={{ fontSize: 'var(--fluid-base)' }}>
                       {skill.name}
                     </span>

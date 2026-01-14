@@ -18,11 +18,11 @@ const renderDescription = (text: string) => {
   if (text.includes("Thailand")) {
     return (
       <>
-        <span className="font-light text-primary-subtle">I've traveled to </span>
+        <span className="font-light text-primary-subtle">I&apos;ve traveled to </span>
         <span className="font-bold" style={{ fontSize: 'var(--fluid-lg)' }}>Thailand, Slovenia, Italy, France</span>
         <span className="font-light text-primary-subtle">, and a few other spots over the years. Each place has its own vibe and way of doing things. </span>
         <span className="font-semibold" style={{ fontSize: 'var(--fluid-md)' }}>Travel is a good way to get perspective</span>
-        <span className="font-light text-primary-subtle"> outside of work and daily routines. I'd like to see more of the world when time allows.</span>
+        <span className="font-light text-primary-subtle"> outside of work and daily routines. I&apos;d like to see more of the world when time allows.</span>
       </>
     );
   }
@@ -32,7 +32,7 @@ const renderDescription = (text: string) => {
     return (
       <>
         <span className="font-bold" style={{ fontSize: 'var(--fluid-lg)' }}>Been running since I was 7.</span>
-        <span className="font-light text-primary-subtle"> Started with local races in Ireland and kept it up over the years. It's good for </span>
+        <span className="font-light text-primary-subtle"> Started with local races in Ireland and kept it up over the years. It&apos;s good for </span>
         <span className="font-semibold" style={{ fontSize: 'var(--fluid-md)' }}>clearing my head and staying fit</span>
         <span className="font-light text-primary-subtle">. These days I just try to stay consistent with it.</span>
       </>
@@ -47,7 +47,7 @@ const renderDescription = (text: string) => {
         <span className="font-semibold" style={{ fontSize: 'var(--fluid-md)' }}>cooking is a good way to switch off</span>
         <span className="font-light text-primary-subtle">. I like making </span>
         <span className="font-bold" style={{ fontSize: 'var(--fluid-lg)' }}>Irish, Italian, and French food</span>
-        <span className="font-light text-primary-subtle">. It's practical, hands-on work that doesn't involve a screen. Also means I eat well.</span>
+        <span className="font-light text-primary-subtle">. It&apos;s practical, hands-on work that doesn&apos;t involve a screen. Also means I eat well.</span>
       </>
     );
   }

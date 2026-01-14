@@ -39,7 +39,7 @@ export function Projects() {
                 >
                   {section.title}
                 </h3>
-                <p className="text-white-muted mt-4" style={{ fontSize: 'var(--fluid-lg)', fontWeight: 200, lineHeight: '1.7', letterSpacing: '0.01em' }}>
+                <p className="text-white-muted mt-4 font-normal leading-relaxed tracking-normal" style={{ fontSize: 'var(--fluid-lg)' }}>
                   {section.description}
                 </p>
               </div>
