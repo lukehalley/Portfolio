@@ -36,7 +36,7 @@ export function Education() {
           {/* Degree */}
           <div>
             <div className="mb-8">
-              <h3 className="font-mono text-tertiary tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-xl)' }}>
+              <h3 className="font-mono text-white tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-xl)' }}>
                 Degree
               </h3>
             </div>
@@ -45,7 +45,7 @@ export function Education() {
               <p className="text-white mb-3" style={{ fontSize: 'var(--fluid-3xl)', fontWeight: 900, lineHeight: '1.0' }}>
                 {education.degree}
               </p>
-              <p className="text-tertiary mb-4" style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 700 }}>
+              <p className="text-white mb-4" style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 700 }}>
                 {education.honours}
               </p>
               <p className="font-mono text-white-muted mb-2" style={{ fontSize: 'var(--fluid-lg)', fontWeight: 300 }}>
@@ -55,7 +55,7 @@ export function Education() {
                 {education.period}
               </p>
               {education.award && (
-                <p className="text-tertiary font-medium" style={{ fontSize: 'var(--fluid-lg)' }}>
+                <p className="text-white font-medium" style={{ fontSize: 'var(--fluid-lg)' }}>
                   {education.award}
                 </p>
               )}
@@ -65,7 +65,7 @@ export function Education() {
           {/* Certifications */}
           <div>
             <div className="mb-8">
-              <h3 className="font-mono text-tertiary tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-xl)' }}>
+              <h3 className="font-mono text-white tracking-tight uppercase font-black" style={{ fontSize: 'var(--fluid-xl)' }}>
                 Certifications
               </h3>
             </div>
@@ -82,7 +82,7 @@ export function Education() {
                   <p className="text-white mb-3 group-hover:text-tertiary transition-colors" style={{ fontSize: 'var(--fluid-3xl)', fontWeight: 900, lineHeight: '1.0' }}>
                     {cert.name}
                   </p>
-                  <p className="text-tertiary group-hover:text-white transition-colors" style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 700 }}>
+                  <p className="text-white group-hover:text-tertiary transition-colors" style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 700 }}>
                     {cert.level}
                   </p>
                 </a>
