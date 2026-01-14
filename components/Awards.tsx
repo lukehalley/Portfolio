@@ -38,7 +38,7 @@ export function Awards() {
               <div className="relative bg-white border-4 border-white p-8 md:p-10 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
                 {/* Large index number */}
                 <span
-                  className="absolute -top-6 -right-2 font-black text-tertiary/20 select-none"
+                  className="absolute -top-6 -right-2 font-black text-white-ghost select-none"
                   style={{ fontSize: 'clamp(6rem, 12vw, 10rem)', lineHeight: 0.8 }}
                 >
                   0{index + 1}
@@ -55,7 +55,7 @@ export function Awards() {
 
                 {/* Award name */}
                 <h3
-                  className="relative z-10 font-black text-white uppercase tracking-tight leading-tight"
+                  className="relative z-10 font-black text-primary uppercase tracking-tight leading-tight"
                   style={{ fontSize: 'var(--fluid-2xl)' }}
                 >
                   {award}
@@ -69,9 +69,9 @@ export function Awards() {
         </div>
 
         {/* Bottom accent text */}
-        <div className="mt-20 md:mt-28 border-t border-primary/20 pt-8">
+        <div className="mt-20 md:mt-28 border-t border-white-ghost pt-8">
           <p
-            className="font-mono text-white/60 uppercase tracking-widest"
+            className="font-mono text-white-subtle uppercase tracking-widest"
             style={{ fontSize: 'var(--fluid-sm)' }}
           >
             Professional achievements & industry recognition

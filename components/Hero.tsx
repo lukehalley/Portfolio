@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 overflow-hidden bg-white"
+      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 overflow-hidden"
     >
       <div className="max-w-6xl w-full relative z-10">
         <div className="grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] gap-10 md:gap-16 lg:gap-20 items-center">
@@ -47,7 +47,7 @@ export function Hero() {
             <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 items-center">
               <a
                 href={`mailto:${personalInfo.email}`}
-                className="group relative inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-white bg-primary border-4 border-primary overflow-hidden hover:bg-primary/90 transition-colors"
+                className="group relative inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-white bg-primary border-4 border-primary overflow-hidden hover:bg-primary-light transition-colors"
                 style={{ fontSize: 'var(--fluid-base)' }}
               >
                 <span className="relative z-10">Email</span>
@@ -91,11 +91,11 @@ export function Hero() {
                   alt="Luke Halley"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 400px, 450px"
-                  className="object-cover grayscale"
+                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                   priority
                   fetchPriority="high"
                 />
-                <div className="absolute inset-0 bg-tertiary/20 mix-blend-multiply" />
+                <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
               </div>
             </div>
           </div>

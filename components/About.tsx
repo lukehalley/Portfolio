@@ -21,7 +21,7 @@ export function About() {
         {/* Journey */}
         <div className="space-y-6 md:space-y-8">
           {journey.map((paragraph, index) => (
-            <div key={index} className="relative pl-6 md:pl-8 border-l-4 border-tertiary/30 hover:border-tertiary transition-colors duration-300">
+            <div key={index} className="relative pl-6 md:pl-8 border-l-4 border-tertiary-faint hover:border-tertiary transition-colors duration-300">
               <p className="text-white leading-relaxed" style={{ fontSize: 'var(--fluid-2xl)' }}>
                 <FormattedText text={paragraph} />
               </p>

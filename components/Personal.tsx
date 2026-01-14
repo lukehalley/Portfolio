@@ -11,7 +11,7 @@ export function Personal() {
   return (
     <section
       id="personal"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-white"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
@@ -39,16 +39,16 @@ export function Personal() {
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className={`object-cover grayscale group-hover:grayscale-0 transition-all duration-500 ${hobbyImages[hobby.name].position || ''}`}
                     />
-                    <div className="absolute inset-0 bg-tertiary/20 mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
+                    <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
                   </div>
                 </div>
               )}
 
-              <div className="border-l-4 border-tertiary/30 pl-6 py-2 group-hover:border-tertiary transition-colors">
+              <div className="border-l-4 border-tertiary-faint pl-6 py-2 group-hover:border-tertiary transition-colors">
                 <h3 className="font-mono font-black mb-3 uppercase" style={{ fontSize: 'var(--fluid-xl)' }}>
                   {hobby.name}
                 </h3>
-                <p className="text-primary/70 mb-4 leading-relaxed" style={{ fontSize: 'var(--fluid-sm)' }}>
+                <p className="text-primary-subtle mb-4 leading-relaxed" style={{ fontSize: 'var(--fluid-sm)' }}>
                   {hobby.description}
                 </p>
 
@@ -56,7 +56,7 @@ export function Personal() {
                 {'highlights' in hobby && hobby.highlights && (
                   <div className="flex flex-wrap gap-2 font-mono" style={{ fontSize: 'var(--fluid-xs)' }}>
                     {hobby.highlights.map((item) => (
-                      <span key={item} className="px-2 py-1 border border-primary/20 transition-colors duration-300 hover:border-tertiary">
+                      <span key={item} className="px-2 py-1 border border-primary-faint transition-colors duration-300 hover:border-tertiary">
                         {item}
                       </span>
                     ))}
@@ -67,11 +67,11 @@ export function Personal() {
                 {'prs' in hobby && hobby.prs && (
                   <div className="grid grid-cols-2 gap-2 font-mono" style={{ fontSize: 'var(--fluid-xs)' }}>
                     <div>
-                      <span className="text-primary/60">Marathon:</span>{' '}
+                      <span className="text-primary-faint">Marathon:</span>{' '}
                       <span className="font-bold">{hobby.prs.marathon}</span>
                     </div>
                     <div>
-                      <span className="text-primary/60">Half:</span>{' '}
+                      <span className="text-primary-faint">Half:</span>{' '}
                       <span className="font-bold">{hobby.prs.half}</span>
                     </div>
                   </div>

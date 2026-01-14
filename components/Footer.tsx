@@ -35,7 +35,7 @@ export function Footer() {
               {personalInfo.title}
             </p>
             <p
-              className="text-white/80 leading-relaxed max-w-md"
+              className="text-white-muted leading-relaxed max-w-md"
               style={{ fontSize: 'var(--fluid-lg)' }}
             >
               Based in Perth, Australia. Open to remote opportunities and collaborations.
@@ -68,7 +68,7 @@ export function Footer() {
                 href={personalInfo.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white-faint hover:border-accent hover:bg-accent-light transition-all duration-300"
                 aria-label="GitHub Profile"
               >
                 <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
@@ -78,7 +78,7 @@ export function Footer() {
                 href={personalInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white/40 hover:border-accent hover:bg-accent/10 transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white-faint hover:border-accent hover:bg-accent-light transition-all duration-300"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
@@ -89,12 +89,12 @@ export function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="h-px w-full bg-white/20 mb-8" />
+        <div className="h-px w-full bg-white-ghost mb-8" />
 
         {/* Bottom Row */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p
-            className="text-white/60 font-mono"
+            className="text-white-subtle font-mono"
             style={{ fontSize: 'var(--fluid-sm)' }}
           >
             © {new Date().getFullYear()} {personalInfo.name}. Built with Next.js & Tailwind CSS.

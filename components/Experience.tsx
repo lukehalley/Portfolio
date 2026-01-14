@@ -5,7 +5,7 @@ export function Experience() {
   return (
     <section
       id="experience"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-white"
+      className="py-32 md:py-40 px-6 md:px-12 lg:px-24"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
@@ -35,7 +35,7 @@ export function Experience() {
             <p className="font-mono font-bold text-secondary mt-2 tracking-tight uppercase" style={{ fontSize: 'var(--fluid-xl)' }}>
               {experience.current.period} • {experience.current.location}
             </p>
-            <p className="text-primary/70 mt-4 leading-relaxed max-w-3xl" style={{ fontSize: 'var(--fluid-lg)' }}>
+            <p className="text-primary-subtle mt-4 leading-relaxed max-w-3xl" style={{ fontSize: 'var(--fluid-lg)' }}>
               {experience.current.context}
             </p>
           </div>
@@ -49,14 +49,14 @@ export function Experience() {
                 <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
                   {highlight.impact}
                 </p>
-                <p className="text-primary/80 mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
+                <p className="text-primary-muted mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
                   <FormattedText text={highlight.description} />
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {highlight.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1.5 font-mono border-2 border-primary/60 transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
+                      className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
                       style={{ fontSize: 'var(--fluid-xs)' }}
                     >
                       {tech}
@@ -92,7 +92,7 @@ export function Experience() {
                   <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
                     {highlight.impact}
                   </p>
-                  <p className="text-primary/80 mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
+                  <p className="text-primary-muted mb-6 leading-relaxed" style={{ fontSize: 'var(--fluid-lg)' }}>
                     <FormattedText text={highlight.description} />
                   </p>
                   {highlight.technologies && (
@@ -100,7 +100,7 @@ export function Experience() {
                       {highlight.technologies.map((tech) => (
                         <span
                           key={tech}
-                          className="px-3 py-1.5 font-mono border-2 border-primary/60 transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
+                          className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
                           style={{ fontSize: 'var(--fluid-xs)' }}
                         >
                           {tech}
