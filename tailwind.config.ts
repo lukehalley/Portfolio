@@ -27,7 +27,7 @@ const config: Config = {
           DEFAULT: "#e94f37",
           light: "#ff6b54",
           dark: "#d43f29",
-          faint: "#e94f3766", // 40% opacity
+          faint: "#e94f370d", // 5% opacity
           subtle: "#e94f3799", // 60% opacity
         },
         accent: {

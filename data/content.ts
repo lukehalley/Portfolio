@@ -17,7 +17,7 @@ const EDUCATION_RANGE = createDateRange('2014-01', '2019-06');
 export const personalInfo = {
   name: "Luke Halley",
   title: "Senior Cloud Engineer\nDevOps Specialist",
-  tagline: "I build multi-cloud infrastructure at enterprise scale. Terraform, CI/CD, AWS.",
+  tagline: "I build multi-cloud infrastructure at enterprise scale. IaC, CI/CD, AWS, Azure.",
   careerStartYear: CAREER_START_YEAR,
   yearsOfExperience: calculateCareerYears(CAREER_START_YEAR),
   location: "Perth, Australia",
@@ -30,7 +30,7 @@ export const personalInfo = {
 };
 
 export const journey = [
-  `At **Mineral Resources** (${formatDateRange(MINRES_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **95 accounts** via Azure DevOps Pipelines.`,
+  `At **Mineral Resources** (${formatDateRange(MINRES_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **95 accounts** via CI/CD pipelines.`,
   `Before that, spent **${formatDuration(VERIZON_END)}** at **Verizon Connect** in Dublin (${formatDateRange(VERIZON_END)}), migrating **200+ repositories** to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
   `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning the SunLife 2019 Enterprise Award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
 ];
@@ -45,13 +45,13 @@ export const experience = {
     highlights: [
       {
         title: "Multi-Cloud Infrastructure Transformation",
-        description: "Migrated MinRes **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **95 AWS accounts** using Azure DevOps Pipelines with ServiceNow integration for change management.",
+        description: "Migrated MinRes **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **95 AWS accounts** using CI/CD pipelines with ServiceNow integration for change management.",
         impact: "Multi-cloud enablement • 60% efficiency improvement",
-        technologies: ["Terraform", "AWS CDK", "Azure DevOps", "AWS Organizations", "Azure"],
+        technologies: ["Terraform", "AWS CDK", "CI/CD", "AWS Organizations", "Azure"],
       },
       {
         title: "Enterprise Account Orchestration",
-        description: "Architected **account vending machine** automating end-to-end AWS account lifecycle: Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, Azure DevOps project setup, and standardized CI/CD pipelines. Single source of truth for **30+ development teams**.",
+        description: "Architected **account vending machine** automating end-to-end AWS account lifecycle: Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, CI/CD project setup, and standardized pipelines. Single source of truth for **30+ development teams**.",
         impact: "2-week to 2-hour provisioning",
         technologies: ["AWS Control Tower", "Service Catalog", "IAM", "OIDC", "Terraform Cloud"],
       },
@@ -117,8 +117,9 @@ export const skills = {
     { name: "Azure" },
   ],
   "CI/CD & Automation": [
-    { name: "Azure DevOps Pipelines" },
     { name: "GitLab CI" },
+    { name: "GitHub Actions" },
+    { name: "Azure Pipelines" },
     { name: "Octopus Deploy" },
     { name: "Jenkins" },
     { name: "Step Functions" },
@@ -216,8 +217,8 @@ export const projects = {
       subtitle: "Enterprise AWS Account Orchestration",
       category: "Platform Engineering",
       period: formatDateRange(PROJECT_MINRES_START),
-      description: "Central orchestration platform for provisioning and managing 95+ AWS accounts. Automates end-to-end account lifecycle: AWS Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, Azure DevOps project setup, and standardized CI/CD pipelines. Single source of truth for enterprise cloud governance.",
-      technologies: ["Terraform", "AWS Organizations", "Control Tower", "Azure DevOps", "OIDC", "PowerShell"],
+      description: "Central orchestration platform for provisioning and managing 95+ AWS accounts. Automates end-to-end account lifecycle: AWS Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, CI/CD project setup, and standardized pipelines. Single source of truth for enterprise cloud governance.",
+      technologies: ["Terraform", "AWS Organizations", "Control Tower", "CI/CD", "OIDC", "PowerShell"],
       impact: "95 AWS accounts • 2-week to 2-hour provisioning",
       featured: true,
       image: "/images/projects/aws-manage.svg",
@@ -227,7 +228,7 @@ export const projects = {
       subtitle: "Serverless CI/CD Agent Infrastructure",
       category: "Platform Engineering",
       period: formatDateRange(PROJECT_MINRES_START),
-      description: "Scalable, serverless platform for Azure DevOps self-hosted agents on AWS. ECS Fargate containers with intelligent agent allocation tracking via SQS FIFO queues to prevent race conditions. Supports multiple agent types: Terraform, Python, Node.js, Docker, and ImageBuilder runners.",
+      description: "Scalable, serverless platform for CI/CD self-hosted agents on AWS. ECS Fargate containers with intelligent agent allocation tracking via SQS FIFO queues to prevent race conditions. Supports multiple agent types: Terraform, Python, Node.js, Docker, and ImageBuilder runners.",
       technologies: ["ECS Fargate", "API Gateway", "SQS FIFO", "Lambda", "Terraform", "Docker"],
       impact: "Multi-pool agent orchestration • Serverless scaling",
       featured: true,
@@ -238,8 +239,8 @@ export const projects = {
       subtitle: "Standardized CI/CD Pipeline Library",
       category: "Platform Engineering",
       period: formatDateRange(PROJECT_MINRES_START),
-      description: "Comprehensive Azure Pipelines YAML template library for AWS deployments. Reusable templates for static sites (S3/CloudFront), Python Lambda functions, and Terraform infrastructure. Implements quality gates, security scanning, and multi-environment promotion.",
-      technologies: ["Azure Pipelines", "YAML", "S3", "CloudFront", "Lambda", "Terraform"],
+      description: "Comprehensive CI/CD pipeline template library for AWS deployments. Reusable YAML templates for static sites (S3/CloudFront), Python Lambda functions, and Terraform infrastructure. Implements quality gates, security scanning, and multi-environment promotion.",
+      technologies: ["CI/CD Pipelines", "YAML", "S3", "CloudFront", "Lambda", "Terraform"],
       impact: "Standardized deployments • Self-service for 30+ teams",
       featured: true,
       image: "/images/projects/templates.svg",
