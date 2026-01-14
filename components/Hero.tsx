@@ -39,17 +39,19 @@ export function Hero() {
                 transition={{ delay: 0.9, duration: 0.4 }}
               />
 
-              <div className="relative border-4 md:border-4 lg:border-8 border-primary shadow-[8px_8px_0_0_rgba(107,99,88,0.3)]" style={{ aspectRatio: '3/4' }}>
-                <Image
-                  src="/images/me.webp"
-                  alt="Luke Halley"
-                  width={600}
-                  height={800}
-                  sizes="(max-width: 640px) 140px, (max-width: 768px) 180px, (max-width: 1024px) 384px, 450px"
-                  className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-500"
-                  priority
-                  fetchPriority="high"
-                />
+              <div className="relative border-4 md:border-4 lg:border-8 border-primary shadow-[8px_8px_0_0_rgba(107,99,88,0.3)] overflow-hidden">
+                <div style={{ aspectRatio: '3/4' }}>
+                  <Image
+                    src="/images/me.webp"
+                    alt="Luke Halley"
+                    width={600}
+                    height={800}
+                    sizes="(max-width: 640px) 140px, (max-width: 768px) 180px, (max-width: 1024px) 384px, 450px"
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                    priority
+                    fetchPriority="high"
+                  />
+                </div>
                 <div className="absolute inset-0 bg-tertiary/10 group-hover:opacity-0 transition-opacity duration-500 pointer-events-none" />
                 {/* Brutalist frame accent - mobile only */}
                 <div className="absolute inset-0 border-2 border-tertiary/20 pointer-events-none md:hidden" />
