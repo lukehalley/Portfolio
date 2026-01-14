@@ -3,7 +3,7 @@ import { Manrope, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Analytics } from "@vercel/analytics/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { AnalyticsProvider } from "@/components/Analytics";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -158,7 +158,7 @@ export default function RootLayout({
         {children}
         <ScrollToTop />
         <Analytics />
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ""} />
+        <AnalyticsProvider />
       </body>
     </html>
   );
