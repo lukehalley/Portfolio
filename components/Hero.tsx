@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-12 sm:py-16 md:py-20 overflow-hidden"
     >
       <motion.div
         className="max-w-6xl w-full relative z-10"
@@ -19,8 +19,44 @@ export function Hero() {
         animate="show"
         variants={staggerContainer}
       >
-        <div className="grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] gap-10 md:gap-16 lg:gap-20 items-center">
-          <div className="space-y-12">
+        <div className="flex flex-col lg:grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] gap-8 sm:gap-10 md:gap-16 lg:gap-20 items-center">
+          {/* Profile Image - Shows first on mobile, last on desktop */}
+          <motion.div
+            className="lg:justify-self-end lg:order-last w-full"
+            variants={fadeUp}
+          >
+            <div className="relative group mx-auto max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-none">
+              {/* Decorative corner accents */}
+              <motion.div
+                className="absolute -top-1 -left-1 sm:-top-2 sm:-left-2 md:-top-4 md:-left-4 w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 border-t-4 border-l-4 border-tertiary"
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.8, duration: 0.4 }}
+              />
+              <motion.div
+                className="absolute -bottom-1 -right-1 sm:-bottom-2 sm:-right-2 md:-bottom-4 md:-right-4 w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 border-b-4 border-r-4 border-tertiary"
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.9, duration: 0.4 }}
+              />
+
+              <div className="relative w-full aspect-[3/4] max-h-[350px] sm:max-h-[400px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-6 lg:border-8 border-primary">
+                <Image
+                  src="/images/me.webp"
+                  alt="Luke Halley"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 400px, 450px"
+                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  priority
+                  fetchPriority="high"
+                />
+                <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Text Content */}
+          <div className="space-y-6 sm:space-y-8 md:space-y-12 w-full">
             {/* Name */}
             <motion.div variants={fadeUp}>
               <h1 className="font-black tracking-tighter leading-[0.85] text-primary"
@@ -39,7 +75,7 @@ export function Hero() {
                  style={{ fontSize: 'var(--fluid-3xl)' }}>
                 <FormattedText text={personalInfo.tagline} />
                 <br />
-                <strong>13+ years</strong>.
+                <strong>{personalInfo.yearsOfExperience}+ years</strong>.
               </p>
             </motion.div>
 
@@ -98,41 +134,6 @@ export function Hero() {
               </motion.a>
             </motion.div>
           </div>
-
-          {/* Profile Image */}
-          <motion.div
-            className="lg:justify-self-end order-first lg:order-last"
-            variants={fadeUp}
-          >
-            <div className="relative group">
-              {/* Decorative corner accents */}
-              <motion.div
-                className="absolute -top-2 -left-2 md:-top-4 md:-left-4 w-8 h-8 md:w-12 md:h-12 border-t-4 border-l-4 border-tertiary"
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.8, duration: 0.4 }}
-              />
-              <motion.div
-                className="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 w-8 h-8 md:w-12 md:h-12 border-b-4 border-r-4 border-tertiary"
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.9, duration: 0.4 }}
-              />
-
-              <div className="relative w-full aspect-[3/4] max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-8 border-primary">
-                <Image
-                  src="/images/me.webp"
-                  alt="Luke Halley"
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 400px, 450px"
-                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                  priority
-                  fetchPriority="high"
-                />
-                <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
-              </div>
-            </div>
-          </motion.div>
         </div>
       </motion.div>
     </section>
