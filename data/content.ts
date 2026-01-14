@@ -21,7 +21,7 @@ export const personalInfo = {
   careerStartYear: CAREER_START_YEAR,
   yearsOfExperience: calculateCareerYears(CAREER_START_YEAR),
   location: "Perth, Australia",
-  email: "luke123halley@gmail.com",
+  email: "contact@lukehalley.com",
   social: {
     github: "https://github.com/lukehalley",
     gitlab: "https://gitlab.com/lukehalley",
