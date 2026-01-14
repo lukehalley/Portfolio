@@ -1,4 +1,7 @@
+"use client";
+
 import { skills } from "@/data/content";
+import { AnimatedSection } from "./AnimatedSection";
 
 export function Skills() {
   const skillEntries = Object.entries(skills);
@@ -10,19 +13,19 @@ export function Skills() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="mb-16 md:mb-24">
+        <AnimatedSection className="mb-16 md:mb-24">
           <h2
             className="font-black tracking-tighter text-primary"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Skills
           </h2>
-        </div>
+        </AnimatedSection>
 
         {/* Skills by Domain */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
           {skillEntries.map(([domain, skillList]) => (
-            <div key={domain}>
+            <AnimatedSection key={domain}>
               <h3
                 className="font-mono text-tertiary tracking-tight uppercase font-black mb-6 pb-3 border-b-4 border-tertiary-faint"
                 style={{ fontSize: 'var(--fluid-lg)' }}
@@ -42,7 +45,7 @@ export function Skills() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </AnimatedSection>
           ))}
         </div>
       </div>

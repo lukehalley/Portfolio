@@ -9,11 +9,11 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative bg-primary text-white px-6 md:px-12 lg:px-24 py-20 overflow-hidden">
+    <footer className="relative bg-white text-primary px-6 md:px-12 lg:px-24 py-20 overflow-hidden">
       {/* Decorative grid background */}
       <div className="absolute inset-0 opacity-[0.03]">
         <div className="absolute inset-0" style={{
-          backgroundImage: 'linear-gradient(white 1px, transparent 1px), linear-gradient(90deg, white 1px, transparent 1px)',
+          backgroundImage: 'linear-gradient(black 1px, transparent 1px), linear-gradient(90deg, black 1px, transparent 1px)',
           backgroundSize: '60px 60px'
         }} />
       </div>
@@ -29,13 +29,13 @@ export function Footer() {
               {personalInfo.name}
             </h3>
             <p
-              className="text-accent mb-8 font-mono uppercase tracking-wide"
+              className="text-secondary mb-8 font-mono uppercase tracking-wide"
               style={{ fontSize: 'var(--fluid-lg)' }}
             >
               {personalInfo.title}
             </p>
             <p
-              className="text-white-muted leading-relaxed max-w-md"
+              className="text-secondary leading-relaxed max-w-md"
               style={{ fontSize: 'var(--fluid-lg)' }}
             >
               Based in Perth, Australia. Open to remote opportunities and collaborations.
@@ -54,7 +54,7 @@ export function Footer() {
               <div className="space-y-4">
                 <a
                   href={`mailto:${personalInfo.email}`}
-                  className="group flex items-center gap-3 text-white hover:text-accent transition-colors duration-300"
+                  className="group flex items-center gap-3 text-primary hover:text-tertiary transition-colors duration-300"
                   style={{ fontSize: 'var(--fluid-lg)' }}
                 >
                   <Mail className="w-6 h-6 transition-transform group-hover:scale-110" />
@@ -68,7 +68,7 @@ export function Footer() {
                 href={personalInfo.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white-faint hover:border-accent hover:bg-accent-light transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-primary hover:text-white transition-all duration-300"
                 aria-label="GitHub Profile"
               >
                 <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
@@ -78,7 +78,7 @@ export function Footer() {
                 href={personalInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-white-faint hover:border-accent hover:bg-accent-light transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-primary hover:text-white transition-all duration-300"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
@@ -89,12 +89,12 @@ export function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="h-px w-full bg-white-ghost mb-8" />
+        <div className="h-px w-full bg-primary opacity-10 mb-8" />
 
         {/* Bottom Row */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p
-            className="text-white-subtle font-mono"
+            className="text-secondary font-mono"
             style={{ fontSize: 'var(--fluid-sm)' }}
           >
             © {new Date().getFullYear()} {personalInfo.name}. Built with Next.js & Tailwind CSS.
@@ -103,7 +103,7 @@ export function Footer() {
           {/* Back to Top Button */}
           <button
             onClick={scrollToTop}
-            className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 bg-tertiary hover:bg-accent text-white font-mono font-bold uppercase transition-all duration-300"
+            className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 bg-primary hover:bg-tertiary text-white font-mono font-bold uppercase transition-all duration-300"
             style={{ fontSize: 'var(--fluid-xs)' }}
             aria-label="Back to Top"
           >

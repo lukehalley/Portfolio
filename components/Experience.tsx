@@ -1,5 +1,8 @@
+"use client";
+
 import { experience } from "@/data/content";
 import { FormattedText } from "./FormattedText";
+import { AnimatedSection } from "./AnimatedSection";
 
 export function Experience() {
   return (
@@ -9,17 +12,17 @@ export function Experience() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="mb-24 md:mb-32">
+        <AnimatedSection className="mb-24 md:mb-32">
           <h2
             className="font-black tracking-tighter text-primary"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Experience
           </h2>
-        </div>
+        </AnimatedSection>
 
         {/* Current Role */}
-        <div className="mb-32 md:mb-40">
+        <AnimatedSection className="mb-32 md:mb-40">
           <div className="mb-10 md:mb-12">
             <div className="flex items-center gap-4 mb-2">
               <span className="px-3 py-1 bg-primary text-white font-mono font-bold uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
@@ -42,7 +45,8 @@ export function Experience() {
 
           <div className="space-y-10 md:space-y-12">
             {experience.current.highlights.map((highlight, index) => (
-              <div key={index} className="border-l-4 border-tertiary pl-8 py-3">
+              <AnimatedSection key={index}>
+                <div className="border-l-4 border-tertiary pl-8 py-3">
                 <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                   {highlight.title}
                 </h4>
@@ -64,13 +68,14 @@ export function Experience() {
                   ))}
                 </div>
               </div>
+              </AnimatedSection>
             ))}
           </div>
-        </div>
+        </AnimatedSection>
 
         {/* Previous Roles */}
         {experience.previous.map((job, jobIndex) => (
-          <div key={jobIndex} className="mb-32 md:mb-40">
+          <AnimatedSection key={jobIndex} className="mb-32 md:mb-40">
             <div className="mb-10 md:mb-12">
               <h3 className="font-black uppercase text-primary tracking-wide" style={{ fontSize: 'var(--fluid-5xl)' }}>
                 {job.company}
@@ -85,7 +90,8 @@ export function Experience() {
 
             <div className="space-y-10 md:space-y-12">
               {job.highlights.map((highlight, index) => (
-                <div key={index} className="border-l-4 border-tertiary pl-8 py-3">
+                <AnimatedSection key={index}>
+                  <div className="border-l-4 border-tertiary pl-8 py-3">
                   <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {highlight.title}
                   </h4>
@@ -109,9 +115,10 @@ export function Experience() {
                     </div>
                   )}
                 </div>
+                </AnimatedSection>
               ))}
             </div>
-          </div>
+          </AnimatedSection>
         ))}
 
       </div>

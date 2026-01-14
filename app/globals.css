@@ -251,6 +251,24 @@
     }
   }
 
+  @keyframes shimmer {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+
+  @keyframes pulse-border {
+    0%, 100% {
+      border-color: var(--color-primary);
+    }
+    50% {
+      border-color: var(--color-tertiary);
+    }
+  }
+
   /* Animation classes */
   .animate-fade-in,
   .animate-fade-in-delay-1,

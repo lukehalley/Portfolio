@@ -1,5 +1,9 @@
+"use client";
+
 import { Github, ExternalLink } from "lucide-react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { brutalExpand, scrollViewport } from "@/lib/animations";
 
 interface ProjectCardProps {
   title: string;
@@ -24,7 +28,18 @@ export function ProjectCard({
   image,
 }: ProjectCardProps) {
   return (
-    <div className="brutal-border bg-white p-6 sm:p-8 md:p-10 group relative flex flex-col h-full min-h-[380px] sm:min-h-[400px] md:min-h-[420px]">
+    <motion.div
+      className="brutal-border bg-white p-6 sm:p-8 md:p-10 group relative flex flex-col h-full min-h-[380px] sm:min-h-[400px] md:min-h-[420px]"
+      initial="hidden"
+      whileInView="show"
+      viewport={scrollViewport}
+      variants={brutalExpand}
+      whileHover={{
+        y: -4,
+        boxShadow: "12px 12px 0 0 var(--color-primary)",
+        transition: { duration: 0.2 }
+      }}
+    >
       {/* Background Image - Faded and positioned to the right corner */}
       {image && (
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -113,7 +128,7 @@ export function ProjectCard({
           )}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
