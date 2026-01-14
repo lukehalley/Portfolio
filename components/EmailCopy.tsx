@@ -66,9 +66,9 @@ export function EmailCopy() {
           </AnimatePresence>
         </motion.button>
 
-        {/* Hover accent line */}
+        {/* Hover accent line - hidden on mobile/touch devices */}
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-1 bg-red-600"
+          className="absolute bottom-0 left-0 right-0 h-1 bg-red-600 hidden md:block"
           initial={{ scaleX: 0 }}
           whileHover={{ scaleX: 1 }}
           transition={{ duration: 0.3 }}
