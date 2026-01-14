@@ -19,15 +19,15 @@ export function EmailCopy() {
   };
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       {/* Email display container */}
       <motion.div
-        className="group relative inline-flex items-center gap-0 border-4 border-primary bg-white overflow-hidden"
+        className="group relative flex items-center gap-0 border-4 border-primary bg-white overflow-hidden w-full"
         whileHover={{ boxShadow: "8px 8px 0 0 var(--color-tertiary)" }}
         transition={{ duration: 0.2 }}
       >
         {/* Email text */}
-        <div className="px-4 py-3 sm:px-5 sm:py-3 font-mono font-bold text-primary border-r-4 border-primary select-all"
+        <div className="flex-1 px-4 py-3 sm:px-5 sm:py-3 font-mono font-bold text-primary border-r-4 border-primary select-all"
              style={{ fontSize: 'clamp(0.75rem, 2.5vw, 1rem)' }}>
           {email}
         </div>
@@ -35,7 +35,7 @@ export function EmailCopy() {
         {/* Copy button */}
         <motion.button
           onClick={handleCopy}
-          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white hover:bg-secondary transition-colors duration-300 relative flex items-center justify-center shrink-0"
+          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white hover:bg-red-600 transition-colors duration-300 relative flex items-center justify-center shrink-0"
           whileTap={{ scale: 0.95 }}
           aria-label={copied ? "Copied!" : "Copy email address"}
         >
@@ -68,7 +68,7 @@ export function EmailCopy() {
 
         {/* Hover accent line */}
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-1 bg-tertiary"
+          className="absolute bottom-0 left-0 right-0 h-1 bg-red-600"
           initial={{ scaleX: 0 }}
           whileHover={{ scaleX: 1 }}
           transition={{ duration: 0.3 }}

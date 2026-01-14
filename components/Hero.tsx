@@ -11,12 +11,16 @@ import { EmailCopy } from "./EmailCopy";
 
 export function Hero() {
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-8 sm:py-12 md:py-16 lg:py-20 overflow-hidden"
-    >
-      {/* Animated grid canvas */}
-      <GridCanvas />
+    <>
+      {/* Fixed background container for canvas */}
+      <div className="fixed inset-0 -z-10 pointer-events-none">
+        <GridCanvas />
+      </div>
+
+      <section
+        id="hero"
+        className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-8 sm:py-12 md:py-16 lg:py-20 overflow-hidden"
+      >
       <motion.div
         className="max-w-6xl w-full relative z-10"
         initial="hidden"
@@ -65,7 +69,7 @@ export function Hero() {
           <div className="space-y-8 sm:space-y-8 md:space-y-12 w-full pt-2">
             {/* Name - Enhanced for readability over photo */}
             <motion.div variants={fadeUp} className="relative">
-              <h1 className="font-black tracking-tighter leading-[0.85] text-primary relative z-10 max-w-[60%] sm:max-w-[65%] md:max-w-none"
+              <h1 className="font-black tracking-tighter leading-[0.85] text-primary relative z-10 max-w-[60%] sm:max-w-[65%] md:max-w-none hover:text-red-600 transition-colors duration-300 cursor-default"
                   style={{
                     fontSize: 'clamp(3rem, 12vw, 7rem)',
                     textShadow: '4px 4px 0 rgba(255, 255, 255, 0.9), 6px 6px 0 rgba(107, 99, 88, 0.3)',
@@ -91,25 +95,30 @@ export function Hero() {
                  }}>
                 {personalInfo.title}
               </p>
-              <p className="font-bold text-primary max-w-3xl leading-tight bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
+              <p className="font-bold text-primary max-w-3xl leading-relaxed tracking-wide bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
                  style={{
                    fontSize: 'var(--fluid-xl)',
                    maskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)',
                    WebkitMaskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)'
                  }}>
-                <FormattedText text={personalInfo.tagline} />
+                <FormattedText text={personalInfo.tagline} animatedUnderline={true} />
                 <br />
-                <strong>{personalInfo.yearsOfExperience}+ years</strong>.
+                <strong>{personalInfo.yearsOfExperience}+ years experience</strong>.
               </p>
             </div>
 
             {/* Location */}
             <motion.div variants={fadeUp}>
-              <p className="font-mono font-bold text-secondary flex items-center gap-3 uppercase"
-                 style={{ fontSize: 'var(--fluid-base)' }}>
+              <a
+                href="https://www.google.com/maps/place/Perth+WA,+Australia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-mono font-bold text-secondary flex items-center gap-3 uppercase hover:text-red-600 transition-colors duration-300 w-fit"
+                style={{ fontSize: 'var(--fluid-base)' }}
+              >
                 <MapPin className="w-5 h-5 text-tertiary" />
                 {personalInfo.location}
-              </p>
+              </a>
             </motion.div>
 
             {/* Contact */}
@@ -117,43 +126,46 @@ export function Hero() {
               className="flex flex-col gap-4 sm:gap-6"
               variants={fadeUp}
             >
-              {/* Email with copy functionality */}
-              <EmailCopy />
+              {/* Email with copy functionality - spans to end of LinkedIn */}
+              <div className="flex flex-col gap-4 sm:gap-6 max-w-fit">
+                <EmailCopy />
 
-              {/* Social links */}
-              <div className="flex flex-wrap gap-2 sm:gap-4 items-center">
-                <motion.a
-                  href={personalInfo.social.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
-                  style={{ fontSize: 'var(--fluid-base)' }}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.98 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
-                  <span>GitHub</span>
-                </motion.a>
+                {/* Social links on same row */}
+                <div className="flex flex-wrap gap-2 sm:gap-4 items-center">
+                  <motion.a
+                    href={personalInfo.social.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-red-600 hover:text-white hover:border-red-600 transition-colors duration-300"
+                    style={{ fontSize: 'var(--fluid-base)' }}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.98 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                    <span>GitHub</span>
+                  </motion.a>
 
-                <motion.a
-                  href={personalInfo.social.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-primary hover:text-white transition-colors duration-300"
-                  style={{ fontSize: 'var(--fluid-base)' }}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.98 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
-                  <span>LinkedIn</span>
-                </motion.a>
+                  <motion.a
+                    href={personalInfo.social.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-primary border-4 border-primary hover:bg-red-600 hover:text-white hover:border-red-600 transition-colors duration-300"
+                    style={{ fontSize: 'var(--fluid-base)' }}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.98 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                    <span>LinkedIn</span>
+                  </motion.a>
+                </div>
               </div>
             </motion.div>
           </div>
         </div>
       </motion.div>
-    </section>
+      </section>
+    </>
   );
 }

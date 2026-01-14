@@ -262,6 +262,15 @@
     }
   }
 
+  @keyframes underline-slide {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+
   /* Animation classes */
   .animate-fade-in,
   .animate-fade-in-delay-1,

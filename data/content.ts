@@ -6,7 +6,7 @@ import {
 } from '@/lib/date-utils';
 
 // Career start date (first professional role after graduation)
-const CAREER_START_YEAR = 2019;
+const CAREER_START_YEAR = 2013;
 
 // Key employment dates
 const VERIZON_START = createDateRange('2019-05');
@@ -17,7 +17,7 @@ const EDUCATION_RANGE = createDateRange('2014-01', '2019-06');
 export const personalInfo = {
   name: "Luke Halley",
   title: "Senior Cloud Engineer\nDevOps Specialist",
-  tagline: "I build multi-cloud infrastructure at enterprise scale. IaC, CI/CD, AWS, Azure.",
+  tagline: "I build multi-cloud infrastructure\nat an **enterprise scale.**\nIaC, CI/CD, AWS, Azure.",
   careerStartYear: CAREER_START_YEAR,
   yearsOfExperience: calculateCareerYears(CAREER_START_YEAR),
   location: "Perth, Australia",

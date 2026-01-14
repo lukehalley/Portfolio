@@ -48,7 +48,7 @@ export function Footer() {
               <div className="space-y-4">
                 <a
                   href={`mailto:${personalInfo.email}`}
-                  className="group flex items-center gap-3 text-primary hover:text-tertiary transition-colors duration-300"
+                  className="group flex items-center gap-3 text-primary hover:text-red-600 transition-colors duration-300"
                   style={{ fontSize: 'var(--fluid-lg)' }}
                 >
                   <Mail className="w-6 h-6 transition-transform group-hover:scale-110" />
@@ -62,7 +62,7 @@ export function Footer() {
                 href={personalInfo.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-primary hover:text-white transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-red-600 hover:text-primary hover:border-red-600 transition-all duration-300"
                 aria-label="GitHub Profile"
               >
                 <Github className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
@@ -72,7 +72,7 @@ export function Footer() {
                 href={personalInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-primary hover:text-white transition-all duration-300"
+                className="group flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 border-3 sm:border-4 border-primary hover:bg-red-600 hover:text-primary hover:border-red-600 transition-all duration-300"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
