@@ -19,7 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
 const yearsExperience = new Date().getFullYear() - 2013;
 
 export const metadata: Metadata = {
-  title: "Luke Halley",
+  title: "Luke Halley - Senior Cloud Engineer | Terraform, AWS, DevOps",
   description: `Senior Cloud Engineer with ${yearsExperience}+ years building infrastructure at scale. From database migrations to container platforms, I design systems that ship faster and cost less. Terraform, AWS, Azure DevOps. Perth, Australia.`,
   keywords: [
     "Luke Halley",
@@ -34,26 +34,45 @@ export const metadata: Metadata = {
     "Cloud Infrastructure",
     "Azure DevOps",
     "Perth Australia",
+    "Cloud Architect",
+    "Site Reliability Engineer",
   ],
   authors: [{ name: "Luke Halley" }],
+  creator: "Luke Halley",
+  publisher: "Luke Halley",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: "/favicon.svg",
     apple: "/favicon.svg",
   },
   metadataBase: new URL("https://lukehalley.com"),
+  alternates: {
+    canonical: "https://lukehalley.com",
+  },
   openGraph: {
     title: `Luke Halley - Senior Cloud Engineer | ${yearsExperience}+ Years | Infrastructure at Scale`,
-    description: `Senior Cloud Engineer specializing in Terraform, AWS, and DevOps automation. ${yearsExperience}+ years designing infrastructure that scales.`,
-    type: "website",
+    description: `Senior Cloud Engineer specializing in Terraform, AWS, and DevOps automation. ${yearsExperience}+ years designing infrastructure that scales. 95 AWS accounts, 200+ repo migrations, 50% cost reductions.`,
+    type: "profile",
     locale: "en_US",
     url: "https://lukehalley.com",
-    siteName: "Luke Halley",
+    siteName: "Luke Halley - Cloud Engineer Portfolio",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Luke Halley - Senior Cloud Engineer",
+        alt: "Luke Halley - Senior Cloud Engineer specializing in Terraform, AWS, and Infrastructure at Scale",
+        type: "image/png",
       },
     ],
   },
@@ -62,6 +81,8 @@ export const metadata: Metadata = {
     title: "Luke Halley - Senior Cloud Engineer",
     description: `${yearsExperience}+ years building cloud infrastructure at scale. Migrations that save 50% costs. Systems that ship faster. Terraform, AWS, Azure DevOps.`,
     images: ["/og-image.png"],
+    site: "@lukehalley",
+    creator: "@lukehalley",
   },
 };
 
@@ -70,6 +91,51 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Luke Halley",
+    url: "https://lukehalley.com",
+    image: "https://lukehalley.com/og-image.png",
+    jobTitle: "Senior Cloud Engineer",
+    worksFor: {
+      "@type": "Organization",
+      name: "Mineral Resources",
+    },
+    alumniOf: {
+      "@type": "EducationalOrganization",
+      name: "Dublin City University",
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Perth",
+      addressRegion: "WA",
+      addressCountry: "AU",
+    },
+    email: "luke123halley@gmail.com",
+    sameAs: [
+      "https://github.com/lukehalley",
+      "https://linkedin.com/in/lukehalley",
+      "https://gitlab.com/lukehalley",
+    ],
+    description: `Senior Cloud Engineer with ${yearsExperience}+ years building infrastructure at scale. Specializing in Terraform, AWS, and DevOps automation.`,
+    knowsAbout: [
+      "Amazon Web Services",
+      "Terraform",
+      "Infrastructure as Code",
+      "DevOps",
+      "Cloud Computing",
+      "Azure DevOps",
+      "CI/CD",
+      "Containerization",
+      "Database Migration",
+    ],
+    award: [
+      "Verizon Spotlight Award",
+      "SunLife Enterprise Award",
+    ],
+  };
+
   return (
     <html lang="en" className={`${manrope.variable} ${jetbrainsMono.variable}`}>
       <head>
@@ -78,6 +144,10 @@ export default function RootLayout({
           href="/images/me.webp"
           as="image"
           type="image/webp"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
       <body className="font-sans" suppressHydrationWarning>
