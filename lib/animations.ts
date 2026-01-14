@@ -129,7 +129,7 @@ export const slideInLeft: Variants = {
     x: 0,
     transition: {
       duration: 0.7,
-      ease: easing.sharp,
+      ease: easing.emphasized,
     },
   },
 };
@@ -145,7 +145,7 @@ export const slideInRight: Variants = {
     x: 0,
     transition: {
       duration: 0.7,
-      ease: easing.sharp,
+      ease: easing.emphasized,
     },
   },
 };
@@ -177,7 +177,7 @@ export const brutalExpand: Variants = {
     scale: 1,
     transition: {
       duration: 0.4,
-      ease: easing.sharp,
+      ease: easing.emphasized,
     },
   },
 };

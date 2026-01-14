@@ -1,9 +1,5 @@
-"use client";
-
 import { projects } from "@/data/content";
 import { ProjectCard } from "./ProjectCard";
-import { motion } from "framer-motion";
-import { borderGrow, scrollViewport } from "@/lib/animations";
 
 const sections = [
   { key: "professional" as const, title: "Professional", description: "Enterprise platform engineering and infrastructure at scale" },
@@ -15,27 +11,19 @@ export function Projects() {
     <section
       id="projects"
       className="relative py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary dark-texture"
-      
+
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <motion.div
-          className="mb-24 md:mb-32 relative inline-block z-20"
-          initial="hidden"
-          whileInView="show"
-          viewport={scrollViewport}
-        >
+        <div className="mb-24 md:mb-32 relative inline-block z-20">
           <h2
             className="relative z-10 font-black tracking-tighter text-white"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Projects
           </h2>
-          <motion.div
-            className="absolute bottom-0 left-0 right-0 h-2 md:h-3 bg-tertiary origin-left z-0"
-            variants={borderGrow}
-          />
-        </motion.div>
+          <div className="absolute bottom-0 left-0 right-0 h-2 md:h-3 bg-tertiary origin-left z-0" />
+        </div>
 
         {/* Project Sections */}
         {sections.map((section) => {

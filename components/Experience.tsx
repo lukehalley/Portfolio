@@ -42,13 +42,13 @@ export function Experience() {
             <h3 className="font-black uppercase text-primary tracking-wide" style={{ fontSize: 'var(--fluid-5xl)' }}>
               {experience.current.company}
             </h3>
-            <p className="font-bold text-tertiary mt-2" style={{ fontSize: 'var(--fluid-2xl)' }}>
+            <p className="font-bold text-tertiary-dark mt-2" style={{ fontSize: 'var(--fluid-2xl)' }}>
               {experience.current.role}
             </p>
             <p className="font-mono font-bold text-secondary mt-2 tracking-tight uppercase" style={{ fontSize: 'var(--fluid-xl)' }}>
               {experience.current.period} • {experience.current.location}
             </p>
-            <p className="text-primary-subtle mt-4 leading-relaxed max-w-3xl" style={{ fontSize: 'var(--fluid-lg)' }}>
+            <p className="text-primary-muted mt-4 leading-relaxed max-w-3xl" style={{ fontSize: 'var(--fluid-lg)' }}>
               {experience.current.context}
             </p>
           </div>
@@ -61,7 +61,7 @@ export function Experience() {
                 <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                   {highlight.title}
                 </h4>
-                <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
+                <p className="font-mono text-tertiary-dark tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
                   {highlight.impact}
                 </p>
                 <p className="text-primary-muted mb-6 leading-relaxed font-normal" style={{ fontSize: 'var(--fluid-lg)' }}>
@@ -91,7 +91,7 @@ export function Experience() {
               <h3 className="font-black uppercase text-primary tracking-wide" style={{ fontSize: 'var(--fluid-5xl)' }}>
                 {job.company}
               </h3>
-              <p className="font-bold text-tertiary mt-2" style={{ fontSize: 'var(--fluid-2xl)' }}>
+              <p className="font-bold text-tertiary-dark mt-2" style={{ fontSize: 'var(--fluid-2xl)' }}>
                 {job.role}
               </p>
               <p className="font-mono font-bold text-secondary mt-2 tracking-tight uppercase" style={{ fontSize: 'var(--fluid-xl)' }}>
@@ -107,7 +107,7 @@ export function Experience() {
                   <h4 className="font-bold mb-2 uppercase" style={{ fontSize: 'var(--fluid-3xl)' }}>
                     {highlight.title}
                   </h4>
-                  <p className="font-mono text-tertiary tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
+                  <p className="font-mono text-tertiary-dark tracking-tight mb-4" style={{ fontSize: 'var(--fluid-base)' }}>
                     {highlight.impact}
                   </p>
                   <p className="text-primary-muted mb-6 leading-relaxed font-normal" style={{ fontSize: 'var(--fluid-lg)' }}>
