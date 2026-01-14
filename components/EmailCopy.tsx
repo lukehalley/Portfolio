@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export function EmailCopy() {
   const [copied, setCopied] = useState(false);
-  const email = "luke123halley@gmail.com";
+  const email = "contact@lukehalley.com";
 
   const handleCopy = async () => {
     try {
@@ -35,7 +35,7 @@ export function EmailCopy() {
         {/* Copy button */}
         <motion.button
           onClick={handleCopy}
-          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white hover:bg-secondary transition-colors duration-300 relative"
+          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white hover:bg-secondary transition-colors duration-300 relative flex items-center justify-center shrink-0"
           whileTap={{ scale: 0.95 }}
           aria-label={copied ? "Copied!" : "Copy email address"}
         >
@@ -47,6 +47,7 @@ export function EmailCopy() {
                 animate={{ scale: 1, rotate: 0 }}
                 exit={{ scale: 0, rotate: 180 }}
                 transition={{ duration: 0.3, ease: [0.68, -0.55, 0.265, 1.55] }}
+                className="flex items-center justify-center"
               >
                 <Check className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={3} />
               </motion.div>
@@ -57,6 +58,7 @@ export function EmailCopy() {
                 animate={{ scale: 1, rotate: 0 }}
                 exit={{ scale: 0, rotate: -180 }}
                 transition={{ duration: 0.3, ease: [0.68, -0.55, 0.265, 1.55] }}
+                className="flex items-center justify-center"
               >
                 <Copy className="w-5 h-5 sm:w-6 sm:h-6" />
               </motion.div>

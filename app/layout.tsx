@@ -113,7 +113,7 @@ export default function RootLayout({
       addressRegion: "WA",
       addressCountry: "AU",
     },
-    email: "luke123halley@gmail.com",
+    email: "contact@lukehalley.com",
     sameAs: [
       "https://github.com/lukehalley",
       "https://linkedin.com/in/lukehalley",
