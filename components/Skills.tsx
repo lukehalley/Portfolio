@@ -23,11 +23,11 @@ export function Skills() {
         </AnimatedSection>
 
         {/* Skills by Domain */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8 md:gap-y-16">
           {skillEntries.map(([domain, skillList]) => (
             <AnimatedSection key={domain}>
-              <div className="mb-6">
-                <div className="h-[4.5rem] flex items-end">
+              <div className="mb-4 md:mb-6">
+                <div className="h-[3rem] md:h-[4.5rem] flex items-end">
                   <h3
                     className="font-mono text-tertiary tracking-tight uppercase font-bold"
                     style={{ fontSize: 'var(--fluid-lg)' }}
@@ -35,9 +35,9 @@ export function Skills() {
                     {domain}
                   </h3>
                 </div>
-                <div className="h-1 bg-tertiary-faint mt-3" />
+                <div className="h-1 bg-tertiary-faint mt-2 md:mt-3" />
               </div>
-              <ul className="space-y-3">
+              <ul className="space-y-2 md:space-y-3">
                 {(skillList as Array<{ name: string }>).map((skill) => (
                   <li
                     key={skill.name}
