@@ -5,7 +5,6 @@ import Image from "next/image";
 import { MapPin, Github, Linkedin } from "lucide-react";
 import { FormattedText } from "./FormattedText";
 import { motion } from "framer-motion";
-import { staggerContainer, fadeUp } from "@/lib/animations";
 import { GridCanvas } from "./GridCanvas";
 import { EmailCopy } from "./EmailCopy";
 
@@ -21,18 +20,10 @@ export function Hero() {
         id="hero"
         className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-8 sm:py-12 md:py-16 lg:py-20 overflow-hidden"
       >
-      <motion.div
-        className="max-w-6xl w-full relative z-10"
-        initial="hidden"
-        animate="show"
-        variants={staggerContainer}
-      >
+      <div className="max-w-6xl w-full relative z-10">
         <div className="relative lg:grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] lg:gap-20 items-center">
           {/* Profile Image - Overlaps on mobile, separate on desktop */}
-          <motion.div
-            className="absolute -top-4 right-4 w-[140px] sm:w-[180px] md:relative md:top-0 md:w-auto lg:justify-self-end lg:order-last z-20"
-            variants={fadeUp}
-          >
+          <div className="absolute -top-4 right-4 w-[140px] sm:w-[180px] md:relative md:top-0 md:w-auto lg:justify-self-end lg:order-last z-20">
             <div className="relative group max-w-[140px] sm:max-w-[180px] md:max-w-sm lg:max-w-none">
               {/* Decorative corner accents - stronger on mobile for balance */}
               <motion.div
@@ -63,12 +54,12 @@ export function Hero() {
                 <div className="absolute inset-0 border-2 border-tertiary/20 pointer-events-none md:hidden" />
               </div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Text Content */}
           <div className="space-y-8 sm:space-y-8 md:space-y-12 w-full pt-2">
             {/* Name - Enhanced for readability over photo */}
-            <motion.div variants={fadeUp} className="relative">
+            <div className="relative">
               <h1 className="font-black tracking-tighter leading-[0.85] text-primary relative z-10 max-w-[60%] sm:max-w-[65%] md:max-w-none hover:text-red-600 transition-colors duration-300 cursor-default"
                   style={{
                     fontSize: 'clamp(3rem, 12vw, 7rem)',
@@ -83,9 +74,9 @@ export function Hero() {
                      maskImage: 'linear-gradient(to right, white 0%, white 85%, transparent 100%)',
                      WebkitMaskImage: 'linear-gradient(to right, white 0%, white 85%, transparent 100%)'
                    }} />
-            </motion.div>
+            </div>
 
-            {/* Title & Tagline - No animation delays for LCP optimization */}
+            {/* Title & Tagline */}
             <div className="space-y-4 sm:space-y-6 pr-4 md:pr-0 max-w-[95%] md:max-w-none">
               <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
                  style={{
@@ -108,7 +99,7 @@ export function Hero() {
             </div>
 
             {/* Location */}
-            <motion.div variants={fadeUp}>
+            <div>
               <a
                 href="https://www.google.com/maps/place/Perth+WA,+Australia"
                 target="_blank"
@@ -119,13 +110,10 @@ export function Hero() {
                 <MapPin className="w-5 h-5 text-tertiary" />
                 {personalInfo.location}
               </a>
-            </motion.div>
+            </div>
 
             {/* Contact */}
-            <motion.div
-              className="flex flex-col gap-4 sm:gap-6"
-              variants={fadeUp}
-            >
+            <div className="flex flex-col gap-4 sm:gap-6">
               {/* Email with copy functionality - spans to end of LinkedIn */}
               <div className="flex flex-col gap-4 sm:gap-6 max-w-fit">
                 <EmailCopy />
@@ -161,10 +149,10 @@ export function Hero() {
                   </motion.a>
                 </div>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
-      </motion.div>
+      </div>
       </section>
     </>
   );

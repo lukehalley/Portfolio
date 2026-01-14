@@ -1,13 +1,96 @@
 import { Variants } from "framer-motion";
 
-// Easing functions - sharp and mechanical for brutalist aesthetic
+// Refined easing curves - smooth, professional motion
 export const easing = {
-  sharp: [0.4, 0, 0.2, 1] as const, // Material sharp
-  emphasized: [0.2, 0, 0, 1] as const, // Emphasized deceleration
-  standard: [0.4, 0, 0.6, 1] as const, // Standard curve
+  // Subtle spring physics - natural, refined motion
+  spring: [0.25, 0.46, 0.45, 0.94] as const,
+  // Smooth deceleration - elegant and controlled
+  smooth: [0.23, 1, 0.32, 1] as const,
+  // Emphasized entrance - confident but not aggressive
+  emphasized: [0.16, 1, 0.3, 1] as const,
+  // Gentle ease - whisper-soft motion
+  gentle: [0.33, 1, 0.68, 1] as const,
 };
 
-// Stagger children animation
+// Hero-specific orchestrated entrance
+export const heroContainer: Variants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.08,
+      delayChildren: 0.2,
+      duration: 0.3,
+      ease: easing.gentle,
+    },
+  },
+};
+
+// Layered fade with subtle vertical shift
+export const heroElement: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 8,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.7,
+      ease: easing.smooth,
+    },
+  },
+};
+
+// Name entrance - confident but refined
+export const heroName: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 12,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.9,
+      ease: easing.emphasized,
+    },
+  },
+};
+
+// Profile image with subtle scale
+export const heroImage: Variants = {
+  hidden: {
+    opacity: 0,
+    scale: 0.97,
+  },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      duration: 1,
+      ease: easing.spring,
+    },
+  },
+};
+
+// Contact elements - minimal fade
+export const heroContact: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 6,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: easing.gentle,
+    },
+  },
+};
+
+// General stagger container (for other sections)
 export const staggerContainer: Variants = {
   hidden: { opacity: 0 },
   show: {
