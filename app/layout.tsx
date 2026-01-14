@@ -63,13 +63,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: `Luke Halley - Senior Cloud Engineer | ${yearsExperience}+ Years | Infrastructure at Scale`,
     description: `Senior Cloud Engineer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years designing systems that scale. 95 AWS accounts, 200+ repo migrations, 50% cost reductions.`,
-    type: "profile",
+    type: "website",
     locale: "en_US",
     url: "https://lukehalley.com",
     siteName: "Luke Halley - Cloud Engineer Portfolio",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://lukehalley.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Luke Halley - Senior Cloud Engineer specializing in multi-cloud infrastructure at scale",
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Luke Halley - Senior Cloud Engineer",
     description: `${yearsExperience}+ years building multi-cloud infrastructure at scale. Migrations that save 50% costs. Systems that ship faster. IaC, CI/CD, AWS, Azure.`,
-    images: ["/og-image.png"],
+    images: ["https://lukehalley.com/og-image.png"],
     site: "@lukehalley",
     creator: "@lukehalley",
   },
