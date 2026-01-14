@@ -119,7 +119,7 @@ Build a personal brand website for passive opportunities and long-term professio
    - Title: "Cloud Developer | DevOps Engineer" (or similar)
    - Tagline: Focus on scale (95 AWS accounts, 5+ years, automation)
    - Location: Perth, Australia
-   - Contact: Email visible (luke123halley@gmail.com), GitHub, LinkedIn links
+   - Contact: Email visible (contact@lukehalley.com), GitHub, LinkedIn links
    - Clean, impactful, immediately communicates seniority
 
 2. **About Section**
@@ -138,7 +138,7 @@ Build a personal brand website for passive opportunities and long-term professio
 **Location**: Perth, Australia (NOT relocating to Sydney - CV is outdated on this)
 
 **Contact Approach**:
-- Email visible: luke123halley@gmail.com
+- Email visible: contact@lukehalley.com
 - Social links: GitHub, LinkedIn, GitLab
 - No contact form needed
 
