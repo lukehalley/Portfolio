@@ -63,14 +63,23 @@ export function Personal() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <AnimatedSection className="mb-24 md:mb-32">
+        <motion.div
+          className="mb-24 md:mb-32 relative inline-block z-20"
+          initial="hidden"
+          whileInView="show"
+          viewport={scrollViewport}
+        >
           <h2
-            className="font-black tracking-tighter text-primary"
+            className="relative z-10 font-black tracking-tighter text-primary"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Beyond Work
           </h2>
-        </AnimatedSection>
+          <motion.div
+            className="absolute bottom-0 left-0 right-0 h-2 md:h-3 bg-tertiary origin-left z-0"
+            variants={borderGrow}
+          />
+        </motion.div>
 
         {/* Hobbies Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 items-start">

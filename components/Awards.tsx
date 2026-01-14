@@ -1,21 +1,36 @@
+"use client";
+
 import { experience } from "@/data/content";
 import { Award, Trophy } from "lucide-react";
+import { motion } from "framer-motion";
+import { borderGrow, scrollViewport } from "@/lib/animations";
 
 export function Awards() {
   return (
     <section
       id="awards"
-      className="py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary dark-texture"
+      className="relative py-32 md:py-40 px-6 md:px-12 lg:px-24 bg-primary dark-texture"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header with trophy accent */}
         <div className="mb-20 md:mb-28 flex items-end gap-8">
-          <h2
-            className="font-black tracking-tighter text-white"
-            style={{ fontSize: 'var(--fluid-8xl)' }}
+          <motion.div
+            className="relative inline-block z-20"
+            initial="hidden"
+            whileInView="show"
+            viewport={scrollViewport}
           >
-            Recognition
-          </h2>
+            <h2
+              className="relative z-10 font-black tracking-tighter text-white"
+              style={{ fontSize: 'var(--fluid-8xl)' }}
+            >
+              Recognition
+            </h2>
+            <motion.div
+              className="absolute bottom-0 left-0 right-0 h-2 md:h-3 bg-tertiary origin-left z-0"
+              variants={borderGrow}
+            />
+          </motion.div>
           <Trophy
             className="text-tertiary mb-2 hidden md:block"
             style={{ width: 'clamp(3rem, 6vw, 5rem)', height: 'clamp(3rem, 6vw, 5rem)' }}
@@ -38,7 +53,7 @@ export function Awards() {
               <div className="relative bg-white border-4 border-white p-8 md:p-10 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
                 {/* Large index number */}
                 <span
-                  className="absolute -top-6 -right-2 font-black text-white-ghost select-none"
+                  className="absolute -top-6 -right-2 font-black text-white-ghost select-none z-0"
                   style={{ fontSize: 'clamp(6rem, 12vw, 10rem)', lineHeight: 0.8 }}
                 >
                   0{index + 1}

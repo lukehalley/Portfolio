@@ -14,14 +14,23 @@ export function Experience() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <AnimatedSection className="mb-24 md:mb-32">
+        <motion.div
+          className="mb-24 md:mb-32 relative inline-block z-20"
+          initial="hidden"
+          whileInView="show"
+          viewport={scrollViewport}
+        >
           <h2
-            className="font-black tracking-tighter text-primary"
+            className="relative z-10 font-black tracking-tighter text-primary"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Experience
           </h2>
-        </AnimatedSection>
+          <motion.div
+            className="absolute bottom-0 left-0 right-0 h-2 md:h-3 bg-tertiary origin-left z-0"
+            variants={borderGrow}
+          />
+        </motion.div>
 
         {/* Current Role */}
         <AnimatedSection className="mb-32 md:mb-40">
@@ -69,7 +78,7 @@ export function Experience() {
                   {highlight.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
+                      className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-red-600 hover:bg-red-600 hover:text-primary"
                       style={{ fontSize: 'var(--fluid-xs)' }}
                     >
                       {tech}
@@ -122,7 +131,7 @@ export function Experience() {
                       {highlight.technologies.map((tech) => (
                         <span
                           key={tech}
-                          className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-tertiary hover:bg-tertiary hover:text-primary"
+                          className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-red-600 hover:bg-red-600 hover:text-primary"
                           style={{ fontSize: 'var(--fluid-xs)' }}
                         >
                           {tech}

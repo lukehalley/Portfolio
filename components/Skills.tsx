@@ -2,6 +2,8 @@
 
 import { skills } from "@/data/content";
 import { AnimatedSection } from "./AnimatedSection";
+import { motion } from "framer-motion";
+import { borderGrow, scrollViewport } from "@/lib/animations";
 
 export function Skills() {
   const skillEntries = Object.entries(skills);
@@ -13,14 +15,23 @@ export function Skills() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <AnimatedSection className="mb-16 md:mb-24">
+        <motion.div
+          className="mb-16 md:mb-24 relative inline-block z-20"
+          initial="hidden"
+          whileInView="show"
+          viewport={scrollViewport}
+        >
           <h2
-            className="font-black tracking-tighter text-primary"
+            className="relative z-10 font-black tracking-tighter text-primary"
             style={{ fontSize: 'var(--fluid-8xl)' }}
           >
             Skills
           </h2>
-        </AnimatedSection>
+          <motion.div
+            className="absolute bottom-0 left-0 right-0 h-2 md:h-3 bg-tertiary origin-left z-0"
+            variants={borderGrow}
+          />
+        </motion.div>
 
         {/* Skills by Domain */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8 md:gap-y-16">
