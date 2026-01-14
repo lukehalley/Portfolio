@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-12 sm:py-16 md:py-20 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-8 sm:py-12 md:py-16 lg:py-20 overflow-hidden"
     >
       <motion.div
         className="max-w-6xl w-full relative z-10"
@@ -19,28 +19,28 @@ export function Hero() {
         animate="show"
         variants={staggerContainer}
       >
-        <div className="flex flex-col lg:grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] gap-8 sm:gap-10 md:gap-16 lg:gap-20 items-center">
-          {/* Profile Image - Shows first on mobile, last on desktop */}
+        <div className="relative lg:grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_450px] lg:gap-20 items-center">
+          {/* Profile Image - Overlaps on mobile, separate on desktop */}
           <motion.div
-            className="lg:justify-self-end lg:order-last w-full"
+            className="absolute -top-4 right-4 w-[140px] sm:w-[180px] md:relative md:top-0 md:w-auto lg:justify-self-end lg:order-last z-20"
             variants={fadeUp}
           >
-            <div className="relative group mx-auto max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-none">
-              {/* Decorative corner accents */}
+            <div className="relative group max-w-[140px] sm:max-w-[180px] md:max-w-sm lg:max-w-none">
+              {/* Decorative corner accents - stronger on mobile for balance */}
               <motion.div
-                className="absolute -top-1 -left-1 sm:-top-2 sm:-left-2 md:-top-4 md:-left-4 w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 border-t-4 border-l-4 border-tertiary"
+                className="absolute -top-2 -left-2 sm:-top-2 sm:-left-2 md:-top-4 md:-left-4 w-6 h-6 sm:w-6 sm:h-6 md:w-12 md:h-12 border-t-4 border-l-4 border-tertiary"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.8, duration: 0.4 }}
               />
               <motion.div
-                className="absolute -bottom-1 -right-1 sm:-bottom-2 sm:-right-2 md:-bottom-4 md:-right-4 w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 border-b-4 border-r-4 border-tertiary"
+                className="absolute -bottom-2 -right-2 sm:-bottom-2 sm:-right-2 md:-bottom-4 md:-right-4 w-6 h-6 sm:w-6 sm:h-6 md:w-12 md:h-12 border-b-4 border-r-4 border-tertiary"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.9, duration: 0.4 }}
               />
 
-              <div className="relative w-full aspect-[3/4] max-h-[350px] sm:max-h-[400px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-6 lg:border-8 border-primary">
+              <div className="relative w-full aspect-[3/4] max-h-[190px] sm:max-h-[240px] md:max-h-[500px] lg:w-[400px] lg:max-h-[540px] xl:w-[450px] xl:max-h-[600px] overflow-hidden border-4 md:border-4 lg:border-8 border-primary shadow-[8px_8px_0_0_rgba(107,99,88,0.3)]">
                 <Image
                   src="/images/me.webp"
                   alt="Luke Halley"
@@ -51,28 +51,36 @@ export function Hero() {
                   fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-tertiary-faint mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500" />
+                {/* Brutalist frame accent - mobile only */}
+                <div className="absolute inset-0 border-2 border-tertiary/20 pointer-events-none md:hidden" />
               </div>
             </div>
           </motion.div>
 
           {/* Text Content */}
-          <div className="space-y-6 sm:space-y-8 md:space-y-12 w-full">
-            {/* Name */}
-            <motion.div variants={fadeUp}>
-              <h1 className="font-black tracking-tighter leading-[0.85] text-primary"
-                  style={{ fontSize: 'var(--fluid-9xl)' }}>
-                {personalInfo.name}
+          <div className="space-y-8 sm:space-y-8 md:space-y-12 w-full pt-2">
+            {/* Name - Enhanced for readability over photo */}
+            <motion.div variants={fadeUp} className="relative">
+              <h1 className="font-black tracking-tighter leading-[0.85] text-primary relative z-10"
+                  style={{
+                    fontSize: 'var(--fluid-7xl)',
+                    textShadow: '4px 4px 0 rgba(255, 255, 255, 0.9), 6px 6px 0 rgba(107, 99, 88, 0.3)',
+                    WebkitTextStroke: '1px rgba(34, 40, 49, 0.1)'
+                  }}>
+                Luke<br />Halley
               </h1>
+              {/* Subtle background accent for depth */}
+              <div className="absolute -left-2 -top-1 w-[calc(100%+1rem)] h-[calc(100%+0.5rem)] bg-white/30 -z-10 md:hidden" />
             </motion.div>
 
             {/* Title & Tagline */}
-            <motion.div className="space-y-6" variants={fadeUp}>
-              <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line"
-                 style={{ fontSize: 'var(--fluid-xl)' }}>
+            <motion.div className="space-y-4 sm:space-y-6 pr-4 md:pr-0" variants={fadeUp}>
+              <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
+                 style={{ fontSize: 'var(--fluid-base)' }}>
                 {personalInfo.title}
               </p>
-              <p className="font-bold text-primary max-w-3xl leading-tight"
-                 style={{ fontSize: 'var(--fluid-3xl)' }}>
+              <p className="font-bold text-primary max-w-3xl leading-tight bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
+                 style={{ fontSize: 'var(--fluid-xl)' }}>
                 <FormattedText text={personalInfo.tagline} />
                 <br />
                 <strong>{personalInfo.yearsOfExperience}+ years</strong>.
@@ -90,7 +98,7 @@ export function Hero() {
 
             {/* Contact */}
             <motion.div
-              className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 items-center"
+              className="flex flex-wrap gap-2 sm:gap-4 md:gap-6 items-center"
               variants={fadeUp}
             >
               <motion.a

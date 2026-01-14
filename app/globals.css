@@ -29,8 +29,8 @@
     --fluid-5xl: clamp(3rem, 2.4rem + 3vw, 5rem);
     --fluid-6xl: clamp(3.75rem, 3rem + 3.75vw, 6rem);
     --fluid-7xl: clamp(4.5rem, 3.6rem + 4.5vw, 7.5rem);
-    --fluid-8xl: clamp(6rem, 4.8rem + 6vw, 9rem);
-    --fluid-9xl: clamp(8rem, 6.4rem + 8vw, 12rem);
+    --fluid-8xl: clamp(3rem, 2.5rem + 6vw, 9rem);
+    --fluid-9xl: clamp(3.5rem, 3rem + 8vw, 12rem);
 
     /* Spacing system */
     --space-xs: clamp(0.5rem, 0.45rem + 0.25vw, 0.625rem);

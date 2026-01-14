@@ -47,9 +47,14 @@ export function Education() {
               <p className="font-mono text-white-muted mb-2" style={{ fontSize: 'var(--fluid-lg)', fontWeight: 300 }}>
                 {education.institution}
               </p>
-              <p className="font-mono text-white-subtle uppercase" style={{ fontSize: 'var(--fluid-base)', fontWeight: 200, letterSpacing: '0.08em' }}>
+              <p className="font-mono text-white-subtle uppercase mb-4" style={{ fontSize: 'var(--fluid-base)', fontWeight: 200, letterSpacing: '0.08em' }}>
                 {education.period}
               </p>
+              {education.award && (
+                <p className="text-tertiary font-medium" style={{ fontSize: 'var(--fluid-lg)' }}>
+                  {education.award}
+                </p>
+              )}
             </div>
           </AnimatedSection>
 

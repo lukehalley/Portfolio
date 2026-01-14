@@ -33,7 +33,7 @@ export function About() {
                 viewport={scrollViewport}
                 variants={borderGrow}
               />
-              <p className="text-white font-medium leading-relaxed tracking-tight" style={{ fontSize: 'var(--fluid-2xl)' }}>
+              <p className="text-white font-medium leading-relaxed tracking-tight" style={{ fontSize: 'var(--fluid-lg)' }}>
                 <FormattedText text={paragraph} />
               </p>
             </div>
