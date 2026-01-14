@@ -104,7 +104,7 @@ export function Personal() {
                 <h3 className="font-mono mb-4 uppercase" style={{ fontSize: 'var(--fluid-2xl)', fontWeight: 900 }}>
                   {hobby.name}
                 </h3>
-                <div className="text-primary mb-4 flex-1" style={{ fontSize: 'var(--fluid-base)', lineHeight: '1.75', letterSpacing: '0.01em' }}>
+                <div className="text-primary mb-4 flex-1" style={{ fontSize: 'var(--fluid-lg)', lineHeight: '1.75', letterSpacing: '0.01em' }}>
                   {renderDescription(hobby.description)}
                 </div>
 
