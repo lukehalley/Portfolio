@@ -4,7 +4,7 @@
 
 **Name**: Luke Halley
 **Technical Background**: Cloud Developer with 12+ years professional experience
-**Expertise**: Multi-cloud infrastructure at scale (95+ AWS accounts), Terraform/IaC, CI/CD automation, database migrations, platform engineering
+**Expertise**: Multi-cloud infrastructure at scale (100+ AWS accounts), Terraform/IaC, CI/CD automation, database migrations, platform engineering
 **Role**: Full decision-making authority on this project
 **Communication Preference**: Technical and direct. Just do it - only explain non-obvious architectural decisions or tradeoffs.
 
@@ -203,7 +203,7 @@ Portfolio/
 - Platform engineering
 - CI/CD automation
 - Database migrations at scale
-- 95+ AWS accounts managed
+- 100+ AWS accounts managed
 - 200+ repository migrations
 - 50% cost reductions through optimization
 

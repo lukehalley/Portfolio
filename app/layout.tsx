@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: `Luke Halley - Cloud Developer | ${yearsExperience}+ Years Experience | Infrastructure at Scale`,
-    description: `Cloud Developer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years experience designing systems that scale. 95 AWS accounts, 200+ repo migrations, 50% cost reductions.`,
+    description: `Cloud Developer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years experience designing systems that scale. 100+ AWS accounts, 200+ repo migrations, 50% cost reductions.`,
     type: "website",
     locale: "en_US",
     url: "https://lukehalley.com",

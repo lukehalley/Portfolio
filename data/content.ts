@@ -30,7 +30,7 @@ export const personalInfo = {
 };
 
 export const journey = [
-  `At **Mineral Resources** (${formatDateRange(MINRES_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **95 accounts** via CI/CD pipelines.`,
+  `At **Mineral Resources** (${formatDateRange(MINRES_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **100+ accounts** via CI/CD pipelines.`,
   `Before that, spent **${formatDuration(VERIZON_END)}** at **Verizon Connect** in Dublin (${formatDateRange(VERIZON_END)}), migrating **200+ repositories** to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
   `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning the SunLife 2019 Enterprise Award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
 ];
@@ -45,7 +45,7 @@ export const experience = {
     highlights: [
       {
         title: "Multi-Cloud Infrastructure Transformation",
-        description: "Migrated MinRes **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **95 AWS accounts** using CI/CD pipelines with ServiceNow integration for change management.",
+        description: "Migrated MinRes **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **100+ AWS accounts** using CI/CD pipelines with ServiceNow integration for change management.",
         impact: "Multi-cloud enablement • 60% efficiency improvement",
         technologies: ["Terraform", "AWS CDK", "CI/CD", "AWS Organizations", "Azure"],
       },
@@ -217,9 +217,9 @@ export const projects = {
       subtitle: "Enterprise AWS Account Orchestration",
       category: "Platform Engineering",
       period: formatDateRange(PROJECT_MINRES_START),
-      description: "Central orchestration platform for provisioning and managing 95+ AWS accounts. Automates end-to-end account lifecycle: AWS Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, CI/CD project setup, and standardized pipelines. Single source of truth for enterprise cloud governance.",
+      description: "Central orchestration platform for provisioning and managing 100+ AWS accounts. Automates end-to-end account lifecycle: AWS Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, CI/CD project setup, and standardized pipelines. Single source of truth for enterprise cloud governance.",
       technologies: ["Terraform", "AWS Organizations", "Control Tower", "CI/CD", "OIDC", "PowerShell"],
-      impact: "95 AWS accounts • 2-week to 2-hour provisioning",
+      impact: "100+ AWS accounts • 2-week to 2-hour provisioning",
       featured: true,
       image: "/images/projects/aws-manage.svg",
     },
