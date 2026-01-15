@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Copy, Check } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
 
 export function EmailCopy() {
   const [copied, setCopied] = useState(false);
@@ -21,10 +20,7 @@ export function EmailCopy() {
   return (
     <div className="relative w-full">
       {/* Email display container */}
-      <div
-        className="group relative flex items-center gap-0 border-4 border-primary bg-white overflow-hidden w-full md:hover:shadow-[8px_8px_0_0_var(--color-tertiary)] md:transition-shadow md:duration-200"
-        style={{ transform: 'translateZ(0)', WebkitTransform: 'translateZ(0)' }}
-      >
+      <div className="flex items-center border-4 border-primary bg-white w-full">
         {/* Email text */}
         <div className="flex-1 px-4 py-3 sm:px-5 sm:py-3 font-mono font-bold text-primary border-r-4 border-primary select-all"
              style={{ fontSize: 'clamp(0.75rem, 2.5vw, 1rem)' }}>
@@ -34,40 +30,15 @@ export function EmailCopy() {
         {/* Copy button */}
         <button
           onClick={handleCopy}
-          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white hover:bg-red-600 transition-colors duration-300 relative flex items-center justify-center shrink-0 active:scale-95"
+          className="px-4 py-3 sm:px-5 sm:py-3 bg-primary text-white transition-colors duration-200 flex items-center justify-center shrink-0"
           aria-label={copied ? "Copied!" : "Copy email address"}
         >
-          <AnimatePresence mode="wait" initial={false}>
-            {copied ? (
-              <motion.div
-                key="check"
-                initial={{ scale: 0, rotate: -180 }}
-                animate={{ scale: 1, rotate: 0 }}
-                exit={{ scale: 0, rotate: 180 }}
-                transition={{ duration: 0.3, ease: [0.68, -0.55, 0.265, 1.55] }}
-                className="flex items-center justify-center"
-              >
-                <Check className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={3} />
-              </motion.div>
-            ) : (
-              <motion.div
-                key="copy"
-                initial={{ scale: 0, rotate: 180 }}
-                animate={{ scale: 1, rotate: 0 }}
-                exit={{ scale: 0, rotate: -180 }}
-                transition={{ duration: 0.3, ease: [0.68, -0.55, 0.265, 1.55] }}
-                className="flex items-center justify-center"
-              >
-                <Copy className="w-5 h-5 sm:w-6 sm:h-6" />
-              </motion.div>
-            )}
-          </AnimatePresence>
+          {copied ? (
+            <Check className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={3} />
+          ) : (
+            <Copy className="w-5 h-5 sm:w-6 sm:h-6" />
+          )}
         </button>
-
-        {/* Hover accent line - hidden on mobile/touch devices */}
-        <div
-          className="absolute bottom-0 left-0 right-0 h-1 bg-red-600 hidden md:group-hover:block transition-transform duration-300 origin-left scale-x-0 md:group-hover:scale-x-100"
-        />
       </div>
     </div>
   );
