@@ -16,7 +16,7 @@ const EDUCATION_RANGE = createDateRange('2014-01', '2019-06');
 
 export const personalInfo = {
   name: "Luke Halley",
-  title: "Senior Cloud Engineer\nDevOps Specialist",
+  title: "Cloud Developer\nDevOps Specialist",
   tagline: "I build multi-cloud infrastructure\nat an **enterprise scale.**\nIaC, CI/CD, AWS, Azure.",
   careerStartYear: CAREER_START_YEAR,
   yearsOfExperience: calculateCareerYears(CAREER_START_YEAR),
@@ -38,7 +38,7 @@ export const journey = [
 export const experience = {
   current: {
     company: "Mineral Resources",
-    role: "Senior Cloud Engineer",
+    role: "Cloud Developer",
     period: formatDateRange(MINRES_START),
     location: "Perth, Australia",
     context: "ASX-listed mining services company with $5B+ revenue and 4,000+ employees across Australia",

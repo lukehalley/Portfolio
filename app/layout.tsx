@@ -21,14 +21,14 @@ const jetbrainsMono = JetBrains_Mono({
 const yearsExperience = new Date().getFullYear() - 2013;
 
 export const metadata: Metadata = {
-  title: "Luke Halley - Senior Cloud Engineer | Infrastructure at Scale",
-  description: `Senior Cloud Engineer with ${yearsExperience}+ years experience building multi-cloud infrastructure at scale. From database migrations to container platforms, I design systems that ship faster and cost less. IaC, CI/CD, AWS, Azure. Perth, Australia.`,
+  title: "Luke Halley - Cloud Developer | Infrastructure at Scale",
+  description: `Cloud Developer with ${yearsExperience}+ years experience building multi-cloud infrastructure at scale. From database migrations to container platforms, I design systems that ship faster and cost less. IaC, CI/CD, AWS, Azure. Perth, Australia.`,
   keywords: [
     "Luke Halley",
     "Luke Halley DevOps",
     "Luke Halley AWS",
     "Luke Halley Cloud Engineer",
-    "Senior Cloud Engineer",
+    "Cloud Developer",
     "DevOps Engineer Perth",
     "AWS Solutions Architect",
     "Infrastructure as Code",
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
     canonical: "https://lukehalley.com",
   },
   openGraph: {
-    title: `Luke Halley - Senior Cloud Engineer | ${yearsExperience}+ Years Experience | Infrastructure at Scale`,
-    description: `Senior Cloud Engineer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years experience designing systems that scale. 95 AWS accounts, 200+ repo migrations, 50% cost reductions.`,
+    title: `Luke Halley - Cloud Developer | ${yearsExperience}+ Years Experience | Infrastructure at Scale`,
+    description: `Cloud Developer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years experience designing systems that scale. 95 AWS accounts, 200+ repo migrations, 50% cost reductions.`,
     type: "website",
     locale: "en_US",
     url: "https://lukehalley.com",
@@ -74,14 +74,14 @@ export const metadata: Metadata = {
         url: "https://lukehalley.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Luke Halley - Senior Cloud Engineer specializing in multi-cloud infrastructure at scale",
+        alt: "Luke Halley - Cloud Developer specializing in multi-cloud infrastructure at scale",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Luke Halley - Senior Cloud Engineer",
+    title: "Luke Halley - Cloud Developer",
     description: `${yearsExperience}+ years experience building multi-cloud infrastructure at scale. Migrations that save 50% costs. Systems that ship faster. IaC, CI/CD, AWS, Azure.`,
     images: ["https://lukehalley.com/og-image.png"],
     site: "@lukehalley",
@@ -100,7 +100,7 @@ export default function RootLayout({
     name: "Luke Halley",
     url: "https://lukehalley.com",
     image: "https://lukehalley.com/og-image.png",
-    jobTitle: "Senior Cloud Engineer",
+    jobTitle: "Cloud Developer",
     worksFor: {
       "@type": "Organization",
       name: "Mineral Resources",
@@ -121,7 +121,7 @@ export default function RootLayout({
       "https://linkedin.com/in/lukehalley",
       "https://gitlab.com/lukehalley",
     ],
-    description: `Senior Cloud Engineer with ${yearsExperience}+ years experience building multi-cloud infrastructure at scale. Specializing in IaC, CI/CD automation, and cloud architecture.`,
+    description: `Cloud Developer with ${yearsExperience}+ years experience building multi-cloud infrastructure at scale. Specializing in IaC, CI/CD automation, and cloud architecture.`,
     knowsAbout: [
       "Infrastructure as Code",
       "Multi-Cloud Architecture",
