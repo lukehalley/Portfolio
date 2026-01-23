@@ -30,22 +30,22 @@ export const personalInfo = {
 };
 
 export const journey = [
-  `At **Mineral Resources** (${formatDateRange(MINRES_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **100+ accounts** via CI/CD pipelines.`,
-  `Before that, spent **${formatDuration(VERIZON_END)}** at **Verizon Connect** in Dublin (${formatDateRange(VERIZON_END)}), migrating **200+ repositories** to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
-  `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning the SunLife 2019 Enterprise Award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
+  `At **a major ASX-listed mining company** (${formatDateRange(MINRES_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **100+ accounts** via CI/CD pipelines.`,
+  `Before that, spent **${formatDuration(VERIZON_END)}** at **a global fleet management company** in Dublin (${formatDateRange(VERIZON_END)}), migrating **200+ repositories** to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
+  `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning an enterprise award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
 ];
 
 export const experience = {
   current: {
-    company: "Mineral Resources",
+    company: "ASX-Listed Mining Company",
     role: "Cloud Developer",
     period: formatDateRange(MINRES_START),
     location: "Perth, Australia",
-    context: "ASX-listed mining services company with $5B+ revenue and 4,000+ employees across Australia",
+    context: "Major mining services company with $5B+ revenue and 4,000+ employees across Australia",
     highlights: [
       {
         title: "Multi-Cloud Infrastructure Transformation",
-        description: "Migrated MinRes **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **100+ AWS accounts** using CI/CD pipelines with ServiceNow integration for change management.",
+        description: "Migrated the organization **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **100+ AWS accounts** using CI/CD pipelines with ServiceNow integration for change management.",
         impact: "Multi-cloud enablement • 60% efficiency improvement",
         technologies: ["Terraform", "AWS CDK", "CI/CD", "AWS Organizations", "Azure"],
       },
@@ -65,11 +65,11 @@ export const experience = {
   },
   previous: [
     {
-      company: "Verizon Connect",
+      company: "Global Fleet Management Company",
       role: "DevOps Engineer",
       period: formatDateRange(VERIZON_END),
       location: "Dublin, Ireland",
-      context: "Global fleet management and telematics company serving 1M+ vehicles worldwide",
+      context: "Fleet management and telematics company serving 1M+ vehicles worldwide",
       highlights: [
         {
           title: "GitLab Migration Pipeline",
@@ -99,8 +99,8 @@ export const experience = {
     },
   ],
   awards: [
-    "SunLife 2019 Enterprise Award",
-    "Verizon Spotlight Award",
+    "2019 Enterprise Award",
+    "Company Spotlight Award",
   ],
 };
 
@@ -177,7 +177,7 @@ export const education = {
   honours: "First Class Honours",
   institution: "Waterford Institute of Technology, Ireland",
   period: formatDateRange(EDUCATION_RANGE),
-  award: "SunLife 2019 Enterprise Award for IoT tracking system (Stork)",
+  award: "2019 Enterprise Award for IoT tracking system (Stork)",
   certifications: [
     {
       name: "AWS Certified Solutions Architect",
@@ -314,9 +314,9 @@ export const projects = {
       subtitle: "IoT Tracking System",
       category: "Award Winner",
       period: formatDateRange(PROJECT_STORK),
-      description: "Award-winning IoT solution for elderly care safety. End-to-end system: custom GPS tracking devices, Python backend services, real-time web dashboard, and SMS alerting. Capstone project earning First Class Honours and SunLife 2019 Enterprise Award.",
+      description: "Award-winning IoT solution for elderly care safety. End-to-end system: custom GPS tracking devices, Python backend services, real-time web dashboard, and SMS alerting. Capstone project earning First Class Honours and a 2019 Enterprise Award.",
       technologies: ["IoT", "Python", "GPS", "WebSockets", "AWS", "SMS"],
-      impact: "SunLife Enterprise Award • Honours Project",
+      impact: "Enterprise Award • Honours Project",
       featured: true,
       link: "https://github.com/lukehalley/StorkWebService",
       image: "/images/projects/stork.png",
