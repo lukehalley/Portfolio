@@ -275,6 +275,19 @@ export function BlogPost({ post }: BlogPostProps) {
   });
 
   const [copied, setCopied] = useState(false);
+  const [progressComplete, setProgressComplete] = useState(false);
+
+  // Hide progress bar 1 second after reaching 100%
+  useEffect(() => {
+    const unsubscribe = scrollYProgress.on("change", (value) => {
+      if (value >= 0.99 && !progressComplete) {
+        setTimeout(() => setProgressComplete(true), 1000);
+      } else if (value < 0.95) {
+        setProgressComplete(false);
+      }
+    });
+    return () => unsubscribe();
+  }, [scrollYProgress, progressComplete]);
 
   const sharePost = async () => {
     const url = window.location.href;
@@ -301,6 +314,8 @@ export function BlogPost({ post }: BlogPostProps) {
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-red-600 origin-left z-50"
         style={{ scaleX }}
+        animate={{ opacity: progressComplete ? 0 : 1 }}
+        transition={{ duration: 0.3 }}
       />
 
       <article className="min-h-screen pb-24">
