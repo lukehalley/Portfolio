@@ -319,6 +319,21 @@ Portfolio/
 
 ---
 
+## Section 11: Marketing Skills
+
+For marketing-related tasks, use skills from [github.com/coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills).
+
+**Use for**:
+- Conversion optimization (CRO) - page-cro, signup-flow-cro, onboarding-cro, form-cro, popup-cro, paywall-upgrade-cro
+- Copywriting and content - copywriting, copy-editing, email-sequence, social-content
+- SEO - seo-audit, programmatic-seo, competitor-alternatives, schema-markup
+- Paid advertising - paid-ads
+- Analytics and testing - analytics-tracking, ab-test-setup
+- Growth engineering - free-tool-strategy, referral-program
+- Strategy - marketing-ideas, marketing-psychology, launch-strategy, pricing-strategy
+
+---
+
 ## Notes
 
 - User is technical and comfortable with all implementation details
