@@ -2,7 +2,8 @@
 
 import { personalInfo } from "@/data/content";
 import Image from "next/image";
-import { MapPin, Github, Linkedin } from "lucide-react";
+import { MapPin, Github, Linkedin, PenLine } from "lucide-react";
+import Link from "next/link";
 import { FormattedText } from "./FormattedText";
 import { motion } from "framer-motion";
 import { GridCanvas } from "./GridCanvas";
@@ -150,6 +151,21 @@ export function Hero() {
                     <Linkedin className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
                     <span>LinkedIn</span>
                   </motion.a>
+
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.98 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Link
+                      href="/blog"
+                      className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-white bg-red-600 border-4 border-red-600 hover:bg-primary hover:border-primary transition-colors duration-300"
+                      style={{ fontSize: 'var(--fluid-base)' }}
+                    >
+                      <PenLine className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
+                      <span>Blog</span>
+                    </Link>
+                  </motion.div>
                 </div>
               </div>
             </div>
