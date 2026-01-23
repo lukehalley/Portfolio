@@ -205,9 +205,9 @@ And if you have domain expertise worth encoding—consider building skills yours
     featured: true,
     content: `Two weeks.
 
-That's how long developers waited for a new AWS account at my previous company. File a ticket. Wait for approval. Wait for the cloud team. Wait for networking. Wait for security review. Wait for someone to remember the ticket existed.
+That's how long developers waited for a new AWS account at one organization I worked with. File a ticket. Wait for approval. Wait for the cloud team. Wait for networking. Wait for security review. Wait for someone to remember the ticket existed.
 
-At my current role, developers get production-ready AWS accounts in 4 minutes. No tickets. No waiting. No cloud team bottleneck.
+At another, developers get production-ready AWS accounts in 4 minutes. No tickets. No waiting. No cloud team bottleneck.
 
 The difference? An **Account Vending Machine**.
 
