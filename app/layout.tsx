@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: `Luke Halley - Cloud Developer | ${yearsExperience}+ Years Experience | Infrastructure at Scale`,
-    description: `Cloud Developer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years experience designing systems that scale. 100+ AWS accounts, 200+ repo migrations, 50% cost reductions.`,
+    description: `Cloud Developer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years experience designing systems that scale. IaC, CI/CD, AWS, Azure.`,
     type: "website",
     locale: "en_US",
     url: "https://lukehalley.com",
@@ -101,10 +101,6 @@ export default function RootLayout({
     url: "https://lukehalley.com",
     image: "https://lukehalley.com/og-image.png",
     jobTitle: "Cloud Developer",
-    worksFor: {
-      "@type": "Organization",
-      name: "[redacted]",
-    },
     alumniOf: {
       "@type": "EducationalOrganization",
       name: "Dublin City University",

@@ -4,7 +4,7 @@
 
 **Name**: Luke Halley
 **Technical Background**: Cloud Developer with 12+ years professional experience
-**Expertise**: Multi-cloud infrastructure at scale (100+ AWS accounts), Terraform/IaC, CI/CD automation, database migrations, platform engineering
+**Expertise**: Multi-cloud infrastructure at scale, Terraform/IaC, CI/CD automation, database migrations, platform engineering
 **Role**: Full decision-making authority on this project
 **Communication Preference**: Technical and direct. Just do it - only explain non-obvious architectural decisions or tradeoffs.
 
@@ -138,20 +138,17 @@ Portfolio/
 
 2. **About Section**
    - Three-paragraph journey narrative
-   - Current role at [redacted] (Dec 2024 - Present)
    - Previous role at Verizon Connect (5+ years)
    - Education and award-winning college project (Stork)
 
 3. **Experience Section**
-   - Current: [redacted] (3 major achievements)
    - Previous: Verizon Connect (4 major achievements)
    - Each with title, description, impact, technologies
 
 4. **Projects Section**
-   - Three subsections: Professional, Side Projects, College
+   - Two subsections: Side Projects, College
    - Featured/non-featured distinction
    - Project cards with images, tech stack, impact, links
-   - Professional: Account Vending Machine, Runners Platform, AWS Pipeline Templates, Terraform Module Registry
    - Side Projects: ndisready.com.au, MigrateChart, ArbTheChain, Reduke
    - College: Stork, NoSQL-Spotify, ProjectHear, MeerkatLamp, etc.
 
@@ -194,7 +191,7 @@ Portfolio/
 **Career Timeline**:
 - Career start: 2013 (CAREER_START_YEAR constant)
 - Verizon Connect: May 2019 - Sept 2024
-- [redacted]: Dec 2024 - Present
+- Current role: Dec 2024 - Present (details on request)
 - Education: Jan 2014 - Jun 2019
 
 **Technical Expertise**:
@@ -203,9 +200,9 @@ Portfolio/
 - Platform engineering
 - CI/CD automation
 - Database migrations at scale
-- 100+ AWS accounts managed
-- 200+ repository migrations
-- 50% cost reductions through optimization
+- Multi-account AWS governance
+- Repository tooling migrations
+- Cost optimization work
 
 ---
 

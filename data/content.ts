@@ -9,9 +9,7 @@ import {
 const CAREER_START_YEAR = 2013;
 
 // Key employment dates
-const VERIZON_START = createDateRange('2019-05');
 const VERIZON_END = createDateRange('2019-05', '2024-09');
-const [redacted]_START = createDateRange('2024-12');
 const EDUCATION_RANGE = createDateRange('2014-01', '2019-06');
 
 export const personalInfo = {
@@ -30,38 +28,24 @@ export const personalInfo = {
 };
 
 export const journey = [
-  `At **a major ASX-listed mining company** (${formatDateRange([redacted]_START)}), I led the multi-cloud transformation—migrating from **AWS CDK to Terraform** to enable operations across **AWS and Azure**. Built a self-hosted Terraform solution replacing Terraform Cloud, then deployed it across **100+ accounts** via CI/CD pipelines.`,
-  `Before that, spent **${formatDuration(VERIZON_END)}** at **a global fleet management company** in Dublin (${formatDateRange(VERIZON_END)}), migrating **200+ repositories** to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
+  `I work across **AWS and Azure**, designing multi-cloud infrastructure and the tooling that deploys it—Terraform, IaC patterns, and CI/CD pipelines. Current role details available on request.`,
+  `Before that, spent **${formatDuration(VERIZON_END)}** at **a global fleet management company** in Dublin (${formatDateRange(VERIZON_END)}), migrating repositories to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
   `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning an enterprise award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
 ];
 
 export const experience = {
-  current: {
-    company: "ASX-Listed Mining Company",
-    role: "Cloud Developer",
-    period: formatDateRange([redacted]_START),
-    location: "Perth, Australia",
-    context: "Major mining services company with $5B+ revenue and 4,000+ employees across Australia",
-    highlights: [
-      {
-        title: "Multi-Cloud Infrastructure Transformation",
-        description: "Migrated the organization **from AWS CDK to Terraform** to enable **multi-cloud strategy** across AWS and Azure. Designed and built **self-hosted Terraform solution** replacing Terraform Cloud, then deployed infrastructure across **100+ AWS accounts** using CI/CD pipelines with ServiceNow integration for change management.",
-        impact: "Multi-cloud enablement • 60% efficiency improvement",
-        technologies: ["Terraform", "AWS CDK", "CI/CD", "AWS Organizations", "Azure"],
-      },
-      {
-        title: "Enterprise Account Orchestration",
-        description: "Architected **account vending machine** automating end-to-end AWS account lifecycle: Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, CI/CD project setup, and standardized pipelines. Single source of truth for **30+ development teams**.",
-        impact: "2-week to 2-hour provisioning",
-        technologies: ["AWS Control Tower", "Service Catalog", "IAM", "OIDC", "Terraform Cloud"],
-      },
-      {
-        title: "Financial Systems Automation",
-        description: "Built automated pipeline to identify and remediate **bad records** in [redacted] procurement system from Redshift data warehouse. Eliminated recurring manual interventions that blocked finance operations multiple times weekly.",
-        impact: "40% workload reduction • $200K+ annual savings",
-        technologies: ["Python", "AWS Redshift", "Lambda", "EventBridge"],
-      },
-    ],
+  current: null as null | {
+    company: string;
+    role: string;
+    period: string;
+    location: string;
+    context: string;
+    highlights: Array<{
+      title: string;
+      description: string;
+      impact: string;
+      technologies: string[];
+    }>;
   },
   previous: [
     {
@@ -205,58 +189,23 @@ export const personal = {
 };
 
 // Project date ranges
-const PROJECT_[redacted]_START = createDateRange('2024-01');
 const PROJECT_ATC = createDateRange('2022-01', '2023-12');
 const PROJECT_STORK = createDateRange('2019-01', '2019-06');
 const PROJECT_NDIS_START = createDateRange('2024-01');
 
 export const projects = {
-  professional: [
-    {
-      title: "Account Vending Machine",
-      subtitle: "Enterprise AWS Account Orchestration",
-      category: "Platform Engineering",
-      period: formatDateRange(PROJECT_[redacted]_START),
-      description: "Central orchestration platform for provisioning and managing 100+ AWS accounts. Automates end-to-end account lifecycle: AWS Organizations enrollment, IAM OIDC configuration, Terraform Cloud workspace creation, CI/CD project setup, and standardized pipelines. Single source of truth for enterprise cloud governance.",
-      technologies: ["Terraform", "AWS Organizations", "Control Tower", "CI/CD", "OIDC", "PowerShell"],
-      impact: "100+ AWS accounts • 2-week to 2-hour provisioning",
-      featured: true,
-      image: "/images/projects/aws-manage.svg",
-    },
-    {
-      title: "Runners Platform",
-      subtitle: "Serverless CI/CD Agent Infrastructure",
-      category: "Platform Engineering",
-      period: formatDateRange(PROJECT_[redacted]_START),
-      description: "Scalable, serverless platform for CI/CD self-hosted agents on AWS. ECS Fargate containers with intelligent agent allocation tracking via SQS FIFO queues to prevent race conditions. Supports multiple agent types: Terraform, Python, Node.js, Docker, and ImageBuilder runners.",
-      technologies: ["ECS Fargate", "API Gateway", "SQS FIFO", "Lambda", "Terraform", "Docker"],
-      impact: "Multi-pool agent orchestration • Serverless scaling",
-      featured: true,
-      image: "/images/projects/runners.svg",
-    },
-    {
-      title: "AWS Pipeline Templates",
-      subtitle: "Standardized CI/CD Pipeline Library",
-      category: "Platform Engineering",
-      period: formatDateRange(PROJECT_[redacted]_START),
-      description: "Comprehensive CI/CD pipeline template library for AWS deployments. Reusable YAML templates for static sites (S3/CloudFront), Python Lambda functions, and Terraform infrastructure. Implements quality gates, security scanning, and multi-environment promotion.",
-      technologies: ["CI/CD Pipelines", "YAML", "S3", "CloudFront", "Lambda", "Terraform"],
-      impact: "Standardized deployments • Self-service for 30+ teams",
-      featured: true,
-      image: "/images/projects/templates.svg",
-    },
-    {
-      title: "Terraform Module Registry",
-      subtitle: "Enterprise Terraform Modules",
-      category: "Platform Engineering",
-      period: formatDateRange(PROJECT_[redacted]_START),
-      description: "Collection of enterprise-grade Terraform modules published to HCP Terraform private registry. Foundation networking (VPC, Transit Gateway, routing), security baselines, and standardized patterns.",
-      technologies: ["Terraform", "HCP Terraform", "VPC", "Transit Gateway", "Checkov"],
-      impact: "Private module registry • Reusable infrastructure patterns",
-      featured: false,
-      image: "/images/projects/modules.svg",
-    },
-  ],
+  professional: [] as Array<{
+    title: string;
+    subtitle: string;
+    category: string;
+    period: string;
+    description: string;
+    technologies: string[];
+    impact: string;
+    featured: boolean;
+    image: string;
+    link?: string;
+  }>,
   sideProjects: [
     {
       title: "ndisready.com.au",
