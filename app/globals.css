@@ -353,7 +353,9 @@
         rgba(255, 255, 255, 0.01) 32px
       ),
       var(--gradient-noise);
-    background-attachment: fixed;
+    /* Scrolls with the section (not viewport-fixed) to avoid per-frame
+       background repaints that cause scroll jank on the dark sections. */
+    transform: translateZ(0);
     opacity: 1;
     pointer-events: none;
     z-index: 0;
