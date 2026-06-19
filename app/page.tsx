@@ -3,6 +3,9 @@ import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 
 // Lazy load below-the-fold sections
+const Impact = dynamic(() => import('@/components/Impact').then(mod => ({ default: mod.Impact })), {
+  loading: () => <div className="py-32" />
+});
 const Experience = dynamic(() => import('@/components/Experience').then(mod => ({ default: mod.Experience })), {
   loading: () => <div className="py-32" />
 });
@@ -31,6 +34,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Impact />
         <Experience />
         <Projects />
         <Skills />

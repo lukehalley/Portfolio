@@ -54,7 +54,7 @@
     <g transform="translate(0, 325)">
       <!-- Bigger lukehalley.com -->
       <text x="0" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="32" font-weight="700" fill="#22282e">lukehalley.com</text>
-      <text x="0" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="18" font-weight="500" fill="#22282e">contact@lukehalley.com</text>
+      <text x="0" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="18" font-weight="500" fill="#22282e">development@lukehalley.com</text>
       <text x="0" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="18" font-weight="500" fill="#393e46">github.com/lukehalley</text>
 
       <!-- Location with pin indicator -->

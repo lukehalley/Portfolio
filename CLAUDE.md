@@ -183,7 +183,7 @@ Portfolio/
 **Location**: Perth, Australia (NOT Sydney - user is not relocating)
 
 **Contact**:
-- Email: contact@lukehalley.com (visible with copy button)
+- Email: development@lukehalley.com (visible with copy button)
 - GitHub: https://github.com/lukehalley
 - LinkedIn: https://www.linkedin.com/in/luke-halley-284b9b115/
 - GitLab: https://gitlab.com/lukehalley

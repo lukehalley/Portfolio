@@ -5,7 +5,7 @@ import { Copy, Check } from "lucide-react";
 
 export function EmailCopy() {
   const [copied, setCopied] = useState(false);
-  const email = "contact@lukehalley.com";
+  const email = "development@lukehalley.com";
 
   const handleCopy = async () => {
     try {

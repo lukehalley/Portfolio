@@ -90,6 +90,13 @@ export function Experience() {
         {experience.previous.map((job, jobIndex) => (
           <div key={jobIndex} className="mb-32 md:mb-40">
             <div className="mb-10 md:mb-12">
+              {job.badge && (
+                <div className="flex items-center gap-4 mb-2">
+                  <span className="px-3 py-1 bg-primary text-white font-mono font-bold uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
+                    {job.badge}
+                  </span>
+                </div>
+              )}
               <h3 className="font-black uppercase text-primary tracking-wide" style={{ fontSize: 'var(--fluid-5xl)' }}>
                 {job.company}
               </h3>
@@ -99,6 +106,11 @@ export function Experience() {
               <p className="font-mono font-bold text-secondary mt-2 tracking-tight uppercase" style={{ fontSize: 'var(--fluid-xl)' }}>
                 {job.period} • {job.location}
               </p>
+              {job.context && (
+                <p className="text-primary-muted mt-4 leading-relaxed max-w-3xl" style={{ fontSize: 'var(--fluid-lg)' }}>
+                  {job.context}
+                </p>
+              )}
             </div>
 
             <div className="space-y-10 md:space-y-12">

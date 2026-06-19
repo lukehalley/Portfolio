@@ -9,17 +9,18 @@ import {
 const CAREER_START_YEAR = 2013;
 
 // Key employment dates
+const MINING_ROLE = createDateRange('2025-04', '2026-06');
 const VERIZON_END = createDateRange('2019-05', '2024-09');
 const EDUCATION_RANGE = createDateRange('2014-01', '2019-06');
 
 export const personalInfo = {
   name: "Luke Halley",
-  title: "Cloud Developer\nDevOps Specialist",
-  tagline: "I build multi-cloud infrastructure\nat an **enterprise scale.**\nIaC, CI/CD, AWS, Azure.",
+  title: "Cloud Platform Engineer\nInfrastructure at Scale",
+  tagline: "I built an entire **AWS cloud platform**\nfor 100+ engineering teams. Solo.\nIaC, CI/CD, multi-account AWS.",
   careerStartYear: CAREER_START_YEAR,
   yearsOfExperience: calculateCareerYears(CAREER_START_YEAR),
   location: "Perth, Australia",
-  email: "contact@lukehalley.com",
+  email: "development@lukehalley.com",
   social: {
     github: "https://github.com/lukehalley",
     gitlab: "https://gitlab.com/lukehalley",
@@ -28,8 +29,8 @@ export const personalInfo = {
 };
 
 export const journey = [
-  `I work across **AWS and Azure**, designing multi-cloud infrastructure and the tooling that deploys it—Terraform, IaC patterns, and CI/CD pipelines. Current role details available on request.`,
-  `Before that, spent **${formatDuration(VERIZON_END)}** at **a global fleet management company** in Dublin (${formatDateRange(VERIZON_END)}), migrating repositories to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
+  `Most recently I was the **sole architect of the entire AWS cloud platform** at **a multi-billion-dollar ASX-listed mining company**, serving **100+ engineering teams** (${formatDateRange(MINING_ROLE)}). I shipped **18 systems from scratch**: the build-agent fleet, the account factory, the module registry, the developer CLI. I migrated the org off Terraform Cloud. **$369K/year in verified savings, zero production incidents**, promoted to Senior in 8 months.`,
+  `Before that, **${formatDuration(VERIZON_END)}** at **a global fleet management company** in Dublin (${formatDateRange(VERIZON_END)}), migrating 200+ repositories to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
   `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning an enterprise award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
 ];
 
@@ -48,6 +49,46 @@ export const experience = {
     }>;
   },
   previous: [
+    {
+      company: "Multi-Billion-Dollar ASX-Listed Mining Company",
+      role: "Cloud Developer → Senior Cloud Developer",
+      period: formatDateRange(MINING_ROLE),
+      location: "Perth, Australia",
+      badge: "Most recent",
+      context: "Sole architect and primary engineer of the company's entire AWS cloud platform, serving 100+ development teams. Promoted to Senior in 8 months, with zero production incidents across every system for the entire tenure.",
+      highlights: [
+        {
+          title: "Serverless Build-Agent Platform",
+          description: "Built a production **serverless build-agent platform** from scratch. The flow runs **API Gateway → SQS FIFO → Lambda → ECS Fargate / EC2 Spot**, with 9 specialised runner types, DynamoDB allocation tracking, and a warm pool for sub-5-second pickup. It replaced an expensive always-on runner fleet with ephemeral, on-demand containers.",
+          impact: "83% faster cold-starts (180s → 20s) · ~70% cheaper",
+          technologies: ["ECS Fargate", "Lambda", "SQS FIFO", "DynamoDB", "EC2 Spot", "CloudWatch"],
+        },
+        {
+          title: "Hub-and-Spoke Account Factory",
+          description: "I designed the central automation that provisions **every AWS account, identity group and CI/CD project** in the org, with OIDC trust, SSO assignment, and 9-layer state protection. One pipeline run stands up a governed account in about 10 minutes. The same work used to take 2 to 3 days across five teams.",
+          impact: "44+ accounts · 2-3 days → 10 minutes",
+          technologies: ["Terraform", "CloudFormation StackSets", "OIDC", "IAM Identity Center", "Azure AD"],
+        },
+        {
+          title: "Org-Wide CI/CD Template Library",
+          description: "I authored the **pipeline template system every team deploys through**: 10 reusable templates with **OIDC federation and zero stored credentials**, automated security scanning, and change-management gates. One security patch protects all 100+ teams at once. New-project onboarding dropped from days to hours.",
+          impact: "342 pipelines · 100+ teams · $0 stored credentials",
+          technologies: ["Azure Pipelines", "OIDC", "Terraform", "Trivy", "Bandit", "ServiceNow"],
+        },
+        {
+          title: "Terraform Cloud → Self-Hosted Migration",
+          description: "Licensing would have hit **$150K+/year at scale**, so I led the org **off Terraform Cloud** onto a self-built platform: a private Go module registry, a credential-vending API, S3 state with DynamoDB locking, and a Python migration tool. It moved with **zero downtime and no team disruption**.",
+          impact: "$150K+/year avoided · 33/40 repositories migrated",
+          technologies: ["Go", "Python", "Terraform / OpenTofu", "S3", "RDS", "ECS Fargate"],
+        },
+        {
+          title: "Developer CLI & Cost Visibility",
+          description: "I built a **zero-dependency Python CLI** that vends short-lived STS credentials and runs Terraform plans against any account locally. It cut the test loop to **30 seconds**, down from 5 to 10 minutes. I also shipped a Next.js cost dashboard with AI cost analysis for the finance team.",
+          impact: "Test loop 10 min → 30 sec · daily-driver tooling",
+          technologies: ["Python", "OAuth2 PKCE", "STS", "Next.js", "Cost Explorer", "Bedrock"],
+        },
+      ],
+    },
     {
       company: "Global Fleet Management Company",
       role: "DevOps Engineer",
@@ -81,11 +122,56 @@ export const experience = {
         },
       ],
     },
-  ],
+  ] as Array<{
+    company: string;
+    role: string;
+    period: string;
+    location: string;
+    badge?: string;
+    context?: string;
+    highlights: Array<{
+      title: string;
+      description: string;
+      impact: string;
+      technologies: string[];
+    }>;
+  }>,
   awards: [
+    "Promoted to Senior in 8 Months",
+    "Top Performance Rating: “Always”",
     "2019 Enterprise Award",
     "Company Spotlight Award",
   ],
+};
+
+// Verified impact from the cloud platform role. Every figure is sourced from
+// git history, AWS billing, internal promotion review, and the performance
+// review. Anonymised: no account IDs or internal identifiers.
+export const impact = {
+  eyebrow: "13-month tenure · sole platform architect · verified",
+  intro:
+    "I was the sole architect of an entire AWS cloud platform at a multi-billion-dollar ASX-listed mining company. 100+ engineering teams built on the systems I designed and shipped. Every number below comes from git history, billing, and internal review.",
+  headline: {
+    value: "$369K",
+    unit: "/year",
+    label: "Documented cost savings",
+    proof: "Verified in the promotion review: a 12.6× return on the raise it earned.",
+  },
+  avoided: "$150K+/year in licensing avoided on top",
+  stats: [
+    { value: "0", label: "Production incidents", proof: "Across every platform, the entire tenure." },
+    { value: "18", label: "Systems built from scratch", proof: "Runners, account factory, CLI, registries, dashboards." },
+    { value: "100+", label: "Engineering teams served", proof: "Every AWS deployment in the org ran through my pipelines." },
+    { value: "4,766", label: "Commits in 13 months", proof: "#1 contributor on every major platform, by 5 to 26×." },
+    { value: "342", label: "CI/CD pipelines", proof: "Running on 10 templates I authored, across 53 projects." },
+    { value: "104", label: "AWS accounts", proof: "Centralised identity, networking and governance." },
+    { value: "83%", label: "Faster build cold-starts", proof: "180s → 20s on the serverless agent platform." },
+    { value: "8 mo", label: "To Senior promotion", proof: "Fastest in team history." },
+  ],
+  quote: {
+    text: "Luke is the best. No notes.",
+    attribution: "Engineering leader, performance review",
+  },
 };
 
 export const skills = {
@@ -194,7 +280,80 @@ const PROJECT_STORK = createDateRange('2019-01', '2019-06');
 const PROJECT_NDIS_START = createDateRange('2024-01');
 
 export const projects = {
-  professional: [] as Array<{
+  professional: [
+    {
+      title: "Serverless Build-Agent Platform",
+      subtitle: "Ephemeral CI/CD Runners",
+      category: "Platform Engineering",
+      period: "2025-26",
+      description:
+        "Production serverless build-agent platform replacing an always-on runner fleet. API Gateway → SQS FIFO → Lambda → ECS Fargate & EC2 Spot, with 9 specialised runner types and a warm pool for sub-5-second pickup. 38K+ provisioning events served.",
+      technologies: ["ECS Fargate", "Lambda", "SQS FIFO", "DynamoDB", "EC2 Spot", "CloudWatch", "Docker"],
+      impact: "83% faster cold-starts · ~70% cheaper",
+      featured: true,
+      image: "/images/projects/runners.svg",
+    },
+    {
+      title: "Cloud Account Factory",
+      subtitle: "Hub-and-Spoke Provisioning",
+      category: "Governance & IaC",
+      period: "2025-26",
+      description:
+        "Central automation that provisions every AWS account, identity group and CI/CD project across the org. One pipeline run stands up a governed account in about 10 minutes. The same work used to take 2 to 3 days across five teams.",
+      technologies: ["Terraform", "CloudFormation StackSets", "OIDC", "IAM Identity Center", "Azure AD"],
+      impact: "44+ accounts · 2-3 days → 10 min",
+      featured: true,
+      image: "/images/projects/aws-manage.svg",
+    },
+    {
+      title: "CI/CD Template Library",
+      subtitle: "Zero-Credential Pipelines",
+      category: "Developer Platform",
+      period: "2025-26",
+      description:
+        "The pipeline template system every team deploys through. 10 reusable templates with OIDC federation and no stored credentials, automated security scanning, and change-management gates. One security patch protects 100+ teams at once.",
+      technologies: ["Azure Pipelines", "OIDC", "Terraform", "Trivy", "Bandit", "ServiceNow"],
+      impact: "342 pipelines · 100+ teams",
+      featured: true,
+      image: "/images/projects/templates.svg",
+    },
+    {
+      title: "Private Module Registry",
+      subtitle: "Terraform Registry + SSO/RBAC",
+      category: "Developer Platform",
+      period: "2025-26",
+      description:
+        "Forked an open-source Go registry into a production private Terraform module registry with enterprise SSO, Casbin RBAC and daily group sync. Multi-AZ ECS Fargate, Postgres backend, automatic semantic versioning from conventional commits.",
+      technologies: ["Go", "ECS Fargate", "PostgreSQL", "OIDC SSO", "S3", "Casbin"],
+      impact: "Single source of truth for all IaC modules",
+      featured: false,
+      image: "/images/projects/modules.svg",
+    },
+    {
+      title: "Self-Hosted Terraform Platform",
+      subtitle: "Credential Vending + Local Plans",
+      category: "Developer Platform",
+      period: "2025-26",
+      description:
+        "The in-house replacement for Terraform Cloud: a Lambda credential-vending API plus a zero-dependency Python CLI that runs Terraform plans against any account locally. Cut the local test loop to 30 seconds, down from 5 to 10 minutes.",
+      technologies: ["Python", "OAuth2 PKCE", "STS", "Lambda", "DynamoDB", "ALB"],
+      impact: "Test loop 10 min → 30 sec",
+      featured: false,
+      image: "/images/projects/modules.svg",
+    },
+    {
+      title: "Cost Visibility Platform",
+      subtitle: "Estate-Wide Cost Reporting",
+      category: "FinOps",
+      period: "2025-26",
+      description:
+        "Automated cost reporting across the entire AWS estate: monthly reports via Cost Explorer plus a real-time Next.js dashboard with an AI cost-analysis chat. EventBridge-scheduled Lambda pipeline with Redis caching.",
+      technologies: ["Next.js", "Lambda", "Cost Explorer", "Bedrock", "Redis", "EventBridge"],
+      impact: "Estate-wide spend visibility for finance",
+      featured: false,
+      image: "/images/projects/templates.svg",
+    },
+  ] as Array<{
     title: string;
     subtitle: string;
     category: string;

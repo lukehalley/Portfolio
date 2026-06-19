@@ -9,7 +9,7 @@
 | **Bio** | Internet Of Things. | Yes - outdated |
 | **Company** | BSc (Hons) - IOT | Yes - outdated |
 | **Location** | WIT (Waterford, Ireland) | Yes - outdated |
-| **Email** | contact@lukehalley.com | Review |
+| **Email** | development@lukehalley.com | Review |
 | **Hireable** | true | Keep |
 | **Public Repos** | 38 | - |
 | **Followers** | 25 | - |

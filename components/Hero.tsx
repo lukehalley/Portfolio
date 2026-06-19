@@ -102,6 +102,25 @@ export function Hero() {
               </p>
             </div>
 
+            {/* Proof ribbon */}
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-3 w-fit bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0">
+              {[
+                { value: "$369K", label: "Saved/yr" },
+                { value: "0", label: "Incidents" },
+                { value: "100+", label: "Teams" },
+                { value: "18", label: "Systems built" },
+              ].map((stat) => (
+                <div key={stat.label} className="flex items-baseline gap-2">
+                  <span className="font-black text-primary leading-none" style={{ fontSize: 'var(--fluid-xl)' }}>
+                    {stat.value}
+                  </span>
+                  <span className="font-mono font-bold uppercase text-tertiary tracking-tight" style={{ fontSize: 'var(--fluid-xs)' }}>
+                    {stat.label}
+                  </span>
+                </div>
+              ))}
+            </div>
+
             {/* Location */}
             <div>
               <a

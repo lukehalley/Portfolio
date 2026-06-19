@@ -21,13 +21,16 @@ const jetbrainsMono = JetBrains_Mono({
 const yearsExperience = new Date().getFullYear() - 2013;
 
 export const metadata: Metadata = {
-  title: "Luke Halley - Cloud Developer | Infrastructure at Scale",
-  description: `Cloud Developer with ${yearsExperience}+ years experience building multi-cloud infrastructure at scale. From database migrations to container platforms, I design systems that ship faster and cost less. IaC, CI/CD, AWS, Azure. Perth, Australia.`,
+  title: "Luke Halley - Cloud Platform Engineer | Infrastructure at Scale",
+  description: `Cloud Platform Engineer with ${yearsExperience}+ years experience. I built an entire AWS cloud platform for 100+ engineering teams: serverless build agents, an account factory, CI/CD templates, and a self-hosted Terraform stack. $369K/year saved, zero production incidents. IaC, CI/CD, AWS, Azure. Perth, Australia.`,
   keywords: [
     "Luke Halley",
     "Luke Halley DevOps",
     "Luke Halley AWS",
     "Luke Halley Cloud Engineer",
+    "Luke Halley Cloud Platform Engineer",
+    "Cloud Platform Engineer",
+    "Platform Engineering",
     "Cloud Developer",
     "DevOps Engineer Perth",
     "AWS Solutions Architect",
@@ -63,8 +66,8 @@ export const metadata: Metadata = {
     canonical: "https://lukehalley.com",
   },
   openGraph: {
-    title: `Luke Halley - Cloud Developer | ${yearsExperience}+ Years Experience | Infrastructure at Scale`,
-    description: `Cloud Developer specializing in multi-cloud infrastructure and automation. ${yearsExperience}+ years experience designing systems that scale. IaC, CI/CD, AWS, Azure.`,
+    title: `Luke Halley - Cloud Platform Engineer | ${yearsExperience}+ Years Experience | Infrastructure at Scale`,
+    description: `Cloud Platform Engineer who built an entire AWS platform for 100+ teams. 18 systems shipped, $369K/year saved, zero production incidents. IaC, CI/CD, AWS, Azure.`,
     type: "website",
     locale: "en_US",
     url: "https://lukehalley.com",
@@ -74,15 +77,15 @@ export const metadata: Metadata = {
         url: "https://lukehalley.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Luke Halley - Cloud Developer specializing in multi-cloud infrastructure at scale",
+        alt: "Luke Halley - Cloud Platform Engineer who built an entire AWS platform at scale",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Luke Halley - Cloud Developer",
-    description: `${yearsExperience}+ years experience building multi-cloud infrastructure at scale. Migrations that save 50% costs. Systems that ship faster. IaC, CI/CD, AWS, Azure.`,
+    title: "Luke Halley - Cloud Platform Engineer",
+    description: `Built an entire AWS cloud platform for 100+ teams. 18 systems, $369K/year saved, zero production incidents. IaC, CI/CD, AWS, Azure.`,
     images: ["https://lukehalley.com/og-image.png"],
     site: "@lukehalley",
     creator: "@lukehalley",
@@ -100,7 +103,7 @@ export default function RootLayout({
     name: "Luke Halley",
     url: "https://lukehalley.com",
     image: "https://lukehalley.com/og-image.png",
-    jobTitle: "Cloud Developer",
+    jobTitle: "Cloud Platform Engineer",
     alumniOf: {
       "@type": "EducationalOrganization",
       name: "Dublin City University",
@@ -111,13 +114,13 @@ export default function RootLayout({
       addressRegion: "WA",
       addressCountry: "AU",
     },
-    email: "contact@lukehalley.com",
+    email: "development@lukehalley.com",
     sameAs: [
       "https://github.com/lukehalley",
       "https://linkedin.com/in/lukehalley",
       "https://gitlab.com/lukehalley",
     ],
-    description: `Cloud Developer with ${yearsExperience}+ years experience building multi-cloud infrastructure at scale. Specializing in IaC, CI/CD automation, and cloud architecture.`,
+    description: `Cloud Platform Engineer with ${yearsExperience}+ years experience. Built an entire AWS cloud platform for 100+ engineering teams. Specializes in IaC, CI/CD automation, and multi-account cloud architecture.`,
     knowsAbout: [
       "Infrastructure as Code",
       "Multi-Cloud Architecture",
@@ -131,8 +134,10 @@ export default function RootLayout({
       "Cloud Governance",
     ],
     award: [
-      "Verizon Spotlight Award",
-      "SunLife Enterprise Award",
+      "Promoted to Senior Cloud Developer in 8 months",
+      "Top performance rating (highest)",
+      "Company Spotlight Award",
+      "2019 Enterprise Award",
     ],
   };
 
