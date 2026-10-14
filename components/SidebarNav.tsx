@@ -6,14 +6,14 @@ import { verticalAI } from '@/data/content';
 import { VaMark } from './VaMark';
 
 const sections = [
-  { id: 'hero', label: 'INTRO' },
-  { id: 'verticalai', label: 'NOW' },
-  { id: 'about', label: 'ABOUT' },
-  { id: 'impact', label: 'IMPACT' },
-  { id: 'experience', label: 'WORK' },
-  { id: 'projects', label: 'PROJECTS' },
-  { id: 'skills', label: 'SKILLS' },
-  { id: 'personal', label: 'LIFE' },
+  { id: 'hero', label: 'Intro' },
+  { id: 'verticalai', label: 'VerticalAI' },
+  { id: 'about', label: 'About' },
+  { id: 'impact', label: 'Impact' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'personal', label: 'Beyond work' },
 ];
 
 export function SidebarNav() {
@@ -61,49 +61,38 @@ export function SidebarNav() {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const activeIndex = sections.findIndex((s) => s.id === activeSection);
-
   return (
     <>
       <nav
         aria-label="Sections"
-        className="fixed left-0 top-0 bottom-0 z-50 hidden lg:flex flex-col items-center w-16 bg-white border-r-4 border-primary"
+        className="fixed left-0 top-0 bottom-0 z-50 hidden lg:flex flex-col items-center w-20 bg-white border-r-4 border-primary"
       >
         {/* Name mark */}
         <button
           onClick={() => scrollToSection('hero')}
-          className="shrink-0 w-full h-16 flex items-center justify-center border-b-4 border-primary font-black text-primary hover:bg-primary hover:text-white transition-colors"
-          aria-label="Back to top"
+          className="shrink-0 w-full h-20 flex items-center justify-center border-b-4 border-primary font-black text-xl tracking-tight text-primary hover:bg-primary hover:text-white transition-colors"
+          aria-label="Luke Halley, go to the top"
         >
           LH
         </button>
 
-        {/* Section links */}
-        <div className="relative flex-1 min-h-0 flex flex-col justify-center gap-4 items-center w-full">
-          <div className="absolute left-0 top-[15%] bottom-[15%] w-[3px] bg-primary/10">
-            <div
-              className="w-full bg-tertiary transition-all duration-500"
-              style={{ height: `${((activeIndex + 1) / sections.length) * 100}%` }}
-            />
-          </div>
-          {sections.map(({ id, label }) => {
+        {/* Section links: numbers, with the name on hover */}
+        <div className="flex-1 min-h-0 flex flex-col justify-center gap-1 w-full">
+          {sections.map(({ id, label }, index) => {
             const isActive = activeSection === id;
             return (
               <button
                 key={id}
                 onClick={() => scrollToSection(id)}
-                className="group relative flex items-center justify-center"
+                className={`group relative w-full h-12 flex items-center justify-center font-mono text-base font-bold transition-colors ${
+                  isActive ? 'text-tertiary' : 'text-primary-subtle hover:text-primary'
+                }`}
                 aria-label={`Go to ${label} section`}
                 aria-current={isActive ? 'true' : undefined}
               >
-                <span
-                  className={`font-mono text-[9px] uppercase select-none transition-colors ${
-                    isActive
-                      ? 'text-tertiary font-black'
-                      : 'text-primary-ghost font-bold group-hover:text-primary'
-                  }`}
-                  style={{ writingMode: 'vertical-rl', letterSpacing: '0.2em' }}
-                >
+                {isActive && <span className="absolute left-0 top-2 bottom-2 w-1 bg-tertiary" />}
+                {String(index + 1).padStart(2, '0')}
+                <span className="pointer-events-none absolute left-full ml-1 px-3 py-2 bg-primary text-white text-sm font-bold uppercase tracking-wider whitespace-nowrap opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all">
                   {label}
                 </span>
               </button>
@@ -116,10 +105,10 @@ export function SidebarNav() {
           href={verticalAI.url}
           target="_blank"
           rel="noopener"
-          className="shrink-0 group w-full flex flex-col items-center gap-2 py-4 bg-tertiary text-white hover:bg-primary transition-colors"
+          className="shrink-0 group w-full flex flex-col items-center gap-1.5 py-4 bg-tertiary text-white hover:bg-primary transition-colors"
           title={`Lead Engineer at ${verticalAI.name}: ${verticalAI.domain}`}
         >
-          <VaMark className="w-8 h-8" />
+          <VaMark className="w-10 h-10" />
           <span className="sr-only">VerticalAI, where I am Lead Engineer</span>
           <ArrowUpRight className="w-4 h-4 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
         </a>
