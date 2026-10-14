@@ -1,6 +1,8 @@
 import dynamic from 'next/dynamic';
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
+import { Now } from "@/components/Now";
+import { SidebarNav } from "@/components/SidebarNav";
 
 // Lazy load below-the-fold sections
 const Impact = dynamic(() => import('@/components/Impact').then(mod => ({ default: mod.Impact })), {
@@ -31,8 +33,10 @@ const Footer = dynamic(() => import('@/components/Footer').then(mod => ({ defaul
 export default function Home() {
   return (
     <>
+      <SidebarNav />
       <main>
         <Hero />
+        <Now />
         <About />
         <Impact />
         <Experience />

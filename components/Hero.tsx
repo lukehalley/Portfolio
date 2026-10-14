@@ -1,9 +1,9 @@
 "use client";
 
-import { personalInfo } from "@/data/content";
+import { personalInfo, verticalAI } from "@/data/content";
 import Image from "next/image";
-import { MapPin, Github, Linkedin, PenLine } from "lucide-react";
-import Link from "next/link";
+import { MapPin, Github, Linkedin, ArrowUpRight } from "lucide-react";
+import { VaMark } from "./VaMark";
 import { FormattedText } from "./FormattedText";
 import { motion } from "framer-motion";
 import { GridCanvas } from "./GridCanvas";
@@ -84,33 +84,29 @@ export function Hero() {
             <div className="space-y-4 sm:space-y-6 pr-4 md:pr-0 max-w-[95%] md:max-w-none">
               <p className="font-mono font-bold text-secondary tracking-tight uppercase whitespace-pre-line bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
                  style={{
-                   fontSize: 'clamp(0.75rem, 3vw, 1rem)',
-                   maskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)',
-                   WebkitMaskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)'
+                   fontSize: 'clamp(0.75rem, 3vw, 1rem)'
                  }}>
                 {personalInfo.title}
               </p>
               <p className="font-bold text-primary max-w-3xl leading-relaxed tracking-wide bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0"
                  style={{
-                   fontSize: 'var(--fluid-xl)',
-                   maskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)',
-                   WebkitMaskImage: 'linear-gradient(to right, white 0%, white 90%, transparent 100%)'
+                   fontSize: 'var(--fluid-xl)'
                  }}>
                 <FormattedText text={personalInfo.tagline} animatedUnderline={true} />
                 <br />
-                <strong>{personalInfo.yearsOfExperience}+ years experience</strong>.
+                <span className="text-secondary font-semibold" style={{ fontSize: 'var(--fluid-base)' }}>{personalInfo.yearsOfExperience}+ years building cloud platforms before that.</span>
               </p>
             </div>
 
             {/* Proof ribbon */}
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-3 w-fit bg-white/30 -ml-1 pl-1 pr-2 py-1 md:bg-transparent md:ml-0 md:pl-0 md:pr-0 md:py-0">
+            <div className="grid grid-cols-2 sm:grid-cols-4 w-fit border-4 border-primary bg-white shadow-[6px_6px_0_0_rgba(199,60,40,0.25)] divide-primary/15 sm:divide-x-2">
               {[
-                { value: "$369K", label: "Saved/yr" },
-                { value: "0", label: "Incidents" },
-                { value: "100+", label: "Teams" },
-                { value: "18", label: "Systems built" },
+                { value: "<3s", label: "Lead callback" },
+                { value: "24/7", label: "Pickup" },
+                { value: "AU", label: "Hosted" },
+                { value: "10+ min", label: "Live calls" },
               ].map((stat) => (
-                <div key={stat.label} className="flex items-baseline gap-2">
+                <div key={stat.label} className="flex flex-col gap-1 px-4 py-3 md:px-5">
                   <span className="font-black text-primary leading-none" style={{ fontSize: 'var(--fluid-xl)' }}>
                     {stat.value}
                   </span>
@@ -171,20 +167,20 @@ export function Hero() {
                     <span>LinkedIn</span>
                   </motion.a>
 
-                  <motion.div
+                  <motion.a
+                    href={verticalAI.url}
+                    target="_blank"
+                    rel="noopener"
+                    className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-white bg-tertiary border-4 border-tertiary hover:bg-primary hover:border-primary transition-colors duration-300"
+                    style={{ fontSize: 'var(--fluid-base)' }}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.98 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <Link
-                      href="/blog"
-                      className="group inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 font-mono font-bold uppercase text-white bg-red-600 border-4 border-red-600 hover:bg-primary hover:border-primary transition-colors duration-300"
-                      style={{ fontSize: 'var(--fluid-base)' }}
-                    >
-                      <PenLine className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
-                      <span>Blog</span>
-                    </Link>
-                  </motion.div>
+                    <VaMark className="w-5 h-5 md:w-6 md:h-6" />
+                    <span>VerticalAI</span>
+                    <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+                  </motion.a>
                 </div>
               </div>
             </div>

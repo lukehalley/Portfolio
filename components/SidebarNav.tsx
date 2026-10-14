@@ -1,15 +1,18 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { ArrowUpRight } from 'lucide-react';
+import { verticalAI } from '@/data/content';
+import { VaMark } from './VaMark';
 
 const sections = [
   { id: 'hero', label: 'INTRO' },
+  { id: 'verticalai', label: 'NOW' },
   { id: 'about', label: 'ABOUT' },
   { id: 'impact', label: 'IMPACT' },
   { id: 'experience', label: 'WORK' },
   { id: 'projects', label: 'PROJECTS' },
   { id: 'skills', label: 'SKILLS' },
-  { id: 'education', label: 'EDU' },
   { id: 'personal', label: 'LIFE' },
 ];
 
@@ -31,87 +34,108 @@ export function SidebarNav() {
       }
     );
 
-    sections.forEach(({ id }) => {
-      const element = document.getElementById(id);
-      if (element) observer.observe(element);
-    });
+    // Sections below the fold are dynamically imported, so retry until they mount.
+    const observed = new Set<string>();
+    const observeAll = () => {
+      sections.forEach(({ id }) => {
+        const element = document.getElementById(id);
+        if (element && !observed.has(id)) {
+          observer.observe(element);
+          observed.add(id);
+        }
+      });
+      return observed.size === sections.length;
+    };
+    const interval = window.setInterval(() => {
+      if (observeAll()) window.clearInterval(interval);
+    }, 500);
+    observeAll();
 
-    return () => observer.disconnect();
+    return () => {
+      window.clearInterval(interval);
+      observer.disconnect();
+    };
   }, []);
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const activeIndex = sections.findIndex((s) => s.id === activeSection);
+
   return (
-    <nav className="fixed left-0 top-0 bottom-0 z-50 hidden lg:flex flex-col justify-center w-16 bg-white border-r-4 border-primary">
-      {/* Top accent strip */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-tertiary" />
+    <>
+      <nav
+        aria-label="Sections"
+        className="fixed left-0 top-0 bottom-0 z-50 hidden lg:flex flex-col items-center w-16 bg-white border-r-4 border-primary"
+      >
+        {/* Name mark */}
+        <button
+          onClick={() => scrollToSection('hero')}
+          className="shrink-0 w-full h-16 flex items-center justify-center border-b-4 border-primary font-black text-primary hover:bg-primary hover:text-white transition-colors"
+          aria-label="Back to top"
+        >
+          LH
+        </button>
 
-      {/* Vertical progress indicator */}
-      <div className="absolute left-0 top-1/4 bottom-1/4 w-[2px] bg-primary-faint">
-        <div
-          className="w-full bg-tertiary transition-all duration-500"
-          style={{
-            height: `${((sections.findIndex(s => s.id === activeSection) + 1) / sections.length) * 100}%`,
-          }}
-        />
-      </div>
-
-      {/* Section links */}
-      <div className="flex flex-col gap-10 items-center relative px-2">
-        {sections.map(({ id, label }, index) => {
-          const isActive = activeSection === id;
-          return (
-            <button
-              key={id}
-              onClick={() => scrollToSection(id)}
-              className="group relative flex items-center justify-center touch-manipulation"
-              aria-label={`Go to ${label} section`}
-            >
-              {/* Vertical text */}
-              <div className="relative">
+        {/* Section links */}
+        <div className="relative flex-1 min-h-0 flex flex-col justify-center gap-4 items-center w-full">
+          <div className="absolute left-0 top-[15%] bottom-[15%] w-[3px] bg-primary/10">
+            <div
+              className="w-full bg-tertiary transition-all duration-500"
+              style={{ height: `${((activeIndex + 1) / sections.length) * 100}%` }}
+            />
+          </div>
+          {sections.map(({ id, label }) => {
+            const isActive = activeSection === id;
+            return (
+              <button
+                key={id}
+                onClick={() => scrollToSection(id)}
+                className="group relative flex items-center justify-center"
+                aria-label={`Go to ${label} section`}
+                aria-current={isActive ? 'true' : undefined}
+              >
                 <span
-                  className={`font-mono text-[9px] tracking-[0.35em] uppercase select-none ${
+                  className={`font-mono text-[9px] uppercase select-none transition-colors ${
                     isActive
-                      ? 'text-primary font-black'
-                      : 'text-primary-whisper font-bold group-hover:text-primary-faint'
+                      ? 'text-tertiary font-black'
+                      : 'text-primary-ghost font-bold group-hover:text-primary'
                   }`}
-                  style={{
-                    writingMode: 'vertical-rl',
-                    textOrientation: 'mixed',
-                    letterSpacing: '0.35em',
-                  }}
+                  style={{ writingMode: 'vertical-rl', letterSpacing: '0.2em' }}
                 >
                   {label}
                 </span>
+              </button>
+            );
+          })}
+        </div>
 
-                {/* Active indicator - bold square */}
-                {isActive && (
-                  <div className="absolute -right-3 top-1/2 -translate-y-1/2 w-[3px] h-[3px] bg-tertiary rotate-45" />
-                )}
-              </div>
+        {/* VerticalAI link */}
+        <a
+          href={verticalAI.url}
+          target="_blank"
+          rel="noopener"
+          className="shrink-0 group w-full flex flex-col items-center gap-2 py-4 bg-tertiary text-white hover:bg-primary transition-colors"
+          title={`Lead Engineer at ${verticalAI.name}: ${verticalAI.domain}`}
+        >
+          <VaMark className="w-8 h-8" />
+          <span className="sr-only">VerticalAI, where I am Lead Engineer</span>
+          <ArrowUpRight className="w-4 h-4 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+        </a>
+      </nav>
 
-              {/* Section number overlay on hover */}
-              <div
-                className={`absolute top-1/2 -translate-y-1/2 -left-6 font-mono text-[10px] font-black transition-all ${
-                  isActive
-                    ? 'text-tertiary opacity-100'
-                    : 'text-transparent group-hover:text-primary-ghost group-hover:opacity-100 opacity-0'
-                }`}
-              >
-                {String(index + 1).padStart(2, '0')}
-              </div>
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Bottom accent */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-tertiary" />
-    </nav>
+      {/* Mobile: the rail is hidden, so keep the VerticalAI link in reach */}
+      <a
+        href={verticalAI.url}
+        target="_blank"
+        rel="noopener"
+        className="lg:hidden fixed bottom-6 left-4 z-50 inline-flex items-center gap-2 bg-tertiary text-white pl-3 pr-4 py-2.5 border-2 border-primary font-mono text-xs font-black uppercase shadow-[4px_4px_0_0_rgba(57,62,65,0.9)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all"
+      >
+        <VaMark className="w-5 h-5" />
+        VerticalAI
+        <ArrowUpRight className="w-4 h-4" />
+      </a>
+    </>
   );
 }

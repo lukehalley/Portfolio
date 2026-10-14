@@ -1,7 +1,8 @@
 "use client";
 
-import { personalInfo } from "@/data/content";
-import { Github, Linkedin } from "lucide-react";
+import { personalInfo, verticalAI } from "@/data/content";
+import { Github, Linkedin, ArrowUpRight } from "lucide-react";
+import { VaMark } from "./VaMark";
 import { EmailCopy } from "./EmailCopy";
 
 export function Footer() {
@@ -26,7 +27,7 @@ export function Footer() {
               {personalInfo.name}
             </h3>
             <p
-              className="text-secondary mb-8 font-mono uppercase tracking-wide"
+              className="text-secondary mb-8 font-mono uppercase tracking-wide whitespace-pre-line"
               style={{ fontSize: 'var(--fluid-lg)' }}
             >
               {personalInfo.title}
@@ -35,8 +36,23 @@ export function Footer() {
               className="text-secondary leading-relaxed max-w-md"
               style={{ fontSize: 'var(--fluid-lg)' }}
             >
-              Based in Perth, Australia. Open to remote opportunities and collaborations.
+              Lead Engineer at{" "}
+              <a href={verticalAI.url} target="_blank" rel="noopener" className="font-bold text-primary underline decoration-tertiary decoration-4 underline-offset-4 hover:text-tertiary transition-colors">
+                VerticalAI
+              </a>
+              , based in Perth. If your business misses calls, or you are building voice agents yourself, get in touch.
             </p>
+            <a
+              href={verticalAI.url}
+              target="_blank"
+              rel="noopener"
+              className="group mt-8 inline-flex items-center gap-3 font-mono font-bold uppercase text-white bg-tertiary border-4 border-tertiary px-5 py-3 hover:bg-primary hover:border-primary transition-colors"
+              style={{ fontSize: 'var(--fluid-sm)' }}
+            >
+              <VaMark className="w-5 h-5" />
+              {verticalAI.domain}
+              <ArrowUpRight className="w-4 h-4 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+            </a>
           </div>
 
           {/* Right: Contact & Social */}

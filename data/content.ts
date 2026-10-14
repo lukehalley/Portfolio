@@ -8,15 +8,22 @@ import {
 // Career start date (first professional role after graduation)
 const CAREER_START_YEAR = 2013;
 
-// Key employment dates
-const MINING_ROLE = createDateRange('2025-04', '2026-06');
+// Key employment dates, matching LinkedIn
+const VERTICALAI_ROLE = createDateRange('2026-09');
+const MINING_ROLE = createDateRange('2024-12', '2026-06');
 const VERIZON_END = createDateRange('2019-05', '2024-09');
 const EDUCATION_RANGE = createDateRange('2014-01', '2019-06');
 
+export const verticalAI = {
+  name: "VerticalAI",
+  url: "https://verticalai.com.au",
+  domain: "verticalai.com.au",
+};
+
 export const personalInfo = {
   name: "Luke Halley",
-  title: "Cloud Platform Engineer\nInfrastructure at Scale",
-  tagline: "I built an entire **AWS cloud platform**\nfor 100+ engineering teams. Solo.\nIaC, CI/CD, multi-account AWS.",
+  title: "Lead Engineer @ VerticalAI\nVoice AI · Perth",
+  tagline: "I build the real-time runtime behind\n**voice and text agents** that answer\nthe calls Australian businesses miss.",
   careerStartYear: CAREER_START_YEAR,
   yearsOfExperience: calculateCareerYears(CAREER_START_YEAR),
   location: "Perth, Australia",
@@ -24,23 +31,86 @@ export const personalInfo = {
   social: {
     github: "https://github.com/lukehalley",
     gitlab: "https://gitlab.com/lukehalley",
-    linkedin: "https://www.linkedin.com/in/luke-halley-284b9b115/",
+    linkedin: "https://www.linkedin.com/in/lukehalley/",
   },
 };
 
+// Sources: LinkedIn experience entry and posts, read 14 Oct 2026.
+// Naming rule: work from before 22 Sep 2026 is "the team", never "I".
+export const now = {
+  eyebrow: `Now · Lead Engineer · ${formatDateRange(VERTICALAI_ROLE)}`,
+  intro:
+    "VerticalAI builds voice and text agents that answer the calls an Australian business misses. Built in Perth, hosted in Sydney. It is my first startup: what I ship in the morning is on a live call that afternoon.",
+  stats: [
+    { value: "<3s", label: "Lead callback", proof: "A web form or CRM posts the enquiry. The agent rings the lead back." },
+    { value: "24/7", label: "Pickup", proof: "Every call answered, out of hours included." },
+    { value: "10+ min", label: "Live calls", proof: "Agents hold long, multi-step conversations on real calls." },
+    { value: "AU", label: "Onshore", proof: "Calls run on our own infrastructure, hosted in Sydney." },
+  ],
+  build: [
+    {
+      title: "Voice runtime",
+      description: "The runtime that holds a live phone conversation: listening, thinking, speaking, and knowing when to stop talking.",
+    },
+    {
+      title: "Synthetic callers",
+      description: "A test suite that rings the agent with synthetic callers before any change ships.",
+    },
+    {
+      title: "Platform and CI/CD",
+      description: "Infrastructure and deployment pipelines across three environments.",
+    },
+    {
+      title: "Agent builder",
+      description: "The web app customers use to build and monitor their agents.",
+    },
+  ],
+  shipped: {
+    title: "Lead callbacks in under three seconds",
+    steps: [
+      "Your website form or CRM posts the enquiry.",
+      "The agent calls the number the lead typed in.",
+      "It says up front that it is an AI and asks two or three questions.",
+      "It puts the lead through to your team to close.",
+    ],
+  },
+  caseStudy: {
+    title: "The Mayfair, Emerald",
+    description:
+      "The team built the whole courtesy-bus dispatch, not just the phone agent: bookings by phone, a driver job board, address checks with read-back, and landmark lookups for patrons without a street address.",
+    stats: [
+      { value: "9 in 10", label: "calls handled with no transfer to staff" },
+      { value: ">4 in 10", label: "calls arrive after 6pm" },
+    ],
+    source: "Production data, 25 Aug to 15 Sep 2026.",
+    url: "https://verticalai.com.au/case-studies/the-mayfair-emerald",
+  },
+  stack: ["Pipecat", "Telnyx", "Amazon Bedrock (Sydney)", "Anthropic", "Python", "TypeScript", "Next.js", "AWS"],
+  talk: "Gave my first ProductTank Perth talk, with Brian Foody, in October 2026.",
+};
+
 export const journey = [
-  `Most recently I was the **sole architect of the entire AWS cloud platform** at **a multi-billion-dollar ASX-listed mining company**, serving **100+ engineering teams** (${formatDateRange(MINING_ROLE)}). I shipped **18 systems from scratch**: the build-agent fleet, the account factory, the module registry, the developer CLI. I migrated the org off Terraform Cloud. **$369K/year in verified savings, zero production incidents**, promoted to Senior in 8 months.`,
-  `Before that, **${formatDuration(VERIZON_END)}** at **a global fleet management company** in Dublin (${formatDateRange(VERIZON_END)}), migrating 200+ repositories to GitLab, moving workloads from EC2 to Fargate, and engineering **source-controlled Octopus Deploy templates** with complex state synchronization across environments.`,
-  `Started in **Ireland** with a **First Class Honours BSc** in Internet of Things (${formatDateRange(EDUCATION_RANGE)}), winning an enterprise award for an IoT tracking system. Career focus: architecture-first problem-solving and full-stack infrastructure ownership.`,
+  `Since **${formatDateRange(VERTICALAI_ROLE).split(' - ')[0]}** I've been **Lead Engineer at VerticalAI**, building the platform its **voice and text agents** run on. Real-time voice is the newest thing I've worked on, and now it's the day job.`,
+  `Before that I was the **sole architect of the AWS cloud platform at Mineral Resources** (${formatDateRange(MINING_ROLE)}), used by **100+ development teams**. I built the CI/CD template library, a serverless build-agent platform, the account factory and a self-hosted Terraform stack. **$369K a year in documented savings.**`,
+  `Before that, **${formatDuration(VERIZON_END)} at Verizon Connect** in Ireland (${formatDateRange(VERIZON_END)}): migrating 200+ repositories to GitLab, moving workloads from EC2 to Fargate, and building **source-controlled Octopus Deploy templates**. I started with a **First Class Honours BSc** in the Internet of Things from Waterford Institute of Technology.`,
 ];
 
 export const experience = {
-  current: null as null | {
+  current: {
+    company: "VerticalAI",
+    role: "Lead Engineer",
+    period: formatDateRange(VERTICALAI_ROLE),
+    location: "Perth, Australia · Hybrid",
+    context: "Voice and text agents that answer the calls an Australian business misses. I build the platform the agents run on: the real-time voice runtime, the synthetic-caller test suite, CI/CD and infrastructure across three environments, and the web app customers use to build and monitor their agents.",
+    link: "https://verticalai.com.au",
+    highlights: [],
+  } as null | {
     company: string;
     role: string;
     period: string;
     location: string;
     context: string;
+    link?: string;
     highlights: Array<{
       title: string;
       description: string;
@@ -50,12 +120,12 @@ export const experience = {
   },
   previous: [
     {
-      company: "Multi-Billion-Dollar ASX-Listed Mining Company",
+      company: "Mineral Resources",
       role: "Cloud Developer → Senior Cloud Developer",
       period: formatDateRange(MINING_ROLE),
       location: "Perth, Australia",
-      badge: "Most recent",
-      context: "Sole architect and primary engineer of the company's entire AWS cloud platform, serving 100+ development teams. Promoted to Senior in 8 months, with zero production incidents across every system for the entire tenure.",
+      badge: "Before VerticalAI",
+      context: "ASX-listed mining company. Sole architect and primary engineer of the AWS cloud platform used by 100+ development teams. Promoted to Senior in 8 months, with zero production incidents across every system I owned.",
       highlights: [
         {
           title: "Serverless Build-Agent Platform",
@@ -71,8 +141,8 @@ export const experience = {
         },
         {
           title: "Org-Wide CI/CD Template Library",
-          description: "I authored the **pipeline template system every team deploys through**: 10 reusable templates with **OIDC federation and zero stored credentials**, automated security scanning, and change-management gates. One security patch protects all 100+ teams at once. New-project onboarding dropped from days to hours.",
-          impact: "342 pipelines · 100+ teams · $0 stored credentials",
+          description: "I authored the **pipeline template system every team deploys through**: 10 reusable templates with **OIDC federation and zero stored credentials**, automated security scanning, and change-management gates. One security patch protects every team at once. New-project onboarding dropped from days to hours.",
+          impact: "284 pipelines · 42 projects · 0 stored credentials",
           technologies: ["Azure Pipelines", "OIDC", "Terraform", "Trivy", "Bandit", "ServiceNow"],
         },
         {
@@ -90,34 +160,34 @@ export const experience = {
       ],
     },
     {
-      company: "Global Fleet Management Company",
+      company: "Verizon Connect",
       role: "DevOps Engineer",
       period: formatDateRange(VERIZON_END),
       location: "Dublin, Ireland",
-      context: "Fleet management and telematics company serving 1M+ vehicles worldwide",
+      context: "Fleet management and telematics. Graduate role, then Level III CI/CD DevOps Engineer.",
       highlights: [
         {
           title: "GitLab Migration Pipeline",
-          description: "Created **PowerShell solution** for autonomous migration of Bitbucket repositories to GitLab. Handled branch protection rules, CI/CD pipeline conversion, and commit history preservation with zero data loss.",
+          description: "Wrote a **PowerShell tool** that migrated Bitbucket repositories to GitLab unattended. It carried over branch protection rules, converted CI/CD pipelines and kept full commit history, with zero data loss.",
           impact: "200+ repositories migrated",
           technologies: ["PowerShell", "GitLab CI", "Bitbucket", "REST APIs"],
         },
         {
-          title: "Container Optimization",
-          description: "Led company-wide **EC2 to Fargate migrations**, redesigning container deployment patterns for improved scalability. Implemented auto-scaling policies and optimized task definitions across production workloads.",
+          title: "EC2 to Fargate",
+          description: "Led the company-wide **move from EC2 to Fargate**, redesigning how containers were deployed. Added auto-scaling policies and tuned task definitions across production workloads.",
           impact: "50% cost reduction",
           technologies: ["ECS Fargate", "Docker", "EC2", "Auto Scaling", "CloudWatch"],
         },
         {
           title: "Database Migrations",
-          description: "Collaborated with **AWS ProServe** on migrating hundreds of SQL Server databases to Aurora PostgreSQL. Engineered blue-green cutover strategy with DMS replication across five environments (dev, test, staging, UAT, prod).",
-          impact: "Multi-environment migration success",
+          description: "Worked with **AWS ProServe** to migrate hundreds of SQL Server databases to Aurora PostgreSQL. Designed the blue-green cutover, with DMS replication across five environments (dev, test, staging, UAT, prod).",
+          impact: "Hundreds of databases · 5 environments",
           technologies: ["Aurora PostgreSQL", "DMS", "SQL Server", "RDS", "Blue-Green Deployments"],
         },
         {
-          title: "Infrastructure as Code Standardization",
-          description: "Engineered **source-controlled Octopus Deploy step templates** with **complex state synchronization** across hundreds of templates and two Octopus instances. Automated once-manual management enabling teams to submit changes through version control with programmatic API updates.",
-          impact: "Reduced daily CICD team requests",
+          title: "Octopus Deploy as Code",
+          description: "Put **Octopus Deploy step templates under source control**, keeping hundreds of templates in sync across two Octopus instances. Teams changed templates through a pull request instead of a ticket, and the API applied it.",
+          impact: "Fewer daily requests to the CI/CD team",
           technologies: ["Octopus Deploy", "PowerShell", "REST APIs", "Git"],
         },
       ],
@@ -140,7 +210,7 @@ export const experience = {
     "Promoted to Senior in 8 Months",
     "Top Performance Rating: “Always”",
     "2019 Enterprise Award",
-    "Company Spotlight Award",
+    "Verizon Spotlight Award",
   ],
 };
 
@@ -148,9 +218,9 @@ export const experience = {
 // git history, AWS billing, internal promotion review, and the performance
 // review. Anonymised: no account IDs or internal identifiers.
 export const impact = {
-  eyebrow: "13-month tenure · sole platform architect · verified",
+  eyebrow: `Mineral Resources · ${formatDateRange(MINING_ROLE)} · sole platform architect`,
   intro:
-    "I was the sole architect of an entire AWS cloud platform at a multi-billion-dollar ASX-listed mining company. 100+ engineering teams built on the systems I designed and shipped. Every number below comes from git history, billing, and internal review.",
+    "Before VerticalAI I was the sole architect of the AWS cloud platform at Mineral Resources, an ASX-listed mining company. 100+ development teams deployed through the systems I designed and shipped. Every number below comes from git history, billing and internal review.",
   headline: {
     value: "$369K",
     unit: "/year",
@@ -162,11 +232,11 @@ export const impact = {
     { value: "0", label: "Production incidents", proof: "Across every platform, the entire tenure." },
     { value: "18", label: "Systems built from scratch", proof: "Runners, account factory, CLI, registries, dashboards." },
     { value: "100+", label: "Engineering teams served", proof: "Every AWS deployment in the org ran through my pipelines." },
-    { value: "4,766", label: "Commits in 13 months", proof: "#1 contributor on every major platform, by 5 to 26×." },
-    { value: "342", label: "CI/CD pipelines", proof: "Running on 10 templates I authored, across 53 projects." },
-    { value: "104", label: "AWS accounts", proof: "Centralised identity, networking and governance." },
+    { value: "4,766", label: "Commits", proof: "#1 contributor on every major platform, by 5 to 26×." },
+    { value: "284", label: "CI/CD pipelines", proof: "Running on 10 templates I authored, across 42 projects." },
+    { value: "91", label: "AWS accounts", proof: "Networking centralised, 696+ live resources imported into Terraform." },
     { value: "83%", label: "Faster build cold-starts", proof: "180s → 20s on the serverless agent platform." },
-    { value: "8 mo", label: "To Senior promotion", proof: "Fastest in team history." },
+    { value: "38,479", label: "Build agents provisioned", proof: "On the serverless platform. $194K a year saved." },
   ],
   quote: {
     text: "Luke is the best. No notes.",
@@ -175,6 +245,14 @@ export const impact = {
 };
 
 export const skills = {
+  "Voice AI & Agents": [
+    { name: "Pipecat" },
+    { name: "Telnyx" },
+    { name: "Amazon Bedrock" },
+    { name: "Anthropic Claude" },
+    { name: "Tool calling" },
+    { name: "Evals & synthetic calls" },
+  ],
   "Infrastructure as Code": [
     { name: "Terraform / OpenTofu" },
     { name: "AWS CDK" },
@@ -235,8 +313,9 @@ export const skills = {
     { name: "X-Ray" },
   ],
   "Languages": [
-    { name: "Go" },
     { name: "Python" },
+    { name: "TypeScript" },
+    { name: "Go" },
     { name: "PowerShell" },
     { name: "Bash" },
   ],
@@ -261,15 +340,15 @@ export const personal = {
   hobbies: [
     {
       name: "Travel",
-      description: "I've traveled to Thailand, Slovenia, Italy, France, and a few other spots over the years. Each place has its own vibe and way of doing things. Travel is a good way to get perspective outside of work and daily routines. I'd like to see more of the world when time allows.",
+      description: "Thailand, Slovenia, Italy, France and a few other places so far. Moving from Ireland to Perth was the biggest trip of the lot. There is a long list still to get through.",
     },
     {
       name: "Running",
-      description: "Been running since I was 7. Started with local races in Ireland and kept it up over the years. It's good for clearing my head and staying fit. These days I just try to stay consistent with it.",
+      description: "Running since I was 7, starting with local races in Ireland. Marathon PB 3:08:26, half 1:22:44. It is how I clear my head after a day of debugging live calls.",
     },
     {
       name: "Cooking",
-      description: "After spending the day on infrastructure and pipelines, cooking is a good way to switch off. I like making Irish, Italian, and French food. It's practical, hands-on work that doesn't involve a screen. Also means I eat well.",
+      description: "Irish, Italian and French, mostly. Cooking is hands-on work with no screen involved, which makes it the best way I know to switch off. It also means I eat well.",
     },
   ],
 };
@@ -313,7 +392,7 @@ export const projects = {
       description:
         "The pipeline template system every team deploys through. 10 reusable templates with OIDC federation and no stored credentials, automated security scanning, and change-management gates. One security patch protects 100+ teams at once.",
       technologies: ["Azure Pipelines", "OIDC", "Terraform", "Trivy", "Bandit", "ServiceNow"],
-      impact: "342 pipelines · 100+ teams",
+      impact: "284 pipelines · 42 projects",
       featured: true,
       image: "/images/projects/templates.svg",
     },
@@ -371,7 +450,7 @@ export const projects = {
       subtitle: "NDIS Provider Platform",
       category: "Production SaaS",
       period: formatDateRange(PROJECT_NDIS_START),
-      description: "Live production platform connecting NDIS providers with clients across Australia. Full-stack Next.js application with provider directory, advanced search/filtering, appointment booking system, and SEO optimization.",
+      description: "Live production platform connecting NDIS providers with clients across Australia. Full-stack Next.js app with a provider directory, search and filtering, appointment booking and SEO.",
       technologies: ["Next.js 15", "TypeScript", "Tailwind CSS", "Vercel", "SEO"],
       impact: "Live production • Active users",
       featured: true,
@@ -383,31 +462,19 @@ export const projects = {
       subtitle: "Multi-Pool Price History Platform",
       category: "FinTech Tools",
       period: "2026",
-      description: "Full-stack platform consolidating historical price data across liquidity pool migrations. Python data pipeline fetches OHLCV data via GeckoTerminal API, Next.js web app with lightweight-charts for interactive visualization. Smart gap interpolation during transitions.",
+      description: "Full-stack platform consolidating historical price data across liquidity pool migrations. Python data pipeline fetches OHLCV data via GeckoTerminal API, A Next.js app charts it interactively, with gap interpolation across each migration.",
       technologies: ["Next.js", "TypeScript", "Python", "Recharts", "Supabase", "Vercel"],
       impact: "Live production • Multi-pool tracking",
       featured: false,
       link: "https://github.com/lukehalley/MigrateChart",
-      image: "/images/projects/migration.svg",
-    },
-    {
-      title: "Reduke",
-      subtitle: "Reddit Mobile Client",
-      category: "Mobile Development",
-      period: "2019",
-      description: "Feature-rich Reddit mobile client built in Kotlin with Firebase authentication, real-time updates, and clean MVVM architecture. Includes subreddit browsing, post interactions, comment threads, and user profiles.",
-      technologies: ["Kotlin", "Firebase", "Android", "MVVM", "Retrofit"],
-      impact: "14 GitHub stars • Full Reddit API integration",
-      featured: false,
-      link: "https://github.com/lukehalley/Reduke",
-      image: "/images/projects/reddit.png",
+      image: "/images/projects/crypto.png",
     },
     {
       title: "ArbTheChain",
       subtitle: "Go Microservices • Real-Time Data Processing",
       category: "FinTech Infrastructure",
       period: formatDateRange(PROJECT_ATC),
-      description: "Production-grade cryptocurrency arbitrage platform built with 10+ Go microservices and Python services, deployed via Terraform on AWS. Real-time data collectors processing exchange feeds, route optimization algorithms, execution engine, and comprehensive monitoring infrastructure.",
+      description: "Production-grade cryptocurrency arbitrage platform built with 10+ Go microservices and Python services, deployed via Terraform on AWS. Real-time collectors process exchange feeds, feeding route optimisation, an execution engine and monitoring.",
       technologies: ["Go", "Python", "Terraform", "AWS Lambda", "DynamoDB", "EventBridge"],
       impact: "10+ microservices • Real-time trading",
       featured: true,

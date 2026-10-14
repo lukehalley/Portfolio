@@ -2,8 +2,8 @@ import { projects } from "@/data/content";
 import { ProjectCard } from "./ProjectCard";
 
 const sections = [
-  { key: "professional" as const, title: "Professional", description: "Enterprise platform engineering and infrastructure at scale" },
-  { key: "sideProjects" as const, title: "Side Projects", description: "Personal ventures and technical experiments" },
+  { key: "professional" as const, title: "Professional", description: "Platform engineering at Mineral Resources, 2024 to 2026" },
+  { key: "sideProjects" as const, title: "Side Projects", description: "Things I build on my own time" },
 ];
 
 export function Projects() {

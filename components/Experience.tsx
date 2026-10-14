@@ -3,6 +3,7 @@
 import { experience } from "@/data/content";
 import { FormattedText } from "./FormattedText";
 import { motion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
 import { borderGrow, scrollViewport } from "@/lib/animations";
 
 export function Experience() {
@@ -34,7 +35,7 @@ export function Experience() {
         {/* Current Role */}
         {experience.current && (
           <div className="mb-32 md:mb-40">
-            <div className="mb-10 md:mb-12">
+            <div>
               <div className="flex items-center gap-4 mb-2">
                 <span className="px-3 py-1 bg-primary text-white font-mono font-bold uppercase" style={{ fontSize: 'var(--fluid-xs)' }}>
                   Current
@@ -52,6 +53,18 @@ export function Experience() {
               <p className="text-primary-muted mt-4 leading-relaxed max-w-3xl" style={{ fontSize: 'var(--fluid-lg)' }}>
                 {experience.current.context}
               </p>
+              {experience.current.link && (
+                <a
+                  href={experience.current.link}
+                  target="_blank"
+                  rel="noopener"
+                  className="group mt-8 inline-flex items-center gap-2 px-5 py-3 font-mono font-bold uppercase text-white bg-tertiary border-4 border-tertiary hover:bg-primary hover:border-primary transition-colors duration-300"
+                  style={{ fontSize: 'var(--fluid-sm)' }}
+                >
+                  {experience.current.link.replace('https://', '')}
+                  <ArrowUpRight className="w-5 h-5 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+                </a>
+              )}
             </div>
 
             <div className="space-y-10 md:space-y-12">
@@ -132,7 +145,7 @@ export function Experience() {
                       {highlight.technologies.map((tech) => (
                         <span
                           key={tech}
-                          className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-red-600 hover:bg-red-600 hover:text-primary"
+                          className="px-3 py-1.5 font-mono border-2 border-primary-faint transition-colors duration-300 hover:border-red-600 hover:bg-red-600 hover:text-white"
                           style={{ fontSize: 'var(--fluid-xs)' }}
                         >
                           {tech}

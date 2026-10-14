@@ -10,6 +10,13 @@ const nextConfig: NextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  // The blog was removed on 14 Oct 2026. Send old links home instead of a 404.
+  async redirects() {
+    return [
+      { source: '/blog', destination: '/', permanent: true },
+      { source: '/blog/:slug*', destination: '/', permanent: true },
+    ];
+  },
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
