@@ -17,6 +17,10 @@ const nextConfig: NextConfig = {
       { source: '/blog/:slug*', destination: '/', permanent: true },
     ];
   },
+  // Talk decks are single self-contained HTML files in public/talks.
+  async rewrites() {
+    return [{ source: '/talks/robotaxi', destination: '/talks/robotaxi.html' }];
+  },
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },

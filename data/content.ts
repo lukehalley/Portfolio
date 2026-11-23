@@ -86,7 +86,11 @@ export const now = {
     url: "https://verticalai.com.au/case-studies/the-mayfair-emerald",
   },
   stack: ["Pipecat", "Telnyx", "Amazon Bedrock (Sydney)", "Anthropic", "Python", "TypeScript", "Next.js", "AWS"],
-  talk: "Gave my first ProductTank Perth talk, with Brian Foody, in October 2026.",
+  talk: {
+    text: "Gave my first ProductTank Perth talk, with Brian Foody, in September 2026.",
+    linkLabel: "See the slides",
+    url: "/talks/robotaxi",
+  },
 };
 
 export const journey = [

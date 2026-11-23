@@ -199,7 +199,13 @@ export function Now() {
             ))}
           </div>
           <p className="text-primary-muted" style={{ fontSize: 'var(--fluid-base)' }}>
-            {now.talk}
+            {now.talk.text}{' '}
+            <a
+              href={now.talk.url}
+              className="underline decoration-2 underline-offset-4 decoration-tertiary transition-colors duration-300 hover:text-tertiary"
+            >
+              {now.talk.linkLabel}
+            </a>
           </p>
         </div>
 
